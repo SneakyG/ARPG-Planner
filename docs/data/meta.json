@@ -10,59 +10,64 @@
     },
     "poe:season": {
       "ok": true,
-      "at": "2026-11-05T13:53:15.855Z",
+      "at": "2026-11-05T15:38:29.144Z",
       "info": "",
-      "ms": 72988
+      "ms": 11625
     },
     "poe:builds": {
       "ok": true,
-      "at": "2026-11-05T13:54:56.600Z",
+      "at": "2026-11-05T15:38:40.183Z",
       "info": "8 build",
-      "ms": 100745
+      "ms": 11039
     },
     "poe:farm": {
       "ok": true,
-      "at": "2026-11-05T13:56:02.678Z",
+      "at": "2026-11-05T15:38:58.313Z",
       "info": "",
-      "ms": 62077
+      "ms": 10126
     },
     "poe:guides": {
       "ok": true,
-      "at": "2026-11-05T13:58:50.356Z",
-      "info": "tạo 4, lỗi 1 (0-5-0-return-of-the-ancients-martial-artist-monk: Gemini gemini-2.5-flash: HTTP 404 This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).)",
-      "ms": 163677
+      "at": "2026-11-05T15:44:11.886Z",
+      "info": "tạo 4, lỗi 1 (3-29-curse-of-the-allflame-righteous-fire-chieftain: The operation was aborted due to timeout)",
+      "ms": 305572
     },
     "tli:season": {
       "ok": true,
-      "at": "2026-11-05T13:59:01.908Z",
+      "at": "2026-11-05T15:44:42.406Z",
       "info": "",
-      "ms": 7548
+      "ms": 22519
     },
     "tli:builds": {
       "ok": true,
-      "at": "2026-11-05T13:59:12.111Z",
+      "at": "2026-11-05T15:45:15.114Z",
       "info": "8 build",
-      "ms": 6201
+      "ms": 24704
     },
     "tli:farm": {
       "ok": true,
-      "at": "2026-11-05T13:59:27.589Z",
+      "at": "2026-11-05T15:45:48.632Z",
       "info": "",
-      "ms": 11478
+      "ms": 25513
     },
     "tli:items": {
       "ok": true,
-      "at": "2026-11-05T13:59:37.397Z",
-      "info": "1 món",
-      "ms": 5810
+      "at": "2026-11-05T15:46:01.928Z",
+      "info": "10 món",
+      "ms": 5292
     },
     "tli:guides": {
       "ok": true,
-      "at": "2026-11-05T14:01:14.772Z",
+      "at": "2026-11-05T15:48:18.675Z",
       "info": "tạo 5, lỗi 0",
-      "ms": 93372
+      "ms": 128743
+    },
+    "poe:cleanup": {
+      "ok": true,
+      "at": "2026-11-05T15:38:17.518Z",
+      "info": "Đã xoá dữ liệu PoE 2 lưu nhầm: mùa 0.5.0 Return of the Ancients, farm PoE 2, 1 mùa build PoE 2, 4 hướng dẫn build PoE 2"
     }
   },
   "guidesTopN": 5,
-  "updatedAt": "2026-11-05T14:01:18.775Z"
+  "updatedAt": "2026-11-05T15:48:26.683Z"
 }

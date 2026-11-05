@@ -1,24 +1,31 @@
 {
-  "name": "Return of the Ancients",
-  "patch": "0.5.0",
-  "start": "2026-05-29",
-  "end": "2026-12-11",
+  "name": "Curse of the Allflame",
+  "patch": "3.29",
+  "start": "2026-07-24",
+  "end": "2026-12-07 (ước tính)",
   "mechanics": [
     {
-      "name": "Endgame Overhaul & Waystone Progression",
-      "desc": "Đại tu toàn diện hệ thống endgame cùng với việc làm lại Atlas Tree và điều chỉnh tiến trình Waystone."
+      "name": "Voyages",
+      "desc": "Người chơi sử dụng tàu The Sovereign để thám hiểm đáy biển, đặt Allflame Lanterns để tạo vùng an toàn và thu thập tài nguyên như Dead Man's Sulfur."
+    },
+    {
+      "name": "Allflame Crafting",
+      "desc": "Hệ thống chế tạo cho phép người chơi xem trước các kết quả tiềm năng của vật phẩm và chọn kết quả mong muốn bằng cách sử dụng Dead Man's Sulfur."
     }
   ],
   "changes": [
-    "Đại tu toàn diện hệ thống endgame",
-    "Làm lại Atlas Tree (Atlas Tree rework)",
-    "Điều chỉnh tiến trình Waystone (revised Waystone progression)",
-    "Bổ sung gần 200 skill gem mới gồm active skills, supports và companion abilities cho tất cả archetype của class"
+    "Loại bỏ hoàn toàn hệ thống màu sắc của socket trên trang bị; mọi gem đều có thể lắp vào bất kỳ socket nào.",
+    "Rework Abyss: Loại bỏ cơ chế theo vết nứt, thay bằng các hố Abyss mở sẵn để người chơi phòng thủ trước các đợt tấn công.",
+    "Rework Legion: Thay thế Incubators bằng Vestigial Unique Items và cho phép sử dụng Enshrouding Crystals để chuyển đổi thuộc tính Unique Armour.",
+    "Cải thiện cân bằng cho các nhân vật sử dụng phép thuật (spellcasters) và thêm mới các Exceptional Skill Gems gọi là Pacts."
   ],
-  "next": "Phiên bản 1.0 full release (dự kiến vào cuối năm 2026, không có patch 0.6.0)",
+  "next": "Chưa có thông tin chính thức",
   "sources": [
-    "https://ggseason.com/blog/path-of-exile-2-all-leagues-dates/"
+    "https://www.arcanestash.com/guides/curse-of-the-allflame-new-path-of-exile-1-league",
+    "https://www.poebuilds.net/post/path-of-exile-3-29-curse-of-the-allflame",
+    "https://tech.yahoo.com/gaming/articles/path-exile-curse-allflame-guide-230714063.html",
+    "https://ggseason.com/blog/path-of-exile-all-leagues-dates/"
   ],
-  "model": "gemini-3.8-flash",
-  "updatedAt": "2026-11-05T13:53:15.855Z"
+  "model": "gemini-3.1-flash-lite",
+  "updatedAt": "2026-11-05T15:38:29.144Z"
 }
