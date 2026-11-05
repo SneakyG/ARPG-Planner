@@ -111,6 +111,8 @@ Build được lưu theo từng mùa. Khi mùa mới bắt đầu, lần cập n
 
 - **Điểm farm**: map/khu vực cụ thể. Nhãn `NGUỒN` nghĩa là link lấy từ trang uy tín; nhãn `TRA WIKI` mở trang tra cứu (poewiki.net cho PoE, Maxroll cho TLI).
 - **Link tham khảo**: chỉ giữ link vừa xuất hiện trong trang nguồn, vừa thuộc danh sách uy tín. Trang bán currency/boost bị loại.
+- **Cây Atlas Passive / Setup**: mỗi kiểu farm có link cây atlas (poeplanner.com, pathofexile.com…) lấy từ nguồn uy tín, mặc định có trang *Atlas Passive Skill Tree Strategies* của PoE Vault. Kiểu farm nào chưa có cây thì có link tìm video atlas tree trên YouTube.
+- **Ảnh xem trước**: GitHub Actions mở từng link cây atlas bằng trình duyệt ẩn và chụp màn hình, lưu ở `docs/data/img/`. Mỗi link chỉ chụp 1 lần; link YouTube dùng thumbnail của video. Link chụp lỗi sẽ thử lại sau 1 ngày. Chụp lại từ đầu: xoá `docs/data/img/index.json`.
 
 ## Cách AI tra cứu
 

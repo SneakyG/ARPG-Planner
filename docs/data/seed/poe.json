@@ -241,7 +241,9 @@
               }
             ],
             "links": [],
-            "lookup": "https://www.poewiki.net/index.php?search=Lost%20Charts%20%2B%20Voyage"
+            "lookup": "https://www.poewiki.net/index.php?search=Lost%20Charts%20%2B%20Voyage",
+            "trees": [],
+            "treeSearch": "https://www.youtube.com/results?search_query=Lost%20Charts%20%2B%20Voyage%20atlas%20tree%203.29%20Curse%20of%20the%20Allflame"
           },
           {
             "name": "Speed map + Essence/Abyss",
@@ -271,11 +273,30 @@
             ],
             "links": [
               {
+                "title": "PoE Vault – Atlas Passive Skill Tree Strategies",
+                "url": "https://poe-vault.com/guides/atlas-passive-skill-tree-strategies"
+              },
+              {
                 "title": "Lazy Exile – Farm strategies 3.29 (Mobalytics)",
                 "url": "https://mobalytics.gg/poe/profile/lazy-exile/guides/lazy-s-farm-strategies-poe-3-29"
               }
             ],
-            "lookup": "https://www.poewiki.net/index.php?search=Speed%20map%20%2B%20Essence%2FAbyss"
+            "lookup": "https://www.poewiki.net/index.php?search=Speed%20map%20%2B%20Essence%2FAbyss",
+            "trees": [
+              {
+                "title": "Early Atlas – Bước 1: Rush Unwavering",
+                "url": "https://poeplanner.com/a/6Z2v"
+              },
+              {
+                "title": "Early Atlas – Bước 2: Remaining sustain",
+                "url": "https://poeplanner.com/a/6glS"
+              },
+              {
+                "title": "Early Atlas – Overloaded sustain",
+                "url": "https://poeplanner.com/a/6glB"
+              }
+            ],
+            "treeSearch": "https://www.youtube.com/results?search_query=Speed%20map%20%2B%20Essence%2FAbyss%20atlas%20tree%203.29%20Curse%20of%20the%20Allflame"
           }
         ]
       },
@@ -313,6 +334,10 @@
             ],
             "links": [
               {
+                "title": "PoE Vault – Atlas Passive Skill Tree Strategies",
+                "url": "https://poe-vault.com/guides/atlas-passive-skill-tree-strategies"
+              },
+              {
                 "title": "Lazy Exile – Farm strategies 3.29 (Mobalytics)",
                 "url": "https://mobalytics.gg/poe/profile/lazy-exile/guides/lazy-s-farm-strategies-poe-3-29"
               },
@@ -321,7 +346,102 @@
                 "url": "https://www.poe-vault.com/guides/pathofevening-guide-hub"
               }
             ],
-            "lookup": "https://www.poewiki.net/index.php?search=Abyss%20%2B%20Legion"
+            "lookup": "https://www.poewiki.net/index.php?search=Abyss%20%2B%20Legion",
+            "trees": [
+              {
+                "title": "Legion / Beyond / Red Altars",
+                "url": "https://poeplanner.com/a/6glI"
+              }
+            ],
+            "treeSearch": "https://www.youtube.com/results?search_query=Abyss%20%2B%20Legion%20atlas%20tree%203.29%20Curse%20of%20the%20Allflame"
+          },
+          {
+            "name": "Expedition + Shrines (Atroz's Lazy Farm)",
+            "where": "Expedition, Shrines, Blue Altars",
+            "setup": "Cây atlas Atroz’s Lazy Farm",
+            "steps": [
+              "Cộng atlas theo cây bên dưới",
+              "Chạy map, bán Artifact/đổi qua Tujen",
+              "Ưu tiên Blue Altar có phần thưởng tốt"
+            ],
+            "maps": [
+              {
+                "name": "Expedition",
+                "note": "Nổ thuốc, đổi Artifact",
+                "url": "",
+                "lookup": "https://www.poewiki.net/index.php?search=Expedition"
+              },
+              {
+                "name": "Shrine",
+                "note": "Buff tốc độ clear",
+                "url": "",
+                "lookup": "https://www.poewiki.net/index.php?search=Shrine"
+              },
+              {
+                "name": "Eldritch Altar",
+                "note": "Blue Altars",
+                "url": "",
+                "lookup": "https://www.poewiki.net/index.php?search=Eldritch%20Altar"
+              }
+            ],
+            "trees": [
+              {
+                "title": "Atroz's Lazy Farm – Expedition/Shrines/Blue Altars",
+                "url": "https://poeplanner.com/a/6glC"
+              }
+            ],
+            "links": [
+              {
+                "title": "PoE Vault – Atlas Passive Skill Tree Strategies",
+                "url": "https://poe-vault.com/guides/atlas-passive-skill-tree-strategies"
+              }
+            ],
+            "profit": "chưa có số liệu",
+            "requires": "Clear ổn định",
+            "risk": "Thấp",
+            "lookup": "https://www.poewiki.net/index.php?search=Expedition%20%2B%20Shrines%20(Atroz's%20Lazy%20Farm)",
+            "treeSearch": "https://www.youtube.com/results?search_query=Expedition%20%2B%20Shrines%20(Atroz's%20Lazy%20Farm)%20atlas%20tree%203.29%20Curse%20of%20the%20Allflame"
+          },
+          {
+            "name": "Heist / Ritual / Red Altars",
+            "where": "Heist, Ritual, Red Altars",
+            "setup": "Cây atlas Heist/Ritual",
+            "steps": [
+              "Cộng atlas theo cây",
+              "Chạy Ritual trong map, giữ Tribute",
+              "Bán Contract/Blueprint"
+            ],
+            "maps": [
+              {
+                "name": "Ritual",
+                "note": "Altar Ritual trong map",
+                "url": "",
+                "lookup": "https://www.poewiki.net/index.php?search=Ritual"
+              },
+              {
+                "name": "Heist",
+                "note": "Contract rơi trong map",
+                "url": "",
+                "lookup": "https://www.poewiki.net/index.php?search=Heist"
+              }
+            ],
+            "trees": [
+              {
+                "title": "Heist / Ritual / Red Altars",
+                "url": "https://poeplanner.com/a/65-A"
+              }
+            ],
+            "links": [
+              {
+                "title": "PoE Vault – Atlas Passive Skill Tree Strategies",
+                "url": "https://poe-vault.com/guides/atlas-passive-skill-tree-strategies"
+              }
+            ],
+            "profit": "chưa có số liệu",
+            "requires": "Chịu được Ritual",
+            "risk": "Trung bình",
+            "lookup": "https://www.poewiki.net/index.php?search=Heist%20%2F%20Ritual%20%2F%20Red%20Altars",
+            "treeSearch": "https://www.youtube.com/results?search_query=Heist%20%2F%20Ritual%20%2F%20Red%20Altars%20atlas%20tree%203.29%20Curse%20of%20the%20Allflame"
           },
           {
             "name": "Allflame Crafting Bench",
@@ -343,7 +463,9 @@
               }
             ],
             "links": [],
-            "lookup": "https://www.poewiki.net/index.php?search=Allflame%20Crafting%20Bench"
+            "lookup": "https://www.poewiki.net/index.php?search=Allflame%20Crafting%20Bench",
+            "trees": [],
+            "treeSearch": "https://www.youtube.com/results?search_query=Allflame%20Crafting%20Bench%20atlas%20tree%203.29%20Curse%20of%20the%20Allflame"
           }
         ]
       },
@@ -381,11 +503,145 @@
             ],
             "links": [
               {
+                "title": "PoE Vault – Atlas Passive Skill Tree Strategies",
+                "url": "https://poe-vault.com/guides/atlas-passive-skill-tree-strategies"
+              },
+              {
                 "title": "Lazy Exile – Farm strategies 3.29 (Mobalytics)",
                 "url": "https://mobalytics.gg/poe/profile/lazy-exile/guides/lazy-s-farm-strategies-poe-3-29"
               }
             ],
-            "lookup": "https://www.poewiki.net/index.php?search=Juice%20Abyss%2FLegion%20b%E1%BA%B1ng%20Scarab"
+            "lookup": "https://www.poewiki.net/index.php?search=Juice%20Abyss%2FLegion%20b%E1%BA%B1ng%20Scarab",
+            "trees": [
+              {
+                "title": "Legion / Beyond / Red Altars",
+                "url": "https://poeplanner.com/a/6glI"
+              }
+            ],
+            "treeSearch": "https://www.youtube.com/results?search_query=Juice%20Abyss%2FLegion%20b%E1%BA%B1ng%20Scarab%20atlas%20tree%203.29%20Curse%20of%20the%20Allflame"
+          },
+          {
+            "name": "Delirium 80%",
+            "where": "Delirium",
+            "setup": "Cây atlas 80% Deli Farm",
+            "steps": [
+              "Cộng atlas theo cây",
+              "Dùng map có Delirium cao",
+              "Bán Simulacrum Splinter, Cluster Jewel"
+            ],
+            "maps": [
+              {
+                "name": "Delirium",
+                "note": "Sương mù Delirium",
+                "url": "",
+                "lookup": "https://www.poewiki.net/index.php?search=Delirium"
+              },
+              {
+                "name": "Simulacrum",
+                "note": "Splinter rơi từ Delirium",
+                "url": "",
+                "lookup": "https://www.poewiki.net/index.php?search=Simulacrum"
+              }
+            ],
+            "trees": [
+              {
+                "title": "80% Deli Farm",
+                "url": "https://poeplanner.com/a/6glO"
+              }
+            ],
+            "links": [
+              {
+                "title": "PoE Vault – Atlas Passive Skill Tree Strategies",
+                "url": "https://poe-vault.com/guides/atlas-passive-skill-tree-strategies"
+              }
+            ],
+            "profit": "chưa có số liệu",
+            "requires": "Build chịu được Delirium cao",
+            "risk": "Cao",
+            "lookup": "https://www.poewiki.net/index.php?search=Delirium%2080%25",
+            "treeSearch": "https://www.youtube.com/results?search_query=Delirium%2080%25%20atlas%20tree%203.29%20Curse%20of%20the%20Allflame"
+          },
+          {
+            "name": "Map Boss",
+            "where": "Map Boss",
+            "setup": "Cây atlas Oops, All Map Bosses",
+            "steps": [
+              "Cộng atlas theo cây",
+              "Chạy map, chỉ giết boss",
+              "Bán drop boss và map"
+            ],
+            "maps": [
+              {
+                "name": "Map Boss",
+                "note": "Tăng số boss trong map",
+                "url": "",
+                "lookup": "https://www.poewiki.net/index.php?search=Map%20Boss"
+              }
+            ],
+            "trees": [
+              {
+                "title": "Oops, All Map Bosses",
+                "url": "https://poeplanner.com/a/6gl2"
+              }
+            ],
+            "links": [
+              {
+                "title": "PoE Vault – Atlas Passive Skill Tree Strategies",
+                "url": "https://poe-vault.com/guides/atlas-passive-skill-tree-strategies"
+              }
+            ],
+            "profit": "chưa có số liệu",
+            "requires": "DPS boss tốt",
+            "risk": "Trung bình",
+            "lookup": "https://www.poewiki.net/index.php?search=Map%20Boss",
+            "treeSearch": "https://www.youtube.com/results?search_query=Map%20Boss%20atlas%20tree%203.29%20Curse%20of%20the%20Allflame"
+          },
+          {
+            "name": "Blight / Beast / Incursion",
+            "where": "Blight, Bestiary, Incursion",
+            "setup": "Cây atlas Blight/Beast/Incursion",
+            "steps": [
+              "Cộng atlas theo cây",
+              "Bắt beast giá trị, chạy Blight encounter",
+              "Bán Oil, beast"
+            ],
+            "maps": [
+              {
+                "name": "Blight",
+                "note": "Encounter Blight trong map",
+                "url": "",
+                "lookup": "https://www.poewiki.net/index.php?search=Blight"
+              },
+              {
+                "name": "Bestiary",
+                "note": "Bắt beast",
+                "url": "",
+                "lookup": "https://www.poewiki.net/index.php?search=Bestiary"
+              },
+              {
+                "name": "Incursion",
+                "note": "Temple of Atzoatl",
+                "url": "",
+                "lookup": "https://www.poewiki.net/index.php?search=Incursion"
+              }
+            ],
+            "trees": [
+              {
+                "title": "Blight / Beast / Incursion / Red Altars",
+                "url": "https://poeplanner.com/a/6glv"
+              }
+            ],
+            "links": [
+              {
+                "title": "PoE Vault – Atlas Passive Skill Tree Strategies",
+                "url": "https://poe-vault.com/guides/atlas-passive-skill-tree-strategies"
+              }
+            ],
+            "profit": "chưa có số liệu",
+            "requires": "Clear + chịu đòn",
+            "risk": "Trung bình",
+            "lookup": "https://www.poewiki.net/index.php?search=Blight%20%2F%20Beast%20%2F%20Incursion",
+            "treeSearch": "https://www.youtube.com/results?search_query=Blight%20%2F%20Beast%20%2F%20Incursion%20atlas%20tree%203.29%20Curse%20of%20the%20Allflame"
           },
           {
             "name": "Bán/đánh Uber fragment",
@@ -407,7 +663,9 @@
               }
             ],
             "links": [],
-            "lookup": "https://www.poewiki.net/index.php?search=B%C3%A1n%2F%C4%91%C3%A1nh%20Uber%20fragment"
+            "lookup": "https://www.poewiki.net/index.php?search=B%C3%A1n%2F%C4%91%C3%A1nh%20Uber%20fragment",
+            "trees": [],
+            "treeSearch": "https://www.youtube.com/results?search_query=B%C3%A1n%2F%C4%91%C3%A1nh%20Uber%20fragment%20atlas%20tree%203.29%20Curse%20of%20the%20Allflame"
           }
         ]
       }
@@ -416,12 +674,14 @@
       "Kiểm tra giá trên trang Item Trend trước khi đầu tư Scarab."
     ],
     "sources": [
+      "https://poe-vault.com/guides/atlas-passive-skill-tree-strategies",
       "https://ggseason.com/poe/",
       "https://mobalytics.gg/poe/profile/lazy-exile/guides/lazy-s-farm-strategies-poe-3-29",
       "https://www.poe-vault.com/guides/pathofevening-guide-hub"
     ],
     "updatedAt": "2026-11-05T12:00:00.000Z",
     "trustedSources": [
+      "https://poe-vault.com/guides/atlas-passive-skill-tree-strategies",
       "https://mobalytics.gg/poe/profile/lazy-exile/guides/lazy-s-farm-strategies-poe-3-29",
       "https://www.poe-vault.com/guides/pathofevening-guide-hub"
     ]

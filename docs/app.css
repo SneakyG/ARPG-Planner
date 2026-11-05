@@ -159,3 +159,17 @@ legend{font-weight:700;padding:0 6px}
 .reflinks .lk{color:var(--muted)}
 ul.trusted{font-size:14px;overflow-wrap:anywhere}
 .small{font-size:13px}
+
+/* Atlas tree / setup preview cards */
+.trees{margin:8px 0 6px}
+.trees>b{display:block;font-size:12px;letter-spacing:.05em;text-transform:uppercase;color:var(--accent);margin-bottom:6px}
+.tgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;margin-bottom:6px}
+.tree{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:8px;overflow:hidden;text-decoration:none;color:var(--fg);background:var(--sunk);min-width:0}
+.tree:hover{border-color:var(--accent)}
+.tree img{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;object-position:center;background:var(--sunk)}
+.tree .noimg{display:grid;place-items:center;align-content:center;gap:2px;aspect-ratio:16/10;font-weight:700;color:var(--accent);text-align:center;padding:8px;font-size:14px;background:repeating-linear-gradient(135deg,var(--sunk) 0 10px,var(--surface) 10px 20px)}
+.tree .noimg small{font-weight:400;color:var(--muted);font-size:11px}
+.tree .cap{padding:6px 8px;font-size:13px;line-height:1.35;overflow-wrap:anywhere}
+.tree .dom,.reflinks .dom{font:600 10px var(--mono);color:var(--good);border:1px solid var(--good);border-radius:3px;padding:0 4px;margin-right:6px;text-transform:lowercase}
+.reflinks a.withimg{display:grid;grid-template-columns:96px 1fr;gap:8px;align-items:center}
+.reflinks a.withimg img{width:96px;aspect-ratio:16/9;object-fit:cover;border-radius:4px;border:1px solid var(--line)}

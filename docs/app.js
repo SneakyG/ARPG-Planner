@@ -7,8 +7,10 @@
   const CUR = { poe: 'Divine Orb', tli: 'Flame Elementium' };
   const PAGES = ['season', 'builds', 'farm', 'items'];
   const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const safeSrc = (u) => (/^(https?:\/\/|data\/img\/)/.test(u || '') ? esc(u) : '');
   const safeUrl = (u) => (/^https?:\/\//.test(u || '') ? esc(u) : '#');
   let meta = null;
+  let imgIndex = {};
   let itemsUI = { mode: 'hot', cat: '', q: '' };
   let buildsUI = { play: '', budget: '', season: '', q: '' };
 
@@ -188,6 +190,26 @@
   }
 
   // ---------- Farm ----------
+  // Preview image for a setup link: local screenshot, remote thumbnail, or none.
+  function preview(u) {
+    const v = imgIndex[u];
+    if (!v) return '';
+    if (v.file && /^img\/[\w.-]+$/.test(v.file)) return 'data/' + v.file;
+    if (v.remote && /^https?:\/\//.test(v.remote)) return v.remote;
+    return '';
+  }
+  function treeCards(game, x) {
+    const label = game === 'poe' ? 'Cây Atlas Passive cho kiểu farm này' : 'Setup cho kiểu farm này';
+    const trees = x.trees || [];
+    const cards = trees.map((t) => {
+      const img = preview(t.url);
+      return `<a class="tree" href="${safeUrl(t.url)}" target="_blank" rel="noopener">
+        ${img ? `<img onerror="this.style.display='none'" src="${safeSrc(img)}" alt="Ảnh xem trước: ${esc(t.title || 'cây atlas')}" loading="lazy">` : `<span class="noimg">${game === 'poe' ? 'Mở cây Atlas' : 'Mở setup'}<small>Ảnh xem trước có sau lần cập nhật kế tiếp</small></span>`}
+        <span class="cap"><span class="dom">${esc(host(t.url))}</span>${esc(t.title || 'Atlas tree')} ↗</span></a>`;
+    }).join('');
+    return `<div class="trees"><b>${label}</b>${trees.length ? `<div class="tgrid">${cards}</div>` : `<p class="muted small">Nguồn chưa có cây riêng cho kiểu farm này.</p>`}
+      ${x.treeSearch ? `<a class="lk small" href="${safeUrl(x.treeSearch)}" target="_blank" rel="noopener">Xem thêm video ${game === 'poe' ? 'atlas tree' : 'setup'} trên YouTube ↗</a>` : ''}</div>`;
+  }
   const riskCls = (r) => (/thấp|low/i.test(r) ? 'low' : /cao|high/i.test(r) ? 'high' : 'mid');
   function farm(r, d) {
     const st = d?.stages || [];
@@ -200,10 +222,11 @@
             ${x.where ? `<div class="kv"><b>Nội dung:</b> ${esc(x.where)}</div>` : ''}
             ${x.setup ? `<div class="kv"><b>Setup:</b> ${esc(x.setup)}</div>` : ''}
             ${(x.steps || []).length ? `<ol>${x.steps.map((t) => `<li>${esc(t)}</li>`).join('')}</ol>` : ''}
+            ${treeCards(r.game, x)}
             ${(x.maps || []).length ? `<div class="spots"><b>Điểm farm</b><ul>${x.maps.map((m) => `<li><a href="${safeUrl(m.url || m.lookup)}" target="_blank" rel="noopener">${esc(m.name)} ↗</a>${m.url ? '<span class="src ok">nguồn</span>' : '<span class="src">tra wiki</span>'}${m.note ? `<span class="muted"> · ${esc(m.note)}</span>` : ''}</li>`).join('')}</ul></div>` : ''}
             ${x.requires ? `<div class="kv"><b>Yêu cầu build:</b> ${esc(x.requires)}</div>` : ''}
             ${x.profit ? `<div class="kv"><b>Lợi nhuận:</b> ${esc(x.profit)}</div>` : ''}
-            <div class="reflinks">${(x.links || []).map((l) => `<a href="${safeUrl(l.url)}" target="_blank" rel="noopener" title="${esc(l.url)}"><span class="dom">${esc(host(l.url))}</span>${esc(l.title || 'Guide')} ↗</a>`).join('')}
+            <div class="reflinks">${(x.links || []).map((l) => { const im = preview(l.url); return `<a href="${safeUrl(l.url)}" target="_blank" rel="noopener" title="${esc(l.url)}" class="${im ? 'withimg' : ''}">${im ? `<img onerror="this.style.display='none'" src="${safeSrc(im)}" alt="" loading="lazy">` : ''}<span><span class="dom">${esc(host(l.url))}</span>${esc(l.title || 'Guide')} ↗</span></a>`; }).join('')}
               ${x.lookup ? `<a class="lk" href="${safeUrl(x.lookup)}" target="_blank" rel="noopener">Tra cứu “${esc(x.name)}” ↗</a>` : ''}</div>
           </div>`).join('')}</div>
       </section>`).join('')}</div>` : `<div class="empty">Chưa có dữ liệu farm.</div>`) +
@@ -294,6 +317,7 @@
   }
   async function reloadAll() {
     meta = await getJSON('data/meta.json');
+    imgIndex = (await getJSON('data/img/index.json')) || {};
     for (const k in seeds) delete seeds[k];
     await render();
   }
