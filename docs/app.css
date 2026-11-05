@@ -139,3 +139,23 @@ legend{font-weight:700;padding:0 6px}
 .sources{font-size:13px;color:var(--muted);border-top:1px solid var(--line);margin-top:26px;padding-top:12px;overflow-wrap:anywhere}
 .sources a{color:var(--muted)}
 @media (max-width:560px){.build{grid-template-columns:40px 1fr;padding:12px}.rank{font-size:24px}.bars{grid-template-columns:repeat(3,minmax(0,1fr))}}
+
+/* Season tags on build cards */
+.season-tag{display:inline-block;font:600 11px var(--mono);letter-spacing:.04em;text-transform:uppercase;border-radius:4px;padding:1px 7px;margin-bottom:4px;border:1px solid var(--line);color:var(--muted)}
+.season-tag.now{border-color:var(--accent);color:var(--accent)}
+.count{font-size:13px;margin:-4px 0 10px}
+#f-bq{flex:1 1 220px}
+
+/* Farm spots and reference links */
+.spots{margin:6px 0;font-size:14px}
+.spots>b{font-size:12px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+.spots ul{margin:4px 0;padding-left:18px}
+.spots li{margin:3px 0}
+.src{font:600 10px var(--mono);text-transform:uppercase;letter-spacing:.04em;border:1px solid var(--line);color:var(--muted);border-radius:3px;padding:0 4px;margin-left:6px}
+.src.ok{border-color:var(--good);color:var(--good)}
+.reflinks{display:flex;flex-direction:column;gap:4px;margin-top:8px;padding-top:8px;border-top:1px dashed var(--line);font-size:14px}
+.reflinks a{overflow-wrap:anywhere}
+.reflinks .dom{font:600 10px var(--mono);color:var(--good);border:1px solid var(--good);border-radius:3px;padding:0 4px;margin-right:6px;text-transform:lowercase}
+.reflinks .lk{color:var(--muted)}
+ul.trusted{font-size:14px;overflow-wrap:anywhere}
+.small{font-size:13px}

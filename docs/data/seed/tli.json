@@ -5,49 +5,494 @@
     "start": "2026-10-16",
     "end": "Chưa công bố (ước tính giữa 01/2027)",
     "mechanics": [
-      { "name": "Tartarus Prison", "desc": "16 ô giam; tù nhân ăn lẫn nhau để lớn dần, kết thúc bằng Riot đầy loot. Bắt fugitive trong Netherrealm." },
-      { "name": "Followers", "desc": "Lính đánh thuê tuyển từ tù nhân: tấn công, phòng thủ, debuff. Poet cho combo 'six curses'." },
-      { "name": "Youga 3 – The Ultimate One", "desc": "Spell gắn trên Clockwork Core tự cast; crit giảm cooldown." },
-      { "name": "Divine Ascent", "desc": "150 tầng, bỏ qua tối đa 5; thưởng Pactspirit dời từ tầng 35 lên 50." }
+      {
+        "name": "Tartarus Prison",
+        "desc": "16 ô giam; tù nhân ăn lẫn nhau để lớn dần, kết thúc bằng Riot đầy loot. Bắt fugitive trong Netherrealm."
+      },
+      {
+        "name": "Followers",
+        "desc": "Lính đánh thuê tuyển từ tù nhân: tấn công, phòng thủ, debuff. Poet cho combo 'six curses'."
+      },
+      {
+        "name": "Youga 3 – The Ultimate One",
+        "desc": "Spell gắn trên Clockwork Core tự cast; crit giảm cooldown."
+      },
+      {
+        "name": "Divine Ascent",
+        "desc": "150 tầng, bỏ qua tối đa 5; thưởng Pactspirit dời từ tầng 35 lên 50."
+      }
     ],
-    "changes": ["Nerf: Rehan 2 (Berserk, Fury's Onslaught), Rosa 2 (elemental, Born to Cleanse), Selena 2 (Terra), Sage (Razor Leaf, Scattered Spore).", "Buff: Meteor base damage; Electric Overload 15% → 16%."],
+    "changes": [
+      "Nerf: Rehan 2 (Berserk, Fury's Onslaught), Rosa 2 (elemental, Born to Cleanse), Selena 2 (Terra), Sage (Razor Leaf, Scattered Spore).",
+      "Buff: Meteor base damage; Electric Overload 15% → 16%."
+    ],
     "next": "SS15 chưa công bố; ước tính giữa tháng 01/2027.",
-    "sources": ["https://www.arpg-timeline.com/game/torchlite-infinite", "https://tlifaq.pages.dev/"],
+    "sources": [
+      "https://www.arpg-timeline.com/game/torchlite-infinite",
+      "https://tlifaq.pages.dev/"
+    ],
     "updatedAt": "2026-11-05T12:00:00.000Z"
   },
   "builds": {
-    "season": "Torchlight: Infinite SS14 Tartarus",
-    "notes": "Dữ liệu khởi tạo từ tier list SS14 (tlifaq, VHPG). Điểm Clear/Boss/Tank là đánh giá tham khảo. AI tra lại mỗi ngày.",
-    "builds": [
-      { "rank": 1, "id": "selena-1-wilting-beam", "name": "Wilting Beam Selena 1", "class": "Selena · Sing with the Tide", "tier": "S", "playstyle": "All-Rounder", "budget": "Thấp", "difficulty": "Dễ", "clear": 4, "boss": 4, "tank": 3, "why": "Caster dễ nhất mùa, channel khi chạy, đồ craft rare là đủ; có setup boss riêng.", "guides": [ { "title": "Odealo – Wilting Beam Selena 1", "url": "https://odealo.com/articles/wilting-beam-selena-1-build-torchlight-infinite" } ] },
-      { "rank": 2, "id": "erika-1-thunder-spike", "name": "Thunder Spike Erika 1", "class": "Erika · Wind Stalker", "tier": "S", "playstyle": "Speed Mapper", "budget": "Thấp", "difficulty": "Khó", "clear": 5, "boss": 3, "tank": 2, "why": "Farm tiền nhanh nhất đầu mùa; melee nên dễ chết nếu thiếu phòng thủ.", "guides": [ { "title": "Odealo – Thunder Spike Erika 1", "url": "https://odealo.com/articles/thunder-spike-erika-1-build-torchlight-infinite" }, { "title": "TLI Wiki – Erika 1 Fast T8", "url": "https://www.torchlight-infinite.wiki/builds/torchlight-infinite-erika-1-build" } ] },
-      { "rank": 3, "id": "gemma-2-frost-core", "name": "Frost Core Gemma 2", "class": "Gemma · Frostbitten Heart", "tier": "A", "playstyle": "All-Rounder", "budget": "Thấp", "difficulty": "Dễ", "clear": 4, "boss": 3, "tank": 3, "why": "Được buff, guide mô tả 'dễ và rẻ'.", "guides": [] },
-      { "rank": 4, "id": "youga-2-spacetime-dot", "name": "Spacetime Elapse DoT Youga 2", "class": "Youga · Spacetime Elapse", "tier": "A", "playstyle": "Boss Killer", "budget": "Thấp", "difficulty": "Dễ", "clear": 3, "boss": 4, "tank": 3, "why": "DoT ngân sách thấp, boss tốt.", "guides": [] },
-      { "rank": 5, "id": "youga-3-the-ultimate-one", "name": "Clockwork Core Youga 3", "class": "Youga · The Ultimate One", "tier": "S", "playstyle": "All-Rounder", "budget": "Cao", "difficulty": "Trung bình", "clear": 4, "boss": 5, "tank": 3, "why": "Trait mới mạnh nhất mùa nhưng đồ đắt vì nhu cầu cao.", "guides": [] },
-      { "rank": 6, "id": "rosa-2-frost-spike", "name": "Frost Spike Rosa 2", "class": "Rosa · Unsullied Blade", "tier": "S", "playstyle": "All-Rounder", "budget": "Trung bình", "difficulty": "Trung bình", "clear": 4, "boss": 4, "tank": 3, "why": "Mạnh dài hạn nhưng bị nerf và không phải starter rẻ.", "guides": [] },
-      { "rank": 7, "id": "rehan-2-frost-spike", "name": "Frost Spike Rehan 2", "class": "Rehan · Seething Silhouette", "tier": "A", "playstyle": "Boss Killer", "budget": "Trung bình", "difficulty": "Trung bình", "clear": 3, "boss": 4, "tank": 2, "why": "Melee, cần sinh tồn; bị nerf Berserk.", "guides": [] },
-      { "rank": 8, "id": "iris-2-vigilant-breeze", "name": "Spirit Magi Iris 2", "class": "Iris · Vigilant Breeze", "tier": "A", "playstyle": "Tanker", "budget": "Trung bình", "difficulty": "Dễ", "clear": 3, "boss": 3, "tank": 4, "why": "Summoner chơi nhàn.", "guides": [] }
-    ],
-    "sources": ["https://tlifaq.pages.dev/", "https://www.vhpg.com/torchlight-infinite-tartarus-ss14-tier-list/"],
-    "updatedAt": "2026-11-05T12:00:00.000Z"
+    "current": "ss14-tartarus",
+    "seasons": [
+      {
+        "key": "ss14-tartarus",
+        "label": "SS14 Tartarus",
+        "patch": "SS14",
+        "name": "Tartarus",
+        "updatedAt": "2026-11-05T12:00:00.000Z",
+        "builds": [
+          {
+            "rank": 1,
+            "id": "ss14-tartarus-selena-1-wilting-beam",
+            "name": "Wilting Beam Selena 1",
+            "class": "Selena · Sing with the Tide",
+            "tier": "S",
+            "playstyle": "All-Rounder",
+            "budget": "Thấp",
+            "difficulty": "Dễ",
+            "clear": 4,
+            "boss": 4,
+            "tank": 3,
+            "why": "Caster dễ nhất mùa, channel khi chạy, đồ craft rare là đủ; có setup boss riêng.",
+            "guides": [
+              {
+                "title": "Odealo – Wilting Beam Selena 1",
+                "url": "https://odealo.com/articles/wilting-beam-selena-1-build-torchlight-infinite"
+              }
+            ],
+            "season": "SS14 Tartarus"
+          },
+          {
+            "rank": 2,
+            "id": "ss14-tartarus-erika-1-thunder-spike",
+            "name": "Thunder Spike Erika 1",
+            "class": "Erika · Wind Stalker",
+            "tier": "S",
+            "playstyle": "Speed Mapper",
+            "budget": "Thấp",
+            "difficulty": "Khó",
+            "clear": 5,
+            "boss": 3,
+            "tank": 2,
+            "why": "Farm tiền nhanh nhất đầu mùa; melee nên dễ chết nếu thiếu phòng thủ.",
+            "guides": [
+              {
+                "title": "Odealo – Thunder Spike Erika 1",
+                "url": "https://odealo.com/articles/thunder-spike-erika-1-build-torchlight-infinite"
+              },
+              {
+                "title": "TLI Wiki – Erika 1 Fast T8",
+                "url": "https://www.torchlight-infinite.wiki/builds/torchlight-infinite-erika-1-build"
+              }
+            ],
+            "season": "SS14 Tartarus"
+          },
+          {
+            "rank": 3,
+            "id": "ss14-tartarus-gemma-2-frost-core",
+            "name": "Frost Core Gemma 2",
+            "class": "Gemma · Frostbitten Heart",
+            "tier": "A",
+            "playstyle": "All-Rounder",
+            "budget": "Thấp",
+            "difficulty": "Dễ",
+            "clear": 4,
+            "boss": 3,
+            "tank": 3,
+            "why": "Được buff, guide mô tả 'dễ và rẻ'.",
+            "guides": [],
+            "season": "SS14 Tartarus"
+          },
+          {
+            "rank": 4,
+            "id": "ss14-tartarus-youga-2-spacetime-dot",
+            "name": "Spacetime Elapse DoT Youga 2",
+            "class": "Youga · Spacetime Elapse",
+            "tier": "A",
+            "playstyle": "Boss Killer",
+            "budget": "Thấp",
+            "difficulty": "Dễ",
+            "clear": 3,
+            "boss": 4,
+            "tank": 3,
+            "why": "DoT ngân sách thấp, boss tốt.",
+            "guides": [],
+            "season": "SS14 Tartarus"
+          },
+          {
+            "rank": 5,
+            "id": "ss14-tartarus-youga-3-the-ultimate-one",
+            "name": "Clockwork Core Youga 3",
+            "class": "Youga · The Ultimate One",
+            "tier": "S",
+            "playstyle": "All-Rounder",
+            "budget": "Cao",
+            "difficulty": "Trung bình",
+            "clear": 4,
+            "boss": 5,
+            "tank": 3,
+            "why": "Trait mới mạnh nhất mùa nhưng đồ đắt vì nhu cầu cao.",
+            "guides": [],
+            "season": "SS14 Tartarus"
+          },
+          {
+            "rank": 6,
+            "id": "ss14-tartarus-rosa-2-frost-spike",
+            "name": "Frost Spike Rosa 2",
+            "class": "Rosa · Unsullied Blade",
+            "tier": "S",
+            "playstyle": "All-Rounder",
+            "budget": "Trung bình",
+            "difficulty": "Trung bình",
+            "clear": 4,
+            "boss": 4,
+            "tank": 3,
+            "why": "Mạnh dài hạn nhưng bị nerf và không phải starter rẻ.",
+            "guides": [],
+            "season": "SS14 Tartarus"
+          },
+          {
+            "rank": 7,
+            "id": "ss14-tartarus-rehan-2-frost-spike",
+            "name": "Frost Spike Rehan 2",
+            "class": "Rehan · Seething Silhouette",
+            "tier": "A",
+            "playstyle": "Boss Killer",
+            "budget": "Trung bình",
+            "difficulty": "Trung bình",
+            "clear": 3,
+            "boss": 4,
+            "tank": 2,
+            "why": "Melee, cần sinh tồn; bị nerf Berserk.",
+            "guides": [],
+            "season": "SS14 Tartarus"
+          },
+          {
+            "rank": 8,
+            "id": "ss14-tartarus-iris-2-vigilant-breeze",
+            "name": "Spirit Magi Iris 2",
+            "class": "Iris · Vigilant Breeze",
+            "tier": "A",
+            "playstyle": "Tanker",
+            "budget": "Trung bình",
+            "difficulty": "Dễ",
+            "clear": 3,
+            "boss": 3,
+            "tank": 4,
+            "why": "Summoner chơi nhàn.",
+            "guides": [],
+            "season": "SS14 Tartarus"
+          }
+        ],
+        "notes": "Dữ liệu khởi tạo từ tier list SS14 (tlifaq, VHPG). Điểm Clear/Boss/Tank là đánh giá tham khảo. AI tra lại mỗi ngày.",
+        "sources": [
+          "https://tlifaq.pages.dev/",
+          "https://www.vhpg.com/torchlight-infinite-tartarus-ss14-tier-list/"
+        ]
+      },
+      {
+        "key": "ss13-afterlight",
+        "label": "SS13 Afterlight",
+        "patch": "SS13",
+        "name": "Afterlight",
+        "updatedAt": "2026-10-15T00:00:00.000Z",
+        "notes": "Lưu trữ mùa trước, theo tier list league starter SS13 (PixelNitro, tổng hợp bởi musabots). Nguồn không nêu skill chính.",
+        "sources": [
+          "https://musabots.com/blog/torchlight-infinite-tier-list"
+        ],
+        "builds": [
+          {
+            "rank": 1,
+            "id": "ss13-afterlight-selena-2",
+            "name": "Selena 2",
+            "class": "Selena · Dance of the Deep",
+            "tier": "S",
+            "playstyle": "",
+            "budget": "Thấp",
+            "difficulty": "",
+            "why": "Lên nhanh với ít đồ; cũng là build endgame mạnh, clear map rất tốt.",
+            "guides": [],
+            "season": "SS13 Afterlight"
+          },
+          {
+            "rank": 2,
+            "id": "ss13-afterlight-erika-1",
+            "name": "Erika 1",
+            "class": "Erika · Wind Stalker",
+            "tier": "S",
+            "playstyle": "",
+            "budget": "Thấp",
+            "difficulty": "",
+            "why": "Farm currency nhanh nhất đầu mùa.",
+            "guides": [],
+            "season": "SS13 Afterlight"
+          },
+          {
+            "rank": 3,
+            "id": "ss13-afterlight-youga-2",
+            "name": "Youga 2",
+            "class": "Youga · Spacetime Elapse",
+            "tier": "S",
+            "playstyle": "",
+            "budget": "Thấp",
+            "difficulty": "",
+            "why": "Boss killer ngân sách thấp.",
+            "guides": [],
+            "season": "SS13 Afterlight"
+          },
+          {
+            "rank": 4,
+            "id": "ss13-afterlight-thea-3",
+            "name": "Thea 3",
+            "class": "Thea · Blasphemer",
+            "tier": "S",
+            "playstyle": "",
+            "budget": "Thấp",
+            "difficulty": "",
+            "why": "Lên nhanh với ít đồ.",
+            "guides": [],
+            "season": "SS13 Afterlight"
+          },
+          {
+            "rank": 5,
+            "id": "ss13-afterlight-sage",
+            "name": "Sage",
+            "class": "Sage",
+            "tier": "A",
+            "playstyle": "",
+            "budget": "",
+            "difficulty": "",
+            "why": "Ổn định, chậm hơn nhóm S một chút.",
+            "guides": [],
+            "season": "SS13 Afterlight"
+          },
+          {
+            "rank": 6,
+            "id": "ss13-afterlight-moto-2",
+            "name": "Moto 2",
+            "class": "Moto · Charge Calling",
+            "tier": "A",
+            "playstyle": "",
+            "budget": "",
+            "difficulty": "",
+            "why": "Ổn định, dễ chơi.",
+            "guides": [],
+            "season": "SS13 Afterlight"
+          },
+          {
+            "rank": 7,
+            "id": "ss13-afterlight-carino-2",
+            "name": "Carino 2",
+            "class": "Carino 2",
+            "tier": "A",
+            "playstyle": "",
+            "budget": "",
+            "difficulty": "",
+            "why": "Ổn định.",
+            "guides": [],
+            "season": "SS13 Afterlight"
+          },
+          {
+            "rank": 8,
+            "id": "ss13-afterlight-gemma-2",
+            "name": "Gemma 2",
+            "class": "Gemma · Frostbitten Heart",
+            "tier": "A",
+            "playstyle": "",
+            "budget": "",
+            "difficulty": "",
+            "why": "Ổn định.",
+            "guides": [],
+            "season": "SS13 Afterlight"
+          },
+          {
+            "rank": 9,
+            "id": "ss13-afterlight-iris-2",
+            "name": "Iris 2",
+            "class": "Iris · Vigilant Breeze",
+            "tier": "A",
+            "playstyle": "",
+            "budget": "",
+            "difficulty": "",
+            "why": "Ổn định.",
+            "guides": [],
+            "season": "SS13 Afterlight"
+          }
+        ]
+      }
+    ]
   },
   "farm": {
     "season": "Torchlight: Infinite SS14 Tartarus",
     "stages": [
-      { "key": "starter", "title": "Starter – vốn thấp", "budget": "0 FE", "content": "Campaign → Netherrealm K6", "strategies": [
-        { "name": "Hoàn thành Main Story + check-in", "where": "Campaign", "setup": "—", "steps": ["Hết Main Story để chọn Activation Medium", "Check-in nhận Legendary Pactspirit"], "profit": "chưa có số liệu", "requires": "—", "risk": "Thấp" },
-        { "name": "Speed map K6 + Prison", "where": "Netherrealm K6", "setup": "Compass rẻ", "steps": ["Bắt fugitive", "Thả vào Tartarus Prison", "Bán nguyên liệu"], "profit": "chưa có số liệu", "requires": "Clear ổn định", "risk": "Thấp" }
-      ] },
-      { "key": "mid", "title": "Mid – K7/K8", "budget": "Vài trăm FE", "content": "Netherrealm K7–K8", "strategies": [
-        { "name": "Dồn Compass vào Tartarus", "where": "Prison Riot", "setup": "Compass cơ chế mùa; Memory ưu tiên stat build", "steps": ["Nuôi tù nhân ăn nhau để lớn", "Kích Riot lấy loot", "Tuyển Follower hợp build (Poet cho DoT)"], "profit": "chưa có số liệu", "requires": "AoE + single-target ổn", "risk": "Trung bình" }
-      ] },
-      { "key": "end", "title": "Endgame – Deep Space", "budget": "1000+ FE", "content": "Deep Space / Divine Ascent", "strategies": [
-        { "name": "Divine Ascent", "where": "150 tầng", "setup": "Build boss", "steps": ["Leo tầng, bỏ qua tối đa 5", "Mốc Pactspirit ở tầng 50"], "profit": "chưa có số liệu", "requires": "DPS + sinh tồn cao", "risk": "Cao" }
-      ] }
+      {
+        "key": "starter",
+        "title": "Starter – vốn thấp",
+        "budget": "0 FE",
+        "content": "Campaign → Netherrealm K6",
+        "strategies": [
+          {
+            "name": "Hoàn thành Main Story + check-in",
+            "where": "Campaign",
+            "setup": "—",
+            "steps": [
+              "Hết Main Story để chọn Activation Medium",
+              "Check-in nhận Legendary Pactspirit"
+            ],
+            "profit": "chưa có số liệu",
+            "requires": "—",
+            "risk": "Thấp",
+            "maps": [
+              {
+                "name": "Main Story",
+                "note": "Mở Activation Medium",
+                "url": "",
+                "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Main%20Story"
+              }
+            ],
+            "links": [],
+            "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Ho%C3%A0n%20th%C3%A0nh%20Main%20Story%20%2B%20check-in"
+          },
+          {
+            "name": "Speed map K6 + Prison",
+            "where": "Netherrealm K6",
+            "setup": "Compass rẻ",
+            "steps": [
+              "Bắt fugitive",
+              "Thả vào Tartarus Prison",
+              "Bán nguyên liệu"
+            ],
+            "profit": "chưa có số liệu",
+            "requires": "Clear ổn định",
+            "risk": "Thấp",
+            "maps": [
+              {
+                "name": "Netherrealm",
+                "note": "Tiến trình Timemark 1–6",
+                "url": "",
+                "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Netherrealm"
+              },
+              {
+                "name": "Tartarus Prison",
+                "note": "16 ô giam tù nhân",
+                "url": "",
+                "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Tartarus%20Prison"
+              }
+            ],
+            "links": [
+              {
+                "title": "Maxroll – Beginner's Guide to Farming",
+                "url": "https://maxroll.gg/torchlight-infinite/currency/beginners-guide-to-farming"
+              }
+            ],
+            "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Speed%20map%20K6%20%2B%20Prison"
+          }
+        ]
+      },
+      {
+        "key": "mid",
+        "title": "Mid – K7/K8",
+        "budget": "Vài trăm FE",
+        "content": "Netherrealm K7–K8",
+        "strategies": [
+          {
+            "name": "Dồn Compass vào Tartarus",
+            "where": "Prison Riot",
+            "setup": "Compass cơ chế mùa; Memory ưu tiên stat build",
+            "steps": [
+              "Nuôi tù nhân ăn nhau để lớn",
+              "Kích Riot lấy loot",
+              "Tuyển Follower hợp build (Poet cho DoT)"
+            ],
+            "profit": "chưa có số liệu",
+            "requires": "AoE + single-target ổn",
+            "risk": "Trung bình",
+            "maps": [
+              {
+                "name": "Timemark 7-0",
+                "note": "Mục tiêu farm cơ bản theo Maxroll",
+                "url": "",
+                "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Timemark%207-0"
+              },
+              {
+                "name": "Plaza of Everest",
+                "note": "Stage nhanh để chạy lặp lại",
+                "url": "",
+                "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Plaza%20of%20Everest"
+              },
+              {
+                "name": "Tartarus Prison",
+                "note": "Riot đầy loot",
+                "url": "",
+                "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Tartarus%20Prison"
+              }
+            ],
+            "links": [
+              {
+                "title": "Maxroll – Beginner's Guide to Farming",
+                "url": "https://maxroll.gg/torchlight-infinite/currency/beginners-guide-to-farming"
+              }
+            ],
+            "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20D%E1%BB%93n%20Compass%20v%C3%A0o%20Tartarus"
+          }
+        ]
+      },
+      {
+        "key": "end",
+        "title": "Endgame – Deep Space",
+        "budget": "1000+ FE",
+        "content": "Deep Space / Divine Ascent",
+        "strategies": [
+          {
+            "name": "Divine Ascent",
+            "where": "150 tầng",
+            "setup": "Build boss",
+            "steps": [
+              "Leo tầng, bỏ qua tối đa 5",
+              "Mốc Pactspirit ở tầng 50"
+            ],
+            "profit": "chưa có số liệu",
+            "requires": "DPS + sinh tồn cao",
+            "risk": "Cao",
+            "maps": [
+              {
+                "name": "Deep Space 8-4",
+                "note": "Farm endgame theo Maxroll",
+                "url": "",
+                "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Deep%20Space%208-4"
+              },
+              {
+                "name": "Divine Ascent",
+                "note": "150 tầng, Pactspirit ở tầng 50",
+                "url": "",
+                "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Divine%20Ascent"
+              }
+            ],
+            "links": [
+              {
+                "title": "Maxroll – Beginner's Guide to Farming",
+                "url": "https://maxroll.gg/torchlight-infinite/currency/beginners-guide-to-farming"
+              }
+            ],
+            "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Divine%20Ascent"
+          }
+        ]
+      }
     ],
-    "tips": ["Tốc độ chạy không đồng nghĩa lợi nhuận: damage, phòng thủ, loading và nhặt đồ đều quan trọng."],
-    "sources": ["https://www.vhpg.com/torchlight-infinite-tartarus-ss14-tier-list/", "https://tlifaq.pages.dev/"],
-    "updatedAt": "2026-11-05T12:00:00.000Z"
+    "tips": [
+      "Tốc độ chạy không đồng nghĩa lợi nhuận: damage, phòng thủ, loading và nhặt đồ đều quan trọng."
+    ],
+    "sources": [
+      "https://www.vhpg.com/torchlight-infinite-tartarus-ss14-tier-list/",
+      "https://tlifaq.pages.dev/",
+      "https://maxroll.gg/torchlight-infinite/currency/beginners-guide-to-farming"
+    ],
+    "updatedAt": "2026-11-05T12:00:00.000Z",
+    "trustedSources": [
+      "https://maxroll.gg/torchlight-infinite/currency/beginners-guide-to-farming"
+    ]
   },
   "items": {
     "kind": "ai",

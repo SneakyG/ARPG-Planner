@@ -17,6 +17,8 @@ Trang tra cứu meta cho **Path of Exile** và **Torchlight: Infinite**, chạy 
 Tạo repo mới trên https://github.com/new (ví dụ `arpg-planner`, chọn **Public**, không tick thêm README). Trong thư mục dự án, chạy:
 
 ```bash
+mkdir .github\workflows
+move update.yml .github\workflows\update.yml
 git init
 git add .
 git commit -m "ARPG Planner"
@@ -91,6 +93,24 @@ Hoặc tạo `config.local.json` (đã nằm trong `.gitignore`, không bị pus
 - `sources`: URL tier list/guide bạn tin tưởng cho từng game, AI sẽ luôn đọc các trang này.
 - `guidesTopN`, `guidesMaxAgeDays`: số build được viết hướng dẫn chi tiết và bao lâu thì viết lại.
 - `prompts/system-prompt.txt`: prompt dùng để viết hướng dẫn build. Sửa file này để đổi cấu trúc.
+- `trust`: danh sách trang uy tín cho link farm. Mặc định đã có sẵn, không cần thêm. Muốn đổi thì thêm vào `config.json`:
+
+```json
+"trust": {
+  "poe": ["pathofexile.com", "poewiki.net", "poedb.tw", "poe.ninja", "maxroll.gg", "mobalytics.gg", "poe-vault.com"],
+  "tli": ["torchlight.xd.com", "maxroll.gg", "mobalytics.gg"],
+  "blocked": ["mmoexp.com", "mmogah.com", "u4gm.com", "timesaver.gg"]
+}
+```
+
+## Build theo mùa
+
+Build được lưu theo từng mùa. Khi mùa mới bắt đầu, lần cập nhật kế tiếp tạo danh sách mới, còn danh sách mùa cũ được giữ lại. Trên trang Build Starter: chọn mùa ở ô thứ hai (hoặc "Tất cả mùa") và gõ tên build/class/hero vào ô tìm kiếm. Mỗi thẻ build có nhãn mùa.
+
+## Link ở trang Farm
+
+- **Điểm farm**: map/khu vực cụ thể. Nhãn `NGUỒN` nghĩa là link lấy từ trang uy tín; nhãn `TRA WIKI` mở trang tra cứu (poewiki.net cho PoE, Maxroll cho TLI).
+- **Link tham khảo**: chỉ giữ link vừa xuất hiện trong trang nguồn, vừa thuộc danh sách uy tín. Trang bán currency/boost bị loại.
 
 ## Cách AI tra cứu
 

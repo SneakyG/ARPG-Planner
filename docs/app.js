@@ -10,7 +10,7 @@
   const safeUrl = (u) => (/^https?:\/\//.test(u || '') ? esc(u) : '#');
   let meta = null;
   let itemsUI = { mode: 'hot', cat: '', q: '' };
-  let buildsUI = { play: '', budget: '' };
+  let buildsUI = { play: '', budget: '', season: '', q: '' };
 
   // ---------- Static data ----------
   const seeds = {};
@@ -88,6 +88,7 @@
       <div class="meta">${origin}${data?.updatedAt ? `<span>${when(data.updatedAt)}</span>` : ''}${data?.model ? `<span>· AI: ${esc(data.model)}</span>` : ''}<span>· ${cadence}</span></div></div>
       ${extra}<button class="btn ghost" data-reload="1">Tải lại</button>${updateLink()}</div><div id="msg"></div>`;
   }
+  const host = (u) => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return ''; } };
   const sources = (list) => (list && list.length ? `<div class="sources">Nguồn: ${list.map((u) => `<a href="${safeUrl(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\/(www\.)?/, '').slice(0, 70))}</a>`).join(' · ')}</div>` : '');
   const bar5 = (label, v) => `<div>${label}<div class="bar5">${[1, 2, 3, 4, 5].map((i) => `<i class="${i <= (+v || 0) ? 'on' : ''}"></i>`).join('')}</div></div>`;
 
@@ -109,28 +110,51 @@
   // ---------- Builds ----------
   function searchLinks(game, b) {
     const q = encodeURIComponent(`${b.name} ${b.class || ''} build guide`);
-    const yt = `https://www.youtube.com/results?search_query=${encodeURIComponent(GAME[game] + ' ' + b.name + ' build guide')}`;
+    const ss = b._season || b.season || '';
+    const yt = `https://www.youtube.com/results?search_query=${encodeURIComponent(GAME[game] + ' ' + ss + ' ' + b.name + ' build guide')}`;
     return game === 'poe'
       ? [['YouTube', yt], ['Maxroll', `https://maxroll.gg/poe/build-guides?search=${encodeURIComponent(b.name)}`], ['Mobalytics', `https://mobalytics.gg/poe/builds?search=${encodeURIComponent(b.name)}`]]
-      : [['YouTube', yt], ['Google', `https://www.google.com/search?q=${encodeURIComponent('Torchlight Infinite ' + b.name + ' build')}`]];
+      : [['YouTube', yt], ['Google', `https://www.google.com/search?q=${encodeURIComponent('Torchlight Infinite ' + ss + ' ' + b.name + ' build')}`]];
   }
+  // Builds are stored per season: { current, seasons: [{ key, label, builds, notes, sources, updatedAt }] }
+  function archive(d) {
+    if (Array.isArray(d?.seasons)) return d;
+    const label = (d?.season || '').replace(/^(Path of Exile|Torchlight: Infinite)\s*/, '') || 'Mùa hiện tại';
+    return { current: 'cur', origin: d?.origin, seasons: [{ key: 'cur', label, builds: d?.builds || [], notes: d?.notes, sources: d?.sources, updatedAt: d?.updatedAt }] };
+  }
+  const norm = (s) => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/đ/g, 'd');
   function builds(r, d) {
-    const all = d?.builds || [];
-    const list = all.filter((b) => (!buildsUI.play || b.playstyle === buildsUI.play) && (!buildsUI.budget || b.budget === buildsUI.budget));
-    const opts = (arr, cur, label) => `<option value="">${label}</option>` + [...new Set(arr.filter(Boolean))].map((v) => `<option ${v === cur ? 'selected' : ''}>${esc(v)}</option>`).join('');
-    return head(r, `${d?.season || GAME[r.game]} · League Starter`, 'Build Starter xếp hạng', d, 'builds') + `
+    const arc = archive(d);
+    const cur = arc.seasons.find((s) => s.key === arc.current) || arc.seasons[0] || { label: '', builds: [] };
+    const sel = buildsUI.season || cur.key;
+    const chosen = sel === 'all' ? arc.seasons : arc.seasons.filter((s) => s.key === sel);
+    const all = chosen.flatMap((s) => (s.builds || []).map((b) => ({ ...b, _season: s.label, _current: s.key === arc.current })));
+    const q = norm(buildsUI.q);
+    const list = all.filter((b) => (!buildsUI.play || b.playstyle === buildsUI.play) && (!buildsUI.budget || b.budget === buildsUI.budget)
+      && (!q || norm([b.name, b.class, b.why, b._season, b.tier, b.playstyle].join(' ')).includes(q)));
+    const opts = (arr, curV, label) => `<option value="">${label}</option>` + [...new Set(arr.filter(Boolean))].map((v) => `<option ${v === curV ? 'selected' : ''}>${esc(v)}</option>`).join('');
+    const seasonOpts = arc.seasons.map((s) => `<option value="${esc(s.key)}" ${s.key === sel ? 'selected' : ''}>${esc(s.label)}${s.key === arc.current ? ' (hiện tại)' : ''} · ${(s.builds || []).length} build</option>`).join('')
+      + `<option value="all" ${sel === 'all' ? 'selected' : ''}>Tất cả mùa</option>`;
+    const shownSeason = chosen.length === 1 ? chosen[0] : null;
+    const meta0 = { origin: d?.origin, updatedAt: shownSeason?.updatedAt || d?.updatedAt, model: shownSeason?.model };
+    const hasBars = (b) => [b.clear, b.boss, b.tank].some((v) => +v > 0);
+    return head(r, `${GAME[r.game]} · League Starter`, 'Build Starter xếp hạng', meta0, 'builds') + `
       <div class="filters">
+        <input id="f-bq" type="search" placeholder="Tìm build, class, hero, skill…" value="${esc(buildsUI.q)}" aria-label="Tìm build">
+        <select id="f-season" aria-label="Chọn mùa">${seasonOpts}</select>
         <select id="f-play" aria-label="Lọc playstyle">${opts(all.map((b) => b.playstyle), buildsUI.play, 'Mọi playstyle')}</select>
         <select id="f-budget" aria-label="Lọc ngân sách">${opts(all.map((b) => b.budget), buildsUI.budget, 'Mọi ngân sách')}</select>
       </div>
+      <p class="muted count">${list.length} build${q ? ` khớp “${esc(buildsUI.q)}”` : ''} · ${sel === 'all' ? `${arc.seasons.length} mùa` : esc(shownSeason?.label || '')}</p>
       ${list.length ? `<div class="blist">${list.map((b) => `
         <article class="build">
           <div class="rank">${esc(b.rank)}<small>HẠNG</small></div>
           <div class="body">
+            <div class="season-tag ${b._current ? 'now' : 'old'}">${esc(b._season)}${b._current ? ' · mùa hiện tại' : ' · mùa cũ'}</div>
             <h3><span class="tier ${esc(b.tier)}">${esc(b.tier || '?')}</span>${esc(b.name)}</h3>
             <div class="cls">${esc(b.class || '')}</div>
             <div class="chips">${[b.playstyle, b.budget && 'Vốn ' + b.budget.toLowerCase(), b.difficulty && 'Độ khó: ' + b.difficulty].filter(Boolean).map((c) => `<span class="chip">${esc(c)}</span>`).join('')}</div>
-            <div class="bars">${bar5('Clear', b.clear)}${bar5('Boss', b.boss)}${bar5('Tank', b.tank)}</div>
+            ${hasBars(b) ? `<div class="bars">${bar5('Clear', b.clear)}${bar5('Boss', b.boss)}${bar5('Tank', b.tank)}</div>` : ''}
             <div>${esc(b.why || '')}</div>
             <div class="links">
               <a class="main" href="#/${r.game}/build/${encodeURIComponent(b.id)}">Xem hướng dẫn build →</a>
@@ -138,20 +162,25 @@
               ${!(b.guides || []).length ? searchLinks(r.game, b).map(([t, u]) => `<a href="${safeUrl(u)}" target="_blank" rel="noopener">Tìm trên ${t} ↗</a>`).join('') : ''}
             </div>
           </div>
-        </article>`).join('')}</div>` : `<div class="empty">Không có build phù hợp bộ lọc.</div>`}
-      ${d?.notes ? `<p class="note">${esc(d.notes)}</p>` : ''}
-      ${sources(d?.sources)}`;
+        </article>`).join('')}</div>` : `<div class="empty">Không có build phù hợp. Thử bỏ bớt bộ lọc hoặc chọn “Tất cả mùa”.</div>`}
+      ${shownSeason?.notes ? `<p class="note">${esc(shownSeason.notes)}</p>` : ''}
+      ${sources(shownSeason ? shownSeason.sources : [...new Set(chosen.flatMap((s) => s.sources || []))])}`;
   }
 
   // ---------- Build detail ----------
   async function buildDetail(r) {
-    const [list, g] = await Promise.all([data(r.game, "builds"), guide(r.game, r.id)]);
-    const b = (list.builds || []).find((x) => x.id === r.id);
+    const [list, g] = await Promise.all([data(r.game, 'builds'), guide(r.game, r.id)]);
+    const arc = archive(list);
+    let b = null, season = null;
+    for (const s of arc.seasons) { const x = (s.builds || []).find((y) => y.id === r.id); if (x) { b = x; season = s; break; } }
     if (!b) return `<p><a href="#/${r.game}/builds">← Danh sách build</a></p><div class="empty">Không tìm thấy build này (danh sách có thể đã được cập nhật).</div>`;
+    const isCur = season.key === arc.current;
     return `<p><a href="#/${r.game}/builds">← Danh sách build</a></p>
-      <div class="phead"><div class="grow"><div class="eyebrow">Hạng ${esc(b.rank)} · ${esc(b.class || '')}</div><h1>${esc(b.name)}</h1>
+      <div class="phead"><div class="grow"><div class="season-tag ${isCur ? 'now' : 'old'}">${esc(season.label)}${isCur ? ' · mùa hiện tại' : ' · mùa cũ'}</div>
+      <div class="eyebrow">Hạng ${esc(b.rank)} · ${esc(b.class || '')}</div><h1>${esc(b.name)}</h1>
       <div class="meta"><span class="tier ${esc(b.tier)}">${esc(b.tier)}</span>${g.updatedAt ? `<span>Hướng dẫn: ${when(g.updatedAt)}</span>` : ''}${g.model ? `<span>· AI: ${esc(g.model)}</span>` : ''}</div></div>
       </div>
+      ${!isCur ? `<p class="note">Build này thuộc mùa cũ (${esc(season.label)}). Cơ chế và cân bằng có thể đã thay đổi ở mùa hiện tại.</p>` : ''}
       <div class="links">${(b.guides || []).map((x) => `<a href="${safeUrl(x.url)}" target="_blank" rel="noopener">${esc(x.title || 'Guide')} ↗</a>`).join('')}
       ${searchLinks(r.game, b).map(([t, u]) => `<a href="${safeUrl(u)}" target="_blank" rel="noopener">Tìm trên ${t} ↗</a>`).join('')}</div>
       <p>${esc(b.why || '')}</p>
@@ -171,11 +200,16 @@
             ${x.where ? `<div class="kv"><b>Nội dung:</b> ${esc(x.where)}</div>` : ''}
             ${x.setup ? `<div class="kv"><b>Setup:</b> ${esc(x.setup)}</div>` : ''}
             ${(x.steps || []).length ? `<ol>${x.steps.map((t) => `<li>${esc(t)}</li>`).join('')}</ol>` : ''}
+            ${(x.maps || []).length ? `<div class="spots"><b>Điểm farm</b><ul>${x.maps.map((m) => `<li><a href="${safeUrl(m.url || m.lookup)}" target="_blank" rel="noopener">${esc(m.name)} ↗</a>${m.url ? '<span class="src ok">nguồn</span>' : '<span class="src">tra wiki</span>'}${m.note ? `<span class="muted"> · ${esc(m.note)}</span>` : ''}</li>`).join('')}</ul></div>` : ''}
             ${x.requires ? `<div class="kv"><b>Yêu cầu build:</b> ${esc(x.requires)}</div>` : ''}
             ${x.profit ? `<div class="kv"><b>Lợi nhuận:</b> ${esc(x.profit)}</div>` : ''}
+            <div class="reflinks">${(x.links || []).map((l) => `<a href="${safeUrl(l.url)}" target="_blank" rel="noopener" title="${esc(l.url)}"><span class="dom">${esc(host(l.url))}</span>${esc(l.title || 'Guide')} ↗</a>`).join('')}
+              ${x.lookup ? `<a class="lk" href="${safeUrl(x.lookup)}" target="_blank" rel="noopener">Tra cứu “${esc(x.name)}” ↗</a>` : ''}</div>
           </div>`).join('')}</div>
       </section>`).join('')}</div>` : `<div class="empty">Chưa có dữ liệu farm.</div>`) +
-      ((d?.tips || []).length ? `<h2 class="sec">Mẹo</h2><ul>${d.tips.map((t) => `<li>${esc(t)}</li>`).join('')}</ul>` : '') + sources(d?.sources);
+      ((d?.tips || []).length ? `<h2 class="sec">Mẹo</h2><ul>${d.tips.map((t) => `<li>${esc(t)}</li>`).join('')}</ul>` : '') +
+      ((d?.trustedSources || []).length ? `<h2 class="sec">Nguồn uy tín đã dùng</h2><ul class="trusted">${d.trustedSources.map((u) => `<li><a href="${safeUrl(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\/(www\.)?/, ''))}</a></li>`).join('')}</ul>` : '') +
+      `<p class="muted small">Link "nguồn" lấy từ trang uy tín (wiki, trang chính thức, Maxroll, Mobalytics, PoE Vault…). Link "tra wiki" mở trang tra cứu ${r.game === 'poe' ? 'poewiki.net' : 'Maxroll'} cho điểm farm đó. Trang bán currency/boost bị loại.</p>` + sources(d?.sources);
   }
 
   // ---------- Items ----------
@@ -278,17 +312,20 @@
     }
   });
   document.addEventListener('change', (e) => {
+    if (e.target.id === 'f-season') { buildsUI.season = e.target.value; buildsUI.play = ''; buildsUI.budget = ''; render(); }
     if (e.target.id === 'f-play') { buildsUI.play = e.target.value; render(); }
     if (e.target.id === 'f-budget') { buildsUI.budget = e.target.value; render(); }
     if (e.target.id === 'f-cat') { itemsUI.cat = e.target.value; render(); }
   });
   let qTimer;
   document.addEventListener('input', (e) => {
-    if (e.target.id !== 'f-q') return;
+    const id = e.target.id;
+    if (id !== 'f-q' && id !== 'f-bq') return;
     clearTimeout(qTimer);
     qTimer = setTimeout(async () => {
-      itemsUI.q = e.target.value; await render();
-      const f = $('#f-q'); if (f) { f.focus(); f.setSelectionRange(f.value.length, f.value.length); }
+      if (id === 'f-q') itemsUI.q = e.target.value; else buildsUI.q = e.target.value;
+      await render();
+      const f = $('#' + id); if (f) { f.focus(); f.setSelectionRange(f.value.length, f.value.length); }
     }, 300);
   });
 

@@ -5,53 +5,426 @@
     "start": "2026-07-24",
     "end": "Chưa công bố (ước tính ~07/12/2026)",
     "mechanics": [
-      { "name": "Lost Charts & Voyages", "desc": "Mỗi zone có kho báu Lost Charts được canh giữ; dùng Chart trên tàu Sovereign. Bathysphere đưa xuống đáy biển, Allflame Lantern tạo vùng an toàn tạm thời." },
-      { "name": "Allflame Crafting Bench", "desc": "Vesper vận hành bàn craft cho nhiều kết quả mỗi lần craft." },
-      { "name": "Socket rework", "desc": "Gem nào cũng cắm được mọi socket; gem đúng màu socket được +10% Quality." },
-      { "name": "Abyss", "desc": "Pit mở sẵn, nạp linh hồn từ quái chết gần đó. Abyssal Jewel và Stygian Vise chỉ rơi từ Abyss." },
-      { "name": "Legion", "desc": "Phá 90% encounter là giải phóng phần còn lại; Splinter rơi stack lớn hơn; Stygial Unique chỉ có ở Legion." },
-      { "name": "Luminary (Scion)", "desc": "Ascendancy mới; node Noble Blood giữ tối đa 3 Mercenary vĩnh viễn." }
+      {
+        "name": "Lost Charts & Voyages",
+        "desc": "Mỗi zone có kho báu Lost Charts được canh giữ; dùng Chart trên tàu Sovereign. Bathysphere đưa xuống đáy biển, Allflame Lantern tạo vùng an toàn tạm thời."
+      },
+      {
+        "name": "Allflame Crafting Bench",
+        "desc": "Vesper vận hành bàn craft cho nhiều kết quả mỗi lần craft."
+      },
+      {
+        "name": "Socket rework",
+        "desc": "Gem nào cũng cắm được mọi socket; gem đúng màu socket được +10% Quality."
+      },
+      {
+        "name": "Abyss",
+        "desc": "Pit mở sẵn, nạp linh hồn từ quái chết gần đó. Abyssal Jewel và Stygian Vise chỉ rơi từ Abyss."
+      },
+      {
+        "name": "Legion",
+        "desc": "Phá 90% encounter là giải phóng phần còn lại; Splinter rơi stack lớn hơn; Stygial Unique chỉ có ở Legion."
+      },
+      {
+        "name": "Luminary (Scion)",
+        "desc": "Ascendancy mới; node Noble Blood giữ tối đa 3 Mercenary vĩnh viễn."
+      }
     ],
-    "changes": ["Talisman roll được Enchantment, không bị corrupt mặc định, rơi từ Red Beast và Bestiary boss.", "Winter Orb được buff trước 3.29."],
+    "changes": [
+      "Talisman roll được Enchantment, không bị corrupt mặc định, rơi từ Red Beast và Bestiary boss.",
+      "Winter Orb được buff trước 3.29."
+    ],
     "next": "Chưa công bố; dự kiến tiết lộ tại ExileCon 2026 (tháng 11).",
-    "sources": ["https://ggseason.com/poe/"],
+    "sources": [
+      "https://ggseason.com/poe/"
+    ],
     "updatedAt": "2026-11-05T12:00:00.000Z"
   },
   "builds": {
-    "season": "Path of Exile 3.29 Curse of the Allflame",
-    "notes": "Dữ liệu khởi tạo theo tier list tuần 11 (poe.ninja). Điểm Clear/Boss/Tank là đánh giá tham khảo. AI tra lại theo nguồn mới nhất mỗi ngày.",
-    "builds": [
-      { "rank": 1, "id": "righteous-fire-chieftain", "name": "Righteous Fire Chieftain", "class": "Marauder · Chieftain", "tier": "S", "playstyle": "Tanker", "budget": "Thấp", "difficulty": "Dễ", "clear": 4, "boss": 2, "tank": 5, "why": "Đồng hạng build được chơi nhiều nhất (≈4.4%), starter kinh điển chạy bằng rare nhặt đất, cực trâu.", "guides": [ { "title": "Mobalytics – Pohx RF Chieftain", "url": "https://mobalytics.gg/poe/builds/pohx-righteous-fire-chieftain" }, { "title": "PoE Vault – RF Chieftain", "url": "https://poe-vault.com/guides/righteous-fire-chieftain-build-guide" } ] },
-      { "rank": 2, "id": "winter-orb-elementalist", "name": "Winter Orb Elementalist", "class": "Witch · Elementalist", "tier": "A", "playstyle": "All-Rounder", "budget": "Thấp", "difficulty": "Trung bình", "clear": 4, "boss": 4, "tank": 4, "why": "Bản staff/shield rẻ hơn bản Occultist; Winter Orb được buff ở 3.29, block cao.", "guides": [ { "title": "Guides Factory – Winter Orb Elementalist", "url": "https://guides-factory.com/guides/path-of-exile-329-winter-orb-elementalist-best-league-starter-build-guide" } ] },
-      { "rank": 3, "id": "penance-brand-elementalist", "name": "Penance Brand Elementalist", "class": "Witch · Elementalist", "tier": "A", "playstyle": "All-Rounder", "budget": "Thấp", "difficulty": "Trung bình", "clear": 4, "boss": 3, "tank": 3, "why": "Vốn thấp, thân thiện league start, vẫn phổ biến ở level 100.", "guides": [] },
-      { "rank": 4, "id": "winter-orb-occultist", "name": "Winter Orb Occultist", "class": "Witch · Occultist", "tier": "S", "playstyle": "All-Rounder", "budget": "Trung bình", "difficulty": "Trung bình", "clear": 4, "boss": 4, "tank": 4, "why": "Đồng hạng build phổ biến nhất (≈4.4%), vốn thấp–trung bình, scale tốt.", "guides": [] },
-      { "rank": 5, "id": "raise-spectre-necromancer", "name": "Raise Spectre Necromancer", "class": "Witch · Necromancer", "tier": "A", "playstyle": "All-Rounder", "budget": "Thấp", "difficulty": "Trung bình", "clear": 4, "boss": 4, "tank": 3, "why": "Minion an toàn, vốn thấp–trung bình.", "guides": [] },
-      { "rank": 6, "id": "fire-trap-chieftain", "name": "Fire Trap Chieftain", "class": "Marauder · Chieftain", "tier": "B", "playstyle": "All-Rounder", "budget": "Thấp", "difficulty": "Dễ", "clear": 3, "boss": 3, "tank": 4, "why": "Rẻ, thân thiện league start.", "guides": [] },
-      { "rank": 7, "id": "ethereal-knives-elementalist", "name": "Ethereal Knives Elementalist", "class": "Witch · Elementalist", "tier": "A", "playstyle": "Speed Mapper", "budget": "Trung bình", "difficulty": "Trung bình", "clear": 5, "boss": 3, "tank": 3, "why": "Herald-stacking, clear rất nhanh nhưng cần vốn trung bình.", "guides": [ { "title": "Guides Factory – Ethereal Knives Herald Stacker", "url": "https://guides-factory.com/guides/poe-3-29-ethereal-knives-herald-stacker" } ] },
-      { "rank": 8, "id": "animate-guardian-luminary", "name": "Animate Guardian Luminary", "class": "Scion · Luminary", "tier": "A", "playstyle": "Tanker", "budget": "Cao", "difficulty": "Trung bình", "clear": 3, "boss": 4, "tank": 4, "why": "Ascendancy mới, mạnh nhưng gear là khoản đầu tư giữa–cuối game; không hợp 0 vốn.", "guides": [] }
-    ],
-    "sources": ["https://guides-factory.com/guides/path-of-exile-329-best-builds-day-14-league-meta-tier-list"],
-    "updatedAt": "2026-11-05T12:00:00.000Z"
+    "current": "3-29-curse-of-the-allflame",
+    "seasons": [
+      {
+        "key": "3-29-curse-of-the-allflame",
+        "label": "3.29 Curse of the Allflame",
+        "patch": "3.29",
+        "name": "Curse of the Allflame",
+        "updatedAt": "2026-11-05T12:00:00.000Z",
+        "builds": [
+          {
+            "rank": 1,
+            "id": "3-29-curse-of-the-allflame-righteous-fire-chieftain",
+            "name": "Righteous Fire Chieftain",
+            "class": "Marauder · Chieftain",
+            "tier": "S",
+            "playstyle": "Tanker",
+            "budget": "Thấp",
+            "difficulty": "Dễ",
+            "clear": 4,
+            "boss": 2,
+            "tank": 5,
+            "why": "Đồng hạng build được chơi nhiều nhất (≈4.4%), starter kinh điển chạy bằng rare nhặt đất, cực trâu.",
+            "guides": [
+              {
+                "title": "Mobalytics – Pohx RF Chieftain",
+                "url": "https://mobalytics.gg/poe/builds/pohx-righteous-fire-chieftain"
+              },
+              {
+                "title": "PoE Vault – RF Chieftain",
+                "url": "https://poe-vault.com/guides/righteous-fire-chieftain-build-guide"
+              }
+            ],
+            "season": "3.29 Curse of the Allflame"
+          },
+          {
+            "rank": 2,
+            "id": "3-29-curse-of-the-allflame-winter-orb-elementalist",
+            "name": "Winter Orb Elementalist",
+            "class": "Witch · Elementalist",
+            "tier": "A",
+            "playstyle": "All-Rounder",
+            "budget": "Thấp",
+            "difficulty": "Trung bình",
+            "clear": 4,
+            "boss": 4,
+            "tank": 4,
+            "why": "Bản staff/shield rẻ hơn bản Occultist; Winter Orb được buff ở 3.29, block cao.",
+            "guides": [
+              {
+                "title": "Guides Factory – Winter Orb Elementalist",
+                "url": "https://guides-factory.com/guides/path-of-exile-329-winter-orb-elementalist-best-league-starter-build-guide"
+              }
+            ],
+            "season": "3.29 Curse of the Allflame"
+          },
+          {
+            "rank": 3,
+            "id": "3-29-curse-of-the-allflame-penance-brand-elementalist",
+            "name": "Penance Brand Elementalist",
+            "class": "Witch · Elementalist",
+            "tier": "A",
+            "playstyle": "All-Rounder",
+            "budget": "Thấp",
+            "difficulty": "Trung bình",
+            "clear": 4,
+            "boss": 3,
+            "tank": 3,
+            "why": "Vốn thấp, thân thiện league start, vẫn phổ biến ở level 100.",
+            "guides": [],
+            "season": "3.29 Curse of the Allflame"
+          },
+          {
+            "rank": 4,
+            "id": "3-29-curse-of-the-allflame-winter-orb-occultist",
+            "name": "Winter Orb Occultist",
+            "class": "Witch · Occultist",
+            "tier": "S",
+            "playstyle": "All-Rounder",
+            "budget": "Trung bình",
+            "difficulty": "Trung bình",
+            "clear": 4,
+            "boss": 4,
+            "tank": 4,
+            "why": "Đồng hạng build phổ biến nhất (≈4.4%), vốn thấp–trung bình, scale tốt.",
+            "guides": [],
+            "season": "3.29 Curse of the Allflame"
+          },
+          {
+            "rank": 5,
+            "id": "3-29-curse-of-the-allflame-raise-spectre-necromancer",
+            "name": "Raise Spectre Necromancer",
+            "class": "Witch · Necromancer",
+            "tier": "A",
+            "playstyle": "All-Rounder",
+            "budget": "Thấp",
+            "difficulty": "Trung bình",
+            "clear": 4,
+            "boss": 4,
+            "tank": 3,
+            "why": "Minion an toàn, vốn thấp–trung bình.",
+            "guides": [],
+            "season": "3.29 Curse of the Allflame"
+          },
+          {
+            "rank": 6,
+            "id": "3-29-curse-of-the-allflame-fire-trap-chieftain",
+            "name": "Fire Trap Chieftain",
+            "class": "Marauder · Chieftain",
+            "tier": "B",
+            "playstyle": "All-Rounder",
+            "budget": "Thấp",
+            "difficulty": "Dễ",
+            "clear": 3,
+            "boss": 3,
+            "tank": 4,
+            "why": "Rẻ, thân thiện league start.",
+            "guides": [],
+            "season": "3.29 Curse of the Allflame"
+          },
+          {
+            "rank": 7,
+            "id": "3-29-curse-of-the-allflame-ethereal-knives-elementalist",
+            "name": "Ethereal Knives Elementalist",
+            "class": "Witch · Elementalist",
+            "tier": "A",
+            "playstyle": "Speed Mapper",
+            "budget": "Trung bình",
+            "difficulty": "Trung bình",
+            "clear": 5,
+            "boss": 3,
+            "tank": 3,
+            "why": "Herald-stacking, clear rất nhanh nhưng cần vốn trung bình.",
+            "guides": [
+              {
+                "title": "Guides Factory – Ethereal Knives Herald Stacker",
+                "url": "https://guides-factory.com/guides/poe-3-29-ethereal-knives-herald-stacker"
+              }
+            ],
+            "season": "3.29 Curse of the Allflame"
+          },
+          {
+            "rank": 8,
+            "id": "3-29-curse-of-the-allflame-animate-guardian-luminary",
+            "name": "Animate Guardian Luminary",
+            "class": "Scion · Luminary",
+            "tier": "A",
+            "playstyle": "Tanker",
+            "budget": "Cao",
+            "difficulty": "Trung bình",
+            "clear": 3,
+            "boss": 4,
+            "tank": 4,
+            "why": "Ascendancy mới, mạnh nhưng gear là khoản đầu tư giữa–cuối game; không hợp 0 vốn.",
+            "guides": [],
+            "season": "3.29 Curse of the Allflame"
+          }
+        ],
+        "notes": "Dữ liệu khởi tạo theo tier list tuần 11 (poe.ninja). Điểm Clear/Boss/Tank là đánh giá tham khảo. AI tra lại theo nguồn mới nhất mỗi ngày.",
+        "sources": [
+          "https://guides-factory.com/guides/path-of-exile-329-best-builds-day-14-league-meta-tier-list"
+        ]
+      }
+    ]
   },
   "farm": {
     "season": "Path of Exile 3.29 Curse of the Allflame",
     "stages": [
-      { "key": "starter", "title": "Starter – vốn thấp", "budget": "0 – 5 Divine", "content": "Campaign → T1–T10", "strategies": [
-        { "name": "Lost Charts + Voyage", "where": "Kho báu Lost Charts trong campaign, chạy Voyage trên tàu Sovereign", "setup": "Không cần", "steps": ["Nhặt Lost Charts ở mỗi zone", "Dùng Chart trên Sovereign", "Bán drop giá trị"], "profit": "chưa có số liệu", "requires": "Clear được campaign", "risk": "Thấp" },
-        { "name": "Speed map + Essence/Abyss", "where": "White/Yellow maps", "setup": "Atlas: Essence, Abyss", "steps": ["Chạy nhanh map tier thấp", "Nhặt Essence, Abyssal Jewel", "Bán theo stack"], "profit": "chưa có số liệu", "requires": "Kháng cap, ~3k Life", "risk": "Thấp" }
-      ] },
-      { "key": "mid", "title": "Mid – Red maps", "budget": "5 – 30 Divine", "content": "T14–T16", "strategies": [
-        { "name": "Abyss + Legion", "where": "Red maps", "setup": "Atlas dồn Abyss, Legion, Essence", "steps": ["Abyss: nguồn duy nhất Stygian Vise & Abyssal Jewel", "Legion: phá 90% để thả phần còn lại, Splinter stack lớn", "Bán Stygial Unique"], "profit": "chưa có số liệu", "requires": "Build đứng được giữa Legion", "risk": "Trung bình" },
-        { "name": "Allflame Crafting Bench", "where": "Bàn craft của Vesper", "setup": "—", "steps": ["Craft base giá trị", "Bán đồ craft"], "profit": "chưa có số liệu", "requires": "Vốn craft", "risk": "Trung bình" }
-      ] },
-      { "key": "end", "title": "Endgame – T17", "budget": "30+ Divine", "content": "T17 / Uber", "strategies": [
-        { "name": "Juice Abyss/Legion bằng Scarab", "where": "T17", "setup": "Scarab Abyss/Legion", "steps": ["Chọn map không có mod nguy hiểm với build", "Juice Scarab", "Bán bulk"], "profit": "chưa có số liệu", "requires": "Build hoàn thiện", "risk": "Cao" },
-        { "name": "Bán/đánh Uber fragment", "where": "Pinnacle boss", "setup": "—", "steps": ["Build boss mạnh: tự chạy", "Build yếu boss: bán fragment/invitation"], "profit": "chưa có số liệu", "requires": "DPS boss cao", "risk": "Cao" }
-      ] }
+      {
+        "key": "starter",
+        "title": "Starter – vốn thấp",
+        "budget": "0 – 5 Divine",
+        "content": "Campaign → T1–T10",
+        "strategies": [
+          {
+            "name": "Lost Charts + Voyage",
+            "where": "Kho báu Lost Charts trong campaign, chạy Voyage trên tàu Sovereign",
+            "setup": "Không cần",
+            "steps": [
+              "Nhặt Lost Charts ở mỗi zone",
+              "Dùng Chart trên Sovereign",
+              "Bán drop giá trị"
+            ],
+            "profit": "chưa có số liệu",
+            "requires": "Clear được campaign",
+            "risk": "Thấp",
+            "maps": [
+              {
+                "name": "Lost Charts",
+                "note": "Kho báu được canh giữ trong mỗi zone campaign",
+                "url": "",
+                "lookup": "https://www.poewiki.net/index.php?search=Lost%20Charts"
+              },
+              {
+                "name": "Allflame Lantern",
+                "note": "Vùng an toàn tạm thời dưới đáy biển (Bathysphere)",
+                "url": "",
+                "lookup": "https://www.poewiki.net/index.php?search=Allflame%20Lantern"
+              }
+            ],
+            "links": [],
+            "lookup": "https://www.poewiki.net/index.php?search=Lost%20Charts%20%2B%20Voyage"
+          },
+          {
+            "name": "Speed map + Essence/Abyss",
+            "where": "White/Yellow maps",
+            "setup": "Atlas: Essence, Abyss",
+            "steps": [
+              "Chạy nhanh map tier thấp",
+              "Nhặt Essence, Abyssal Jewel",
+              "Bán theo stack"
+            ],
+            "profit": "chưa có số liệu",
+            "requires": "Kháng cap, ~3k Life",
+            "risk": "Thấp",
+            "maps": [
+              {
+                "name": "Essence",
+                "note": "Monolith Essence trong map tier thấp",
+                "url": "",
+                "lookup": "https://www.poewiki.net/index.php?search=Essence"
+              },
+              {
+                "name": "Abyss",
+                "note": "Pit tự mở, nạp linh hồn từ quái gần đó",
+                "url": "",
+                "lookup": "https://www.poewiki.net/index.php?search=Abyss"
+              }
+            ],
+            "links": [
+              {
+                "title": "Lazy Exile – Farm strategies 3.29 (Mobalytics)",
+                "url": "https://mobalytics.gg/poe/profile/lazy-exile/guides/lazy-s-farm-strategies-poe-3-29"
+              }
+            ],
+            "lookup": "https://www.poewiki.net/index.php?search=Speed%20map%20%2B%20Essence%2FAbyss"
+          }
+        ]
+      },
+      {
+        "key": "mid",
+        "title": "Mid – Red maps",
+        "budget": "5 – 30 Divine",
+        "content": "T14–T16",
+        "strategies": [
+          {
+            "name": "Abyss + Legion",
+            "where": "Red maps",
+            "setup": "Atlas dồn Abyss, Legion, Essence",
+            "steps": [
+              "Abyss: nguồn duy nhất Stygian Vise & Abyssal Jewel",
+              "Legion: phá 90% để thả phần còn lại, Splinter stack lớn",
+              "Bán Stygial Unique"
+            ],
+            "profit": "chưa có số liệu",
+            "requires": "Build đứng được giữa Legion",
+            "risk": "Trung bình",
+            "maps": [
+              {
+                "name": "Abyss",
+                "note": "Nguồn duy nhất Stygian Vise và Abyssal Jewel",
+                "url": "",
+                "lookup": "https://www.poewiki.net/index.php?search=Abyss"
+              },
+              {
+                "name": "Legion",
+                "note": "Phá 90% encounter để thả phần còn lại",
+                "url": "",
+                "lookup": "https://www.poewiki.net/index.php?search=Legion"
+              }
+            ],
+            "links": [
+              {
+                "title": "Lazy Exile – Farm strategies 3.29 (Mobalytics)",
+                "url": "https://mobalytics.gg/poe/profile/lazy-exile/guides/lazy-s-farm-strategies-poe-3-29"
+              },
+              {
+                "title": "PathofEvening Guide Hub (PoE Vault)",
+                "url": "https://www.poe-vault.com/guides/pathofevening-guide-hub"
+              }
+            ],
+            "lookup": "https://www.poewiki.net/index.php?search=Abyss%20%2B%20Legion"
+          },
+          {
+            "name": "Allflame Crafting Bench",
+            "where": "Bàn craft của Vesper",
+            "setup": "—",
+            "steps": [
+              "Craft base giá trị",
+              "Bán đồ craft"
+            ],
+            "profit": "chưa có số liệu",
+            "requires": "Vốn craft",
+            "risk": "Trung bình",
+            "maps": [
+              {
+                "name": "Allflame Crafting Bench",
+                "note": "Bàn craft của Vesper trên tàu Sovereign",
+                "url": "",
+                "lookup": "https://www.poewiki.net/index.php?search=Allflame%20Crafting%20Bench"
+              }
+            ],
+            "links": [],
+            "lookup": "https://www.poewiki.net/index.php?search=Allflame%20Crafting%20Bench"
+          }
+        ]
+      },
+      {
+        "key": "end",
+        "title": "Endgame – T17",
+        "budget": "30+ Divine",
+        "content": "T17 / Uber",
+        "strategies": [
+          {
+            "name": "Juice Abyss/Legion bằng Scarab",
+            "where": "T17",
+            "setup": "Scarab Abyss/Legion",
+            "steps": [
+              "Chọn map không có mod nguy hiểm với build",
+              "Juice Scarab",
+              "Bán bulk"
+            ],
+            "profit": "chưa có số liệu",
+            "requires": "Build hoàn thiện",
+            "risk": "Cao",
+            "maps": [
+              {
+                "name": "Abyss Scarab",
+                "note": "Tăng mật độ Abyss trong map",
+                "url": "",
+                "lookup": "https://www.poewiki.net/index.php?search=Abyss%20Scarab"
+              },
+              {
+                "name": "Legion Scarab",
+                "note": "Tăng Legion encounter",
+                "url": "",
+                "lookup": "https://www.poewiki.net/index.php?search=Legion%20Scarab"
+              }
+            ],
+            "links": [
+              {
+                "title": "Lazy Exile – Farm strategies 3.29 (Mobalytics)",
+                "url": "https://mobalytics.gg/poe/profile/lazy-exile/guides/lazy-s-farm-strategies-poe-3-29"
+              }
+            ],
+            "lookup": "https://www.poewiki.net/index.php?search=Juice%20Abyss%2FLegion%20b%E1%BA%B1ng%20Scarab"
+          },
+          {
+            "name": "Bán/đánh Uber fragment",
+            "where": "Pinnacle boss",
+            "setup": "—",
+            "steps": [
+              "Build boss mạnh: tự chạy",
+              "Build yếu boss: bán fragment/invitation"
+            ],
+            "profit": "chưa có số liệu",
+            "requires": "DPS boss cao",
+            "risk": "Cao",
+            "maps": [
+              {
+                "name": "Pinnacle boss",
+                "note": "Boss cuối endgame và bản Uber",
+                "url": "",
+                "lookup": "https://www.poewiki.net/index.php?search=Pinnacle%20boss"
+              }
+            ],
+            "links": [],
+            "lookup": "https://www.poewiki.net/index.php?search=B%C3%A1n%2F%C4%91%C3%A1nh%20Uber%20fragment"
+          }
+        ]
+      }
     ],
-    "tips": ["Kiểm tra giá trên trang Item Trend trước khi đầu tư Scarab."],
-    "sources": ["https://ggseason.com/poe/"],
-    "updatedAt": "2026-11-05T12:00:00.000Z"
+    "tips": [
+      "Kiểm tra giá trên trang Item Trend trước khi đầu tư Scarab."
+    ],
+    "sources": [
+      "https://ggseason.com/poe/",
+      "https://mobalytics.gg/poe/profile/lazy-exile/guides/lazy-s-farm-strategies-poe-3-29",
+      "https://www.poe-vault.com/guides/pathofevening-guide-hub"
+    ],
+    "updatedAt": "2026-11-05T12:00:00.000Z",
+    "trustedSources": [
+      "https://mobalytics.gg/poe/profile/lazy-exile/guides/lazy-s-farm-strategies-poe-3-29",
+      "https://www.poe-vault.com/guides/pathofevening-guide-hub"
+    ]
   },
   "items": {
     "kind": "market",
@@ -59,12 +432,15 @@
     "note": "Chưa có dữ liệu giá. Giá được lấy tự động từ poe.ninja mỗi 3 giờ sau khi bật GitHub Actions."
   },
   "guides": {
-    "righteous-fire-chieftain": {
-      "id": "righteous-fire-chieftain",
+    "3-29-curse-of-the-allflame-righteous-fire-chieftain": {
+      "id": "3-29-curse-of-the-allflame-righteous-fire-chieftain",
       "game": "poe",
       "name": "Righteous Fire Chieftain",
       "updatedAt": "2026-11-05T12:00:00.000Z",
-      "sources": ["https://mobalytics.gg/poe/builds/pohx-righteous-fire-chieftain", "https://poe-vault.com/guides/righteous-fire-chieftain-build-guide"],
+      "sources": [
+        "https://mobalytics.gg/poe/builds/pohx-righteous-fire-chieftain",
+        "https://poe-vault.com/guides/righteous-fire-chieftain-build-guide"
+      ],
       "markdown": "## PHẦN 1: TỔNG QUAN BUILD & TIER RATING\n\n- **Build:** Righteous Fire Chieftain (tham chiếu Pohx)\n- **Xếp hạng:** S-Tier — đồng hạng build được chơi nhiều nhất 3.29, vốn ~0\n- **Playstyle:** All-Rounder thiên Tanker\n- **Ưu điểm:** 0 vốn thật sự · rất trâu (90% max fire res, regen 1.5k+/s) · chơi nhàn\n- **Nhược điểm:** single-target thấp (≈2–4M) · không hợp Uber · sợ map *No Regen* / *-Max Res*\n\n## PHẦN 2: LỘ TRÌNH PHÁT TRIỂN BUILD\n\n### Starter (Lv 1–80)\n\n| Mốc | Kỹ năng | Links |\n|---|---|---|\n| Lv 1–12 | Rolling Magma | Elemental Proliferation → Combustion |\n| Lv 4+ | Holy Flame Totem | Added Fire Damage + Summon Phantasm |\n| Act 3 | Flammability | Lifetap |\n| Lv ~31+ | **Righteous Fire** | Bật khi Life Regen > lượng đốt |\n\n- Ascendancy: Ramako, Sun's Light → Hinekora, Death's Fury → còn lại theo PoB\n- Bandit: Kill all hoặc Kraityn · Pantheon: Brine King + Ralakesh\n- Đồ: Life mọi slot › Fire Res › All Res › Movement Speed › Life Regen\n\n### Mid-Game (Red Maps)\n\n| Setup | Links |\n|---|---|\n| RF 6L | Elemental Focus · Burning Damage · Efficacy · Lifetap · Swift Affliction |\n| Fire Trap 4L | Swift Affliction · Lifetap · Trap and Mine Damage |\n| Aura | Determination · Vitality · Purity of Elements |\n\n- Unique rẻ: Rise of the Phoenix / Dawnbreaker, Cloak of Flame, Immortal Flesh\n- Mốc: 90% max Fire Res, Chaos Res ≥ 0, Life Regen 1,500+/s, 5+ Endurance Charges\n\n### End-Game (T17)\n\n- Annihilation's Approach, Stygian Vise (chỉ rơi từ Abyss ở 3.29), Archdemon Crown, ring craft Essence of Delirium\n\n```text\nhttps://pobb.in/PVpmRbFdxceP\n```\n\n> PoB của Pohx xuất bản cho 3.26 — đối chiếu lại với 3.29 trong PoB Community.\n\n## PHẦN 3: CHIẾN LƯỢC FARM\n\nXem trang **Farm** để có lộ trình theo mùa hiện hành.\n"
     }
   }
