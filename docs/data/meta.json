@@ -4,65 +4,65 @@
   "status": {
     "poe:items": {
       "ok": true,
-      "at": "2026-11-05T13:00:45.285Z",
-      "info": "732 món",
-      "ms": 6819
+      "at": "2026-11-05T13:52:02.867Z",
+      "info": "731 món",
+      "ms": 1606
     },
     "poe:season": {
       "ok": true,
-      "at": "2026-11-05T13:01:04.152Z",
+      "at": "2026-11-05T13:53:15.855Z",
       "info": "",
-      "ms": 18867
+      "ms": 72988
     },
     "poe:builds": {
       "ok": true,
-      "at": "2026-11-05T13:02:03.558Z",
+      "at": "2026-11-05T13:54:56.600Z",
       "info": "8 build",
-      "ms": 59406
+      "ms": 100745
     },
     "poe:farm": {
       "ok": true,
-      "at": "2026-11-05T13:02:18.190Z",
+      "at": "2026-11-05T13:56:02.678Z",
       "info": "",
-      "ms": 10630
+      "ms": 62077
     },
     "poe:guides": {
       "ok": true,
-      "at": "2026-11-05T13:05:04.134Z",
-      "info": "tạo 2, lỗi 2 (winter-orb: Gemini gemini-2.5-flash: HTTP 404 This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).; righteous-fire: Không tải được trang nguồn nào (kiểm tra mạng hoặc thêm URL nguồn trong config.json).)",
-      "ms": 161943
+      "at": "2026-11-05T13:58:50.356Z",
+      "info": "tạo 4, lỗi 1 (0-5-0-return-of-the-ancients-martial-artist-monk: Gemini gemini-2.5-flash: HTTP 404 This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).)",
+      "ms": 163677
     },
     "tli:season": {
       "ok": true,
-      "at": "2026-11-05T13:05:31.875Z",
+      "at": "2026-11-05T13:59:01.908Z",
       "info": "",
-      "ms": 23737
+      "ms": 7548
     },
     "tli:builds": {
       "ok": true,
-      "at": "2026-11-05T13:05:59.180Z",
+      "at": "2026-11-05T13:59:12.111Z",
       "info": "8 build",
-      "ms": 23303
+      "ms": 6201
     },
     "tli:farm": {
       "ok": true,
-      "at": "2026-11-05T13:06:11.108Z",
+      "at": "2026-11-05T13:59:27.589Z",
       "info": "",
-      "ms": 7927
+      "ms": 11478
     },
     "tli:items": {
       "ok": true,
-      "at": "2026-11-05T13:06:31.089Z",
-      "info": "10 món",
-      "ms": 15979
+      "at": "2026-11-05T13:59:37.397Z",
+      "info": "1 món",
+      "ms": 5810
     },
     "tli:guides": {
       "ok": true,
-      "at": "2026-11-05T13:08:38.957Z",
-      "info": "tạo 4, lỗi 1 (wind-stalker-corrosive-throw: Gemini gemini-2.5-flash: HTTP 404 This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).)",
-      "ms": 123868
+      "at": "2026-11-05T14:01:14.772Z",
+      "info": "tạo 5, lỗi 0",
+      "ms": 93372
     }
   },
   "guidesTopN": 5,
-  "updatedAt": "2026-11-05T13:08:42.961Z"
+  "updatedAt": "2026-11-05T14:01:18.775Z"
 }

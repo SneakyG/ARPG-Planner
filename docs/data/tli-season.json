@@ -1,31 +1,22 @@
 {
   "name": "Tartarus",
-  "patch": "SS14",
-  "start": "2026-10-16",
-  "end": "2027-01-15 (ước tính)",
+  "patch": "Tartarus Season",
+  "start": "",
+  "end": "",
   "mechanics": [
     {
-      "name": "Tartarus prison management",
-      "desc": "Hệ thống quản lý nhà tù Tartarus với đấu trường boss có thể tùy chỉnh gồm 16 ô."
-    },
-    {
-      "name": "Followers system",
-      "desc": "Hệ thống người đồng hành mới cho phép thuê bạn đồng hành từ các bộ tộc sói, chuột, sư tử và voi."
+      "name": "Tartarus",
+      "desc": "Capture Caged Beasts on the board in the Netherrealm. Crush the prison Riot for rich rewards."
     }
   ],
   "changes": [
-    "Cơ chế Tartarus khiến các sai lầm về phòng thủ trở nên trừng phạt hơn",
-    "Cải tiến hệ thống người đồng hành",
-    "Điều chỉnh cân bằng Hero Traits",
-    "Mở rộng endgame với 6 cấp độ khó và phần thưởng tăng dần"
+    "New Hero Trait: Youga - The Ultimate One (Wield the Clockwork Core and hunt down your parallel selves).",
+    "Hero Model Revamps for Gemma - Frostbitten Heart, Carino - Lethal Flash, and Bing - Blast Nova."
   ],
-  "next": "SS15, dự kiến bắt đầu vào ngày 2027-01-15",
+  "next": "",
   "sources": [
-    "https://minmaxedarpg.com/games/tli/seasons/s14",
-    "https://seasonforge.online/games/torchlight-infinite/",
-    "https://pixelnitro.com/torchlight-infinite-season-14-build-guide-best-hero-traits-tier-list-and-progression-priority-2026-meta/",
-    "https://www.torchlightinfinitewiki.wiki/seasons/Torchlight-Infinite-current-season"
+    "https://torchlight.xd.com/"
   ],
-  "model": "gemini-3.1-flash-lite",
-  "updatedAt": "2026-11-05T13:05:31.875Z"
+  "model": "gemini-3.5-flash-lite",
+  "updatedAt": "2026-11-05T13:59:01.908Z"
 }

@@ -1,119 +1,155 @@
 {
-  "season": "Path of Exile 3.29.0 Curse of the Allflame",
+  "season": "Path of Exile 0.5.0 Return of the Ancients",
   "stages": [
     {
       "key": "starter",
-      "title": "Giai đoạn khởi đầu (League Start)",
+      "title": "Giai đoạn khởi đầu (Early Atlas Progression)",
       "budget": "0 Divine Orb",
-      "content": "T1-T10 Maps",
+      "content": "Tier map thấp đến trung bình",
       "strategies": [
         {
-          "name": "Alch & Go",
-          "where": "Farm Essence và Currency cơ bản",
-          "setup": "Atlas Passive tập trung vào Essence và các node Map",
+          "name": "Rush Unwavering",
+          "where": "Tối ưu hóa số lượng map tier cao để đẩy nhanh tiến độ Atlas",
+          "setup": "Atlas Passive tập trung vào map sustain",
           "steps": [
-            "Sử dụng Orbs of Alchemy lên bản đồ",
-            "Tiêu diệt quái vật để thu thập Essence",
-            "Bán Essence để lấy vốn ban đầu"
+            "Mở Atlas planner",
+            "Cộng các điểm liên quan đến map sustain",
+            "Chạy map để mở khóa các tier cao hơn"
+          ],
+          "maps": [
+            {
+              "name": "Twilight Strand",
+              "note": "Điểm bắt đầu hành trình",
+              "url": "",
+              "lookup": "https://www.poewiki.net/index.php?search=Twilight%20Strand"
+            }
+          ],
+          "trees": [
+            {
+              "title": "Rush Unwavering",
+              "url": "https://poeplanner.com/a/6Z2v"
+            }
+          ],
+          "links": [
+            {
+              "title": "Atlas Passive Skill Tree Strategies Guide - PoE Vault",
+              "url": "https://poe-vault.com/guides/atlas-passive-skill-tree-strategies"
+            }
           ],
           "profit": "chưa có số liệu",
-          "requires": "Build League Starter cơ bản",
-          "risk": "Thấp"
-        },
-        {
-          "name": "Destructive Play",
-          "where": "Silo Maps (T14+)",
-          "setup": "Maven Influence",
-          "steps": [
-            "Chạy bản đồ Silo để farm Boss",
-            "Thu thập Astrolabes và Empowered Support Gems"
-          ],
-          "profit": "chưa có số liệu",
-          "requires": "Build có khả năng hạ gục Boss nhanh",
-          "risk": "Trung bình"
+          "requires": "Build cơ bản",
+          "risk": "Thấp",
+          "lookup": "https://www.poewiki.net/index.php?search=Rush%20Unwavering",
+          "treeSearch": "https://www.youtube.com/results?search_query=Rush%20Unwavering%20atlas%20tree%200.5.0%20Return%20of%20the%20Ancients"
         }
       ]
     },
     {
       "key": "mid",
-      "title": "Giai đoạn giữa (Mid-game)",
-      "budget": "10-50 Divine Orb",
-      "content": "T14-T16 Maps",
+      "title": "Giai đoạn trung cấp (Lazy Farm & Mechanics)",
+      "budget": "Vốn nhỏ từ vật phẩm rơi ra",
+      "content": "Map tier cao",
       "strategies": [
         {
-          "name": "Curse of the Allflame Farming",
-          "where": "Charts và Voyages",
-          "setup": "Stockpile 50 Charts, sử dụng regex để lọc modifier",
+          "name": "Atroz’s lazy farm (Expedition/Shrines/Blue Altars)",
+          "where": "Juicing Expedition để lấy loot",
+          "setup": "Expedition Scarab of Infusion, Verisium Powder, 2x Runefinding",
           "steps": [
-            "Roll Charts với quantity > 110%",
-            "Chạy Voyages tập trung vào Operative's Strongboxes",
-            "Sử dụng Dead Man's Sulphur để reroll Border Modifiers"
+            "Sử dụng các loại Scarab phù hợp",
+            "Tránh Expedition Scarab of Archaeology để không bị map quá khó",
+            "Tập trung vào các mechanic Expedition"
+          ],
+          "maps": [
+            {
+              "name": "Map bất kỳ",
+              "note": "Expedition phù hợp với build tấn công hoặc DOT",
+              "url": "",
+              "lookup": "https://www.poewiki.net/index.php?search=Map%20b%E1%BA%A5t%20k%E1%BB%B3"
+            }
+          ],
+          "trees": [
+            {
+              "title": "Atroz’s lazy farm",
+              "url": "https://poeplanner.com/a/6glC"
+            }
+          ],
+          "links": [
+            {
+              "title": "Atlas Passive Skill Tree Strategies Guide - PoE Vault",
+              "url": "https://poe-vault.com/guides/atlas-passive-skill-tree-strategies"
+            }
           ],
           "profit": "chưa có số liệu",
-          "requires": "Build dọn quái nhanh, khả năng sống sót tốt",
-          "risk": "Trung bình"
-        },
-        {
-          "name": "Harvest Juice Farming",
-          "where": "Red Tier Maps",
-          "setup": "Atlas Passive tập trung vào Harvest",
-          "steps": [
-            "Farm Harvest Juice để bán",
-            "Sử dụng Fruiting Astrolabe để tối ưu hóa lợi nhuận"
-          ],
-          "profit": "chưa có số liệu",
-          "requires": "Build có DPS ổn định để dọn quái Harvest",
-          "risk": "Thấp"
+          "requires": "Build tấn công hoặc DOT",
+          "risk": "Trung bình",
+          "lookup": "https://www.poewiki.net/index.php?search=Atroz%E2%80%99s%20lazy%20farm%20(Expedition%2FShrines%2FBlue%20Altars)",
+          "treeSearch": "https://www.youtube.com/results?search_query=Atroz%E2%80%99s%20lazy%20farm%20(Expedition%2FShrines%2FBlue%20Altars)%20atlas%20tree%200.5.0%20Return%20of%20the%20Ancients"
         }
       ]
     },
     {
       "key": "end",
-      "title": "Giai đoạn cuối (Endgame)",
-      "budget": "100+ Divine Orb",
-      "content": "T16+ Maps",
+      "title": "Giai đoạn cuối (Endgame Farming)",
+      "budget": "Đầu tư trung bình",
+      "content": "Map tier cao (Dunes)",
       "strategies": [
         {
-          "name": "Divine Orb Jackpot Voyage",
-          "where": "Voyage Planner",
-          "setup": "Border Modifier: Rare Monsters drop an additional Divine Orb",
+          "name": "80% Deli farm",
+          "where": "Sử dụng Delirium orbs và Scarabs để tối đa hóa mob",
+          "setup": "2x Delirium Scarab of Mania, 3x Delirium Scarab of Paranoia, 4x Fine/Diviner’s Delirium Orb",
           "steps": [
-            "Sử dụng 3x +5 Strongboxes, 1x Sea Pillars, 5x Increased Rare Monsters",
-            "Tối đa hóa số lượng Rare Monsters trong 1 Chart",
-            "Chạy Voyage để nhận Divine Orb"
+            "Sử dụng map Dunes",
+            "Sử dụng các node Ore để spawn thêm quái",
+            "Sử dụng Verisium để spawn crater và tìm Svalin drops"
+          ],
+          "maps": [
+            {
+              "name": "Dunes",
+              "note": "Map tối ưu cho việc farm Delirium",
+              "url": "",
+              "lookup": "https://www.poewiki.net/index.php?search=Dunes"
+            }
+          ],
+          "trees": [
+            {
+              "title": "Deli",
+              "url": "https://poeplanner.com/a/6glO"
+            }
+          ],
+          "links": [
+            {
+              "title": "Atlas Passive Skill Tree Strategies Guide - PoE Vault",
+              "url": "https://poe-vault.com/guides/atlas-passive-skill-tree-strategies"
+            }
           ],
           "profit": "chưa có số liệu",
-          "requires": "Build mạnh, có khả năng dọn quái dày đặc",
-          "risk": "Cao"
-        },
-        {
-          "name": "Nightmare Boss Rush",
-          "where": "Uber Bosses",
-          "setup": "Atlas Passive tập trung vào Boss",
-          "steps": [
-            "Farm các Uber Boss Fragments",
-            "Bán Fragments cho người chơi khác"
-          ],
-          "profit": "chưa có số liệu",
-          "requires": "Build chuyên biệt hạ gục Uber Boss",
-          "risk": "Cao"
+          "requires": "Build mạnh, có khả năng clear map nhanh",
+          "risk": "Cao",
+          "lookup": "https://www.poewiki.net/index.php?search=80%25%20Deli%20farm",
+          "treeSearch": "https://www.youtube.com/results?search_query=80%25%20Deli%20farm%20atlas%20tree%200.5.0%20Return%20of%20the%20Ancients"
         }
       ]
     }
   ],
   "tips": [
-    "Sử dụng regex 'm q.*(1[1-9].|[2-9]..)%' khi roll Charts để đảm bảo quantity tối thiểu 110%.",
-    "Trong Curse of the Allflame, nếu không có Operative Strongboxes, hãy ưu tiên Message in a Bottle hoặc Diviner's Strongboxes.",
-    "Tận dụng tính năng Scrying Orb để chuyển Divination Cards sang bản đồ dễ farm hơn.",
-    "Luôn kiểm tra các thay đổi về giá trên poe.ninja để điều chỉnh chiến lược farm phù hợp với thị trường."
+    "Luôn bao gồm ít nhất một vài node map sustain trong cây Atlas.",
+    "Sử dụng Atlas planner để tùy chỉnh theo sở thích cá nhân.",
+    "Trong league Runes of Aldur, hãy tận dụng cơ chế Runeforging để nâng cấp trang bị.",
+    "Cẩn thận với các loại Scarab khiến map trở nên quá khó (như Archaeology)."
   ],
   "sources": [
-    "https://maxroll.gg/poe/currency/curse-of-the-allflame-farming-strategy",
-    "https://maxroll.gg/poe/news/upcoming-changes-and-farming-strategies-in-3-29",
-    "https://www.aoeah.com/news/4682--poe-329-best-atlas-tree--map-farming-strats-curse-of-the-allflame",
-    "https://www.iggm.com/news/poe-3-29-curse-of-the-allflame-top-10-meta-farming-strategies-you-should-try",
-    "https://maxroll.gg/poe/tierlists/endgame-farming-tier-list"
+    "https://poe-vault.com/guides/atlas-passive-skill-tree-strategies",
+    "https://maxroll.gg/poe2/news/path-of-exile-2-0-5-0-return-of-the-ancients-guide-updates-more",
+    "https://www.pathofexile.com/",
+    "https://www.pathofexile.com/game",
+    "https://www.ign.com/articles/poe2-return-of-the-ancients-tier-list-build-guides"
+  ],
+  "trustedSources": [
+    "https://poe-vault.com/guides/atlas-passive-skill-tree-strategies",
+    "https://maxroll.gg/poe2/news/path-of-exile-2-0-5-0-return-of-the-ancients-guide-updates-more",
+    "https://www.pathofexile.com/",
+    "https://www.pathofexile.com/game"
   ],
   "model": "gemini-3.1-flash-lite",
-  "updatedAt": "2026-11-05T13:02:18.190Z"
+  "updatedAt": "2026-11-05T13:56:02.678Z"
 }

@@ -1,174 +1,364 @@
 {
-  "season": "Path of Exile 3.29.0 Curse of the Allflame",
-  "builds": [
+  "current": "0-5-0-return-of-the-ancients",
+  "seasons": [
     {
-      "rank": 1,
-      "name": "Poison Summon Raging Spirits",
-      "class": "Necromancer",
-      "tier": "S",
-      "playstyle": "All-Rounder",
-      "budget": "Thấp",
-      "difficulty": "Dễ",
-      "clear": 4,
-      "boss": 5,
-      "tank": 4,
-      "why": "Build starter toàn diện nhất, sát thương tốt khi di chuyển, không phụ thuộc vào trang bị đắt tiền để hoàn thành campaign và Atlas.",
-      "guides": [
+      "key": "0-5-0-return-of-the-ancients",
+      "label": "0.5.0 Return of the Ancients",
+      "patch": "0.5.0",
+      "name": "Return of the Ancients",
+      "updatedAt": "2026-11-05T13:54:56.600Z",
+      "builds": [
         {
-          "title": "Poison SRS Necromancer",
-          "url": "https://maxroll.gg/poe/build-guides/poison-srs-necromancer-league-starter"
+          "rank": 1,
+          "name": "Martial Artist Monk",
+          "class": "Monk / Martial Artist",
+          "tier": "S",
+          "playstyle": "All-Rounder",
+          "budget": "Thấp",
+          "difficulty": "Dễ",
+          "clear": 5,
+          "boss": 5,
+          "tank": 4,
+          "why": "Build mới mạnh nhất mùa 0.5.0, khả năng combo mạnh mẽ, không cần đầu tư nhiều vốn vẫn đạt hiệu quả cao.",
+          "guides": [
+            {
+              "title": "PoE2 Best Beginner Starter Builds — 0.5.0 Return of the Ancients",
+              "url": "https://poe2settings.com/guides/poe2-beginner-builds"
+            }
+          ],
+          "id": "0-5-0-return-of-the-ancients-martial-artist-monk",
+          "season": "0.5.0 Return of the Ancients"
         },
         {
-          "title": "BalorMage's Poison Summon Raging Spirits Necromancer Build Guide",
-          "url": "https://www.poe-vault.com/guides/balormage-summon-raging-spirits-necromancer-build-guide"
-        }
-      ],
-      "id": "poison-summon-raging-spirits"
-    },
-    {
-      "rank": 2,
-      "name": "Winter Orb",
-      "class": "Elementalist",
-      "tier": "S",
-      "playstyle": "Speed Mapper",
-      "budget": "Thấp",
-      "difficulty": "Trung bình",
-      "clear": 5,
-      "boss": 3,
-      "tank": 3,
-      "why": "Được buff mạnh trong 3.29 với thêm đạn và khả năng đóng băng, là build clear map nhanh nhất hiện nay.",
-      "guides": [
+          "rank": 2,
+          "name": "Witch Minion",
+          "class": "Witch",
+          "tier": "S",
+          "playstyle": "All-Rounder",
+          "budget": "Thấp",
+          "difficulty": "Dễ",
+          "clear": 4,
+          "boss": 4,
+          "tank": 5,
+          "why": "An toàn nhất cho người mới bắt đầu, không cần trang bị đắt tiền, lối chơi triệu hồi giúp tập trung vào né tránh cơ chế.",
+          "guides": [
+            {
+              "title": "PoE2 Best Beginner Starter Builds — 0.5.0 Return of the Ancients",
+              "url": "https://poe2settings.com/guides/poe2-beginner-builds"
+            }
+          ],
+          "id": "0-5-0-return-of-the-ancients-witch-minion",
+          "season": "0.5.0 Return of the Ancients"
+        },
         {
-          "title": "Winter Orb Elementalist",
-          "url": "https://maxroll.gg/poe/build-guides/winter-orb-elementalist-league-starter"
-        }
-      ],
-      "id": "winter-orb"
-    },
-    {
-      "rank": 3,
-      "name": "Righteous Fire",
-      "class": "Chieftain",
-      "tier": "S",
-      "playstyle": "Tanker",
-      "budget": "Thấp",
-      "difficulty": "Dễ",
-      "clear": 4,
-      "boss": 3,
-      "tank": 5,
-      "why": "Lựa chọn an toàn nhất cho người mới, cực kỳ trâu bò và lối chơi đơn giản, ít thao tác.",
-      "guides": [],
-      "id": "righteous-fire"
-    },
-    {
-      "rank": 4,
-      "name": "Earthshatter",
-      "class": "Berserker",
-      "tier": "S",
-      "playstyle": "All-Rounder",
-      "budget": "Thấp",
-      "difficulty": "Trung bình",
-      "clear": 4,
-      "boss": 4,
-      "tank": 3,
-      "why": "Tiến trình melee nhanh, sát thương tốt với ngân sách thấp, phù hợp cho người chơi thích phong cách cận chiến.",
-      "guides": [
+          "rank": 3,
+          "name": "Twister Huntress",
+          "class": "Huntress",
+          "tier": "A",
+          "playstyle": "Speed Mapper",
+          "budget": "Thấp",
+          "difficulty": "Trung bình",
+          "clear": 5,
+          "boss": 4,
+          "tank": 2,
+          "why": "Tốc độ dọn dẹp cực nhanh và khả năng thăng tiến sức mạnh tốt, rất hiệu quả để cày cuốc giai đoạn đầu.",
+          "guides": [
+            {
+              "title": "PoE 2 Return of the Ancients Best League Starter Builds Guide",
+              "url": "https://nexttier.pro/guide/poe-2-return-of-the-ancients-best-league-starter-builds"
+            }
+          ],
+          "id": "0-5-0-return-of-the-ancients-twister-huntress",
+          "season": "0.5.0 Return of the Ancients"
+        },
         {
-          "title": "Earthshatter",
-          "url": "https://maxroll.gg/poe/build-guides/earthshatter-slayer-league-starter"
+          "rank": 4,
+          "name": "Stormweaver",
+          "class": "Elementalist archetype",
+          "tier": "A",
+          "playstyle": "All-Rounder",
+          "budget": "Thấp",
+          "difficulty": "Dễ",
+          "clear": 4,
+          "boss": 4,
+          "tank": 3,
+          "why": "Build caster cực kỳ tiết kiệm, phù hợp cho SSF và người chơi mới nhờ khả năng sử dụng trang bị tự tìm.",
+          "guides": [
+            {
+              "title": "PoE2 Best Beginner Starter Builds — 0.5.0 Return of the Ancients",
+              "url": "https://poe2settings.com/guides/poe2-beginner-builds"
+            }
+          ],
+          "id": "0-5-0-return-of-the-ancients-stormweaver",
+          "season": "0.5.0 Return of the Ancients"
+        },
+        {
+          "rank": 5,
+          "name": "Glacial Cascade Monk",
+          "class": "Monk",
+          "tier": "A",
+          "playstyle": "All-Rounder",
+          "budget": "Thấp",
+          "difficulty": "Trung bình",
+          "clear": 5,
+          "boss": 4,
+          "tank": 3,
+          "why": "Khả năng đóng băng kẻ địch mạnh mẽ, dọn dẹp bản đồ nhanh và sát thương boss tốt.",
+          "guides": [
+            {
+              "title": "PoE 2 Return of the Ancients Best League Starter Builds Guide",
+              "url": "https://nexttier.pro/guide/poe-2-return-of-the-ancients-best-league-starter-builds"
+            }
+          ],
+          "id": "0-5-0-return-of-the-ancients-glacial-cascade-monk",
+          "season": "0.5.0 Return of the Ancients"
+        },
+        {
+          "rank": 6,
+          "name": "Pathfinder Poison",
+          "class": "Pathfinder",
+          "tier": "A",
+          "playstyle": "Boss Killer",
+          "budget": "Trung bình",
+          "difficulty": "Trung bình",
+          "clear": 4,
+          "boss": 5,
+          "tank": 3,
+          "why": "Sát thương theo thời gian (DoT) cực mạnh, khả năng chuyển đổi sang late-game bosser rất mượt mà.",
+          "guides": [
+            {
+              "title": "PoE2 Best Beginner Starter Builds — 0.5.0 Return of the Ancients",
+              "url": "https://poe2settings.com/guides/poe2-beginner-builds"
+            }
+          ],
+          "id": "0-5-0-return-of-the-ancients-pathfinder-poison",
+          "season": "0.5.0 Return of the Ancients"
+        },
+        {
+          "rank": 7,
+          "name": "Deadeye Lightning Arrow",
+          "class": "Deadeye",
+          "tier": "A",
+          "playstyle": "Speed Mapper",
+          "budget": "Trung bình",
+          "difficulty": "Trung bình",
+          "clear": 5,
+          "boss": 3,
+          "tank": 2,
+          "why": "Vua tốc độ dọn map, phù hợp cho người chơi có kinh nghiệm muốn farm nhanh, nhưng cần đầu tư trang bị để đánh boss.",
+          "guides": [
+            {
+              "title": "PoE2 Best Beginner Starter Builds — 0.5.0 Return of the Ancients",
+              "url": "https://poe2settings.com/guides/poe2-beginner-builds"
+            }
+          ],
+          "id": "0-5-0-return-of-the-ancients-deadeye-lightning-arrow",
+          "season": "0.5.0 Return of the Ancients"
+        },
+        {
+          "rank": 8,
+          "name": "Warrior Stun",
+          "class": "Warrior",
+          "tier": "B",
+          "playstyle": "Tanker",
+          "budget": "Thấp",
+          "difficulty": "Dễ",
+          "clear": 3,
+          "boss": 3,
+          "tank": 5,
+          "why": "Build trâu bò, khả năng khống chế stun kẻ địch tốt, rất ổn định cho việc mapping cơ bản.",
+          "guides": [
+            {
+              "title": "PoE2 Best Beginner Starter Builds — 0.5.0 Return of the Ancients",
+              "url": "https://poe2settings.com/guides/poe2-beginner-builds"
+            }
+          ],
+          "id": "0-5-0-return-of-the-ancients-warrior-stun",
+          "season": "0.5.0 Return of the Ancients"
         }
       ],
-      "id": "earthshatter"
+      "notes": "Meta mùa 0.5.0 tập trung vào việc tận dụng các thay đổi trên cây Passive Tree mới và cơ chế Runes of Aldur. Các build starter nên ưu tiên khả năng tự cung tự cấp (SSF-friendly) và không phụ thuộc quá nhiều vào trang bị Unique đắt đỏ.",
+      "sources": [
+        "https://nexttier.pro/guide/poe-2-return-of-the-ancients-best-league-starter-builds",
+        "https://www.ign.com/articles/poe2-return-of-the-ancients-tier-list-build-guides",
+        "https://poe2settings.com/guides/poe2-beginner-builds"
+      ],
+      "model": "gemini-3.1-flash-lite"
     },
     {
-      "rank": 5,
-      "name": "Kinetic Fusillade Ballista",
-      "class": "Hierophant",
-      "tier": "S",
-      "playstyle": "Boss Killer",
-      "budget": "Thấp",
-      "difficulty": "Dễ",
-      "clear": 3,
-      "boss": 5,
-      "tank": 3,
-      "why": "Lối chơi đặt totem an toàn, sát thương boss cực mạnh, rất rẻ để bắt đầu mùa giải.",
-      "guides": [
+      "key": "3-29-0-curse-of-the-allflame",
+      "label": "3.29.0 Curse of the Allflame",
+      "updatedAt": "2026-11-05T13:02:03.558Z",
+      "builds": [
         {
-          "title": "Kinetic Fusillade Ballista",
-          "url": "https://maxroll.gg/poe/build-guides/kinetic-fusillade-ballista-hierophant-league-starter"
+          "rank": 1,
+          "name": "Poison Summon Raging Spirits",
+          "class": "Necromancer",
+          "tier": "S",
+          "playstyle": "All-Rounder",
+          "budget": "Thấp",
+          "difficulty": "Dễ",
+          "clear": 4,
+          "boss": 5,
+          "tank": 4,
+          "why": "Build starter toàn diện nhất, sát thương tốt khi di chuyển, không phụ thuộc vào trang bị đắt tiền để hoàn thành campaign và Atlas.",
+          "guides": [
+            {
+              "title": "Poison SRS Necromancer",
+              "url": "https://maxroll.gg/poe/build-guides/poison-srs-necromancer-league-starter"
+            },
+            {
+              "title": "BalorMage's Poison Summon Raging Spirits Necromancer Build Guide",
+              "url": "https://www.poe-vault.com/guides/balormage-summon-raging-spirits-necromancer-build-guide"
+            }
+          ],
+          "id": "poison-summon-raging-spirits"
+        },
+        {
+          "rank": 2,
+          "name": "Winter Orb",
+          "class": "Elementalist",
+          "tier": "S",
+          "playstyle": "Speed Mapper",
+          "budget": "Thấp",
+          "difficulty": "Trung bình",
+          "clear": 5,
+          "boss": 3,
+          "tank": 3,
+          "why": "Được buff mạnh trong 3.29 với thêm đạn và khả năng đóng băng, là build clear map nhanh nhất hiện nay.",
+          "guides": [
+            {
+              "title": "Winter Orb Elementalist",
+              "url": "https://maxroll.gg/poe/build-guides/winter-orb-elementalist-league-starter"
+            }
+          ],
+          "id": "winter-orb"
+        },
+        {
+          "rank": 3,
+          "name": "Righteous Fire",
+          "class": "Chieftain",
+          "tier": "S",
+          "playstyle": "Tanker",
+          "budget": "Thấp",
+          "difficulty": "Dễ",
+          "clear": 4,
+          "boss": 3,
+          "tank": 5,
+          "why": "Lựa chọn an toàn nhất cho người mới, cực kỳ trâu bò và lối chơi đơn giản, ít thao tác.",
+          "guides": [],
+          "id": "righteous-fire"
+        },
+        {
+          "rank": 4,
+          "name": "Earthshatter",
+          "class": "Berserker",
+          "tier": "S",
+          "playstyle": "All-Rounder",
+          "budget": "Thấp",
+          "difficulty": "Trung bình",
+          "clear": 4,
+          "boss": 4,
+          "tank": 3,
+          "why": "Tiến trình melee nhanh, sát thương tốt với ngân sách thấp, phù hợp cho người chơi thích phong cách cận chiến.",
+          "guides": [
+            {
+              "title": "Earthshatter",
+              "url": "https://maxroll.gg/poe/build-guides/earthshatter-slayer-league-starter"
+            }
+          ],
+          "id": "earthshatter"
+        },
+        {
+          "rank": 5,
+          "name": "Kinetic Fusillade Ballista",
+          "class": "Hierophant",
+          "tier": "S",
+          "playstyle": "Boss Killer",
+          "budget": "Thấp",
+          "difficulty": "Dễ",
+          "clear": 3,
+          "boss": 5,
+          "tank": 3,
+          "why": "Lối chơi đặt totem an toàn, sát thương boss cực mạnh, rất rẻ để bắt đầu mùa giải.",
+          "guides": [
+            {
+              "title": "Kinetic Fusillade Ballista",
+              "url": "https://maxroll.gg/poe/build-guides/kinetic-fusillade-ballista-hierophant-league-starter"
+            }
+          ],
+          "id": "kinetic-fusillade-ballista"
+        },
+        {
+          "rank": 6,
+          "name": "Storm Burst of Repulsion Totem",
+          "class": "Hierophant",
+          "tier": "S",
+          "playstyle": "All-Rounder",
+          "budget": "Thấp",
+          "difficulty": "Dễ",
+          "clear": 3,
+          "boss": 5,
+          "tank": 4,
+          "why": "Cơ chế totem giữ aggro giúp người chơi mới học đánh boss an toàn, hiệu quả cao với chi phí thấp.",
+          "guides": [
+            {
+              "title": "Storm Burst of Repulsion Totem",
+              "url": "https://maxroll.gg/poe/build-guides/storm-burst-of-repulsion-totem-hierophant-league-starter"
+            }
+          ],
+          "id": "storm-burst-of-repulsion-totem"
+        },
+        {
+          "rank": 7,
+          "name": "Penance Brand Ignite",
+          "class": "Elementalist",
+          "tier": "A",
+          "playstyle": "All-Rounder",
+          "budget": "Trung bình",
+          "difficulty": "Trung bình",
+          "clear": 4,
+          "boss": 4,
+          "tank": 3,
+          "why": "Cân bằng tốt giữa clear map và boss, cần lộ trình nâng cấp ignite chính xác.",
+          "guides": [
+            {
+              "title": "Penance Brand Ignite",
+              "url": "https://maxroll.gg/poe/build-guides/penance-brand-ignite-elementalist"
+            }
+          ],
+          "id": "penance-brand-ignite"
+        },
+        {
+          "rank": 8,
+          "name": "Lightning Arrow",
+          "class": "Deadeye",
+          "tier": "A",
+          "playstyle": "Speed Mapper",
+          "budget": "Trung bình",
+          "difficulty": "Trung bình",
+          "clear": 5,
+          "boss": 2,
+          "tank": 2,
+          "why": "Vua tốc độ farm map, cực tốt cho các nội dung như Legion, nhưng hơi mỏng manh.",
+          "guides": [
+            {
+              "title": "Lightning Arrow",
+              "url": "https://maxroll.gg/poe/build-guides/lightning-arrow-deadeye-league-starter"
+            }
+          ],
+          "id": "lightning-arrow"
         }
       ],
-      "id": "kinetic-fusillade-ballista"
-    },
-    {
-      "rank": 6,
-      "name": "Storm Burst of Repulsion Totem",
-      "class": "Hierophant",
-      "tier": "S",
-      "playstyle": "All-Rounder",
-      "budget": "Thấp",
-      "difficulty": "Dễ",
-      "clear": 3,
-      "boss": 5,
-      "tank": 4,
-      "why": "Cơ chế totem giữ aggro giúp người chơi mới học đánh boss an toàn, hiệu quả cao với chi phí thấp.",
-      "guides": [
-        {
-          "title": "Storm Burst of Repulsion Totem",
-          "url": "https://maxroll.gg/poe/build-guides/storm-burst-of-repulsion-totem-hierophant-league-starter"
-        }
-      ],
-      "id": "storm-burst-of-repulsion-totem"
-    },
-    {
-      "rank": 7,
-      "name": "Penance Brand Ignite",
-      "class": "Elementalist",
-      "tier": "A",
-      "playstyle": "All-Rounder",
-      "budget": "Trung bình",
-      "difficulty": "Trung bình",
-      "clear": 4,
-      "boss": 4,
-      "tank": 3,
-      "why": "Cân bằng tốt giữa clear map và boss, cần lộ trình nâng cấp ignite chính xác.",
-      "guides": [
-        {
-          "title": "Penance Brand Ignite",
-          "url": "https://maxroll.gg/poe/build-guides/penance-brand-ignite-elementalist"
-        }
-      ],
-      "id": "penance-brand-ignite"
-    },
-    {
-      "rank": 8,
-      "name": "Lightning Arrow",
-      "class": "Deadeye",
-      "tier": "A",
-      "playstyle": "Speed Mapper",
-      "budget": "Trung bình",
-      "difficulty": "Trung bình",
-      "clear": 5,
-      "boss": 2,
-      "tank": 2,
-      "why": "Vua tốc độ farm map, cực tốt cho các nội dung như Legion, nhưng hơi mỏng manh.",
-      "guides": [
-        {
-          "title": "Lightning Arrow",
-          "url": "https://maxroll.gg/poe/build-guides/lightning-arrow-deadeye-league-starter"
-        }
-      ],
-      "id": "lightning-arrow"
+      "notes": "Meta 3.29 Curse of the Allflame tập trung vào các build caster được buff và các lựa chọn minion/totem ổn định. Tránh build Luminary cho nhân vật đầu tiên do cơ chế Mercenary chưa ổn định.",
+      "sources": [
+        "https://maxroll.gg/poe/tierlists/league-starter-build-tier-list",
+        "https://expcarry.com/best-poe-3-29-allflame-builds",
+        "https://rank1gear.com/en/blog/poe-329-curse-of-the-allflame-league-start-tier-list",
+        "https://www.mtmmo.com/news/2288--poe-329-builds-tier-list-curse-of-the-allflame-league",
+        "https://www.poe-vault.com/guides/tag/cheap-budget-friendly-builds-for-path-of-exile"
+      ]
     }
   ],
-  "notes": "Meta 3.29 Curse of the Allflame tập trung vào các build caster được buff và các lựa chọn minion/totem ổn định. Tránh build Luminary cho nhân vật đầu tiên do cơ chế Mercenary chưa ổn định.",
-  "sources": [
-    "https://maxroll.gg/poe/tierlists/league-starter-build-tier-list",
-    "https://expcarry.com/best-poe-3-29-allflame-builds",
-    "https://rank1gear.com/en/blog/poe-329-curse-of-the-allflame-league-start-tier-list",
-    "https://www.mtmmo.com/news/2288--poe-329-builds-tier-list-curse-of-the-allflame-league",
-    "https://www.poe-vault.com/guides/tag/cheap-budget-friendly-builds-for-path-of-exile"
-  ],
-  "model": "gemini-3.1-flash-lite",
-  "updatedAt": "2026-11-05T13:02:03.558Z"
+  "updatedAt": "2026-11-05T13:54:56.600Z"
 }

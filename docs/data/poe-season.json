@@ -1,30 +1,24 @@
 {
-  "name": "Curse of the Allflame",
-  "patch": "3.29.0",
-  "start": "2026-07-24",
-  "end": "chưa công bố",
+  "name": "Return of the Ancients",
+  "patch": "0.5.0",
+  "start": "2026-05-29",
+  "end": "2026-12-11",
   "mechanics": [
     {
-      "name": "Voyage",
-      "desc": "Người chơi khám phá đáy biển cùng thuyền trưởng Valerie, sử dụng các đèn lồng Allflame để bảo vệ khỏi áp lực nước và thu thập kho báu."
-    },
-    {
-      "name": "Allflame Crafting",
-      "desc": "Sử dụng trái tim của con tàu The Sovereign để phân tách vật phẩm thành nhiều kết quả ma quái và chọn một kết quả để giữ lại."
+      "name": "Endgame Overhaul & Waystone Progression",
+      "desc": "Đại tu toàn diện hệ thống endgame cùng với việc làm lại Atlas Tree và điều chỉnh tiến trình Waystone."
     }
   ],
   "changes": [
-    "Hệ thống Socket được làm lại: Màu sắc socket không còn giới hạn loại ngọc, nhưng socket cùng màu sẽ tăng thêm Quality cho ngọc.",
-    "Cải tiến lớn cho Abyss và Legion, bao gồm làm lại phần thưởng và cơ chế hoạt động.",
-    "Cân bằng lại hơn 100 kỹ năng phép thuật (Spells) và cải thiện khả năng quản lý Mana cho các nhân vật sử dụng trượng.",
-    "Giới thiệu lớp Ascendancy mới cho Scion là Luminary, cho phép thuê Mercenary làm đồng minh vĩnh viễn."
+    "Đại tu toàn diện hệ thống endgame",
+    "Làm lại Atlas Tree (Atlas Tree rework)",
+    "Điều chỉnh tiến trình Waystone (revised Waystone progression)",
+    "Bổ sung gần 200 skill gem mới gồm active skills, supports và companion abilities cho tất cả archetype của class"
   ],
-  "next": "chưa có thông tin",
+  "next": "Phiên bản 1.0 full release (dự kiến vào cuối năm 2026, không có patch 0.6.0)",
   "sources": [
-    "https://www.pathofexile.com/forum/view-thread/3985332",
-    "https://www.pathofexile.com/forum/view-thread/3986665",
-    "https://www.poebuilds.net/post/path-of-exile-3-29-curse-of-the-allflame"
+    "https://ggseason.com/blog/path-of-exile-2-all-leagues-dates/"
   ],
-  "model": "gemini-3.1-flash-lite",
-  "updatedAt": "2026-11-05T13:01:04.151Z"
+  "model": "gemini-3.8-flash",
+  "updatedAt": "2026-11-05T13:53:15.855Z"
 }
