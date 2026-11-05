@@ -1,0 +1,170 @@
+{
+  "season": "Torchlight: Infinite SS14 Tartarus",
+  "builds": [
+    {
+      "rank": 1,
+      "name": "Sing with the Tide",
+      "class": "Selena 1",
+      "tier": "S",
+      "playstyle": "All-Rounder",
+      "budget": "Thấp",
+      "difficulty": "Dễ",
+      "clear": 5,
+      "boss": 4,
+      "tank": 3,
+      "why": "Được đánh giá là lựa chọn an toàn nhất, hiệu quả cả ở giai đoạn khởi đầu lẫn endgame, khả năng farm currency cực tốt.",
+      "guides": [
+        {
+          "title": "Selena 1 - Sing with the Tide",
+          "url": "https://tlifaq.pages.dev/hero/selena_01/"
+        }
+      ],
+      "id": "sing-with-the-tide"
+    },
+    {
+      "rank": 2,
+      "name": "Wind Stalker",
+      "class": "Erika 1",
+      "tier": "S",
+      "playstyle": "Speed Mapper",
+      "budget": "Trung bình",
+      "difficulty": "Trung bình",
+      "clear": 5,
+      "boss": 3,
+      "tank": 2,
+      "why": "Tốc độ farm currency nhanh nhất giai đoạn đầu, rất mạnh cho người chơi thích lối chơi cơ động.",
+      "guides": [
+        {
+          "title": "Erika 1 - Wind Stalker",
+          "url": "https://tlifaq.pages.dev/hero/erika_01/"
+        }
+      ],
+      "id": "wind-stalker"
+    },
+    {
+      "rank": 3,
+      "name": "Spacetime Elapse",
+      "class": "Youga 2",
+      "tier": "S",
+      "playstyle": "Boss Killer",
+      "budget": "Thấp",
+      "difficulty": "Dễ",
+      "clear": 3,
+      "boss": 5,
+      "tank": 3,
+      "why": "Build DoT (Damage over time) cực kỳ hiệu quả để hạ gục boss với chi phí đầu tư thấp.",
+      "guides": [
+        {
+          "title": "Youga 2 - Spacetime Elapse",
+          "url": "https://tlifaq.pages.dev/hero/youga_02/"
+        }
+      ],
+      "id": "spacetime-elapse"
+    },
+    {
+      "rank": 4,
+      "name": "The Ultimate One",
+      "class": "Youga 3",
+      "tier": "S",
+      "playstyle": "All-Rounder",
+      "budget": "Trung bình",
+      "difficulty": "Trung bình",
+      "clear": 4,
+      "boss": 4,
+      "tank": 3,
+      "why": "Trait mới mạnh mẽ với cơ chế auto-cast, là tâm điểm của meta SS14 Tartarus.",
+      "guides": [
+        {
+          "title": "Youga 3 - The Ultimate One",
+          "url": "https://tlifaq.pages.dev/hero/youga_03/"
+        }
+      ],
+      "id": "the-ultimate-one"
+    },
+    {
+      "rank": 5,
+      "name": "Blasphemer",
+      "class": "Thea 3",
+      "tier": "S",
+      "playstyle": "All-Rounder",
+      "budget": "Trung bình",
+      "difficulty": "Trung bình",
+      "clear": 4,
+      "boss": 4,
+      "tank": 3,
+      "why": "Khả năng gây sát thương Erosion ổn định, chuyển đổi tốt sang các nội dung boss khó.",
+      "guides": [],
+      "id": "blasphemer"
+    },
+    {
+      "rank": 6,
+      "name": "Frostbitten Heart",
+      "class": "Gemma 2",
+      "tier": "A",
+      "playstyle": "All-Rounder",
+      "budget": "Thấp",
+      "difficulty": "Dễ",
+      "clear": 4,
+      "boss": 3,
+      "tank": 3,
+      "why": "Lối chơi nguyên tố cơ bản, dễ tiếp cận và có tiềm năng phát triển mạnh khi có gear.",
+      "guides": [
+        {
+          "title": "Gemma 2 - Frostbitten Heart",
+          "url": "https://tlifaq.pages.dev/hero/gemma_02/"
+        }
+      ],
+      "id": "frostbitten-heart"
+    },
+    {
+      "rank": 7,
+      "name": "Seething Silhouette",
+      "class": "Rehan 2",
+      "tier": "S",
+      "playstyle": "All-Rounder",
+      "budget": "Trung bình",
+      "difficulty": "Trung bình",
+      "clear": 4,
+      "boss": 4,
+      "tank": 4,
+      "why": "Mặc dù bị nerf nhẹ nhưng vẫn là một lựa chọn melee cực kỳ mạnh mẽ và ổn định cho endgame.",
+      "guides": [
+        {
+          "title": "Rehan 2 - Seething Silhouette",
+          "url": "https://tlifaq.pages.dev/hero/rehan_02/"
+        }
+      ],
+      "id": "seething-silhouette"
+    },
+    {
+      "rank": 8,
+      "name": "Vigilant Breeze",
+      "class": "Iris 2",
+      "tier": "A",
+      "playstyle": "All-Rounder",
+      "budget": "Cao",
+      "difficulty": "Khó",
+      "clear": 4,
+      "boss": 4,
+      "tank": 3,
+      "why": "Build triệu hồi mạnh mẽ, tuy nhiên cần hiểu biết về cơ chế Magus nên độ khó cao hơn.",
+      "guides": [
+        {
+          "title": "Iris 2 - Vigilant Breeze",
+          "url": "https://tlifaq.pages.dev/hero/iris_02/"
+        }
+      ],
+      "id": "vigilant-breeze"
+    }
+  ],
+  "notes": "Mùa SS14 Tartarus tập trung vào cơ chế ngục tù mới. Người chơi nên ưu tiên các build có khả năng clear map nhanh để farm currency trước khi đầu tư vào các build endgame đắt đỏ như Rosa 2 hay Bing 1.",
+  "sources": [
+    "https://tlifaq.pages.dev/",
+    "https://musabots.com/blog/torchlight-infinite-tier-list",
+    "https://www.torchlightinfinitewiki.wiki/builds/Torchlight-Infinite-Tartarus-builds",
+    "https://torchlightinfinitegame.wiki/rankings/tartarus-tier-list/",
+    "https://www.u4n.com/news/torchlight-infinite-ss14-starter-builds-on-a-budget.html"
+  ],
+  "model": "gemini-3.1-flash-lite",
+  "updatedAt": "2026-11-05T12:46:01.394Z"
+}

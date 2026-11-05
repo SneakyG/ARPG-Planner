@@ -1,0 +1,11 @@
+{
+  "id": "winter-orb-elementalist",
+  "game": "poe",
+  "name": "Winter Orb Elementalist",
+  "markdown": "Dưới đây là thông tin về build **Winter Orb Elementalist** dành cho người chơi bắt đầu mùa giải (League Starter) trong Path of Exile 3.29.0:\n\n### Tổng quan về Build\n*   **Lối chơi (Playstyle):** Speed Mapper (Máy dọn bản đồ). Winter Orb là kỹ năng Channeling tự động nhắm mục tiêu, kết hợp với các vụ nổ từ Herald of Ice tạo ra tốc độ dọn quái rất nhanh và thỏa mãn.\n*   **Đặc điểm:** Sử dụng Elementalist Ascendancy để tận dụng Golems (Liege of the Primordial) nhằm tăng sát thương và tiện ích. Khả năng phòng thủ dựa trên đóng băng (Freeze), hồi phục máu, Energy Shield Leech, và về sau là đạt ngưỡng Block/Spell Block tối đa.\n\n### Trang bị và Cơ chế\n*   **Vũ khí:** Ưu tiên gậy (Wand) có các chỉ số: +1 Level to all Cold Spell Skill Gems, Flat Elemental Damage to Spells, Spell Damage và Cast Speed. **Mystic Refractor** là vũ khí tốt nhất (BiS) có thể trang bị từ cấp 34 (ưu tiên loại có +3 Projectiles).\n*   **Phòng thủ:** \n    *   Giai đoạn đầu: Sử dụng khiên có tỉ lệ Block cao (~40%).\n    *   Giai đoạn cuối: Cần **The Red Nightmare** và **Svalinn** để đạt ngưỡng Block tối đa.\n*   **Các trang bị hỗ trợ tốt:** Kikazaru (hồi máu/giảm hiệu ứng nguyền rủa), Eye of Malice (tăng sát thương lên mục tiêu có kháng lạnh âm), Death Rush (cho tốc độ khi dọn map).\n*   **Lưu ý:** Cần chú ý chỉ số Dexterity (có thể dùng Carefull Planning để giải quyết) và giữ kháng nguyên tố (Elemental Resistance) ở mức tối đa.\n\n### Lưu ý về ngân sách (League Starter)\n*   Build không yêu cầu bất kỳ trang bị Unique nào để vận hành.\n*   Có thể bắt đầu sử dụng kỹ năng chính Winter Orb từ cấp 31.\n*   Sử dụng công thức chế tạo (Vendor Recipe) để lấy 10% Movement Speed trên giày nếu không tìm được đồ tốt.\n*   Sử dụng công cụ **Craft of Exile** để mô phỏng chế tạo đồ mà không lãng phí tiền tệ trong game.\n\n### Code/Link PoB\nChưa có code công khai trong nguồn.\n\n### Lợi nhuận\nNguồn không nêu số liệu lợi nhuận cụ thể. Mọi ước tính về lợi nhuận từ việc farm (nếu có) đều là ước tính.\n\n### Nguồn\n*   https://maxroll.gg/poe/build-guides/winter-orb-elementalist-league-starter",
+  "sources": [
+    "https://maxroll.gg/poe/build-guides/winter-orb-elementalist-league-starter"
+  ],
+  "model": "gemini-3.1-flash-lite",
+  "updatedAt": "2026-11-05T12:41:42.323Z"
+}

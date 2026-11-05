@@ -1,0 +1,31 @@
+{
+  "name": "Tartarus",
+  "patch": "SS14",
+  "start": "2026-10-16",
+  "end": "2027-01-15 (ước tính)",
+  "mechanics": [
+    {
+      "name": "Tartarus prison management",
+      "desc": "Hệ thống quản lý nhà tù Tartarus với đấu trường boss tùy chỉnh gồm 16 ô."
+    },
+    {
+      "name": "Follower System",
+      "desc": "Hệ thống người đồng hành mới cho phép thuê bạn đồng hành từ các bộ tộc sói, chuột, sư tử và voi."
+    }
+  ],
+  "changes": [
+    "Giới thiệu cơ chế Tartarus với độ khó endgame gồm 6 cấp độ",
+    "Cập nhật Hero Trait mới cho Youga: Spacetime Witness với ba nhánh chuyên môn",
+    "Điều chỉnh cân bằng hệ thống Hero và kỹ năng",
+    "Làm mới phần thưởng và cơ chế Netherrealm"
+  ],
+  "next": "SS15 dự kiến ra mắt vào ngày 15 tháng 1 năm 2027",
+  "sources": [
+    "https://minmaxedarpg.com/games/tli/seasons/s14",
+    "https://seasonforge.online/games/torchlight-infinite/",
+    "https://pixelnitro.com/torchlight-infinite-season-14-build-guide-best-hero-traits-tier-list-and-progression-priority-2026-meta/",
+    "https://www.torchlightinfinitewiki.wiki/patch/Torchlight-Infinite-patch-notes"
+  ],
+  "model": "gemini-3.1-flash-lite",
+  "updatedAt": "2026-11-05T12:45:38.227Z"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Curse of the Allflame",
+  "patch": "3.29.0",
+  "start": "2026-07-24",
+  "end": "Chưa công bố (ước tính)",
+  "mechanics": [
+    {
+      "name": "Khám phá đáy biển & Voyage",
+      "desc": "Người chơi thu thập Chart tại Wraeclast để lên tàu The Sovereign và lặn xuống đáy biển, nơi đèn lồng Allflame bảo vệ khỏi sóng dữ để thu thập rương kho báu và Gold. Khi thu thập đủ Chart, người chơi có thể kết nối chúng trên Voyage Board để thực hiện Voyage đường dài và nhân bản phần thưởng."
+    },
+    {
+      "name": "Chế tạo Allflame & Tiền tệ Ducats",
+      "desc": "Đặt vật phẩm vào trái tim của tàu The Sovereign để phân tách thành nhiều kết quả linh hồn (ghostly outcomes) và chọn 1 kết quả giữ lại. Ngoài ra, tiền tệ Ducats thu thập từ đáy biển có thể dùng để biến đổi và tùy biến trang bị."
+    }
+  ],
+  "changes": [
+    "Thay đổi hệ thống Socket: Socket màu không còn giới hạn màu gem có thể lắp vào. Lắp gem vào socket trùng màu sẽ nhận thêm Quality cho gem đó.",
+    "Làm lại cơ chế Abyss: Vết nứt Abyssal được mở sẵn giải phóng năng lượng lên kẻ địch xung quanh; tiêu diệt kẻ địch bị ảnh hưởng sẽ thu hút các làn sóng quái Abyssal nổi lên.",
+    "Làm lại phần thưởng Legion: Sử dụng Enshrouding Crystals trên Unique Armour trong Domain of Timeless Conflict để tạo ra Vestigial Unique Items thay thế cho Incubator.",
+    "Đưa Mercenaries of Trarthus vào Core game và thêm Ascendancy mới cho Scion là Luminary, cho phép thuê vĩnh viễn Mercenary làm đồng minh chiến đấu và tùy chỉnh trang bị của họ.",
+    "Cân bằng lại Spellcaster và bổ sung các Exceptional Skill Gem mới thuộc nhóm Pacts (Pact of Beidat, Pact of Ghorr, Pact of K'tash, Pact of Lycia) rớt từ boss Beyond và Lycia."
+  ],
+  "next": "",
+  "sources": [
+    "https://www.pathofexile.com/forum/view-thread/3986665",
+    "https://www.pathofexile.com/forum/view-thread/3985332",
+    "https://www.poebuilds.net/post/path-of-exile-3-29-curse-of-the-allflame",
+    "https://pathofisildur.pl/poe1/patchnote/"
+  ],
+  "model": "gemini-3.6-flash",
+  "updatedAt": "2026-11-05T12:38:03.478Z"
+}

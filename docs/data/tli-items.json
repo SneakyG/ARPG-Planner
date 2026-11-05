@@ -1,0 +1,105 @@
+{
+  "kind": "ai",
+  "season": "Torchlight: Infinite SS14 Tartarus",
+  "items": [
+    {
+      "name": "Flame Elementium",
+      "category": "Currency",
+      "price": "",
+      "trend": "unknown",
+      "source": "",
+      "where": "Netherrealm, Tartarus Prison",
+      "why": "The primary currency for trading and high-tier gear upgrades."
+    },
+    {
+      "name": "Guillotine (Physical DMG base)",
+      "category": "Weapon",
+      "price": "2 - 15 FE",
+      "trend": "unknown",
+      "source": "",
+      "where": "Trade House / High-tier maps",
+      "why": "Essential for physical damage builds like Rehan to get an immediate DPS spike."
+    },
+    {
+      "name": "God of Might slates",
+      "category": "Slate",
+      "price": "",
+      "trend": "unknown",
+      "source": "",
+      "where": "Netherrealm",
+      "why": "Provides conditional strength and area damage, crucial for endgame scaling."
+    },
+    {
+      "name": "Compass items",
+      "category": "Compass",
+      "price": "",
+      "trend": "unknown",
+      "source": "https://www.torchlightinfinitewiki.wiki/economy/Torchlight-Infinite-currency",
+      "where": "Timemark progression",
+      "why": "Enhances map rewards and farming output; critical for efficient farming loops."
+    },
+    {
+      "name": "High-Armor Chest Armor with Double Strength",
+      "category": "Armor",
+      "price": "15 - 35 FE",
+      "trend": "unknown",
+      "source": "",
+      "where": "Trade House / Crafting",
+      "why": "Provides necessary baseline survivability for Time Mark 7 and 8 maps."
+    },
+    {
+      "name": "Optimized Crit / Strength Rings",
+      "category": "Trinket",
+      "price": "5 - 15 FE",
+      "trend": "unknown",
+      "source": "",
+      "where": "Trade House",
+      "why": "Mid-to-late game gear that boosts damage output significantly."
+    },
+    {
+      "name": "Flame Sand",
+      "category": "Currency",
+      "price": "",
+      "trend": "unknown",
+      "source": "https://www.g2g.com/categories/torchlight-infinite-items",
+      "where": "Netherrealm",
+      "why": "Core crafting material used for rerolling affixes."
+    },
+    {
+      "name": "Flame Dust",
+      "category": "Currency",
+      "price": "",
+      "trend": "unknown",
+      "source": "https://www.g2g.com/categories/torchlight-infinite-items",
+      "where": "Netherrealm",
+      "why": "Essential currency for basic crafting and trading."
+    },
+    {
+      "name": "Familiar Nexus",
+      "category": "Crafting Material",
+      "price": "",
+      "trend": "unknown",
+      "source": "https://www.g2g.com/categories/torchlight-infinite-items",
+      "where": "Netherrealm",
+      "why": "Used for advanced crafting and gear optimization."
+    },
+    {
+      "name": "Spiral Fossil",
+      "category": "Crafting Material",
+      "price": "",
+      "trend": "unknown",
+      "source": "https://www.g2g.com/categories/torchlight-infinite-items",
+      "where": "Netherrealm",
+      "why": "High-value crafting material for end-game gear."
+    }
+  ],
+  "notes": "Prices are estimates based on early-season progression. Always prioritize items that solve specific build bottlenecks (damage, defense, or clear speed) rather than hoarding. Liquidate surplus assets before the season ends.",
+  "sources": [
+    "https://www.torchlightinfinitewiki.wiki/seasons/Torchlight-Infinite-Tartarus",
+    "https://www.torchlightinfinitewiki.wiki/economy/Torchlight-Infinite-currency",
+    "https://torchlightinfinitegame.wiki/seasons/tartarus/",
+    "https://www.g2g.com/categories/torchlight-infinite-items"
+  ],
+  "model": "gemini-3.1-flash-lite",
+  "updatedAt": "2026-11-05T12:48:42.577Z"
+}

@@ -1,0 +1,67 @@
+{
+  "repo": "SneakyG/ARPG-Planner",
+  "ai": "gemini",
+  "status": {
+    "poe:items": {
+      "ok": true,
+      "at": "2026-11-05T12:37:43.816Z",
+      "info": "732 món",
+      "ms": 910
+    },
+    "poe:season": {
+      "ok": true,
+      "at": "2026-11-05T12:38:03.478Z",
+      "info": "",
+      "ms": 19662
+    },
+    "poe:builds": {
+      "ok": true,
+      "at": "2026-11-05T12:39:31.993Z",
+      "info": "8 build",
+      "ms": 88514
+    },
+    "poe:farm": {
+      "ok": true,
+      "at": "2026-11-05T12:40:28.586Z",
+      "info": "",
+      "ms": 52591
+    },
+    "poe:guides": {
+      "ok": true,
+      "at": "2026-11-05T12:45:19.406Z",
+      "info": "tạo 5, lỗi 0",
+      "ms": 286817
+    },
+    "tli:season": {
+      "ok": true,
+      "at": "2026-11-05T12:45:38.227Z",
+      "info": "",
+      "ms": 14818
+    },
+    "tli:builds": {
+      "ok": true,
+      "at": "2026-11-05T12:46:01.394Z",
+      "info": "8 build",
+      "ms": 19166
+    },
+    "tli:farm": {
+      "ok": false,
+      "at": "2026-11-05T12:48:08.029Z",
+      "error": "The operation was aborted due to timeout"
+    },
+    "tli:items": {
+      "ok": true,
+      "at": "2026-11-05T12:48:42.577Z",
+      "info": "10 món",
+      "ms": 30545
+    },
+    "tli:guides": {
+      "ok": true,
+      "at": "2026-11-05T12:55:28.938Z",
+      "info": "tạo 3, lỗi 2 (wind-stalker: The operation was aborted due to timeout; blasphemer: Gemini gemini-2.5-flash: HTTP 404 This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).)",
+      "ms": 402361
+    }
+  },
+  "guidesTopN": 5,
+  "updatedAt": "2026-11-05T12:55:32.943Z"
+}

@@ -1,0 +1,122 @@
+{
+  "season": "Path of Exile 3.29.0 Curse of the Allflame",
+  "stages": [
+    {
+      "key": "starter",
+      "title": "Giai đoạn khởi đầu (0 vốn)",
+      "budget": "0 Divine Orb",
+      "content": "Tier 1 - Tier 10 Maps",
+      "strategies": [
+        {
+          "name": "Alch & Go Essence Farming",
+          "where": "Bản đồ ngẫu nhiên",
+          "setup": "Atlas Passive tập trung vào các node Essence",
+          "steps": [
+            "Sử dụng Orbs of Alchemy lên bản đồ",
+            "Tiêu diệt các quái vật bị giam giữ bởi Essence",
+            "Bán Essence thu được để lấy Chaos Orb"
+          ],
+          "profit": "chưa có số liệu",
+          "requires": "Build có khả năng dọn quái ổn định",
+          "risk": "Thấp"
+        },
+        {
+          "name": "Destructive Play Boss Rushing",
+          "where": "Silo Maps (T14+)",
+          "setup": "Atlas Passive tập trung vào Maven và Boss map",
+          "steps": [
+            "Chạy map nhanh để gặp Boss",
+            "Sử dụng Maven để triệu hồi thêm Boss",
+            "Thu thập Astrolabes và Empowered Support Gems"
+          ],
+          "profit": "chưa có số liệu",
+          "requires": "Build có sát thương đơn mục tiêu tốt",
+          "risk": "Trung bình"
+        }
+      ]
+    },
+    {
+      "key": "mid",
+      "title": "Giai đoạn giữa (Tích lũy)",
+      "budget": "5-20 Divine Orb",
+      "content": "Tier 14 - Tier 16 Maps",
+      "strategies": [
+        {
+          "name": "Curse of the Allflame Farming",
+          "where": "Charts (Voyages)",
+          "setup": "Stockpile ít nhất 50 Charts, sử dụng Exalted Orbs để roll 6 modifiers",
+          "steps": [
+            "Sử dụng regex 'm q.*(1[1-9].|[2-9]..)%' để lọc Charts có 110% quantity",
+            "Chạy Charts để tìm Operative's Strongboxes và Message in a Bottle",
+            "Sử dụng Dead Man's Sulphur để reroll Border Modifiers tìm 'Rare Monsters drop an additional Divine Orb'"
+          ],
+          "profit": "chưa có số liệu",
+          "requires": "Build có khả năng sống sót tốt trong các vùng nước",
+          "risk": "Trung bình"
+        },
+        {
+          "name": "Harvest Juice Farming",
+          "where": "T16 Maps",
+          "setup": "Atlas Passive tập trung vào Harvest",
+          "steps": [
+            "Sử dụng Harvest Scarab of Doubling",
+            "Hoàn thành các khu vườn Harvest để thu thập Lifeforce",
+            "Bán Lifeforce để đổi lấy Divine Orb"
+          ],
+          "profit": "chưa có số liệu",
+          "requires": "Build có khả năng dọn quái nhanh",
+          "risk": "Thấp"
+        }
+      ]
+    },
+    {
+      "key": "end",
+      "title": "Giai đoạn cuối (Tối ưu hóa)",
+      "budget": "50+ Divine Orb",
+      "content": "T16+ Maps / Endgame Content",
+      "strategies": [
+        {
+          "name": "Divine Orb Border Modifier Strategy",
+          "where": "Voyages (Charts)",
+          "setup": "3x +5 Strongboxes, 1x Sea Pillars, 5x Increased Number of Rare Monsters",
+          "steps": [
+            "Reroll Border Modifiers cho đến khi có 'Rare Monsters drop an additional Divine Orb'",
+            "Sử dụng Strongboxes đã roll 'Stream of Monsters' và '3 Rare Monsters'",
+            "Tối đa hóa số lượng Rare Monsters trong map để nhận Divine Orb"
+          ],
+          "profit": "lên tới 105 Divine Orbs mỗi Voyage",
+          "requires": "Build DPS cao (30M+ DPS) và khả năng chống chịu cực tốt",
+          "risk": "Cao"
+        },
+        {
+          "name": "Abyss Farming",
+          "where": "T16 Maps",
+          "setup": "Abyss Scarab of Crystals và Abyssal Scarab of the Consort",
+          "steps": [
+            "Kích hoạt Abyss Pits",
+            "Sử dụng các node Atlas Passive để tăng số lượng quái và Abyss Pits",
+            "Thu thập Abyssal Jewels và các vật phẩm giá trị từ Abyss Boss"
+          ],
+          "profit": "chưa có số liệu",
+          "requires": "Build có khả năng dọn quái diện rộng",
+          "risk": "Trung bình"
+        }
+      ]
+    }
+  ],
+  "tips": [
+    "Sử dụng regex 'cannot drop|poss|bottle|divine|arca|oper|star|pantheon|lantern|4000 w|strongbo' để lọc các Charts giá trị.",
+    "Luôn ưu tiên Operative's Strongboxes nếu không tìm thấy Divine Orb Border Modifier.",
+    "Tận dụng hệ thống Mercenaries để tăng sát thương và khả năng sống sót.",
+    "Đừng quên sử dụng Scrying Orb để chuyển Divination Cards giá trị sang map dễ chạy."
+  ],
+  "sources": [
+    "https://maxroll.gg/poe/currency/curse-of-the-allflame-farming-strategy",
+    "https://maxroll.gg/poe/news/upcoming-changes-and-farming-strategies-in-3-29",
+    "https://www.iggm.com/news/poe-3-29-curse-of-the-allflame-top-10-meta-farming-strategies-you-should-try",
+    "https://www.mmoexp.com/News/path-of-exile-3-29-league-starter-guide-12-best-builds-to-farm-faster-and-progress-safely-in-curse-of-the-allflame.html",
+    "https://www.aoeah.com/news/4682--poe-329-best-atlas-tree--map-farming-strats-curse-of-the-allflame"
+  ],
+  "model": "gemini-3.1-flash-lite",
+  "updatedAt": "2026-11-05T12:40:28.586Z"
+}
