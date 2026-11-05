@@ -1,0 +1,12 @@
+{
+  "name": "arpg-planner",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Meta, build starter, farm và item trend cho Path of Exile và Torchlight: Infinite, chạy trên GitHub Pages",
+  "scripts": {
+    "update": "node scripts/update.js",
+    "update:prices": "node scripts/update.js --scope prices",
+    "preview": "node scripts/preview.js"
+  },
+  "engines": { "node": ">=18" }
+}

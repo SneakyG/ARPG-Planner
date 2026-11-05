@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>ARPG Planner</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Cormorant+Garamond:wght@600;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="app.css">
+</head>
+<body data-game="poe">
+<header class="bar">
+  <div class="wrap top">
+    <a class="brand" href="#/poe/builds">ARPG <span>Planner</span></a>
+    <div class="switch" role="tablist" aria-label="Chọn game">
+      <button id="g-poe" role="tab" data-g="poe">Path of Exile</button>
+      <button id="g-tli" role="tab" data-g="tli">Torchlight: Infinite</button>
+    </div>
+  </div>
+  <nav class="wrap tabs" aria-label="Trang">
+    <a data-p="season" href="#">Mùa giải</a>
+    <a data-p="builds" href="#">Build Starter</a>
+    <a data-p="farm" href="#">Farm</a>
+    <a data-p="items" href="#">Item Trend</a>
+    <a data-p="status" href="#/status" class="end">Trạng thái</a>
+  </nav>
+</header>
+<div id="banner" class="wrap" hidden></div>
+<main id="view" class="wrap" aria-live="polite"></main>
+<script src="md.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

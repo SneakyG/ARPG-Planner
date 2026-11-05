@@ -1,0 +1,469 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<style>body{margin:0}[hidden]{display:none!important}</style>
+<title>ARPG Planner</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Cormorant+Garamond:wght@600;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: sticky game switcher on top, one reading column, each game a full 3-part guide; tables scroll inside their own frame */
+:root{
+  --bg:#f3f1ee; --surface:#ffffff; --sunk:#ebe7e2; --fg:#1d1b1a; --muted:#625c57; --line:#d9d2ca;
+  --poe:#b4441a; --tli:#1f6f8b; --accent:var(--poe); --accent-ink:#ffffff;
+  --good:#2f7d4f; --warn:#a86a10; --bad:#b0302a;
+  --display:"Cormorant Garamond",Georgia,"Times New Roman",serif;
+  --body:"Be Vietnam Pro",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#13151b; --surface:#1b1e26; --sunk:#232733; --fg:#ece8e3; --muted:#a29b94; --line:#323745;
+  --poe:#f08a4b; --tli:#5cc3e0; --accent-ink:#13151b; --good:#6fcf97; --warn:#f2b45a; --bad:#f07a72; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#13151b; --surface:#1b1e26; --sunk:#232733; --fg:#ece8e3; --muted:#a29b94; --line:#323745;
+  --poe:#f08a4b; --tli:#5cc3e0; --accent-ink:#13151b; --good:#6fcf97; --warn:#f2b45a; --bad:#f07a72; color-scheme:dark}
+body[data-game="tli"]{--accent:var(--tli)}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.6}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--surface)}
+.wrap{max-width:820px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--surface);border-bottom:1px solid var(--line)}
+.bar .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;padding-block:10px}
+.brand{font-family:var(--display);font-size:22px;font-weight:700;letter-spacing:.02em;margin-right:auto}
+.brand span{color:var(--accent)}
+.switch{display:flex;background:var(--sunk);border-radius:999px;padding:3px;gap:2px}
+.switch button{font:600 13px var(--body);border:0;background:transparent;color:var(--muted);padding:7px 14px;border-radius:999px;cursor:pointer}
+.switch button[aria-selected="true"]{background:var(--accent);color:var(--accent-ink)}
+.switch button:focus-visible,.copy:focus-visible,.toc a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.profile{display:flex;flex-wrap:wrap;gap:6px;padding-block:14px 0}
+.chip{font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;padding:4px 10px;border-radius:999px;border:1px solid var(--line);color:var(--muted)}
+.chip.season{border-color:var(--accent);color:var(--accent)}
+main{padding-block:8px 48px}
+.hero{padding-block:18px 8px}
+.hero .eyebrow{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.hero h1{font-family:var(--display);font-size:clamp(32px,7vw,46px);line-height:1.05;margin:.15em 0 .2em;text-wrap:balance}
+.hero p{margin:0;color:var(--muted);max-width:62ch}
+.tier{display:inline-flex;align-items:center;gap:8px;margin-top:12px;font-weight:600}
+.tier b{white-space:nowrap;flex:none;font-family:var(--mono);background:var(--accent);color:var(--accent-ink);padding:2px 9px;border-radius:6px}
+.toc{display:flex;flex-wrap:wrap;gap:6px 14px;padding-block:14px;border-bottom:1px solid var(--line);font-size:14px}
+.toc a{color:var(--fg);text-decoration:none;border-bottom:1px solid var(--line)}
+section.part{padding-block:22px 4px}
+.part>h2{font-family:var(--display);font-size:28px;line-height:1.15;margin:0 0 4px;text-wrap:balance}
+.part>h2 small{display:block;font-family:var(--body);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:700}
+h3{font-size:17px;margin:22px 0 6px;display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+h3 .stage{font:600 11px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:1px 6px}
+h4{font-size:14px;margin:16px 0 4px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+ul{margin:4px 0 8px;padding-left:20px}
+li{margin:2px 0}
+li::marker{color:var(--accent)}
+.pc{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:560px){.pc{grid-template-columns:1fr}}
+.pc>div{min-width:0;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 14px}
+.pc h4{margin-top:4px}
+.pc .pro h4{color:var(--good)} .pc .con h4{color:var(--bad)}
+.tbl{overflow-x:auto;margin:6px 0 10px;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:14px;min-width:520px}
+th,td{text-align:left;padding:8px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);background:var(--sunk)}
+tr:last-child td{border-bottom:0}
+td.num,th.num{font-variant-numeric:tabular-nums;white-space:nowrap}
+code,.gem{font-family:var(--mono);font-size:.88em}
+.gem{background:var(--sunk);padding:1px 6px;border-radius:4px;white-space:nowrap}
+.codebox{position:relative;background:var(--sunk);border:1px solid var(--line);border-radius:10px;margin:8px 0}
+.codebox pre{margin:0;padding:14px 92px 14px 14px;font:13px/1.5 var(--mono);white-space:pre-wrap;word-break:break-all}
+.copy{position:absolute;top:8px;right:8px;font:600 12px var(--body);border:1px solid var(--accent);background:var(--surface);color:var(--accent);border-radius:6px;padding:5px 10px;cursor:pointer}
+.note{font-size:13px;color:var(--muted);border-left:3px solid var(--warn);padding:6px 12px;margin:10px 0;background:var(--surface);border-radius:0 8px 8px 0}
+.rot{counter-reset:r;list-style:none;padding-left:0}
+.rot li{counter-increment:r;display:grid;grid-template-columns:28px 1fr;gap:8px;margin:6px 0}
+.rot li::before{content:counter(r);font:600 13px var(--mono);color:var(--accent-ink);background:var(--accent);border-radius:50%;width:24px;height:24px;display:grid;place-items:center}
+.sources{font-size:13px;color:var(--muted);border-top:1px solid var(--line);margin-top:28px;padding-top:14px}
+.sources a{color:var(--muted)}
+a{color:var(--accent)}
+@media (prefers-reduced-motion:no-preference){.game{animation:in .25s ease-out}@keyframes in{from{opacity:.4;transform:translateY(4px)}to{opacity:1;transform:none}}}
+</style>
+
+<header class="bar">
+  <div class="wrap">
+    <div class="brand">ARPG <span>Planner</span></div>
+    <div class="switch" role="tablist" aria-label="Chọn game">
+      <button id="tab-poe" role="tab" aria-selected="true" aria-controls="poe" data-g="poe">Path of Exile</button>
+      <button id="tab-tli" role="tab" aria-selected="false" aria-controls="tli" data-g="tli">Torchlight: Infinite</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+<!-- ======================= PATH OF EXILE ======================= -->
+<div class="game" id="poe" role="tabpanel" aria-labelledby="tab-poe">
+  <div class="profile">
+    <span class="chip season">3.29 Curse of the Allflame</span>
+    <span class="chip">League Starter · 0 vốn</span>
+    <span class="chip">All-Rounder</span>
+  </div>
+  <div class="hero">
+    <div class="eyebrow">Marauder · Chieftain · tham chiếu Pohx</div>
+    <h1>Righteous Fire Chieftain</h1>
+    <p>Build chạy bằng máu: bật RF, đốt mọi thứ quanh mình, hồi máu nhanh hơn lượng máu tự đốt. Không cần một món đồ đắt tiền nào để vào red map.</p>
+    <div class="tier"><b>S-Tier</b> Đồng hạng build được chơi nhiều nhất mùa (≈4.4% ladder, tuần 11), vốn khởi đầu gần như bằng 0.</div>
+  </div>
+  <nav class="toc" aria-label="Mục lục PoE">
+    <a href="#poe-1">Phần 1 · Tổng quan</a><a href="#poe-2">Phần 2 · Lộ trình build</a><a href="#poe-3">Phần 3 · Farm Divine</a>
+  </nav>
+
+  <section class="part" id="poe-1">
+    <h2><small>Phần 1</small>Tổng quan &amp; Tier Rating</h2>
+    <ul>
+      <li><b>Playstyle:</b> All-Rounder thiên Tanker. Clear map tự động bằng aura cháy, boss bằng Fire Trap.</li>
+      <li><b>Ascendancy cốt lõi:</b> Hinekora, Death's Fury (scale Ignite + nổ xác) và Ramako, Sun's Light (dọn pack).</li>
+    </ul>
+    <div class="pc">
+      <div class="pro"><h4>Ưu điểm</h4><ul>
+        <li>Starter 0 vốn thật sự, chạy bằng rare nhặt đất.</li>
+        <li>Rất trâu: 90% max fire res, Life Regen 1.5k+/s, 5+ Endurance Charge.</li>
+        <li>Chơi nhàn, chỉ cần chạy xuyên pack.</li>
+      </ul></div>
+      <div class="con"><h4>Nhược điểm</h4><ul>
+        <li>Single-target thấp (≈2–4M DPS endgame).</li>
+        <li>Không khuyến nghị đánh Uber pinnacle.</li>
+        <li>Sợ map mod <i>No Regeneration</i> và <i>reduced Max Resistances</i>.</li>
+      </ul></div>
+    </div>
+  </section>
+
+  <section class="part" id="poe-2">
+    <h2><small>Phần 2</small>Lộ trình phát triển build</h2>
+
+    <h3><span class="stage">Starter</span>Campaign · Level 1 → 80</h3>
+    <h4>Gem links leveling</h4>
+    <div class="tbl"><table>
+      <thead><tr><th>Mốc</th><th>Kỹ năng</th><th>Links</th></tr></thead>
+      <tbody>
+        <tr><td class="num">Lv 1–12</td><td>Rolling Magma</td><td><span class="gem">Elemental Proliferation</span> → thêm <span class="gem">Combustion</span></td></tr>
+        <tr><td class="num">Lv 4+</td><td>Holy Flame Totem</td><td><span class="gem">Added Fire Damage</span> + <span class="gem">Summon Phantasm</span></td></tr>
+        <tr><td class="num">Act 2–3</td><td>Flame Wall · Flammability</td><td>Bắn xuyên Flame Wall để cộng dmg · <span class="gem">Flammability</span> + <span class="gem">Lifetap</span></td></tr>
+        <tr><td class="num">Act 3 (Library)</td><td>Armageddon Brand (tùy chọn)</td><td>Mở thêm Fire Trap 4-link (xem Mid-Game)</td></tr>
+        <tr><td class="num">Lv ~31+</td><td><b>Chuyển sang Righteous Fire</b></td><td>Nhận RF từ Yeena sau Act 2; bật khi Life Regen &gt; lượng đốt</td></tr>
+      </tbody>
+    </table></div>
+    <h4>Thiên phú theo mốc level</h4>
+    <div class="tbl"><table>
+      <thead><tr><th>Mốc</th><th>Ưu tiên</th></tr></thead>
+      <tbody>
+        <tr><td class="num">Lv 30</td><td>Cụm %Life + Life Regeneration quanh Marauder. Lab 1–2: <b>Ramako, Sun's Light</b>.</td></tr>
+        <tr><td class="num">Lv 60</td><td>Cụm Burning / Fire DoT, Max Fire Resistance, mastery +15% max Life nếu chest thiếu Life. Lab 3: <b>Hinekora, Death's Fury</b>.</td></tr>
+        <tr><td class="num">Lv 80</td><td>Endurance Charge, Chaos Res, hoàn thiện regen. Lab 4 theo PoB.</td></tr>
+      </tbody>
+    </table></div>
+    <ul>
+      <li><b>Bandit:</b> Kill all (+1 passive) hoặc Kraityn. <b>Pantheon:</b> Brine King + Ralakesh.</li>
+      <li><b>Đồ nhặt đất:</b> Life trên mọi slot › Fire Res (ưu tiên số 1) › All Res › Movement Speed boots › Life Regen › Chaos Res.</li>
+      <li><b>3.29:</b> mọi gem cắm được mọi socket; gem đúng màu socket được +10% Quality.</li>
+    </ul>
+
+    <h3><span class="stage">Mid-Game</span>Yellow → Red Maps</h3>
+    <h4>Thiết lập 6-Link &amp; phụ trợ</h4>
+    <div class="tbl"><table>
+      <thead><tr><th>Setup</th><th>Links (theo thứ tự ưu tiên)</th></tr></thead>
+      <tbody>
+        <tr><td><b>Righteous Fire</b> (6L)</td><td><span class="gem">Elemental Focus</span> <span class="gem">Burning Damage</span> <span class="gem">Efficacy</span>/<span class="gem">Inc. AoE</span> <span class="gem">Lifetap</span> <span class="gem">Swift Affliction</span></td></tr>
+        <tr><td><b>Fire Trap</b> (4L, boss)</td><td><span class="gem">Swift Affliction</span>/<span class="gem">Controlled Destruction</span> <span class="gem">Lifetap</span> <span class="gem">Trap and Mine Damage</span></td></tr>
+        <tr><td>Aura</td><td><span class="gem">Determination</span> <span class="gem">Vitality</span> <span class="gem">Purity of Elements</span></td></tr>
+        <tr><td>Di chuyển</td><td><span class="gem">Frostblink</span> (Act 1 → endgame) · Punishment cho pack rare</td></tr>
+      </tbody>
+    </table></div>
+    <h4>Unique giá rẻ nên có</h4>
+    <ul>
+      <li><b>Rise of the Phoenix</b> hoặc <b>Dawnbreaker</b> (shield, dễ đạt max res).</li>
+      <li><b>Cloak of Flame</b> (chest, giảm sát thương vật lý chính).</li>
+      <li><b>Immortal Flesh</b> (belt, flat Life Regen + Armour).</li>
+    </ul>
+    <h4>Mốc chỉ số cần đạt</h4>
+    <div class="tbl"><table>
+      <thead><tr><th>Chỉ số</th><th class="num">Mục tiêu</th><th>Ghi chú</th></tr></thead>
+      <tbody>
+        <tr><td>Max Fire Resistance</td><td class="num">90%</td><td>Chieftain kéo Cold/Lightning theo khi Fire đã cao</td></tr>
+        <tr><td>Fire / Cold / Lightning Res</td><td class="num">Cap + overcap</td><td>Overcap Fire để chịu curse</td></tr>
+        <tr><td>Chaos Resistance</td><td class="num">≥ 0% → 30%+</td><td>Từ ring, boots</td></tr>
+        <tr><td>Life Regeneration</td><td class="num">1,500+/s</td><td>Gloves tối đa 21% inc. Life Regen</td></tr>
+        <tr><td>Endurance Charges</td><td class="num">5+</td><td></td></tr>
+        <tr><td>DPS tối thiểu (RF + Fire Trap)</td><td class="num">≈1M</td><td>Mức tham khảo cho red maps</td></tr>
+      </tbody>
+    </table></div>
+
+    <h3><span class="stage">End-Game</span>T17 Maps</h3>
+    <h4>Trang bị Min-Max</h4>
+    <div class="tbl"><table>
+      <thead><tr><th>Slot</th><th>Món</th><th>Lý do</th></tr></thead>
+      <tbody>
+        <tr><td>Boots</td><td>Annihilation's Approach</td><td>Cần 90% max res + Rational Doctrine</td></tr>
+        <tr><td>Belt</td><td>Stygian Vise (Elder)</td><td>3.29: Stygian Vise chỉ drop từ Abyss</td></tr>
+        <tr><td>Helmet</td><td>Archdemon Crown</td><td>+2 gem level</td></tr>
+        <tr><td>Rings</td><td>Craft Essence of Delirium</td><td>Thêm damage</td></tr>
+        <tr><td>Shield</td><td>Shaper Armour shield, life recovery on block</td><td>Sống sót khi bị vây</td></tr>
+        <tr><td>Chest</td><td>Cloak of Flame</td><td>Giữ đến cuối, scale Ignite</td></tr>
+      </tbody>
+    </table></div>
+    <h4>PoB Link</h4>
+    <div class="codebox"><pre id="poe-code">https://pobb.in/PVpmRbFdxceP</pre><button class="copy" data-copy="poe-code">Copy</button></div>
+    <p class="note">PoB tham chiếu của Pohx, xuất bản cho 3.26. Mở bằng Path of Building Community (bản fork duy nhất còn bảo trì) rồi đối chiếu tree và Ascendancy với 3.29 trước khi đi theo.</p>
+    <h4>Playstyle &amp; Rotation</h4>
+    <ol class="rot">
+      <li>Bật RF ngay khi vào map, giữ flask uptime.</li>
+      <li>Chạy xuyên pack bằng Frostblink; đứng yên một nhịp để Ramako dọn pack.</li>
+      <li>Pack rare/blue: thả Punishment.</li>
+      <li>Boss: đặt Fire Trap liên tục, đứng trong vùng cháy.</li>
+      <li>Đọc mod trước khi chạy: bỏ qua map <i>No Regen</i> / <i>-Max Res</i>.</li>
+    </ol>
+  </section>
+
+  <section class="part" id="poe-3">
+    <h2><small>Phần 3</small>Chiến lược farm Divine Orb</h2>
+    <h3><span class="stage">Early</span>Vốn thấp · White/Yellow Maps</h3>
+    <ul>
+      <li>Nhặt <b>Lost Charts</b> ở mỗi zone campaign, dùng trên tàu Sovereign để chạy Voyage.</li>
+      <li>Speed map T1–T10, nhặt Essence và Abyssal Jewel. Abyss pit giờ tự mở và nạp linh hồn từ quái quanh đó.</li>
+      <li>Bán Essence, Legion Splinter (rơi stack lớn hơn ở 3.29) để mua Cloak of Flame + Immortal Flesh.</li>
+    </ul>
+    <h3><span class="stage">Mid</span>Vốn trung bình · Red Maps</h3>
+    <ul>
+      <li><b>Atlas Passive:</b> dồn vào Abyss + Legion + Essence. RF đủ trâu để đứng giữa Legion.</li>
+      <li>Abyss là nguồn duy nhất của Abyssal Jewel và Stygian Vise, giá ổn định.</li>
+      <li>Legion: phá 90% encounter là thả phần còn lại; Stygial Unique chỉ có ở Legion.</li>
+      <li>Dùng Allflame Crafting Bench (Vesper) để craft đồ bán.</li>
+    </ul>
+    <h3><span class="stage">High</span>Vốn cao · T17</h3>
+    <ul>
+      <li>Juice Abyss/Legion bằng Scarab, chỉ chạy T17 không có mod regen/max res.</li>
+      <li>Không tự đánh Uber: bán fragment/invitation thay vì chạy.</li>
+      <li>Săn Talisman từ Red Beast và Bestiary boss (giờ không mặc định bị corrupt, roll được Enchantment).</li>
+    </ul>
+    <div class="tbl"><table>
+      <thead><tr><th>Cấp độ</th><th>Nội dung</th><th class="num">Divine/giờ (ước tính)</th></tr></thead>
+      <tbody>
+        <tr><td>Early</td><td>Speed map + Essence + Voyage</td><td class="num">0.5–1.5</td></tr>
+        <tr><td>Mid</td><td>Red maps Abyss/Legion</td><td class="num">2–5</td></tr>
+        <tr><td>High</td><td>T17 juiced Abyss/Legion</td><td class="num">5–10+</td></tr>
+      </tbody>
+    </table></div>
+    <p class="note">Con số lợi nhuận là ước tính sơ bộ, dao động theo giá chợ. Kiểm tra giá thực tế trên poe.ninja trước khi đầu tư Scarab.</p>
+  </section>
+
+  <div class="sources">Nguồn:
+    <a href="https://ggseason.com/poe/">ggseason (lịch 3.29)</a> ·
+    <a href="https://guides-factory.com/guides/path-of-exile-329-best-builds-day-14-league-meta-tier-list">Guides Factory tier list</a> ·
+    <a href="https://mobalytics.gg/poe/builds/pohx-righteous-fire-chieftain">Mobalytics – Pohx RF</a> ·
+    <a href="https://poe-vault.com/guides/righteous-fire-chieftain-build-guide">PoE Vault – RF Chieftain</a>
+  </div>
+</div>
+
+<!-- ======================= TORCHLIGHT: INFINITE ======================= -->
+<div class="game" id="tli" role="tabpanel" aria-labelledby="tab-tli" hidden>
+  <div class="profile">
+    <span class="chip season">SS14 Tartarus</span>
+    <span class="chip">League Starter · 0 vốn</span>
+    <span class="chip">All-Rounder</span>
+  </div>
+  <div class="hero">
+    <div class="eyebrow">Tide Whisper Selena · Sing with the Tide (Selena 1)</div>
+    <h1>Wilting Beam Selena 1</h1>
+    <p>Caster Erosion DoT: channel tia Wilting Beam ngay cả khi đang chạy nhờ Bard form, chồng Affliction rồi Reaping để kết liễu.</p>
+    <div class="tier"><b>S-Tier</b> Starter caster dễ nhất mùa, sống được bằng đồ craft rare.</div>
+  </div>
+  <nav class="toc" aria-label="Mục lục TLI">
+    <a href="#tli-1">Phần 1 · Tổng quan</a><a href="#tli-2">Phần 2 · Lộ trình build</a><a href="#tli-3">Phần 3 · Farm FE</a>
+  </nav>
+
+  <section class="part" id="tli-1">
+    <h2><small>Phần 1</small>Tổng quan &amp; Tier Rating</h2>
+    <ul>
+      <li><b>Playstyle:</b> All-Rounder. Setup map (2 beam) và setup boss (1 beam cố định, dmg cao hơn) đổi nhanh bằng Build Code.</li>
+      <li><b>Vì sao không chọn Youga 3:</b> The Ultimate One (Clockwork Core tự cast spell, crit giảm cooldown) là S-Tier nhưng giá đồ cao vì cả server săn. Không hợp 0 vốn.</li>
+    </ul>
+    <div class="pc">
+      <div class="pro"><h4>Ưu điểm</h4><ul>
+        <li>Dễ chơi, channel trong lúc di chuyển.</li>
+        <li>Đồ craft rare ES là đủ để lên T8.</li>
+        <li>Đổi 2 support là chuyển từ clear sang boss.</li>
+      </ul></div>
+      <div class="con"><h4>Nhược điểm</h4><ul>
+        <li>Hai aura chính seal 100% Mana, cần Sealed Mana Compensation.</li>
+        <li>Phòng thủ dựa vào ES, mỏng ở đầu game.</li>
+        <li>Món min-max (Twilight Vestment, Revered Light) đắt.</li>
+      </ul></div>
+    </div>
+  </section>
+
+  <section class="part" id="tli-2">
+    <h2><small>Phần 2</small>Lộ trình phát triển build</h2>
+
+    <h3><span class="stage">Starter</span>Campaign · Level 1 → 80</h3>
+    <h4>Skill &amp; link tạm</h4>
+    <div class="tbl"><table>
+      <thead><tr><th>Mốc</th><th>Kỹ năng</th><th>Support</th></tr></thead>
+      <tbody>
+        <tr><td class="num">Đầu game</td><td>Spell khởi đầu của Selena → Wilting Beam ngay khi có</td><td><span class="gem">Cataclysm</span> <span class="gem">Spell Concentration</span></td></tr>
+        <tr><td class="num">Khi mở thêm slot</td><td>Wilting Beam</td><td>+ <span class="gem">Guard</span> (Barrier) + <span class="gem">Channeled Depths</span></td></tr>
+        <tr><td class="num">Phụ trợ</td><td>Entangled Pain (curse) · Swiftness Dew</td><td><span class="gem">Deepened Curse</span> <span class="gem">Extended Duration</span></td></tr>
+      </tbody>
+    </table></div>
+    <h4>Talent &amp; Hero Trait theo mốc</h4>
+    <div class="tbl"><table>
+      <thead><tr><th>Mốc</th><th>Talent / Trait</th></tr></thead>
+      <tbody>
+        <tr><td class="num">Lv 30</td><td>Goddess of Deception: <b>Affliction</b> (12) → <b>Subtle Impact</b> (24, DoT khi có Blur)</td></tr>
+        <tr><td class="num">Lv 45</td><td>Trait <b>Wave Aria</b>: rải Tide trên đường đi</td></tr>
+        <tr><td class="num">Lv 60</td><td>Psychic: <b>Windwalk</b> (DoT lên mục tiêu max Affliction) · Trait <b>Idyll of the Tide</b></td></tr>
+        <tr><td class="num">Lv 75–80</td><td>Trait <b>Murmurs of the Distant Tide</b> · Shadowmaster: <b>Twisted Belief</b> (+3 Erosion Skill Level, −5% max Erosion Res)</td></tr>
+        <tr><td class="num">Sau 80</td><td>Lich: <b>Off The Beaten Track</b> (+4 Support Skill Level). Tổng 105 điểm: 24/27/24/30.</td></tr>
+      </tbody>
+    </table></div>
+    <ul>
+      <li><b>Đồ nhặt đất:</b> Elemental Res + Erosion Res › Energy Shield › Movement Speed › Cast Speed.</li>
+      <li>Weapon: 2 Erosion scepter rare có Erosion/DoT/Skill Level.</li>
+    </ul>
+
+    <h3><span class="stage">Mid-Game</span>Netherrealm K7 → K8</h3>
+    <h4>Wilting Beam 5-support</h4>
+    <div class="tbl"><table>
+      <thead><tr><th>Slot</th><th>K7 (Clear)</th><th>K8 (Clear)</th><th>Boss</th></tr></thead>
+      <tbody>
+        <tr><td class="num">1</td><td>Cataclysm</td><td>Cataclysm</td><td>Cataclysm</td></tr>
+        <tr><td class="num">2</td><td>Spell Concentration</td><td>Spell Concentration</td><td>Spell Concentration</td></tr>
+        <tr><td class="num">3</td><td>Channeled Depths</td><td>Reflection (Magnificent)</td><td>Dispirit (Magnificent)</td></tr>
+        <tr><td class="num">4</td><td>Guard</td><td>Guard</td><td>Guard</td></tr>
+        <tr><td class="num">5</td><td>Shortened Duration</td><td>Rapid Completion (Noble)</td><td>Set Course (Noble)</td></tr>
+      </tbody>
+    </table></div>
+    <h4>Kỹ năng phụ &amp; Aura</h4>
+    <div class="tbl"><table>
+      <thead><tr><th>Skill</th><th>Support</th><th>Vai trò</th></tr></thead>
+      <tbody>
+        <tr><td>Entangled Pain</td><td>Deepened Curse · Extended Duration · Preparation</td><td>Curse, +39% DoT taken ở Lv 20</td></tr>
+        <tr><td>Aim</td><td>Preparation · Well-Fought Battle · Mass Effect · Extended Duration</td><td>Buff dmg Beam</td></tr>
+        <tr><td>Stoneskin</td><td>Preparation · Cooldown Reduction · Extended Duration</td><td>Phòng thủ</td></tr>
+        <tr><td>Swiftness Dew</td><td>Preparation · Hyper Metabolism · Extended Duration</td><td>Di chuyển</td></tr>
+        <tr><td>Deep Pain (aura)</td><td>Restrain · Aura Amplification</td><td>DoT, 50% Sealed Mana</td></tr>
+        <tr><td>Erosion Amplification (aura)</td><td>Restrain · Aura Amplification</td><td>Erosion dmg, 50% Sealed Mana</td></tr>
+      </tbody>
+    </table></div>
+    <h4>Legendary giá rẻ</h4>
+    <ul>
+      <li><b>Cold Breath</b> (helmet): ES từ Max Mana, đổi lại giảm Cold Res.</li>
+      <li><b>Light Hunter Belt</b>: lựa chọn phòng thủ rẻ.</li>
+      <li>Gloves/Boots/Body: craft rare ES là đủ ở giai đoạn này.</li>
+    </ul>
+    <h4>Mốc sinh tồn</h4>
+    <div class="tbl"><table>
+      <thead><tr><th>Chỉ số</th><th>Mục tiêu</th></tr></thead>
+      <tbody>
+        <tr><td>Elemental Resistance</td><td>Cap trước khi vào K8</td></tr>
+        <tr><td>Erosion Resistance</td><td>Bù lại −5% từ Twisted Belief</td></tr>
+        <tr><td>Energy Shield</td><td>Ưu tiên trên mọi slot armor</td></tr>
+        <tr><td>Sealed Mana</td><td>Tổng seal ≤ 100% sau compensation (Restrain)</td></tr>
+      </tbody>
+    </table></div>
+
+    <h3><span class="stage">End-Game</span>Deep Space · Divine Ascent</h3>
+    <h4>Trang bị Min-Max</h4>
+    <div class="tbl"><table>
+      <thead><tr><th>Slot</th><th>Món</th><th>Hiệu ứng chính</th></tr></thead>
+      <tbody>
+        <tr><td>Body</td><td>Twilight Vestment</td><td>+1 Active Skill Level, ES recharge khi Reaping</td></tr>
+        <tr><td>Ring</td><td>Revered Light / Traceless Pain</td><td>+1 Beam Level + thêm beam / DoT lớn</td></tr>
+        <tr><td>Belt</td><td>Polygonal Enclosure</td><td>Thêm beam, beam dài hơn</td></tr>
+        <tr><td>Gloves</td><td>Aeterna Martyr</td><td>Reaping Recovery Speed rất lớn</td></tr>
+        <tr><td>Boots</td><td>King's Boon</td><td>ES, Cold Res, Movement Speed, áp Ominous</td></tr>
+        <tr><td>Necklace</td><td>Decaying Blessing</td><td>Gói aura (giảm compensation)</td></tr>
+        <tr><td>Aura</td><td>Bản Precise của Deep Pain / Erosion Amplification</td><td>Nâng cấp khi dư Flame Elementium</td></tr>
+      </tbody>
+    </table></div>
+    <h4>Build Code</h4>
+    <div class="codebox"><pre id="tli-code">Chưa có Build Code công khai đã xác minh cho Wilting Beam Selena 1 (SS14).
+Dán code của bạn vào đây sau khi tạo trong game.</pre><button class="copy" data-copy="tli-code">Copy</button></div>
+    <p class="note">Nguồn guide SS14 (Odealo, cập nhật 26/10/2026) không kèm code. Khi tự tạo, lưu 2 code riêng: Map (Reflection + Rapid Completion) và Boss (Dispirit + Set Course).</p>
+    <h4>Playstyle &amp; Rotation</h4>
+    <ol class="rot">
+      <li>Mapping: channel beam liên tục, đi qua vùng Tide để kích Idyll of the Tide.</li>
+      <li>Trước mục tiêu khó: cast Entangled Pain.</li>
+      <li>Boss: bật Aim, Stoneskin, rồi channel với setup Set Course.</li>
+      <li>Dùng Swiftness Dew để né cơ chế; đổi aura sang Energy Fortress cho fight khó.</li>
+    </ol>
+  </section>
+
+  <section class="part" id="tli-3">
+    <h2><small>Phần 3</small>Chiến lược farm Flame Elementium</h2>
+    <h3><span class="stage">Early</span>Vốn thấp · K6</h3>
+    <ul>
+      <li>Hết Main Story để chọn Activation Medium; check-in nhận Legendary Pactspirit.</li>
+      <li>Speed map K6, bán nguyên liệu, giữ FE cho Reflection/Rapid Completion.</li>
+      <li>Bắt fugitive trong Netherrealm, thả vào Tartarus Prison (16 ô).</li>
+    </ul>
+    <h3><span class="stage">Mid</span>Vốn trung bình · K7–K8</h3>
+    <ul>
+      <li><b>Compass:</b> dồn vào cơ chế mùa Tartarus. Tù nhân ăn lẫn nhau để lớn dần, cuối cùng nổ thành Riot đầy loot.</li>
+      <li><b>Memory:</b> ưu tiên Erosion/DoT và ES.</li>
+      <li><b>Followers:</b> tuyển từ tù nhân. Poet cho combo "six curses" (chain lightning → paralysis → curses), rất hợp build DoT.</li>
+    </ul>
+    <h3><span class="stage">High</span>Vốn cao · Deep Space</h3>
+    <ul>
+      <li>Leo Divine Ascent (150 tầng, bỏ qua tối đa 5). Pactspirit thưởng nay ở tầng 50.</li>
+      <li>Chạy K8+ với setup 2 beam; đổi setup boss cho boss mùa.</li>
+      <li>Bán đồ craft dư cho người chơi Youga 3 đang khan hàng.</li>
+    </ul>
+    <div class="tbl"><table>
+      <thead><tr><th>Cấp độ</th><th>Nội dung</th><th class="num">FE/giờ (ước tính)</th></tr></thead>
+      <tbody>
+        <tr><td>Early</td><td>K6 speed map + Prison</td><td class="num">≈100–300</td></tr>
+        <tr><td>Mid</td><td>K7–K8 + Compass Tartarus</td><td class="num">≈300–800</td></tr>
+        <tr><td>High</td><td>Deep Space + Divine Ascent</td><td class="num">≈800–2,000+</td></tr>
+      </tbody>
+    </table></div>
+    <p class="note">Con số FE/giờ là ước tính sơ bộ, phụ thuộc giá chợ server. Kiểm tra giá trước khi đổ FE vào Compass.</p>
+  </section>
+
+  <div class="sources">Nguồn:
+    <a href="https://www.arpg-timeline.com/game/torchlite-infinite">ARPG Timeline (lịch SS14)</a> ·
+    <a href="https://tlifaq.pages.dev/">TLI FAQ – SS14 tier list</a> ·
+    <a href="https://www.vhpg.com/torchlight-infinite-tartarus-ss14-tier-list/">VHPG tier list</a> ·
+    <a href="https://odealo.com/articles/wilting-beam-selena-1-build-torchlight-infinite">Odealo – Wilting Beam Selena 1</a>
+  </div>
+</div>
+
+</main>
+
+<script>
+(function(){
+  var tabs=document.querySelectorAll('.switch button');
+  function show(g,push){
+    if(g!=='poe'&&g!=='tli')g='poe';
+    document.body.setAttribute('data-game',g);
+    tabs.forEach(function(b){b.setAttribute('aria-selected',b.dataset.g===g?'true':'false')});
+    document.getElementById('poe').hidden=g!=='poe';
+    document.getElementById('tli').hidden=g!=='tli';
+    try{localStorage.setItem('arpg-game',g)}catch(e){}
+    if(push&&location.hash!=='#'+g){try{history.replaceState(null,'','#'+g)}catch(e){}}
+  }
+  tabs.forEach(function(b){b.addEventListener('click',function(){show(b.dataset.g,true);window.scrollTo(0,0)})});
+  function fromHash(){
+    var h=location.hash.replace('#','');
+    if(h==='poe'||h==='tli'){show(h,false);return true}
+    if(/^poe-/.test(h)){show('poe',false);return false}
+    if(/^tli-/.test(h)){show('tli',false);return false}
+    return null;
+  }
+  window.addEventListener('hashchange',fromHash);
+  if(fromHash()===null){var s=null;try{s=localStorage.getItem('arpg-game')}catch(e){}show(s||'poe',false)}
+  document.querySelectorAll('.copy').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var el=document.getElementById(btn.dataset.copy),t=el.textContent;
+      function done(){btn.textContent='Đã copy';setTimeout(function(){btn.textContent='Copy'},1500)}
+      function fallback(){var r=document.createRange();r.selectNodeContents(el);var s=getSelection();s.removeAllRanges();s.addRange(r);btn.textContent='Đã chọn, nhấn Ctrl+C'}
+      try{navigator.clipboard.writeText(t).then(done,fallback)}catch(e){fallback()}
+    });
+  });
+})();
+</script>
+
+</html>

@@ -1,0 +1,58 @@
+{
+  "season": {
+    "name": "Tartarus",
+    "patch": "SS14",
+    "start": "2026-10-16",
+    "end": "Chưa công bố (ước tính giữa 01/2027)",
+    "mechanics": [
+      { "name": "Tartarus Prison", "desc": "16 ô giam; tù nhân ăn lẫn nhau để lớn dần, kết thúc bằng Riot đầy loot. Bắt fugitive trong Netherrealm." },
+      { "name": "Followers", "desc": "Lính đánh thuê tuyển từ tù nhân: tấn công, phòng thủ, debuff. Poet cho combo 'six curses'." },
+      { "name": "Youga 3 – The Ultimate One", "desc": "Spell gắn trên Clockwork Core tự cast; crit giảm cooldown." },
+      { "name": "Divine Ascent", "desc": "150 tầng, bỏ qua tối đa 5; thưởng Pactspirit dời từ tầng 35 lên 50." }
+    ],
+    "changes": ["Nerf: Rehan 2 (Berserk, Fury's Onslaught), Rosa 2 (elemental, Born to Cleanse), Selena 2 (Terra), Sage (Razor Leaf, Scattered Spore).", "Buff: Meteor base damage; Electric Overload 15% → 16%."],
+    "next": "SS15 chưa công bố; ước tính giữa tháng 01/2027.",
+    "sources": ["https://www.arpg-timeline.com/game/torchlite-infinite", "https://tlifaq.pages.dev/"],
+    "updatedAt": "2026-11-05T12:00:00.000Z"
+  },
+  "builds": {
+    "season": "Torchlight: Infinite SS14 Tartarus",
+    "notes": "Dữ liệu khởi tạo từ tier list SS14 (tlifaq, VHPG). Điểm Clear/Boss/Tank là đánh giá tham khảo. AI tra lại mỗi ngày.",
+    "builds": [
+      { "rank": 1, "id": "selena-1-wilting-beam", "name": "Wilting Beam Selena 1", "class": "Selena · Sing with the Tide", "tier": "S", "playstyle": "All-Rounder", "budget": "Thấp", "difficulty": "Dễ", "clear": 4, "boss": 4, "tank": 3, "why": "Caster dễ nhất mùa, channel khi chạy, đồ craft rare là đủ; có setup boss riêng.", "guides": [ { "title": "Odealo – Wilting Beam Selena 1", "url": "https://odealo.com/articles/wilting-beam-selena-1-build-torchlight-infinite" } ] },
+      { "rank": 2, "id": "erika-1-thunder-spike", "name": "Thunder Spike Erika 1", "class": "Erika · Wind Stalker", "tier": "S", "playstyle": "Speed Mapper", "budget": "Thấp", "difficulty": "Khó", "clear": 5, "boss": 3, "tank": 2, "why": "Farm tiền nhanh nhất đầu mùa; melee nên dễ chết nếu thiếu phòng thủ.", "guides": [ { "title": "Odealo – Thunder Spike Erika 1", "url": "https://odealo.com/articles/thunder-spike-erika-1-build-torchlight-infinite" }, { "title": "TLI Wiki – Erika 1 Fast T8", "url": "https://www.torchlight-infinite.wiki/builds/torchlight-infinite-erika-1-build" } ] },
+      { "rank": 3, "id": "gemma-2-frost-core", "name": "Frost Core Gemma 2", "class": "Gemma · Frostbitten Heart", "tier": "A", "playstyle": "All-Rounder", "budget": "Thấp", "difficulty": "Dễ", "clear": 4, "boss": 3, "tank": 3, "why": "Được buff, guide mô tả 'dễ và rẻ'.", "guides": [] },
+      { "rank": 4, "id": "youga-2-spacetime-dot", "name": "Spacetime Elapse DoT Youga 2", "class": "Youga · Spacetime Elapse", "tier": "A", "playstyle": "Boss Killer", "budget": "Thấp", "difficulty": "Dễ", "clear": 3, "boss": 4, "tank": 3, "why": "DoT ngân sách thấp, boss tốt.", "guides": [] },
+      { "rank": 5, "id": "youga-3-the-ultimate-one", "name": "Clockwork Core Youga 3", "class": "Youga · The Ultimate One", "tier": "S", "playstyle": "All-Rounder", "budget": "Cao", "difficulty": "Trung bình", "clear": 4, "boss": 5, "tank": 3, "why": "Trait mới mạnh nhất mùa nhưng đồ đắt vì nhu cầu cao.", "guides": [] },
+      { "rank": 6, "id": "rosa-2-frost-spike", "name": "Frost Spike Rosa 2", "class": "Rosa · Unsullied Blade", "tier": "S", "playstyle": "All-Rounder", "budget": "Trung bình", "difficulty": "Trung bình", "clear": 4, "boss": 4, "tank": 3, "why": "Mạnh dài hạn nhưng bị nerf và không phải starter rẻ.", "guides": [] },
+      { "rank": 7, "id": "rehan-2-frost-spike", "name": "Frost Spike Rehan 2", "class": "Rehan · Seething Silhouette", "tier": "A", "playstyle": "Boss Killer", "budget": "Trung bình", "difficulty": "Trung bình", "clear": 3, "boss": 4, "tank": 2, "why": "Melee, cần sinh tồn; bị nerf Berserk.", "guides": [] },
+      { "rank": 8, "id": "iris-2-vigilant-breeze", "name": "Spirit Magi Iris 2", "class": "Iris · Vigilant Breeze", "tier": "A", "playstyle": "Tanker", "budget": "Trung bình", "difficulty": "Dễ", "clear": 3, "boss": 3, "tank": 4, "why": "Summoner chơi nhàn.", "guides": [] }
+    ],
+    "sources": ["https://tlifaq.pages.dev/", "https://www.vhpg.com/torchlight-infinite-tartarus-ss14-tier-list/"],
+    "updatedAt": "2026-11-05T12:00:00.000Z"
+  },
+  "farm": {
+    "season": "Torchlight: Infinite SS14 Tartarus",
+    "stages": [
+      { "key": "starter", "title": "Starter – vốn thấp", "budget": "0 FE", "content": "Campaign → Netherrealm K6", "strategies": [
+        { "name": "Hoàn thành Main Story + check-in", "where": "Campaign", "setup": "—", "steps": ["Hết Main Story để chọn Activation Medium", "Check-in nhận Legendary Pactspirit"], "profit": "chưa có số liệu", "requires": "—", "risk": "Thấp" },
+        { "name": "Speed map K6 + Prison", "where": "Netherrealm K6", "setup": "Compass rẻ", "steps": ["Bắt fugitive", "Thả vào Tartarus Prison", "Bán nguyên liệu"], "profit": "chưa có số liệu", "requires": "Clear ổn định", "risk": "Thấp" }
+      ] },
+      { "key": "mid", "title": "Mid – K7/K8", "budget": "Vài trăm FE", "content": "Netherrealm K7–K8", "strategies": [
+        { "name": "Dồn Compass vào Tartarus", "where": "Prison Riot", "setup": "Compass cơ chế mùa; Memory ưu tiên stat build", "steps": ["Nuôi tù nhân ăn nhau để lớn", "Kích Riot lấy loot", "Tuyển Follower hợp build (Poet cho DoT)"], "profit": "chưa có số liệu", "requires": "AoE + single-target ổn", "risk": "Trung bình" }
+      ] },
+      { "key": "end", "title": "Endgame – Deep Space", "budget": "1000+ FE", "content": "Deep Space / Divine Ascent", "strategies": [
+        { "name": "Divine Ascent", "where": "150 tầng", "setup": "Build boss", "steps": ["Leo tầng, bỏ qua tối đa 5", "Mốc Pactspirit ở tầng 50"], "profit": "chưa có số liệu", "requires": "DPS + sinh tồn cao", "risk": "Cao" }
+      ] }
+    ],
+    "tips": ["Tốc độ chạy không đồng nghĩa lợi nhuận: damage, phòng thủ, loading và nhặt đồ đều quan trọng."],
+    "sources": ["https://www.vhpg.com/torchlight-infinite-tartarus-ss14-tier-list/", "https://tlifaq.pages.dev/"],
+    "updatedAt": "2026-11-05T12:00:00.000Z"
+  },
+  "items": {
+    "kind": "ai",
+    "items": [],
+    "notes": "TLI không có API giá công khai. Danh sách sẽ được AI tổng hợp từ web ở lần cập nhật hằng ngày (cần AI key)."
+  },
+  "guides": {}
+}

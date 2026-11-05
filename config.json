@@ -1,0 +1,35 @@
+{
+  "contact": "",
+  "guidesTopN": 5,
+  "guidesMaxAgeDays": 7,
+  "ai": {
+    "provider": "gemini",
+    "maxContextChars": 40000,
+    "pauseMs": 4000,
+    "gemini": {
+      "models": ["gemini-3.6-flash", "gemini-3.8-flash", "gemini-3.5-flash-lite", "gemini-3.1-flash-lite", "gemini-2.5-flash"]
+    },
+    "openai": {
+      "baseUrl": "https://api.groq.com/openai/v1",
+      "model": ""
+    }
+  },
+  "poe": {
+    "minChaos": 5,
+    "categories": ["Currency", "Fragment", "Scarab", "Essence", "DivinationCard", "Omen", "AllflameEmber", "Fossil", "Oil", "DeliriumOrb", "Invitation", "Beast"]
+  },
+  "sources": {
+    "poe": {
+      "season": ["https://www.arpg-timeline.com/game/path-of-exile/timeline"],
+      "builds": [],
+      "farm": [],
+      "items": []
+    },
+    "tli": {
+      "season": ["https://www.arpg-timeline.com/game/torchlite-infinite"],
+      "builds": ["https://tlifaq.pages.dev/"],
+      "farm": [],
+      "items": []
+    }
+  }
+}
