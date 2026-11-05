@@ -3,61 +3,105 @@
   "builds": [
     {
       "rank": 1,
-      "name": "Righteous Fire Chieftain",
+      "name": "Poison Summon Raging Spirits",
+      "class": "Necromancer",
+      "tier": "S",
+      "playstyle": "All-Rounder",
+      "budget": "Thấp",
+      "difficulty": "Dễ",
+      "clear": 4,
+      "boss": 5,
+      "tank": 4,
+      "why": "Build starter toàn diện nhất, sát thương tốt khi di chuyển, không phụ thuộc vào trang bị đắt tiền để hoàn thành campaign và Atlas.",
+      "guides": [
+        {
+          "title": "Poison SRS Necromancer",
+          "url": "https://maxroll.gg/poe/build-guides/poison-srs-necromancer-league-starter"
+        },
+        {
+          "title": "BalorMage's Poison Summon Raging Spirits Necromancer Build Guide",
+          "url": "https://www.poe-vault.com/guides/balormage-summon-raging-spirits-necromancer-build-guide"
+        }
+      ],
+      "id": "poison-summon-raging-spirits"
+    },
+    {
+      "rank": 2,
+      "name": "Winter Orb",
+      "class": "Elementalist",
+      "tier": "S",
+      "playstyle": "Speed Mapper",
+      "budget": "Thấp",
+      "difficulty": "Trung bình",
+      "clear": 5,
+      "boss": 3,
+      "tank": 3,
+      "why": "Được buff mạnh trong 3.29 với thêm đạn và khả năng đóng băng, là build clear map nhanh nhất hiện nay.",
+      "guides": [
+        {
+          "title": "Winter Orb Elementalist",
+          "url": "https://maxroll.gg/poe/build-guides/winter-orb-elementalist-league-starter"
+        }
+      ],
+      "id": "winter-orb"
+    },
+    {
+      "rank": 3,
+      "name": "Righteous Fire",
       "class": "Chieftain",
-      "tier": "A",
+      "tier": "S",
       "playstyle": "Tanker",
       "budget": "Thấp",
       "difficulty": "Dễ",
       "clear": 4,
       "boss": 3,
       "tank": 5,
-      "why": "Được đánh giá là build an toàn nhất trong meta 3.29, cực kỳ trâu bò, dễ chơi và không cần nhiều thao tác.",
+      "why": "Lựa chọn an toàn nhất cho người mới, cực kỳ trâu bò và lối chơi đơn giản, ít thao tác.",
       "guides": [],
-      "id": "righteous-fire-chieftain"
+      "id": "righteous-fire"
     },
     {
-      "rank": 2,
-      "name": "Winter Orb Elementalist",
-      "class": "Elementalist",
-      "tier": "S",
-      "playstyle": "Speed Mapper",
-      "budget": "Trung bình",
-      "difficulty": "Trung bình",
-      "clear": 5,
-      "boss": 3,
-      "tank": 2,
-      "why": "Build có tốc độ dọn map (clear speed) hàng đầu, khả năng mở rộng sức mạnh cực tốt khi có đầu tư.",
-      "guides": [
-        {
-          "title": "Winter Orb Elementalist League Starter",
-          "url": "https://maxroll.gg/poe/build-guides/winter-orb-elementalist-league-starter"
-        }
-      ],
-      "id": "winter-orb-elementalist"
-    },
-    {
-      "rank": 3,
-      "name": "Kinetic Fusillade Ballista",
-      "class": "Hierophant",
+      "rank": 4,
+      "name": "Earthshatter",
+      "class": "Berserker",
       "tier": "S",
       "playstyle": "All-Rounder",
       "budget": "Thấp",
-      "difficulty": "Dễ",
+      "difficulty": "Trung bình",
       "clear": 4,
       "boss": 4,
       "tank": 3,
-      "why": "Rất mạnh và rẻ cho ngày đầu league, lối chơi đặt totem an toàn giúp người chơi tránh sát thương hiệu quả.",
+      "why": "Tiến trình melee nhanh, sát thương tốt với ngân sách thấp, phù hợp cho người chơi thích phong cách cận chiến.",
       "guides": [
         {
-          "title": "Kinetic Fusillade Ballista Hierophant League Starter",
+          "title": "Earthshatter",
+          "url": "https://maxroll.gg/poe/build-guides/earthshatter-slayer-league-starter"
+        }
+      ],
+      "id": "earthshatter"
+    },
+    {
+      "rank": 5,
+      "name": "Kinetic Fusillade Ballista",
+      "class": "Hierophant",
+      "tier": "S",
+      "playstyle": "Boss Killer",
+      "budget": "Thấp",
+      "difficulty": "Dễ",
+      "clear": 3,
+      "boss": 5,
+      "tank": 3,
+      "why": "Lối chơi đặt totem an toàn, sát thương boss cực mạnh, rất rẻ để bắt đầu mùa giải.",
+      "guides": [
+        {
+          "title": "Kinetic Fusillade Ballista",
           "url": "https://maxroll.gg/poe/build-guides/kinetic-fusillade-ballista-hierophant-league-starter"
         }
       ],
       "id": "kinetic-fusillade-ballista"
     },
     {
-      "rank": 4,
+      "rank": 6,
       "name": "Storm Burst of Repulsion Totem",
       "class": "Hierophant",
       "tier": "S",
@@ -67,99 +111,64 @@
       "clear": 3,
       "boss": 5,
       "tank": 4,
-      "why": "Lối chơi ít APM, khả năng phòng thủ tốt nhờ totem giữ aggro, rất phù hợp cho người mới bắt đầu.",
+      "why": "Cơ chế totem giữ aggro giúp người chơi mới học đánh boss an toàn, hiệu quả cao với chi phí thấp.",
       "guides": [
         {
-          "title": "Storm Burst of Repulsion Totem Hierophant League Starter",
+          "title": "Storm Burst of Repulsion Totem",
           "url": "https://maxroll.gg/poe/build-guides/storm-burst-of-repulsion-totem-hierophant-league-starter"
         }
       ],
       "id": "storm-burst-of-repulsion-totem"
     },
     {
-      "rank": 5,
-      "name": "Static Strike Slayer",
-      "class": "Slayer",
+      "rank": 7,
+      "name": "Penance Brand Ignite",
+      "class": "Elementalist",
       "tier": "A",
       "playstyle": "All-Rounder",
-      "budget": "Thấp",
+      "budget": "Trung bình",
       "difficulty": "Trung bình",
       "clear": 4,
       "boss": 4,
       "tank": 3,
-      "why": "Tận dụng cơ chế snapshot, sát thương ổn định và tiến trình thăng tiến sức mạnh rất mượt mà.",
-      "guides": [],
-      "id": "static-strike-slayer"
-    },
-    {
-      "rank": 6,
-      "name": "Cyclone Shockwave Slayer",
-      "class": "Slayer",
-      "tier": "A",
-      "playstyle": "All-Rounder",
-      "budget": "Thấp",
-      "difficulty": "Dễ",
-      "clear": 4,
-      "boss": 3,
-      "tank": 3,
-      "why": "Lối chơi 'spin to win' cổ điển, dễ dàng farm currency với các món đồ unique giá rẻ.",
+      "why": "Cân bằng tốt giữa clear map và boss, cần lộ trình nâng cấp ignite chính xác.",
       "guides": [
         {
-          "title": "Cyclone Shockwave Slayer League Starter",
-          "url": "https://maxroll.gg/poe/build-guides/cyclone-shockwave-slayer-league-starter"
+          "title": "Penance Brand Ignite",
+          "url": "https://maxroll.gg/poe/build-guides/penance-brand-ignite-elementalist"
         }
       ],
-      "id": "cyclone-shockwave-slayer"
+      "id": "penance-brand-ignite"
     },
     {
-      "rank": 7,
-      "name": "Exsanguinate Miner",
-      "class": "Trickster",
+      "rank": 8,
+      "name": "Lightning Arrow",
+      "class": "Deadeye",
       "tier": "A",
       "playstyle": "Speed Mapper",
       "budget": "Trung bình",
       "difficulty": "Trung bình",
       "clear": 5,
-      "boss": 4,
-      "tank": 3,
-      "why": "Khả năng dọn map toàn màn hình cực mạnh, rất hiệu quả cho việc farm các cơ chế như Expedition.",
-      "guides": [
-        {
-          "title": "Exsanguinate Miner Trickster League Starter",
-          "url": "https://maxroll.gg/poe/build-guides/exsanguinate-miner-trickster-league-starter"
-        }
-      ],
-      "id": "exsanguinate-miner"
-    },
-    {
-      "rank": 8,
-      "name": "Poisonous Concoction of Bouncing",
-      "class": "Pathfinder",
-      "tier": "B",
-      "playstyle": "Speed Mapper",
-      "budget": "Thấp",
-      "difficulty": "Trung bình",
-      "clear": 5,
       "boss": 2,
-      "tank": 3,
-      "why": "Build starter rẻ, tốc độ dọn map nhanh, rất tốt để farm các cơ chế league ngay từ đầu.",
+      "tank": 2,
+      "why": "Vua tốc độ farm map, cực tốt cho các nội dung như Legion, nhưng hơi mỏng manh.",
       "guides": [
         {
-          "title": "Poisonous Concoction of Bouncing Pathfinder League Starter",
-          "url": "https://maxroll.gg/poe/build-guides/poisonous-concoction-of-bouncing-pathfinder-league-starter"
+          "title": "Lightning Arrow",
+          "url": "https://maxroll.gg/poe/build-guides/lightning-arrow-deadeye-league-starter"
         }
       ],
-      "id": "poisonous-concoction-of-bouncing"
+      "id": "lightning-arrow"
     }
   ],
-  "notes": "Meta 3.29 có sự thay đổi lớn về socket color và buff cho các spellcaster. Các build Totem và Slam vẫn là lựa chọn an toàn nhất cho người chơi mới hoặc muốn tiến trình 4 Voidstones mượt mà.",
+  "notes": "Meta 3.29 Curse of the Allflame tập trung vào các build caster được buff và các lựa chọn minion/totem ổn định. Tránh build Luminary cho nhân vật đầu tiên do cơ chế Mercenary chưa ổn định.",
   "sources": [
-    "https://rank1gear.com/en/blog/poe-329-curse-of-the-allflame-league-start-tier-list",
     "https://maxroll.gg/poe/tierlists/league-starter-build-tier-list",
+    "https://expcarry.com/best-poe-3-29-allflame-builds",
+    "https://rank1gear.com/en/blog/poe-329-curse-of-the-allflame-league-start-tier-list",
     "https://www.mtmmo.com/news/2288--poe-329-builds-tier-list-curse-of-the-allflame-league",
-    "https://d4gold.com/news/poe-3-29-curse-of-the-allflame-league-starter-tier-list-from-uber-slayers-to-niche",
     "https://www.poe-vault.com/guides/tag/cheap-budget-friendly-builds-for-path-of-exile"
   ],
   "model": "gemini-3.1-flash-lite",
-  "updatedAt": "2026-11-05T12:39:31.993Z"
+  "updatedAt": "2026-11-05T13:02:03.558Z"
 }

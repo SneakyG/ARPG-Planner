@@ -1,0 +1,121 @@
+{
+  "season": "Torchlight: Infinite SS14 Tartarus",
+  "stages": [
+    {
+      "key": "starter",
+      "title": "Giai đoạn khởi đầu (Early Netherrealm)",
+      "budget": "0 FE",
+      "content": "Timemark 1-6",
+      "strategies": [
+        {
+          "name": "Netherrealm Progression",
+          "where": "Netherrealm stages",
+          "setup": "Không yêu cầu",
+          "steps": [
+            "Hoàn thành chiến dịch",
+            "Mở khóa các Timemark cao hơn",
+            "Thu thập Beacons và vật liệu chế tạo cơ bản",
+            "Bán các vật phẩm có giá trị trên Trade House"
+          ],
+          "profit": "chưa có số liệu",
+          "requires": "Build cơ bản, ưu tiên tốc độ dọn quái",
+          "risk": "Thấp"
+        },
+        {
+          "name": "Tartarus Prison Basics",
+          "where": "Netherrealm maps",
+          "setup": "Prison Tickets",
+          "steps": [
+            "Săn tù nhân trốn thoát để lấy Prisoner Nameplates",
+            "Quản lý tù nhân theo hệ thống khắc chế (Mammoth > Lion > Wolf > Colossal Rat)",
+            "Hoàn thành Riot khi chu kỳ kết thúc để nhận Warden’s Caches"
+          ],
+          "profit": "chưa có số liệu",
+          "requires": "Khả năng dọn quái nhanh",
+          "risk": "Thấp"
+        }
+      ]
+    },
+    {
+      "key": "mid",
+      "title": "Giai đoạn ổn định (Stable Mapping)",
+      "budget": "15-50 FE",
+      "content": "Timemark 7",
+      "strategies": [
+        {
+          "name": "Standard Prison Farming",
+          "where": "Timemark 7 maps",
+          "setup": "Standard Mode (1 Ticket)",
+          "steps": [
+            "Quản lý bảng tù nhân để tối ưu hóa độ hiếm",
+            "Giữ số ô chưa mở dưới 5 để kích hoạt nâng cấp độ hiếm",
+            "Bán các vật phẩm rơi ra từ Warden’s Caches"
+          ],
+          "profit": "chưa có số liệu",
+          "requires": "Build có khả năng dọn quái ổn định",
+          "risk": "Trung bình"
+        },
+        {
+          "name": "Trade House Flipping",
+          "where": "Trade House",
+          "setup": "Không yêu cầu",
+          "steps": [
+            "Đánh giá giá trị giao dịch của Beacons, Compasses và Hero Memories",
+            "Bán các vật phẩm không dùng đến để tích lũy FE"
+          ],
+          "profit": "chưa có số liệu",
+          "requires": "Kiến thức về giá thị trường",
+          "risk": "Trung bình"
+        }
+      ]
+    },
+    {
+      "key": "end",
+      "title": "Giai đoạn Endgame",
+      "budget": "50+ FE",
+      "content": "Timemark 8 / Profound",
+      "strategies": [
+        {
+          "name": "High-Speed 3x Ticket Farming",
+          "where": "Timemark 8 maps",
+          "setup": "3x Sentencing Tickets",
+          "steps": [
+            "Sử dụng 3x mode để tiêu tốn 3 vé nhận 1.5x phần thưởng",
+            "Tập trung vào các bản đồ có bố cục thoáng để dọn nhanh",
+            "Tiêu diệt boss cuối để nhận giga chests"
+          ],
+          "profit": "chưa có số liệu",
+          "requires": "Build hoàn thiện, sát thương cao, tốc độ di chuyển tốt",
+          "risk": "Cao"
+        },
+        {
+          "name": "Advanced Compass Farming",
+          "where": "Timemark 8",
+          "setup": "Full Load Outlaw Compass",
+          "steps": [
+            "Sử dụng các loại Compass chuyên dụng để tăng độ khó và phần thưởng",
+            "Tập trung vào các encounters có giá trị cao",
+            "Chuyển đổi loot thành FE"
+          ],
+          "profit": "chưa có số liệu",
+          "requires": "Build tối ưu, khả năng sống sót cao",
+          "risk": "Cao"
+        }
+      ]
+    }
+  ],
+  "tips": [
+    "Ưu tiên sự cân bằng giữa độ khó và tốc độ dọn map thay vì cố gắng farm map khó nhất.",
+    "Sử dụng 3x mode khi đã có trang bị đầy đủ để tối ưu hóa thời gian.",
+    "Luôn kiểm tra giá trị của vật liệu chế tạo và Beacons trên Trade House thay vì chỉ nhìn vào FE rơi trực tiếp.",
+    "Tránh đầu tư quá nhiều vào Compass đắt tiền khi build chưa ổn định."
+  ],
+  "sources": [
+    "https://www.vhpg.com/torchlight-infinite-ss14-currency-farming/",
+    "https://gamerblurb.com/articles/how-to-get-flame-elementium-in-torchlight-infinite-easy-farming-guide",
+    "https://torchlightinfinitegame.wiki/seasons/tartarus/",
+    "https://www.torchlightinfinitewiki.wiki/seasons/Torchlight-Infinite-Tartarus"
+  ],
+  "model": "gemini-3.1-flash-lite",
+  "updatedAt": "2026-11-05T13:06:11.108Z"
+}

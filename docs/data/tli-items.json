@@ -7,99 +7,99 @@
       "category": "Currency",
       "price": "",
       "trend": "unknown",
-      "source": "",
-      "where": "Netherrealm, Tartarus Prison",
-      "why": "The primary currency for trading and high-tier gear upgrades."
-    },
-    {
-      "name": "Guillotine (Physical DMG base)",
-      "category": "Weapon",
-      "price": "2 - 15 FE",
-      "trend": "unknown",
-      "source": "",
-      "where": "Trade House / High-tier maps",
-      "why": "Essential for physical damage builds like Rehan to get an immediate DPS spike."
-    },
-    {
-      "name": "God of Might slates",
-      "category": "Slate",
-      "price": "",
-      "trend": "unknown",
-      "source": "",
+      "source": "https://www.vhpg.com/torchlight-infinite-ss14-currency-farming/",
       "where": "Netherrealm",
-      "why": "Provides conditional strength and area damage, crucial for endgame scaling."
+      "why": "Đơn vị tiền tệ chính để giao dịch tại Trade House và chế tạo nâng cao."
     },
     {
-      "name": "Compass items",
+      "name": "Compass",
       "category": "Compass",
       "price": "",
       "trend": "unknown",
-      "source": "https://www.torchlightinfinitewiki.wiki/economy/Torchlight-Infinite-currency",
-      "where": "Timemark progression",
-      "why": "Enhances map rewards and farming output; critical for efficient farming loops."
+      "source": "https://www.vhpg.com/torchlight-infinite-ss14-currency-farming/",
+      "where": "Netherrealm",
+      "why": "Tăng cường phần thưởng và các cuộc chạm trán trong bản đồ, cần thiết cho farming loop."
     },
     {
-      "name": "High-Armor Chest Armor with Double Strength",
-      "category": "Armor",
-      "price": "15 - 35 FE",
+      "name": "Beacon",
+      "category": "Fuel",
+      "price": "",
       "trend": "unknown",
-      "source": "",
-      "where": "Trade House / Crafting",
-      "why": "Provides necessary baseline survivability for Time Mark 7 and 8 maps."
+      "source": "https://www.vhpg.com/torchlight-infinite-ss14-currency-farming/",
+      "where": "Netherrealm",
+      "why": "Cần thiết để truy cập các giai đoạn Netherrealm cao hơn."
     },
     {
-      "name": "Optimized Crit / Strength Rings",
-      "category": "Trinket",
-      "price": "5 - 15 FE",
+      "name": "Embers",
+      "category": "Ember",
+      "price": "",
       "trend": "unknown",
-      "source": "",
-      "where": "Trade House",
-      "why": "Mid-to-late game gear that boosts damage output significantly."
+      "source": "https://www.vhpg.com/torchlight-infinite-ss14-currency-farming/",
+      "where": "Netherrealm",
+      "why": "Nguyên liệu chế tạo trang bị và có giá trị giao dịch cao."
+    },
+    {
+      "name": "Legendary Gear",
+      "category": "Legendary",
+      "price": "",
+      "trend": "unknown",
+      "source": "https://www.vhpg.com/torchlight-infinite-ss14-currency-farming/",
+      "where": "Netherrealm",
+      "why": "Có thể dùng để nâng cấp nhân vật hoặc bán lấy Flame Elementium."
+    },
+    {
+      "name": "Prisoner Nameplates",
+      "category": "Seasonal",
+      "price": "",
+      "trend": "unknown",
+      "source": "https://www.vhpg.com/torchlight-infinite-ss14-currency-farming/",
+      "where": "Netherrealm (Tartarus mechanics)",
+      "why": "Dùng để tiến triển hệ thống nhà tù Tartarus và nhận Warden’s Caches."
+    },
+    {
+      "name": "Warden’s Caches",
+      "category": "Reward",
+      "price": "",
+      "trend": "unknown",
+      "source": "https://www.vhpg.com/torchlight-infinite-ss14-currency-farming/",
+      "where": "Tartarus Riot",
+      "why": "Cung cấp phần thưởng bổ sung giá trị cao trong mùa SS14."
+    },
+    {
+      "name": "Hero Memories",
+      "category": "Equipment",
+      "price": "",
+      "trend": "unknown",
+      "source": "https://www.vhpg.com/torchlight-infinite-ss14-currency-farming/",
+      "where": "Netherrealm",
+      "why": "Vật phẩm có giá trị giao dịch cao trên Trade House."
     },
     {
       "name": "Flame Sand",
       "category": "Currency",
       "price": "",
       "trend": "unknown",
-      "source": "https://www.g2g.com/categories/torchlight-infinite-items",
+      "source": "https://www.vhpg.com/torchlight-infinite-ss14-currency-farming/",
       "where": "Netherrealm",
-      "why": "Core crafting material used for rerolling affixes."
+      "why": "Quan trọng cho việc chế tạo trang bị cấp thấp trong giai đoạn đầu mùa."
     },
     {
       "name": "Flame Dust",
       "category": "Currency",
       "price": "",
       "trend": "unknown",
-      "source": "https://www.g2g.com/categories/torchlight-infinite-items",
+      "source": "https://www.vhpg.com/torchlight-infinite-ss14-currency-farming/",
       "where": "Netherrealm",
-      "why": "Essential currency for basic crafting and trading."
-    },
-    {
-      "name": "Familiar Nexus",
-      "category": "Crafting Material",
-      "price": "",
-      "trend": "unknown",
-      "source": "https://www.g2g.com/categories/torchlight-infinite-items",
-      "where": "Netherrealm",
-      "why": "Used for advanced crafting and gear optimization."
-    },
-    {
-      "name": "Spiral Fossil",
-      "category": "Crafting Material",
-      "price": "",
-      "trend": "unknown",
-      "source": "https://www.g2g.com/categories/torchlight-infinite-items",
-      "where": "Netherrealm",
-      "why": "High-value crafting material for end-game gear."
+      "why": "Nguyên liệu cơ bản cho chế tạo trang bị."
     }
   ],
-  "notes": "Prices are estimates based on early-season progression. Always prioritize items that solve specific build bottlenecks (damage, defense, or clear speed) rather than hoarding. Liquidate surplus assets before the season ends.",
+  "notes": "Ưu tiên farming theo vòng lặp ổn định (repeatable loop) thay vì dựa vào vận may. Luôn kiểm tra giá trị giao dịch tổng thể của vật phẩm thay vì chỉ tập trung vào Flame Elementium rơi trực tiếp.",
   "sources": [
     "https://www.torchlightinfinitewiki.wiki/seasons/Torchlight-Infinite-Tartarus",
     "https://www.torchlightinfinitewiki.wiki/economy/Torchlight-Infinite-currency",
-    "https://torchlightinfinitegame.wiki/seasons/tartarus/",
+    "https://www.vhpg.com/torchlight-infinite-ss14-currency-farming/",
     "https://www.g2g.com/categories/torchlight-infinite-items"
   ],
   "model": "gemini-3.1-flash-lite",
-  "updatedAt": "2026-11-05T12:48:42.577Z"
+  "updatedAt": "2026-11-05T13:06:31.088Z"
 }
