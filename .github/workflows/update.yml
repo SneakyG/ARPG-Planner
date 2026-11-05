@@ -29,6 +29,8 @@ jobs:
     if: github.event_name != 'push'
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    env:
+      SCOPE: ${{ (github.event_name == 'schedule' && github.event.schedule == '17 */3 * * *') && 'prices' || inputs.scope || 'all' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -36,13 +38,22 @@ jobs:
           node-version: 20
       - name: Cập nhật dữ liệu
         env:
-          SCOPE: ${{ (github.event_name == 'schedule' && github.event.schedule == '17 */3 * * *') && 'prices' || inputs.scope || 'all' }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           AI_PROVIDER: ${{ vars.AI_PROVIDER }}
           OPENAI_BASE_URL: ${{ vars.OPENAI_BASE_URL }}
           OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: node scripts/update.js --scope "$SCOPE"
+      - name: Cài trình duyệt để chụp ảnh cây Atlas
+        if: env.SCOPE != 'prices'
+        continue-on-error: true
+        run: |
+          npm install --no-save playwright@1.48.2
+          npx playwright install --with-deps chromium
+      - name: Chụp ảnh xem trước cho link farm
+        if: env.SCOPE != 'prices'
+        continue-on-error: true
+        run: node scripts/snap.js
       - name: Lưu dữ liệu vào repo
         run: |
           git config user.name "github-actions[bot]"
