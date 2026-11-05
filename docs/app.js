@@ -284,7 +284,7 @@
   // ---------- Status ----------
   function status() {
     const info = repoInfo();
-    const LABEL = { season: 'Mùa giải', builds: 'Build Starter', farm: 'Farm', items: 'Item Trend', guides: 'Hướng dẫn build' };
+    const LABEL = { cleanup: 'Dọn dữ liệu', season: 'Mùa giải', builds: 'Build Starter', farm: 'Farm', items: 'Item Trend', guides: 'Hướng dẫn build' };
     const rows = Object.entries(meta?.status || {}).sort();
     return `<div class="phead"><div class="grow"><div class="eyebrow">GitHub Actions</div><h1>Trạng thái cập nhật</h1>
       <div class="meta">${meta?.updatedAt ? `<span>Lần chạy gần nhất: ${when(meta.updatedAt)}</span>` : '<span>Chưa chạy lần nào</span>'}${meta ? `<span>· AI: ${esc(meta.ai)}</span>` : ''}</div></div>

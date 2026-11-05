@@ -36,6 +36,11 @@ async function main() {
       plan.push([g, 'guides']);
     }
   }
+  const removed = tasks.cleanupPoe2();
+  if (removed.length) {
+    console.log('Đã xoá dữ liệu Path of Exile 2 lưu nhầm: ' + removed.join(', '));
+    meta.status['poe:cleanup'] = { ok: true, at: new Date().toISOString(), info: 'Đã xoá dữ liệu PoE 2 lưu nhầm: ' + removed.join(', ') };
+  }
   console.log(`Phạm vi: ${scope} · AI: ${meta.ai} · ${plan.length} bước`);
   for (const [g, kind] of plan) {
     const key = `${g}:${kind}`;
