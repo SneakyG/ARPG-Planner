@@ -4,63 +4,62 @@
   "status": {
     "poe:items": {
       "ok": true,
-      "at": "2026-11-05T21:28:55.165Z",
-      "info": "775 món",
-      "ms": 2469
+      "at": "2026-11-06T02:48:14.417Z",
+      "info": "743 món",
+      "ms": 1027
     },
     "poe:season": {
       "ok": true,
-      "at": "2026-11-05T15:38:29.144Z",
+      "at": "2026-11-06T02:48:37.119Z",
       "info": "",
-      "ms": 11625
+      "ms": 22702
     },
     "poe:builds": {
       "ok": true,
-      "at": "2026-11-05T15:38:40.183Z",
+      "at": "2026-11-06T02:48:45.613Z",
       "info": "8 build",
-      "ms": 11039
+      "ms": 8494
     },
     "poe:farm": {
       "ok": true,
-      "at": "2026-11-05T15:38:58.313Z",
+      "at": "2026-11-06T02:49:08.400Z",
       "info": "",
-      "ms": 10126
+      "ms": 14787
     },
     "poe:guides": {
       "ok": true,
-      "at": "2026-11-05T15:44:11.886Z",
-      "info": "tạo 4, lỗi 1 (3-29-curse-of-the-allflame-righteous-fire-chieftain: The operation was aborted due to timeout)",
-      "ms": 305572
+      "at": "2026-11-06T02:50:08.924Z",
+      "info": "tạo 3, lỗi 0",
+      "ms": 52524
     },
     "tli:season": {
       "ok": true,
-      "at": "2026-11-05T15:44:42.406Z",
+      "at": "2026-11-06T02:50:20.075Z",
       "info": "",
-      "ms": 22519
+      "ms": 3143
     },
     "tli:builds": {
-      "ok": true,
-      "at": "2026-11-05T15:45:15.114Z",
-      "info": "8 build",
-      "ms": 24704
+      "ok": false,
+      "at": "2026-11-06T02:52:58.596Z",
+      "error": "The operation was aborted due to timeout"
     },
     "tli:farm": {
       "ok": true,
-      "at": "2026-11-05T15:45:48.632Z",
+      "at": "2026-11-06T02:53:11.084Z",
       "info": "",
-      "ms": 25513
+      "ms": 4484
     },
     "tli:items": {
       "ok": true,
-      "at": "2026-11-05T15:46:01.928Z",
-      "info": "10 món",
-      "ms": 5292
+      "at": "2026-11-06T02:53:22.494Z",
+      "info": "1 món",
+      "ms": 3406
     },
     "tli:guides": {
       "ok": true,
-      "at": "2026-11-05T15:48:18.675Z",
-      "info": "tạo 5, lỗi 0",
-      "ms": 128743
+      "at": "2026-11-06T02:53:30.498Z",
+      "info": "tạo 0, lỗi 0",
+      "ms": 1
     },
     "poe:cleanup": {
       "ok": true,
@@ -69,5 +68,5 @@
     }
   },
   "guidesTopN": 5,
-  "updatedAt": "2026-11-05T21:28:55.166Z"
+  "updatedAt": "2026-11-06T02:53:38.502Z"
 }

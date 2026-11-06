@@ -1,105 +1,24 @@
 {
   "kind": "ai",
-  "season": "Torchlight: Infinite SS14 Tartarus",
+  "season": "Torchlight: Infinite Tartarus",
   "items": [
     {
-      "name": "Flame Elementium",
-      "category": "Currency",
-      "price": "",
-      "trend": "unknown",
-      "source": "https://www.vhpg.com/torchlight-infinite-ss14-currency-farming/",
-      "where": "Netherrealm, Trade House",
-      "why": "Primary currency for all Trade House transactions and advanced crafting."
-    },
-    {
-      "name": "Legendary Compass",
-      "category": "Compass",
-      "price": "",
-      "trend": "unknown",
-      "source": "https://www.vhpg.com/torchlight-infinite-ss14-currency-farming/",
-      "where": "Timemark 8, Profound difficulty",
-      "why": "Enhances map rewards and farming output; high market demand."
-    },
-    {
-      "name": "Beacons",
-      "category": "Fuel",
-      "price": "",
-      "trend": "unknown",
-      "source": "https://www.vhpg.com/torchlight-infinite-ss14-currency-farming/",
-      "where": "Netherrealm maps",
-      "why": "Essential for accessing higher Netherrealm stages; liquid asset for FE."
-    },
-    {
-      "name": "Embers",
-      "category": "Ember",
-      "price": "",
-      "trend": "unknown",
-      "source": "https://www.vhpg.com/torchlight-infinite-ss14-currency-farming/",
-      "where": "Netherrealm, Tartarus activities",
-      "why": "Used for equipment crafting and trading."
-    },
-    {
-      "name": "Guillotine (Weapon)",
+      "name": "Legendary Drop Pactspirit Selection Pack",
       "category": "Legendary",
-      "price": "2 - 15 FE",
-      "trend": "unknown",
-      "source": "https://torchlightinfinitegame.wiki/seasons/tartarus/",
-      "where": "Trade House, High-tier maps",
-      "why": "Strong physical damage base for early-to-mid game progression."
-    },
-    {
-      "name": "Prisoner Nameplates",
-      "category": "Seasonal",
       "price": "",
       "trend": "unknown",
-      "source": "https://www.vhpg.com/torchlight-infinite-ss14-currency-farming/",
-      "where": "Netherrealm (Escaped inmates)",
-      "why": "Required to advance the Tartarus prison system and earn Warden's Caches."
-    },
-    {
-      "name": "Warden’s Caches",
-      "category": "Seasonal",
-      "price": "",
-      "trend": "unknown",
-      "source": "https://www.vhpg.com/torchlight-infinite-ss14-currency-farming/",
-      "where": "Tartarus Riot encounters",
-      "why": "Contains high-tier seasonal rewards and loot."
-    },
-    {
-      "name": "Hero Memories",
-      "category": "Equipment",
-      "price": "",
-      "trend": "unknown",
-      "source": "https://www.vhpg.com/torchlight-infinite-ss14-currency-farming/",
-      "where": "Netherrealm",
-      "why": "Valuable tradable items that convert into Flame Elementium."
-    },
-    {
-      "name": "Flame Sand",
-      "category": "Ember",
-      "price": "",
-      "trend": "unknown",
-      "source": "https://www.vhpg.com/torchlight-infinite-ss14-currency-farming/",
-      "where": "Netherrealm",
-      "why": "High demand for lower-level equipment crafting during early progression."
-    },
-    {
-      "name": "Flame Dust",
-      "category": "Ember",
-      "price": "",
-      "trend": "unknown",
-      "source": "https://www.vhpg.com/torchlight-infinite-ss14-currency-farming/",
-      "where": "Netherrealm",
-      "why": "Basic crafting material for early-game gear."
+      "source": "https://torchlight.xd.com/",
+      "why": "Phần thưởng điểm danh mùa Tartarus giúp nhận Pactspirit phẩm chất Legendary.",
+      "where": "Nhận khi đăng nhập trong mùa Tartarus"
     }
   ],
-  "notes": "Prices are estimates based on early-season market conditions. Always prioritize items that solve your current build bottleneck before selling for Flame Elementium.",
+  "notes": "Chỉ có một vật phẩm phần thưởng sự kiện mùa Tartarus được đề cập trực tiếp trong nguồn.",
   "sources": [
-    "https://www.torchlightinfinitewiki.wiki/seasons/Torchlight-Infinite-Tartarus",
-    "https://www.torchlightinfinitewiki.wiki/economy/Torchlight-Infinite-currency",
-    "https://torchlightinfinitegame.wiki/seasons/tartarus/",
-    "https://www.vhpg.com/torchlight-infinite-ss14-currency-farming/"
+    "https://store.steampowered.com/app/41500/Torchlight/",
+    "https://en.wikipedia.org/wiki/Torchlight",
+    "https://torchlight.xd.com/",
+    "https://store.steampowered.com/app/1974050/Torchlight_Infinite/"
   ],
-  "model": "gemini-3.1-flash-lite",
-  "updatedAt": "2026-11-05T15:46:01.927Z"
+  "model": "gemini-3.5-flash-lite",
+  "updatedAt": "2026-11-06T02:53:22.494Z"
 }

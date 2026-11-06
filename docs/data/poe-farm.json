@@ -3,25 +3,58 @@
   "stages": [
     {
       "key": "starter",
-      "title": "Giai đoạn khởi đầu (League Start)",
-      "budget": "0",
-      "content": "Map tier thấp đến trung bình",
+      "title": "Giai đoạn khởi đầu (0 vốn / League Start)",
+      "budget": "0 vốn",
+      "content": "Bản đồ Tier thấp đến trước 2 Voidstones (Alch & Go)",
       "strategies": [
         {
-          "name": "Alch & Go",
-          "where": "Farming Essence và Currency cơ bản",
-          "setup": "Atlas Passive tập trung vào Essence và Map sustain",
+          "name": "Alch & Go - No Investment",
+          "where": "Chạy bản đồ ngẫu nhiên với cơ chế Alch & Go cơ bản để tích lũy tiền tệ ban đầu trước 2 voidstones.",
+          "setup": "0 Scarabs, chỉ dùng orb of alchemy và bản đồ ngẫu nhiên.",
           "steps": [
-            "Sử dụng Orb of Alchemy lên map",
-            "Chạy map nhanh, tập trung tiêu diệt quái và thu thập Essence",
-            "Không cần đầu tư Scarab"
+            "Dùng Orb of Alchemy lên bản đồ để tăng độ khó và item quantity.",
+            "Chạy map tập trung vào Essence cơ bản và nhặt Currency ngẫu nhiên rơi ra."
           ],
           "maps": [
             {
-              "name": "Bất kỳ map nào",
-              "note": "Tập trung vào sự ổn định và tốc độ",
+              "name": "Random Maps",
+              "note": "Map bất kỳ để khởi động và nhặt currency cơ bản.",
               "url": "",
-              "lookup": "https://www.poewiki.net/index.php?search=B%E1%BA%A5t%20k%E1%BB%B3%20map%20n%C3%A0o"
+              "lookup": "https://www.poewiki.net/index.php?search=Random%20Maps"
+            }
+          ],
+          "trees": [
+            {
+              "title": "Overloaded sustain",
+              "url": "https://poeplanner.com/a/6glB"
+            }
+          ],
+          "links": [
+            {
+              "title": "Upcoming Changes and Farming Strategies in 3.29",
+              "url": "https://maxroll.gg/poe/news/upcoming-changes-and-farming-strategies-in-3-29"
+            }
+          ],
+          "profit": "chưa có số liệu",
+          "requires": "Build league start cơ bản, chống chịu ổn",
+          "risk": "Thấp",
+          "lookup": "https://www.poewiki.net/index.php?search=Alch%20%26%20Go%20-%20No%20Investment",
+          "treeSearch": "https://www.youtube.com/results?search_query=Alch%20%26%20Go%20-%20No%20Investment%20atlas%20tree%203.29%20Curse%20of%20the%20Allflame"
+        },
+        {
+          "name": "Early Atlas Progression & Map Sustain",
+          "where": "Tối ưu hóa số lượng map cấp cao rớt ra để đẩy tiến trình Atlas hiệu quả.",
+          "setup": "Sử dụng các điểm cây Atlas tập trung vào sustain bản đồ.",
+          "steps": [
+            "Rush cụm điểm Unwavering trên Atlas.",
+            "Grab phần sustain map còn lại theo hướng dẫn của Atroz."
+          ],
+          "maps": [
+            {
+              "name": "Early Tier Maps",
+              "note": "Tập trung ép tiến trình map tier cao.",
+              "url": "",
+              "lookup": "https://www.poewiki.net/index.php?search=Early%20Tier%20Maps"
             }
           ],
           "trees": [
@@ -36,31 +69,75 @@
           ],
           "links": [
             {
-              "title": "Upcoming Changes and Farming Strategies in 3.29",
-              "url": "https://maxroll.gg/poe/news/upcoming-changes-and-farming-strategies-in-3-29"
+              "title": "Atlas Passive Skill Tree Strategies Guide - PoE Vault",
+              "url": "https://poe-vault.com/guides/atlas-passive-skill-tree-strategies"
             }
           ],
           "profit": "chưa có số liệu",
-          "requires": "Build cơ bản, không yêu cầu gear đắt tiền",
+          "requires": "Build cơ bản chạy map nhanh",
           "risk": "Thấp",
-          "lookup": "https://www.poewiki.net/index.php?search=Alch%20%26%20Go",
-          "treeSearch": "https://www.youtube.com/results?search_query=Alch%20%26%20Go%20atlas%20tree%203.29%20Curse%20of%20the%20Allflame"
-        },
+          "lookup": "https://www.poewiki.net/index.php?search=Early%20Atlas%20Progression%20%26%20Map%20Sustain",
+          "treeSearch": "https://www.youtube.com/results?search_query=Early%20Atlas%20Progression%20%26%20Map%20Sustain%20atlas%20tree%203.29%20Curse%20of%20the%20Allflame"
+        }
+      ]
+    },
+    {
+      "key": "mid",
+      "title": "Giai đoạn giữa (Mid-game Farming)",
+      "budget": "Thấp đến Trung bình",
+      "content": "Map vàng/đỏ và cơ chế Charts & Voyages (Curse of the Allflame)",
+      "strategies": [
         {
-          "name": "Expedition/Shrines/Blue Altars",
-          "where": "Juicing Expedition trong map",
-          "setup": "Expedition Scarab of Infusion, Verisium Powder, Runefinding",
+          "name": "Operative Strongbox & Voyage Strategy",
+          "where": "Chạy các Charts và Voyages của cơ chế Curse of the Allflame để farm Operative Strongboxes, Scarabs và Dead Man's Sulphur.",
+          "setup": "Stockpile ít nhất 50 Charts, dùng regex để lọc chart >=110% quantity, exalting lên 6 modifiers.",
           "steps": [
-            "Đặt thuốc nổ gần các vật phẩm và quái vật",
-            "Chọn Remnant modifier cẩn thận để tránh các mod khắc chế build",
-            "Tiêu diệt quái vật để nhận Artifact và vật phẩm"
+            "Roll Charts với regex tìm lượng item quantity cao.",
+            "Chạy Charts, thu thập Waterlogged Scarab Chests, Sunken Loot, Message in a Bottle và Operative Strongboxes.",
+            "Reroll Border Modifiers tìm 'Rare Monsters drop an additional Divine Orb'."
           ],
           "maps": [
             {
-              "name": "Bất kỳ map nào",
-              "note": "Expedition phù hợp với build tấn công hoặc DoT",
-              "url": "",
-              "lookup": "https://www.poewiki.net/index.php?search=B%E1%BA%A5t%20k%E1%BB%B3%20map%20n%C3%A0o"
+              "name": "Sandy Seabed Chart",
+              "note": "Khu vực chart chứa Kishara's Rest hoặc Hazardous Depths.",
+              "url": "https://maxroll.gg/poe/currency/curse-of-the-allflame-farming-strategy",
+              "lookup": "https://www.poewiki.net/index.php?search=Sandy%20Seabed%20Chart"
+            },
+            {
+              "name": "Coral Forest Chart",
+              "note": "Khu vực chart chứa Clam Shelf hoặc Sunken Totems.",
+              "url": "https://maxroll.gg/poe/currency/curse-of-the-allflame-farming-strategy",
+              "lookup": "https://www.poewiki.net/index.php?search=Coral%20Forest%20Chart"
+            }
+          ],
+          "trees": [],
+          "links": [
+            {
+              "title": "Curse of the Allflame Farming Strategy",
+              "url": "https://maxroll.gg/poe/currency/curse-of-the-allflame-farming-strategy"
+            }
+          ],
+          "profit": "chưa có số liệu",
+          "requires": "Build clear map tốt, linh hoạt né sát thương",
+          "risk": "Trung bình",
+          "lookup": "https://www.poewiki.net/index.php?search=Operative%20Strongbox%20%26%20Voyage%20Strategy",
+          "treeSearch": "https://www.youtube.com/results?search_query=Operative%20Strongbox%20%26%20Voyage%20Strategy%20atlas%20tree%203.29%20Curse%20of%20the%20Allflame"
+        },
+        {
+          "name": "Atroz’s lazy farm – Expedition/Shrines/Blue Altars",
+          "where": "Juicing Expedition kết hợp với Shrines và Blue Altars trên bản đồ Atlas.",
+          "setup": "Expedition Scarab of Infusion, Expedition Scarab of Verisium Powder, 2x Expedition Scarab of Runefinding.",
+          "steps": [
+            "Đặt các scarab Expedition vào bản đồ.",
+            "Kích hoạt quái Expedition cẩn thận để tránh block stacking quá nặng.",
+            "Thu thập vật phẩm và logbooks."
+          ],
+          "maps": [
+            {
+              "name": "Atroz’s lazy farm Map",
+              "note": "Khu vực farm kết hợp Expedition và Shrines",
+              "url": "https://poe-vault.com/guides/atlas-passive-skill-tree-strategies",
+              "lookup": "https://www.poewiki.net/index.php?search=Atroz%E2%80%99s%20lazy%20farm%20Map"
             }
           ],
           "trees": [
@@ -76,35 +153,34 @@
             }
           ],
           "profit": "chưa có số liệu",
-          "requires": "Build có khả năng vượt qua block stacking",
+          "requires": "Attack build hoặc raw dot build để khắc phục block stacking",
           "risk": "Trung bình",
-          "lookup": "https://www.poewiki.net/index.php?search=Expedition%2FShrines%2FBlue%20Altars",
-          "treeSearch": "https://www.youtube.com/results?search_query=Expedition%2FShrines%2FBlue%20Altars%20atlas%20tree%203.29%20Curse%20of%20the%20Allflame"
+          "lookup": "https://www.poewiki.net/index.php?search=Atroz%E2%80%99s%20lazy%20farm%20%E2%80%93%20Expedition%2FShrines%2FBlue%20Altars",
+          "treeSearch": "https://www.youtube.com/results?search_query=Atroz%E2%80%99s%20lazy%20farm%20%E2%80%93%20Expedition%2FShrines%2FBlue%20Altars%20atlas%20tree%203.29%20Curse%20of%20the%20Allflame"
         }
       ]
     },
     {
-      "key": "mid",
-      "title": "Giai đoạn giữa (Mid-game)",
-      "budget": "Thấp - Trung bình",
-      "content": "Map tier cao",
+      "key": "end",
+      "title": "Giai đoạn Endgame",
+      "budget": "Trung bình đến Cao",
+      "content": "Tier 16 Maps, S-Tier Farms, 80% Delirium & Divine Orb Jackpots",
       "strategies": [
         {
-          "name": "Curse of the Allflame Farming",
-          "where": "Charts và Voyages",
-          "setup": "Sử dụng Charts, Orbs of Alchemy, Scouring, Exalted Orbs",
+          "name": "Curse of the Allflame Divine Orb Jackpot Farm",
+          "where": "Ép tối đa lượng quái Rare vào một Chart duy nhất khi có border modifier Divine Orb trong Voyage.",
+          "setup": "3x +5 Strongboxes in Adjacent Areas, 1x Sea Pillars, 5x Increased Number of Rare Monsters in all Voyage Areas.",
           "steps": [
-            "Tích trữ ít nhất 50 Charts",
-            "Roll Charts với regex 'm q.*(1[1-9].|[2-9]..)%' để đạt 110% quantity",
-            "Sắp xếp Voyage để tối ưu hóa phần thưởng",
-            "Sử dụng Lanterns để tạo vùng an toàn và tìm kiếm rương giá trị"
+            "Kiểm tra border modifiers bằng Dead Man's Sulphur cho đến khi tìm được Rare Monsters drop an additional Divine Orb.",
+            "Xây dựng bố cục Voyage với Sea Pillars và tăng tối đa Rare Monsters.",
+            "Tiêu diệt quái vật để thu về lượng Divine Orb khổng lồ."
           ],
           "maps": [
             {
-              "name": "Sandy Seabed, Coral Forest, Coral Reef",
-              "note": "Các loại Chart khác nhau cho các phần thưởng đặc thù",
-              "url": "",
-              "lookup": "https://www.poewiki.net/index.php?search=Sandy%20Seabed%2C%20Coral%20Forest%2C%20Coral%20Reef"
+              "name": "Sea Pillars Chart Area",
+              "note": "Chứa extra Giant Starfish Rares cho chiến lược jackpot.",
+              "url": "https://maxroll.gg/poe/currency/curse-of-the-allflame-farming-strategy",
+              "lookup": "https://www.poewiki.net/index.php?search=Sea%20Pillars%20Chart%20Area"
             }
           ],
           "trees": [],
@@ -115,39 +191,31 @@
             }
           ],
           "profit": "chưa có số liệu",
-          "requires": "Hiểu biết về cơ chế Voyage và quản lý tài nguyên",
-          "risk": "Trung bình",
-          "lookup": "https://www.poewiki.net/index.php?search=Curse%20of%20the%20Allflame%20Farming",
-          "treeSearch": "https://www.youtube.com/results?search_query=Curse%20of%20the%20Allflame%20Farming%20atlas%20tree%203.29%20Curse%20of%20the%20Allflame"
-        }
-      ]
-    },
-    {
-      "key": "end",
-      "title": "Giai đoạn cuối (Endgame)",
-      "budget": "Trung bình - Cao",
-      "content": "Map tier cao, yêu cầu đầu tư Scarab",
-      "strategies": [
+          "requires": "Build mạnh, damage cao và khả năng sinh tồn tốt trong map lượng quái dày đặc",
+          "risk": "Cao",
+          "lookup": "https://www.poewiki.net/index.php?search=Curse%20of%20the%20Allflame%20Divine%20Orb%20Jackpot%20Farm",
+          "treeSearch": "https://www.youtube.com/results?search_query=Curse%20of%20the%20Allflame%20Divine%20Orb%20Jackpot%20Farm%20atlas%20tree%203.29%20Curse%20of%20the%20Allflame"
+        },
         {
-          "name": "80% Deli farm",
-          "where": "Map Dunes",
-          "setup": "2x Delirium Scarab of Mania, 3x Delirium Scarab of Paranoia, 4x Fine/Diviner’s Delirium Orb",
+          "name": "80% Deli Farm",
+          "where": "Chạy map Dunes với Delirium Orbs và Scarabs để farm quái và săn Svalin drops.",
+          "setup": "Dunes Map, 2x Delirium Scarab of Mania, 3x Delirium Scarab of Paranoia, kết hợp 4x Fine Delirium Orb hoặc 4x Diviner’s Delirium Orb.",
           "steps": [
-            "Sử dụng Scarab và Delirium Orb để tăng độ khó và phần thưởng",
-            "Tận dụng các node Ore để spawn thêm quái vật",
-            "Săn tìm Svalin drops"
+            "Chuẩn bị map Dunes kèm theo Orbs và Scarabs tương ứng.",
+            "Khai thác các ore nodes (Verisium) để spawn thêm mob và tạo hố sụt (crater).",
+            "Săn tìm các phần thưởng giá trị cao."
           ],
           "maps": [
             {
               "name": "Dunes",
-              "note": "Map tốt nhất cho việc farm Delirium",
-              "url": "",
+              "note": "Map rộng, bố cục thẳng thích hợp cho Delirium và săn Svalin drops.",
+              "url": "https://poe-vault.com/guides/atlas-passive-skill-tree-strategies",
               "lookup": "https://www.poewiki.net/index.php?search=Dunes"
             }
           ],
           "trees": [
             {
-              "title": "Deli",
+              "title": "Deli Atlas Tree",
               "url": "https://poeplanner.com/a/6glO"
             }
           ],
@@ -158,35 +226,35 @@
             }
           ],
           "profit": "chưa có số liệu",
-          "requires": "Build mạnh, có khả năng clear nhanh",
+          "requires": "Build meta endgame đầu tư mạnh, DPS và Clear speed cực cao",
           "risk": "Cao",
-          "lookup": "https://www.poewiki.net/index.php?search=80%25%20Deli%20farm",
-          "treeSearch": "https://www.youtube.com/results?search_query=80%25%20Deli%20farm%20atlas%20tree%203.29%20Curse%20of%20the%20Allflame"
+          "lookup": "https://www.poewiki.net/index.php?search=80%25%20Deli%20Farm",
+          "treeSearch": "https://www.youtube.com/results?search_query=80%25%20Deli%20Farm%20atlas%20tree%203.29%20Curse%20of%20the%20Allflame"
         }
       ]
     }
   ],
   "tips": [
-    "Luôn kiểm tra modifier của Expedition trước khi đặt thuốc nổ để tránh các mod khắc chế build.",
-    "Đối với Charts, hãy ưu tiên các rương Operative Strongbox để lấy Scarab và Currency.",
-    "Sử dụng regex để lọc các modifier tốt trên Charts giúp tiết kiệm thời gian.",
-    "Đừng cố gắng farm quá nhiều cơ chế cùng lúc, hãy tập trung vào một chiến lược hiệu quả với build của bạn."
+    "Luôn kiểm tra kỹ các mod của Chart và Voyage trước khi thực hiện để tối ưu hóa lượng Divine Orb.",
+    "Sử dụng regex được cung cấp để lọc nhanh các modifier giá trị cao khi roll map hoặc chart.",
+    "Thử nghiệm và điều chỉnh cây Atlas Passive cho phù hợp với lối chơi cá nhân và sức mạnh của nhân vật."
   ],
   "sources": [
     "https://poe-vault.com/guides/atlas-passive-skill-tree-strategies",
-    "https://maxroll.gg/poe/news/upcoming-changes-and-farming-strategies-in-3-29",
     "https://maxroll.gg/poe/currency/curse-of-the-allflame-farming-strategy",
-    "https://www.pathofexile.com/",
-    "https://www.pathofexile.com/game",
-    "https://www.u4n.com/news/path-of-exile-3-29-currency-farming-guide.html"
-  ],
-  "trustedSources": [
-    "https://poe-vault.com/guides/atlas-passive-skill-tree-strategies",
     "https://maxroll.gg/poe/news/upcoming-changes-and-farming-strategies-in-3-29",
-    "https://maxroll.gg/poe/currency/curse-of-the-allflame-farming-strategy",
+    "https://maxroll.gg/poe/tierlists/endgame-farming-tier-list",
     "https://www.pathofexile.com/",
     "https://www.pathofexile.com/game"
   ],
-  "model": "gemini-3.1-flash-lite",
-  "updatedAt": "2026-11-05T15:38:58.313Z"
+  "trustedSources": [
+    "https://poe-vault.com/guides/atlas-passive-skill-tree-strategies",
+    "https://maxroll.gg/poe/currency/curse-of-the-allflame-farming-strategy",
+    "https://maxroll.gg/poe/news/upcoming-changes-and-farming-strategies-in-3-29",
+    "https://maxroll.gg/poe/tierlists/endgame-farming-tier-list",
+    "https://www.pathofexile.com/",
+    "https://www.pathofexile.com/game"
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "updatedAt": "2026-11-06T02:49:08.399Z"
 }

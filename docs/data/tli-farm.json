@@ -1,123 +1,131 @@
 {
-  "season": "Torchlight: Infinite SS14 Tartarus",
+  "season": "Torchlight: Infinite Tartarus",
   "stages": [
     {
       "key": "starter",
-      "title": "Giai đoạn khởi đầu (Early Endgame)",
-      "budget": "0",
-      "content": "Netherrealm Timemark thấp",
+      "title": "Giai đoạn Khởi đầu (Starter)",
+      "budget": "0 vốn",
+      "content": "Netherrealm cơ bản và cơ chế mùa Tartarus",
       "strategies": [
         {
-          "name": "Netherrealm Farming cơ bản",
+          "name": "Tartarus Seasonal Mechanic",
           "where": "Netherrealm",
-          "setup": "Không sử dụng Compass đắt tiền",
+          "setup": "Tartarus Caged Beasts",
           "steps": [
-            "Hoàn thành chiến dịch",
-            "Mở khóa Netherrealm",
-            "Farm các Timemark thấp để lấy trang bị cơ bản và vật liệu chế tạo"
+            "Capture Caged Beasts on the board in the Netherrealm.",
+            "Crush the prison Riot for rich rewards."
           ],
           "maps": [
             {
-              "name": "Timemark thấp",
-              "note": "Tập trung vào việc dọn dẹp nhanh để nâng cấp trang bị và tích lũy vật liệu",
-              "url": "",
-              "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Timemark%20th%E1%BA%A5p"
+              "name": "Netherrealm",
+              "note": "Tham gia cơ chế mùa Tartarus để bắt thú nhốt và dẹp bạo loạn ngục tối nhận phần thưởng phong phú.",
+              "url": "https://torchlight.xd.com/",
+              "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Netherrealm"
             }
           ],
           "trees": [],
-          "links": [],
+          "links": [
+            {
+              "title": "Torchlight: Infinite - The Tartarus Season Official Page",
+              "url": "https://torchlight.xd.com/"
+            }
+          ],
           "profit": "chưa có số liệu",
-          "requires": "Build cơ bản, khả năng sống sót tốt",
+          "requires": "Build cơ bản từ việc nhận Legendary Drop Pactspirit Selection Pack khi đăng nhập",
           "risk": "Thấp",
-          "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Netherrealm%20Farming%20c%C6%A1%20b%E1%BA%A3n",
-          "treeSearch": "https://www.youtube.com/results?search_query=Torchlight%20Infinite%20SS14%20Tartarus%20Netherrealm%20Farming%20c%C6%A1%20b%E1%BA%A3n%20farming%20setup"
+          "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Tartarus%20Seasonal%20Mechanic",
+          "treeSearch": "https://www.youtube.com/results?search_query=Torchlight%20Infinite%20Tartarus%20Tartarus%20Seasonal%20Mechanic%20farming%20setup"
         }
       ]
     },
     {
       "key": "mid",
-      "title": "Giai đoạn ổn định (Stable Mapping)",
-      "budget": "Trung bình",
-      "content": "Timemark 7",
+      "title": "Giai đoạn Giữa (Mid-game)",
+      "budget": "Vốn ít từ việc tích lũy giai đoạn đầu",
+      "content": "Netherrealm cấp độ cao hơn và các tính năng mùa",
       "strategies": [
         {
-          "name": "Farming loop ổn định",
-          "where": "Netherrealm Timemark 7",
-          "setup": "Sử dụng Compass phù hợp với mục tiêu",
+          "name": "Tartarus Board Farm",
+          "where": "Netherrealm",
+          "setup": "Tartarus Caged Beasts & Prison Riot",
           "steps": [
-            "Chạy map theo lô 10-15 map",
-            "Bán các vật phẩm giá trị như Beacon, Compass, Hero Memories",
-            "Tối ưu hóa tốc độ dọn map"
+            "Khám phá Netherrealm.",
+            "Tập trung dọn dẹp các khu vực có Caged Beasts và giải quyết Prison Riot để tối ưu hóa tài nguyên."
           ],
           "maps": [
             {
-              "name": "Timemark 7",
-              "note": "Thiết lập vòng lặp farm ổn định, bán vật phẩm thay vì tiêu thụ hết",
-              "url": "",
-              "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Timemark%207"
+              "name": "Netherrealm",
+              "note": "Khu vực chính diễn ra cơ chế Tartarus mùa này.",
+              "url": "https://torchlight.xd.com/",
+              "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Netherrealm"
             }
           ],
           "trees": [],
-          "links": [],
+          "links": [
+            {
+              "title": "Torchlight: Infinite Official Website",
+              "url": "https://torchlight.xd.com/"
+            }
+          ],
           "profit": "chưa có số liệu",
-          "requires": "Tốc độ dọn map nhanh, không chết thường xuyên",
+          "requires": "Build có sát thương ổn định với các Hero Trait như Youga - The Ultimate One",
           "risk": "Trung bình",
-          "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Farming%20loop%20%E1%BB%95n%20%C4%91%E1%BB%8Bnh",
-          "treeSearch": "https://www.youtube.com/results?search_query=Torchlight%20Infinite%20SS14%20Tartarus%20Farming%20loop%20%E1%BB%95n%20%C4%91%E1%BB%8Bnh%20farming%20setup"
+          "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Tartarus%20Board%20Farm",
+          "treeSearch": "https://www.youtube.com/results?search_query=Torchlight%20Infinite%20Tartarus%20Tartarus%20Board%20Farm%20farming%20setup"
         }
       ]
     },
     {
       "key": "end",
-      "title": "Giai đoạn tối ưu (High-Difficulty Optimization)",
-      "budget": "Cao",
-      "content": "Timemark 8 và Profound",
+      "title": "Giai đoạn Cuối (Endgame)",
+      "budget": "Đầu tư cao vào trang bị và Pactspirit",
+      "content": "Netherrealm cấp độ cao nhất với cơ chế Tartarus",
       "strategies": [
         {
-          "name": "Tartarus Seasonal Mechanic Farming",
-          "where": "Netherrealm Tartarus",
-          "setup": "Legendary Compass, Warden’s Caches",
+          "name": "Endgame Tartarus Farming",
+          "where": "Netherrealm",
+          "setup": "Full Tartarus Board & Riot Control",
           "steps": [
-            "Sử dụng cơ chế Tartarus để bắt Caged Beasts",
-            "Dọn dẹp các nhà tù Riot để nhận phần thưởng",
-            "Sử dụng Legendary Compass để tăng giá trị rơi"
+            "Chạy các map Netherrealm cấp cao.",
+            "Săn lùng các phần thưởng giá trị cao từ Prison Riot trong cơ chế Tartarus."
           ],
           "maps": [
             {
-              "name": "Timemark 8",
-              "note": "Tối ưu hóa phần thưởng từ Warden’s Caches và cơ chế mùa Tartarus",
-              "url": "",
-              "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Timemark%208"
+              "name": "Netherrealm",
+              "note": "Điểm đến endgame chính để farm nguyên liệu và tài nguyên cao cấp.",
+              "url": "https://torchlight.xd.com/",
+              "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Netherrealm"
             }
           ],
           "trees": [],
-          "links": [],
+          "links": [
+            {
+              "title": "Torchlight: Infinite - Tartarus Season",
+              "url": "https://torchlight.xd.com/"
+            }
+          ],
           "profit": "chưa có số liệu",
-          "requires": "Build endgame, khả năng chịu đựng cao",
+          "requires": "Build hoàn thiện, tối ưu hóa chỉ số DPS và khả năng sinh tồn",
           "risk": "Cao",
-          "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Tartarus%20Seasonal%20Mechanic%20Farming",
-          "treeSearch": "https://www.youtube.com/results?search_query=Torchlight%20Infinite%20SS14%20Tartarus%20Tartarus%20Seasonal%20Mechanic%20Farming%20farming%20setup"
+          "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Endgame%20Tartarus%20Farming",
+          "treeSearch": "https://www.youtube.com/results?search_query=Torchlight%20Infinite%20Tartarus%20Endgame%20Tartarus%20Farming%20farming%20setup"
         }
       ]
     }
   ],
   "tips": [
-    "Ưu tiên lợi nhuận ổn định thay vì dựa vào các vật phẩm rơi hiếm.",
-    "Đo lường lợi nhuận bằng số map hoàn thành mỗi giờ.",
-    "Luôn bán các vật phẩm không cần thiết trên Trade House để đổi lấy Flame Elementium.",
-    "Không nên đầu tư vào các Compass đắt tiền nếu tốc độ dọn map chưa ổn định.",
-    "Cân bằng giữa việc farm currency và tiến trình mùa Tartarus."
+    "Đăng nhập để nhận Legendary Drop Pactspirit Selection Pack hỗ trợ cho hành trình farm.",
+    "Tận dụng tối đa cơ chế mùa Tartarus để bắt Caged Beasts trên bảng trong Netherrealm."
   ],
   "sources": [
     "https://torchlight.xd.com/",
-    "https://www.vhpg.com/torchlight-infinite-ss14-currency-farming/",
-    "https://gamerblurb.com/articles/how-to-get-flame-elementium-in-torchlight-infinite-easy-farming-guide",
-    "https://www.torchlightinfinitewiki.wiki/seasons/Torchlight-Infinite-Tartarus",
-    "https://www.torchlightinfinitewiki.wiki/economy/Torchlight-Infinite-ember-farm"
+    "https://store.steampowered.com/app/41500/Torchlight/",
+    "https://en.wikipedia.org/wiki/Torchlight",
+    "https://store.steampowered.com/app/1974050/Torchlight_Infinite/"
   ],
   "trustedSources": [
     "https://torchlight.xd.com/"
   ],
-  "model": "gemini-3.1-flash-lite",
-  "updatedAt": "2026-11-05T15:45:48.632Z"
+  "model": "gemini-3.5-flash-lite",
+  "updatedAt": "2026-11-06T02:53:11.083Z"
 }

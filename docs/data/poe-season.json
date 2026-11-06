@@ -5,27 +5,26 @@
   "end": "2026-12-07 (ước tính)",
   "mechanics": [
     {
-      "name": "Voyages",
-      "desc": "Người chơi sử dụng tàu The Sovereign để thám hiểm đáy biển, đặt Allflame Lanterns để tạo vùng an toàn và thu thập tài nguyên như Dead Man's Sulfur."
+      "name": "Voyages và Đáy Biển",
+      "desc": "Người chơi tham gia thám hiểm đáy biển cùng thuyền trưởng Valerie trên tàu The Sovereign, sử dụng Bathysphere và đặt Đèn lồng Allflame để đẩy lùi áp lực nước, tạo vùng an toàn và thu thập Dead Man's Sulfur."
     },
     {
       "name": "Allflame Crafting",
-      "desc": "Hệ thống chế tạo cho phép người chơi xem trước các kết quả tiềm năng của vật phẩm và chọn kết quả mong muốn bằng cách sử dụng Dead Man's Sulfur."
+      "desc": "Hệ thống chế tác mới tại lò rèn của Vesper, cho phép người chơi xem trước nhiều kết quả dạng ma quái của vật phẩm và chọn một kết quả mong muốn thay vì ngẫu nhiên hoàn toàn."
     }
   ],
   "changes": [
-    "Loại bỏ hoàn toàn hệ thống màu sắc của socket trên trang bị; mọi gem đều có thể lắp vào bất kỳ socket nào.",
-    "Rework Abyss: Loại bỏ cơ chế theo vết nứt, thay bằng các hố Abyss mở sẵn để người chơi phòng thủ trước các đợt tấn công.",
-    "Rework Legion: Thay thế Incubators bằng Vestigial Unique Items và cho phép sử dụng Enshrouding Crystals để chuyển đổi thuộc tính Unique Armour.",
-    "Cải thiện cân bằng cho các nhân vật sử dụng phép thuật (spellcasters) và thêm mới các Exceptional Skill Gems gọi là Pacts."
+    "Loại bỏ hoàn toàn hệ thống màu của Socket trên trang bị; mọi gem có thể cắm vào bất kỳ socket nào, và cắm gem đúng màu khớp với socket sẽ nhận thêm bổ trợ Quality.",
+    "Làm lại toàn bộ cơ chế Abyss theo phong cách mới, bỏ việc đuổi theo vết nứt quanh bản đồ và chuyển thành dạng đứng giữ chân quái kết hợp trùm cuối Pinnacle Boss mới.",
+    "Làm lại Legion với phần thưởng Vestigial Unique Items và tinh chỉnh các thợ săn tiền thưởng Mercenaries of Trarthus thành cơ chế cốt lõi vĩnh viễn kèm Ascendancy Luminary mới cho Scion."
   ],
-  "next": "Chưa có thông tin chính thức",
+  "next": "Thông tin về mùa giải kế tiếp chưa được công bố.",
   "sources": [
     "https://www.arcanestash.com/guides/curse-of-the-allflame-new-path-of-exile-1-league",
-    "https://www.poebuilds.net/post/path-of-exile-3-29-curse-of-the-allflame",
     "https://tech.yahoo.com/gaming/articles/path-exile-curse-allflame-guide-230714063.html",
+    "https://www.poebuilds.net/post/path-of-exile-3-29-curse-of-the-allflame",
     "https://ggseason.com/blog/path-of-exile-all-leagues-dates/"
   ],
-  "model": "gemini-3.1-flash-lite",
-  "updatedAt": "2026-11-05T15:38:29.144Z"
+  "model": "gemini-3.5-flash-lite",
+  "updatedAt": "2026-11-06T02:48:37.118Z"
 }
