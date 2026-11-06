@@ -1,6 +1,286 @@
 {
-  "current": "khong-ro-trong-nguon-tartarus",
+  "current": "tartarus-season-tartarus",
   "seasons": [
+    {
+      "key": "tartarus-season-tartarus",
+      "label": "Tartarus Season Tartarus",
+      "patch": "Tartarus Season",
+      "name": "Tartarus",
+      "updatedAt": "2026-11-06T16:00:39.163Z",
+      "builds": [
+        {
+          "rank": 1,
+          "name": "Howling Gale",
+          "class": "Selena 1 — Sing with the Tide",
+          "tier": "S",
+          "playstyle": "All-Rounder",
+          "budget": "Thấp",
+          "difficulty": "Dễ",
+          "clear": 5,
+          "boss": 4,
+          "tank": 4,
+          "why": "Build league start tuyệt vời với khả năng đóng băng mạnh mẽ, dễ chơi và không tốn nhiều đầu tư ban đầu.",
+          "tags": [
+            "cold",
+            "spell"
+          ],
+          "pactspirits": [],
+          "guides": [
+            {
+              "title": "Selena 1 Sing with the Tide",
+              "url": "https://tlifaq.pages.dev/hero/selena_01/"
+            }
+          ],
+          "id": "tartarus-season-tartarus-howling-gale",
+          "season": "Tartarus Season Tartarus"
+        },
+        {
+          "rank": 2,
+          "name": "Wilting Beam",
+          "class": "Selena 1 — Sing with the Tide",
+          "tier": "S",
+          "playstyle": "All-Rounder",
+          "budget": "Trung bình",
+          "difficulty": "Trung bình",
+          "clear": 4,
+          "boss": 4,
+          "tank": 4,
+          "why": "Sử dụng Erosion DoT và Reap, giúp farm tốt từ league start đến T8 mà không cần trang bị quá đắt đỏ.",
+          "tags": [
+            "erosion",
+            "spell"
+          ],
+          "pactspirits": [],
+          "guides": [
+            {
+              "title": "Selena 1 Sing with the Tide",
+              "url": "https://tlifaq.pages.dev/hero/selena_01/"
+            }
+          ],
+          "id": "tartarus-season-tartarus-wilting-beam",
+          "season": "Tartarus Season Tartarus"
+        },
+        {
+          "rank": 3,
+          "name": "Corrosive Throw",
+          "class": "Erika 1 — Wind Stalker",
+          "tier": "S",
+          "playstyle": "Speed Mapper",
+          "budget": "Trung bình",
+          "difficulty": "Trung bình",
+          "clear": 5,
+          "boss": 3,
+          "tank": 3,
+          "why": "Khả năng dọn map nhanh, phù hợp cho giai đoạn đầu mùa để kiếm những đồng tiền tệ đầu tiên.",
+          "tags": [
+            "attack",
+            "erosion"
+          ],
+          "pactspirits": [],
+          "guides": [
+            {
+              "title": "Erika 1 Wind Stalker",
+              "url": "https://tlifaq.pages.dev/hero/erika_01/"
+            }
+          ],
+          "id": "tartarus-season-tartarus-corrosive-throw",
+          "season": "Tartarus Season Tartarus"
+        },
+        {
+          "rank": 4,
+          "name": "Frost Spike",
+          "class": "Rosa 2 — Unsullied Blade",
+          "tier": "S",
+          "playstyle": "All-Rounder",
+          "budget": "Trung bình",
+          "difficulty": "Trung bình",
+          "clear": 4,
+          "boss": 4,
+          "tank": 4,
+          "why": "Hiệu quả từ cấp độ 1 tiến thẳng đến Profound với lối chơi ổn định, dù nhận một số điều chỉnh nerf nhẹ ở SS14.",
+          "tags": [
+            "cold",
+            "spell"
+          ],
+          "pactspirits": [],
+          "guides": [
+            {
+              "title": "Rosa 2 Unsullied Blade",
+              "url": "https://tlifaq.pages.dev/hero/rosa_02/"
+            }
+          ],
+          "id": "tartarus-season-tartarus-frost-spike",
+          "season": "Tartarus Season Tartarus"
+        },
+        {
+          "rank": 5,
+          "name": "Scorching Beam",
+          "class": "Selena 1 — Sing with the Tide",
+          "tier": "S",
+          "playstyle": "Boss Killer",
+          "budget": "Trung bình",
+          "difficulty": "Trung bình",
+          "clear": 3,
+          "boss": 5,
+          "tank": 4,
+          "why": "Tập trung vào cơ chế Ignite, giúp tiêu diệt các boss đầu game và endgame rất hiệu quả.",
+          "tags": [
+            "fire",
+            "spell"
+          ],
+          "pactspirits": [],
+          "guides": [
+            {
+              "title": "Selena 1 Sing with the Tide",
+              "url": "https://tlifaq.pages.dev/hero/selena_01/"
+            }
+          ],
+          "id": "tartarus-season-tartarus-scorching-beam",
+          "season": "Tartarus Season Tartarus"
+        },
+        {
+          "rank": 6,
+          "name": "Frost Spike: campaign to Profound",
+          "class": "Rehan 2 — Seething Silhouette",
+          "tier": "S",
+          "playstyle": "All-Rounder",
+          "budget": "Trung bình",
+          "difficulty": "Trung bình",
+          "clear": 4,
+          "boss": 4,
+          "tank": 4,
+          "why": "Chuyển đổi mượt mà từ Groundshaker sang Frost Spike và Spiral Strike từ cốt truyện đến Profound.",
+          "tags": [
+            "cold",
+            "attack"
+          ],
+          "pactspirits": [],
+          "guides": [
+            {
+              "title": "Rehan 2 Seething Silhouette",
+              "url": "https://tlifaq.pages.dev/hero/rehan_02/"
+            }
+          ],
+          "id": "tartarus-season-tartarus-frost-spike-campaign-to-profound",
+          "season": "Tartarus Season Tartarus"
+        },
+        {
+          "rank": 7,
+          "name": "Spacetime Elapse DoT",
+          "class": "Youga 2 — Spacetime Elapse",
+          "tier": "A",
+          "playstyle": "Speed Mapper",
+          "budget": "Thấp",
+          "difficulty": "Dễ",
+          "clear": 4,
+          "boss": 3,
+          "tank": 3,
+          "why": "Lối chơi dễ tiếp cận nhờ Mind Control và Channeled Depths, hoàn hảo cho người mới bắt đầu không có vốn.",
+          "tags": [
+            "spell",
+            "erosion"
+          ],
+          "pactspirits": [],
+          "guides": [
+            {
+              "title": "Youga 2 Spacetime Elapse",
+              "url": "https://tlifaq.pages.dev/hero/youga_02/"
+            }
+          ],
+          "id": "tartarus-season-tartarus-spacetime-elapse-dot",
+          "season": "Tartarus Season Tartarus"
+        },
+        {
+          "rank": 8,
+          "name": "Frost Core / Ice Shards",
+          "class": "Gemma 2 — Frostbitten Heart",
+          "tier": "A",
+          "playstyle": "All-Rounder",
+          "budget": "Thấp",
+          "difficulty": "Dễ",
+          "clear": 4,
+          "boss": 3,
+          "tank": 3,
+          "why": "Được hưởng lợi từ các thay đổi buff ở bản vá SS14, giúp xây dựng lối chơi băng giá cực kỳ thân thiện với người chơi khởi đầu.",
+          "tags": [
+            "cold",
+            "spell"
+          ],
+          "pactspirits": [],
+          "guides": [
+            {
+              "title": "Gemma 2 Frostbitten Heart",
+              "url": "https://tlifaq.pages.dev/hero/gemma_02/"
+            }
+          ],
+          "id": "tartarus-season-tartarus-frost-core-ice-shards",
+          "season": "Tartarus Season Tartarus"
+        },
+        {
+          "rank": 9,
+          "name": "Split Lightning Bolt",
+          "class": "Thea 1 — Wisdom of The Gods",
+          "tier": "A",
+          "playstyle": "All-Rounder",
+          "budget": "Trung bình",
+          "difficulty": "Trung bình",
+          "clear": 4,
+          "boss": 4,
+          "tank": 3,
+          "why": "Khả năng mở rộng tốt từ giai đoạn league start kéo dài đến tận endgame với cơ chế Tangle chuyển sang Spell Burst.",
+          "tags": [
+            "lightning",
+            "spell"
+          ],
+          "pactspirits": [],
+          "guides": [
+            {
+              "title": "Thea 1 Wisdom of The Gods",
+              "url": "https://tlifaq.pages.dev/hero/thea_01/"
+            }
+          ],
+          "id": "tartarus-season-tartarus-split-lightning-bolt",
+          "season": "Tartarus Season Tartarus"
+        },
+        {
+          "rank": 10,
+          "name": "Erosion Magus",
+          "class": "Iris 2 — Vigilant Breeze",
+          "tier": "A",
+          "playstyle": "All-Rounder",
+          "budget": "Trung bình",
+          "difficulty": "Trung bình",
+          "clear": 4,
+          "boss": 3,
+          "tank": 4,
+          "why": "Sử dụng các loại Magus triệu hồi (Erosion / Fire / Frost) giúp dọn bàn chơi từ cốt truyện lên đến Profound an toàn.",
+          "tags": [
+            "summon",
+            "erosion",
+            "fire",
+            "cold"
+          ],
+          "pactspirits": [],
+          "guides": [
+            {
+              "title": "Iris 2 Vigilant Breeze",
+              "url": "https://tlifaq.pages.dev/hero/iris_02/"
+            }
+          ],
+          "id": "tartarus-season-tartarus-erosion-magus",
+          "season": "Tartarus Season Tartarus"
+        }
+      ],
+      "notes": "Các bảng xếp hạng và tier list cho mùa Tartarus (SS14) có thể thay đổi tùy thuộc vào thú cưng (pact spirits), trang bị và lượng ngân sách đầu tư ban đầu của người chơi.",
+      "sources": [
+        "https://tlifaq.pages.dev/",
+        "https://torchlight.xd.com/index",
+        "https://store.steampowered.com/app/41500/Torchlight/",
+        "https://en.wikipedia.org/wiki/Torchlight",
+        "https://store.steampowered.com/app/1974050/Torchlight_Infinite/"
+      ],
+      "model": "gemini-3.5-flash-lite"
+    },
     {
       "key": "khong-ro-trong-nguon-tartarus",
       "label": "Không rõ trong nguồn Tartarus",
@@ -372,193 +652,7 @@
         "https://torchlightinfinitegame.wiki/rankings/tartarus-tier-list/"
       ],
       "model": "gemini-3.1-flash-lite"
-    },
-    {
-      "key": "tartarus-season-tartarus",
-      "label": "Tartarus Season Tartarus",
-      "patch": "Tartarus Season",
-      "name": "Tartarus",
-      "updatedAt": "2026-11-05T13:59:12.110Z",
-      "builds": [
-        {
-          "rank": 1,
-          "name": "Sing with the Tide - Howling Gale",
-          "class": "Selena 1",
-          "tier": "S",
-          "playstyle": "All-Rounder",
-          "budget": "Thấp",
-          "difficulty": "Dễ",
-          "clear": 5,
-          "boss": 4,
-          "tank": 4,
-          "why": "Build có độ ổn định cao, dễ tiếp cận cho người mới bắt đầu với khả năng đóng băng kẻ địch tốt và hiệu quả từ giai đoạn đầu game.",
-          "guides": [
-            {
-              "title": "Selena 1 Sing with the Tide",
-              "url": "https://tlifaq.pages.dev/hero/selena_01/"
-            }
-          ],
-          "id": "tartarus-season-tartarus-sing-with-the-tide-howling-gale",
-          "season": "Tartarus Season Tartarus"
-        },
-        {
-          "rank": 2,
-          "name": "Frostbitten Heart - Frost Core / Ice Shards",
-          "class": "Gemma 2",
-          "tier": "A",
-          "playstyle": "All-Rounder",
-          "budget": "Thấp",
-          "difficulty": "Dễ",
-          "clear": 4,
-          "boss": 4,
-          "tank": 3,
-          "why": "Nhận được buff trong SS14, lối chơi đơn giản, hiệu quả cao trong việc dọn map và đánh boss mà không cần đầu tư quá nhiều.",
-          "guides": [
-            {
-              "title": "Gemma 2 Frostbitten Heart",
-              "url": "https://tlifaq.pages.dev/hero/gemma_02/"
-            }
-          ],
-          "id": "tartarus-season-tartarus-frostbitten-heart-frost-core-ice-shards",
-          "season": "Tartarus Season Tartarus"
-        },
-        {
-          "rank": 3,
-          "name": "Seething Silhouette - Frost Spike",
-          "class": "Rehan 2",
-          "tier": "S",
-          "playstyle": "All-Rounder",
-          "budget": "Trung bình",
-          "difficulty": "Trung bình",
-          "clear": 4,
-          "boss": 5,
-          "tank": 4,
-          "why": "Khả năng sống sót tốt và sát thương ổn định từ chiến dịch đến giai đoạn Profound, rất mạnh mẽ trong meta Tartarus.",
-          "guides": [
-            {
-              "title": "Rehan 2 Seething Silhouette",
-              "url": "https://tlifaq.pages.dev/hero/rehan_02/"
-            }
-          ],
-          "id": "tartarus-season-tartarus-seething-silhouette-frost-spike",
-          "season": "Tartarus Season Tartarus"
-        },
-        {
-          "rank": 4,
-          "name": "Spacetime Elapse - DoT",
-          "class": "Youga 2",
-          "tier": "A",
-          "playstyle": "Speed Mapper",
-          "budget": "Thấp",
-          "difficulty": "Dễ",
-          "clear": 5,
-          "boss": 3,
-          "tank": 3,
-          "why": "Lối chơi DoT cực kỳ dễ chịu cho người mới, tốc độ dọn map nhanh và không yêu cầu trang bị đắt đỏ.",
-          "guides": [
-            {
-              "title": "Youga 2 Spacetime Elapse",
-              "url": "https://tlifaq.pages.dev/hero/youga_02/"
-            }
-          ],
-          "id": "tartarus-season-tartarus-spacetime-elapse-dot",
-          "season": "Tartarus Season Tartarus"
-        },
-        {
-          "rank": 5,
-          "name": "Wind Stalker - Corrosive Throw",
-          "class": "Erika 1",
-          "tier": "S",
-          "playstyle": "Speed Mapper",
-          "budget": "Trung bình",
-          "difficulty": "Trung bình",
-          "clear": 5,
-          "boss": 3,
-          "tank": 2,
-          "why": "Tốc độ di chuyển và dọn quái vượt trội, phù hợp để farm Flame Elementium nhanh chóng ở giai đoạn đầu.",
-          "guides": [
-            {
-              "title": "Erika 1 Wind Stalker",
-              "url": "https://tlifaq.pages.dev/hero/erika_01/"
-            }
-          ],
-          "id": "tartarus-season-tartarus-wind-stalker-corrosive-throw",
-          "season": "Tartarus Season Tartarus"
-        },
-        {
-          "rank": 6,
-          "name": "Wisdom of The Gods - Splitting Lightning Bolt",
-          "class": "Thea 1",
-          "tier": "A",
-          "playstyle": "All-Rounder",
-          "budget": "Trung bình",
-          "difficulty": "Trung bình",
-          "clear": 4,
-          "boss": 4,
-          "tank": 3,
-          "why": "Build cân bằng, khả năng scale sát thương tốt từ đầu game đến endgame mà không bị phụ thuộc quá nhiều vào gear.",
-          "guides": [
-            {
-              "title": "Thea 1 Wisdom of The Gods",
-              "url": "https://tlifaq.pages.dev/hero/thea_01/"
-            }
-          ],
-          "id": "tartarus-season-tartarus-wisdom-of-the-gods-splitting-lightning-bolt",
-          "season": "Tartarus Season Tartarus"
-        },
-        {
-          "rank": 7,
-          "name": "Vigilant Breeze - Erosion Magus",
-          "class": "Iris 2",
-          "tier": "A",
-          "playstyle": "All-Rounder",
-          "budget": "Trung bình",
-          "difficulty": "Trung bình",
-          "clear": 4,
-          "boss": 4,
-          "tank": 3,
-          "why": "Lối chơi triệu hồi (minion) an toàn, giúp người chơi giữ khoảng cách tốt với boss trong khi vẫn đảm bảo DPS.",
-          "guides": [
-            {
-              "title": "Iris 2 Vigilant Breeze",
-              "url": "https://tlifaq.pages.dev/hero/iris_02/"
-            }
-          ],
-          "id": "tartarus-season-tartarus-vigilant-breeze-erosion-magus",
-          "season": "Tartarus Season Tartarus"
-        },
-        {
-          "rank": 8,
-          "name": "Dance of the Deep - Ground Autowalk",
-          "class": "Selena 2",
-          "tier": "A",
-          "playstyle": "Speed Mapper",
-          "budget": "Thấp",
-          "difficulty": "Dễ",
-          "clear": 5,
-          "boss": 3,
-          "tank": 3,
-          "why": "Cơ chế tự động hóa giúp việc dọn map trở nên cực kỳ nhàn hạ, rất phù hợp cho người chơi muốn trải nghiệm nhẹ nhàng.",
-          "guides": [
-            {
-              "title": "Selena 2 Dance of the Deep",
-              "url": "https://tlifaq.pages.dev/hero/selena_02/"
-            }
-          ],
-          "id": "tartarus-season-tartarus-dance-of-the-deep-ground-autowalk",
-          "season": "Tartarus Season Tartarus"
-        }
-      ],
-      "notes": "Mùa Tartarus tập trung vào cơ chế Capture Caged Beasts trong Netherrealm. Các build S-tier thường có khả năng clear map nhanh để tối ưu hóa việc farm phần thưởng mùa. Hãy ưu tiên các build có độ khó 'Dễ' hoặc 'Trung bình' nếu bạn không có vốn khởi đầu.",
-      "sources": [
-        "https://tlifaq.pages.dev/",
-        "https://torchlight.xd.com/",
-        "https://store.steampowered.com/app/41500/Torchlight/",
-        "https://en.wikipedia.org/wiki/Torchlight",
-        "https://store.steampowered.com/app/1974050/Torchlight_Infinite/"
-      ],
-      "model": "gemini-3.1-flash-lite"
     }
   ],
-  "updatedAt": "2026-11-06T14:02:31.389Z"
+  "updatedAt": "2026-11-06T16:00:39.163Z"
 }

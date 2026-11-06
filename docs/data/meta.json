@@ -4,70 +4,74 @@
   "status": {
     "poe:items": {
       "ok": true,
-      "at": "2026-11-06T13:52:11.240Z",
-      "info": "731 món",
-      "ms": 3060
+      "at": "2026-11-06T15:52:24.048Z",
+      "info": "742 món",
+      "ms": 3531
     },
     "poe:season": {
-      "ok": true,
-      "at": "2026-11-06T13:53:02.663Z",
-      "info": "",
-      "ms": 51423
+      "ok": false,
+      "at": "2026-11-06T15:54:56.738Z",
+      "error": "The operation was aborted due to timeout"
     },
     "poe:builds": {
       "ok": true,
-      "at": "2026-11-06T13:53:17.803Z",
+      "at": "2026-11-06T15:58:00.080Z",
       "info": "10 build",
-      "ms": 15140
+      "ms": 183342
     },
     "poe:farm": {
       "ok": true,
-      "at": "2026-11-06T13:54:02.960Z",
+      "at": "2026-11-06T15:59:04.979Z",
       "info": "",
-      "ms": 37157
+      "ms": 56898
     },
     "poe:guides": {
       "ok": true,
-      "at": "2026-11-06T14:01:21.718Z",
-      "info": "tạo 4, lỗi 1 (3-29-curse-of-the-allflame-slam-static-strike-elemental-hit: The operation was aborted due to timeout)",
-      "ms": 430754
+      "at": "2026-11-06T16:00:00.602Z",
+      "info": "tạo 3, lỗi 0",
+      "ms": 47618
     },
     "tli:season": {
       "ok": true,
-      "at": "2026-11-06T14:01:45.169Z",
+      "at": "2026-11-06T16:00:23.831Z",
       "info": "",
-      "ms": 15443
+      "ms": 15226
     },
     "tli:builds": {
       "ok": true,
-      "at": "2026-11-06T14:02:31.389Z",
-      "info": "8 build",
-      "ms": 38216
+      "at": "2026-11-06T16:00:39.163Z",
+      "info": "10 build",
+      "ms": 7330
     },
     "tli:farm": {
       "ok": true,
-      "at": "2026-11-06T14:02:52.285Z",
+      "at": "2026-11-06T16:00:56.663Z",
       "info": "",
-      "ms": 12891
+      "ms": 9499
     },
     "tli:items": {
       "ok": true,
-      "at": "2026-11-06T14:03:13.655Z",
-      "info": "0 món",
-      "ms": 13370
+      "at": "2026-11-06T16:01:06.433Z",
+      "info": "1 món",
+      "ms": 1767
     },
     "tli:guides": {
       "ok": true,
-      "at": "2026-11-06T14:09:53.676Z",
-      "info": "tạo 3, lỗi 2 (khong-ro-trong-nguon-tartarus-howling-gale: The operation was aborted due to timeout; khong-ro-trong-nguon-tartarus-wilting-beam: The operation was aborted due to timeout)",
-      "ms": 392018
+      "at": "2026-11-06T16:03:35.506Z",
+      "info": "tạo 5, lỗi 0",
+      "ms": 139969
     },
     "poe:cleanup": {
       "ok": true,
       "at": "2026-11-05T15:38:17.518Z",
       "info": "Đã xoá dữ liệu PoE 2 lưu nhầm: mùa 0.5.0 Return of the Ancients, farm PoE 2, 1 mùa build PoE 2, 4 hướng dẫn build PoE 2"
+    },
+    "tli:pacts": {
+      "ok": false,
+      "at": "2026-11-06T16:01:15.537Z",
+      "error": "Chỉ đọc được 0 Pactspirit từ tlidb.com (cấu trúc trang có thể đã đổi). Giữ danh sách cũ."
     }
   },
   "guidesTopN": 5,
-  "updatedAt": "2026-11-06T14:10:01.684Z"
+  "updatedAt": "2026-11-06T16:03:43.513Z"
 }

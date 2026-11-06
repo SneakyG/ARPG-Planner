@@ -1,22 +1,23 @@
 {
   "name": "Tartarus",
-  "patch": "Không rõ trong nguồn",
-  "start": "Không rõ trong nguồn",
-  "end": "Không rõ trong nguồn (ước tính)",
+  "patch": "Tartarus Season",
+  "start": "2026-07-01",
+  "end": "chưa công bố",
   "mechanics": [
     {
-      "name": "Tartarus Prison Hunt",
-      "desc": "Người chơi vào vai Warden để săn lùng các Inmates trốn thoát khỏi nhà tù Tartarus và đưa chúng trở lại tù."
+      "name": "Tartarus Prison",
+      "desc": "Người chơi săn lùng những Inmates đã trốn thoát trong nhà tù Tartarus và tống chúng trở lại, đối mặt với các cuộc bạo loạn (Riot) sắp xảy ra."
     }
   ],
   "changes": [
-    "Ra mắt Hero mới: Rosa (Redefine the Knight)",
-    "Bổ sung các chế độ chơi mới: Solo Self Found & Hardcore"
+    "Giới thiệu Hero mới: Rosa",
+    "Cập nhật các chế độ chơi mới bao gồm Solo Self Found và Hardcore",
+    "Cải thiện hệ thống thu thập loot và các trận chiến tốc độ cao"
   ],
-  "next": "Không đề cập trong nguồn",
+  "next": "chưa có thông tin",
   "sources": [
     "https://torchlight.xd.com/index"
   ],
-  "model": "gemini-3.6-flash",
-  "updatedAt": "2026-11-06T14:01:45.169Z"
+  "model": "gemini-3.1-flash-lite",
+  "updatedAt": "2026-11-06T16:00:23.830Z"
 }
