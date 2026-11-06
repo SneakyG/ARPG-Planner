@@ -36,6 +36,13 @@ async function main() {
       plan.push([g, 'guides']);
     }
   }
+  for (const g of ['poe', 'tli']) {
+    const fixed = tasks.repairSeasons(g);
+    if (fixed.length) {
+      console.log(`Đã sửa nhãn mùa ${g}: ${fixed.join(', ')}`);
+      meta.status[`${g}:cleanup`] = { ok: true, at: new Date().toISOString(), info: 'Đã sửa nhãn mùa: ' + fixed.join(', ') };
+    }
+  }
   const removed = tasks.cleanupPoe2();
   if (removed.length) {
     console.log('Đã xoá dữ liệu Path of Exile 2 lưu nhầm: ' + removed.join(', '));
