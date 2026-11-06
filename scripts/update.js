@@ -32,7 +32,7 @@ async function main() {
     if (scope === 'all' || scope === 'prices') if (g === 'poe') plan.push([g, 'items']);
     if (scope === 'all' || scope === 'meta') {
       plan.push([g, 'season'], [g, 'builds'], [g, 'farm']);
-      if (g === 'tli') plan.push([g, 'items']);
+      if (g === 'tli') plan.push([g, 'items'], [g, 'pacts']);
       plan.push([g, 'guides']);
     }
   }
@@ -45,7 +45,7 @@ async function main() {
   for (const [g, kind] of plan) {
     const key = `${g}:${kind}`;
     const t0 = Date.now();
-    const usesAI = !(g === 'poe' && (kind === 'items' || kind === 'season'));
+    const usesAI = !((g === 'poe' && (kind === 'items' || kind === 'season')) || kind === 'pacts');
     if (usesAI && !hasAI(config)) {
       meta.status[key] = { ok: false, at: new Date().toISOString(), error: 'Bỏ qua: chưa có AI key (thêm secret GEMINI_API_KEY).' };
       console.log(`- ${key}: bỏ qua (chưa có AI key)`);
@@ -59,7 +59,7 @@ async function main() {
         if (r.failed.length) info += ` (${r.failed.join('; ')})`;
       } else {
         const r = await tasks.refresh[kind](config, g);
-        info = kind === 'builds' ? `${r.builds.length} build` : kind === 'items' ? `${(r.rows || r.items || []).length} món` : '';
+        info = kind === 'builds' ? `${r.builds.length} build` : kind === 'items' ? `${(r.rows || r.items || []).length} món` : kind === 'pacts' ? `${r.items.length} Pactspirit` : '';
         if (r.errors?.length) info += ` · lỗi: ${r.errors.join('; ')}`;
       }
       meta.status[key] = { ok: true, at: new Date().toISOString(), info, ms: Date.now() - t0 };

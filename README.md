@@ -103,6 +103,15 @@ Hoặc tạo `config.local.json` (đã nằm trong `.gitignore`, không bị pus
 }
 ```
 
+## Pet → Build (Torchlight: Infinite)
+
+Chọn 3 Battle Pactspirit, trang xếp hạng build phù hợp trong mùa hiện tại (tick "Tìm cả mùa cũ" để tìm rộng hơn).
+
+- Danh sách Pactspirit (tên, nhóm, độ hiếm, ảnh) lấy từ https://tlidb.com/en/Pactspirit mỗi ngày, không cần AI.
+- Mỗi build TLI có nhãn loại sát thương (attack, spell, persistent, summon, fire, cold, lightning, erosion) và danh sách Pactspirit mà guide khuyên dùng (nếu có), do AI trích từ nguồn khi cập nhật build.
+- Cách chấm: pet được guide khuyên dùng +5 · cùng nhóm với loại sát thương của build +3 · Survival/Elixir +1 · khác loại −1.
+- Link có dạng `#/tli/pets/Tên 1~Tên 2~Tên 3`, gửi cho bạn bè là mở đúng bộ pet đó.
+
 ## Build theo mùa
 
 Build được lưu theo từng mùa. Khi mùa mới bắt đầu, lần cập nhật kế tiếp tạo danh sách mới, còn danh sách mùa cũ được giữ lại. Trên trang Build Starter: chọn mùa ở ô thứ hai (hoặc "Tất cả mùa") và gõ tên build/class/hero vào ô tìm kiếm. Mỗi thẻ build có nhãn mùa.

@@ -5,7 +5,7 @@
   const view = $('#view');
   const GAME = { poe: 'Path of Exile', tli: 'Torchlight: Infinite' };
   const CUR = { poe: 'Divine Orb', tli: 'Flame Elementium' };
-  const PAGES = ['season', 'builds', 'farm', 'items'];
+  const PAGES = ['season', 'builds', 'farm', 'items', 'pets'];
   const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const safeSrc = (u) => (/^(https?:\/\/|data\/img\/)/.test(u || '') ? esc(u) : '');
   const safeUrl = (u) => (/^https?:\/\//.test(u || '') ? esc(u) : '#');
@@ -49,7 +49,8 @@
     const p = location.hash.replace(/^#\/?/, '').split('/');
     if (p[0] === 'status') return { page: 'status', game: localGame() };
     const game = p[0] === 'tli' ? 'tli' : p[0] === 'poe' ? 'poe' : localGame();
-    const page = p[1] === 'build' ? 'build' : PAGES.includes(p[1]) ? p[1] : 'builds';
+    let page = p[1] === 'build' ? 'build' : PAGES.includes(p[1]) ? p[1] : 'builds';
+    if (page === 'pets' && game !== 'tli') page = 'builds';
     return { game, page, id: p[2] ? decodeURIComponent(p[2]) : '' };
   }
   function localGame() { try { return localStorage.getItem('arpg-game') || 'poe'; } catch { return 'poe'; } }
@@ -60,6 +61,7 @@
     document.querySelectorAll('.switch button').forEach((b) => b.setAttribute('aria-selected', String(b.dataset.g === r.game)));
     document.querySelectorAll('.tabs a[data-p]').forEach((a) => {
       if (a.dataset.p !== 'status') a.href = `#/${r.game}/${a.dataset.p}`;
+      a.hidden = !!a.dataset.only && a.dataset.only !== r.game;
       const on = a.dataset.p === r.page || (r.page === 'build' && a.dataset.p === 'builds');
       a.classList.toggle('on', on);
     });
@@ -281,6 +283,118 @@
       ${sources(d?.sources)}`;
   }
 
+
+  // ---------- Pet → Build (TLI): pick 3 Battle Pactspirits, rank builds that fit ----------
+  const PET_CATS = ['Attack', 'Spell', 'Persistent', 'Summon', 'Survival', 'Fire', 'Cold', 'Lightning', 'Erosion', 'Elixir'];
+  const CAT_VI = { Attack: 'Attack', Spell: 'Spell', Persistent: 'Persistent (DoT)', Summon: 'Summon', Survival: 'Survival', Fire: 'Fire', Cold: 'Cold', Lightning: 'Lightning', Erosion: 'Erosion', Elixir: 'Elixir' };
+  const CAT2TAG = { Attack: 'attack', Spell: 'spell', Persistent: 'persistent', Summon: 'summon', Fire: 'fire', Cold: 'cold', Lightning: 'lightning', Erosion: 'erosion' };
+  const TAG_VI = { attack: 'Attack', spell: 'Spell', persistent: 'Persistent/DoT', summon: 'Summon', fire: 'Fire', cold: 'Cold', lightning: 'Lightning', erosion: 'Erosion' };
+  const NEUTRAL = ['Survival', 'Elixir'];
+  let petsUI = { cat: '', q: '', rar: '', allSeasons: false };
+  let petList = [];
+
+  function petSlotsFromHash(r) { return (r.id || '').split('~').map((s) => s.trim()).filter(Boolean).slice(0, 3); }
+  function setPetSlots(names) {
+    location.hash = `#/tli/pets/${names.map(encodeURIComponent).join('~')}`;
+  }
+  function petIcon(p, size = 'm') {
+    if (p?.image && /^https?:\/\//.test(p.image)) return `<img class="pico ${size}" src="${esc(p.image)}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'pico ${size} ph c-${esc(p.category)}',textContent:'${esc((p.name || '?').slice(0, 1))}'}))">`;
+    return `<span class="pico ${size} ph c-${esc(p?.category || '')}">${esc((p?.name || '?').slice(0, 1))}</span>`;
+  }
+
+  // Fit of one pet for one build: recommended by the guide > matches damage type > neutral (defense) > unknown > mismatch.
+  function petFit(p, b) {
+    const tags = b.tags || [];
+    if ((b.pactspirits || []).some((n) => norm(n) === norm(p.name))) return { k: 'rec', s: 5, t: 'Guide khuyên dùng' };
+    const tag = CAT2TAG[p.category];
+    if (tag && tags.includes(tag)) return { k: 'ok', s: 3, t: `Hợp ${TAG_VI[tag]}` };
+    if (NEUTRAL.includes(p.category)) return { k: 'mid', s: 1, t: 'Phòng thủ, hợp mọi build' };
+    if (!tags.length) return { k: 'unk', s: 0, t: 'Chưa rõ loại sát thương' };
+    return { k: 'bad', s: -1, t: `Build không dùng ${CAT_VI[p.category] || p.category}` };
+  }
+
+  async function pets(r) {
+    const [pd, bd] = await Promise.all([data('tli', 'pacts'), data('tli', 'builds')]);
+    petList = (pd.items || []).filter((p) => p.category && p.category !== 'Drop');
+    const byName = new Map(petList.map((p) => [norm(p.name), p]));
+    const chosen = petSlotsFromHash(r).map((n) => byName.get(norm(n)) || { name: n, category: '' });
+    const chosenSet = new Set(chosen.map((p) => norm(p.name)));
+
+    // Slots
+    const slots = [0, 1, 2].map((i) => {
+      const p = chosen[i];
+      return p ? `<div class="slot full">${petIcon(p, 'l')}<div class="sl-t"><b>${esc(p.name)}</b><span class="muted">${esc(CAT_VI[p.category] || 'Không rõ')} · ${esc(p.rarity || '')}</span></div><button class="x" data-unpet="${i}" aria-label="Bỏ ${esc(p.name)}">×</button></div>`
+        : `<div class="slot empty"><span class="pico l ph">${i + 1}</span><div class="sl-t"><b>Ô ${i + 1}</b><span class="muted">Chọn Pactspirit bên dưới</span></div></div>`;
+    }).join('');
+
+    // Picker
+    const q = norm(petsUI.q);
+    const shown = petList.filter((p) => (!petsUI.cat || p.category === petsUI.cat) && (!petsUI.rar || p.rarity === petsUI.rar) && (!q || norm(p.name + ' ' + p.category).includes(q)));
+    const chips = ['', ...PET_CATS].map((c) => `<button class="pchip ${petsUI.cat === c ? 'on' : ''} ${c ? 'c-' + c : ''}" data-pcat="${c}">${c ? CAT_VI[c] : 'Tất cả'}</button>`).join('');
+    const grid = shown.map((p) => `<button class="pet ${chosenSet.has(norm(p.name)) ? 'sel' : ''} r-${esc(p.rarity)}" data-pet="${esc(p.name)}" title="${esc(p.desc || '')}">${petIcon(p)}<span class="pn">${esc(p.name)}</span><span class="pm">${esc(CAT_VI[p.category] || p.category)} · ${esc((p.rarity || '').slice(0, 1))}</span></button>`).join('');
+
+    // Results
+    const arc = archive(bd);
+    const seasonsUsed = petsUI.allSeasons ? arc.seasons : arc.seasons.filter((s) => s.key === arc.current).slice(0, 1);
+    const all = seasonsUsed.flatMap((s) => (s.builds || []).map((b) => ({ ...b, _season: s.label, _current: s.key === arc.current })));
+    let results = '';
+    if (chosen.length) {
+      const scored = all.map((b) => {
+        const fits = chosen.map((p) => ({ p, ...petFit(p, b) }));
+        const score = fits.reduce((a, f) => a + f.s, 0);
+        return { b, fits, score, pct: Math.max(0, Math.min(100, Math.round((score / (3 * chosen.length)) * 100))) };
+      }).filter((x) => x.score > 0 && x.fits.some((f) => f.k === 'ok' || f.k === 'rec'))
+        .sort((a, b) => b.score - a.score || a.b.rank - b.b.rank);
+      const unknown = all.filter((b) => !(b.tags || []).length).length;
+      const profile = {};
+      chosen.forEach((p) => { profile[CAT_VI[p.category] || 'Không rõ'] = (profile[CAT_VI[p.category] || 'Không rõ'] || 0) + 1; });
+      const ss = seasonsUsed.map((s) => s.label).join(', ');
+      const qy = encodeURIComponent(`Torchlight Infinite ${arc.seasons.find((s) => s.key === arc.current)?.label || ''} ${chosen.map((p) => p.name).join(' ')} build`);
+      results = `<div class="pres">
+        <div class="phint">Bộ pet thiên về: ${Object.entries(profile).map(([k, v]) => `<b>${esc(k)} ×${v}</b>`).join(', ')} · tìm trong ${esc(ss || 'mùa hiện tại')}</div>
+        ${scored.length ? scored.map((x, i) => `
+          <article class="pbuild">
+            <div class="pscore"><b>${x.pct}%</b><small>hợp</small></div>
+            <div class="pbody">
+              <div class="season-tag ${x.b._current ? 'now' : 'old'}">${esc(x.b._season)}</div>
+              <h3><span class="tier ${esc(x.b.tier)}">${esc(x.b.tier || '?')}</span>${esc(x.b.name)}</h3>
+              <div class="cls">${esc(x.b.class || '')}${(x.b.tags || []).length ? ` · ${x.b.tags.map((t) => TAG_VI[t] || t).join(', ')}` : ''}</div>
+              <ul class="fits">${x.fits.map((f) => `<li class="f-${f.k}">${petIcon(f.p, 's')}<span>${esc(f.p.name)}</span><em>${esc(f.t)}</em></li>`).join('')}</ul>
+              <div class="links"><a class="main" href="#/tli/build/${encodeURIComponent(x.b.id)}">Xem hướng dẫn build →</a>${(x.b.guides || []).slice(0, 2).map((g) => `<a href="${safeUrl(g.url)}" target="_blank" rel="noopener">${esc(g.title || 'Guide')} ↗</a>`).join('')}</div>
+            </div>
+          </article>`).join('')
+          : `<div class="empty">Chưa có build nào trong dữ liệu hợp với bộ pet này. Thử đổi pet, bật "Tìm cả mùa cũ", hoặc tìm trên web bằng các nút bên dưới.</div>`}
+        ${unknown ? `<p class="muted small">${unknown} build chưa có dữ liệu loại sát thương nên không được chấm điểm.</p>` : ''}
+        <div class="links"><a href="https://www.youtube.com/results?search_query=${qy}" target="_blank" rel="noopener">Tìm build với 3 pet này trên YouTube ↗</a><a href="https://www.google.com/search?q=${qy}" target="_blank" rel="noopener">Tìm trên Google ↗</a></div>
+      </div>`;
+    } else {
+      results = `<div class="empty">Chọn ít nhất 1 Pactspirit để xem build phù hợp. Chọn đủ 3 để có kết quả chính xác nhất.</div>`;
+    }
+
+    return `<div class="phead"><div class="grow"><div class="eyebrow">Torchlight: Infinite · Battle Pactspirit</div><h1>Pet → Build</h1>
+        <div class="meta">${pd.origin === 'seed' ? '<span class="badge seed">Danh sách mẫu</span>' : pd.updatedAt ? `<span class="badge live">tlidb.com</span><span>${when(pd.updatedAt)}</span>` : ''}<span>· ${petList.length} Pactspirit</span></div></div>
+        ${chosen.length ? `<button class="btn ghost" data-petclear="1">Chọn lại</button>` : ''}</div>
+      <p class="muted lead">Chọn 3 Pactspirit chiến đấu bạn đang có. Hệ thống so nhóm của từng pet (Attack, Spell, Persistent, Summon, nguyên tố…) với loại sát thương của từng build. Pet được guide nêu tên sẽ được cộng thêm điểm.</p>
+      <div class="pgrid">
+        <div class="pleft">
+          <div class="slots">${slots}</div>
+          ${chosen.length ? `<a class="btn ghost jump" href="#pres" data-jump="1">Xem build phù hợp ↓</a>` : ''}
+          <div class="pfilter">
+            <div class="pchips" role="group" aria-label="Nhóm Pactspirit">${chips}</div>
+            <div class="filters">
+              <input id="f-pq" type="search" placeholder="Tìm tên Pactspirit…" value="${esc(petsUI.q)}" aria-label="Tìm Pactspirit">
+              <select id="f-prar" aria-label="Độ hiếm"><option value="">Mọi độ hiếm</option>${['Legendary', 'Rare', 'Magic'].map((x) => `<option ${petsUI.rar === x ? 'selected' : ''}>${x}</option>`).join('')}</select>
+              <label class="chk"><input id="f-pall" type="checkbox" ${petsUI.allSeasons ? 'checked' : ''}> Tìm cả mùa cũ</label>
+            </div>
+          </div>
+          <div class="petgrid">${grid || '<p class="muted">Không có Pactspirit khớp.</p>'}</div>
+        </div>
+        <div class="pright" id="pres"><h2 class="sec">Build phù hợp</h2>${results}</div>
+      </div>
+      <p class="note">Cách chấm: pet được guide khuyên dùng +5 · cùng nhóm với loại sát thương của build +3 · Survival/Elixir +1 · khác loại −1. Chỉ hiện build có ít nhất 1 pet hợp. Đây là gợi ý theo nhóm pet, không thay thế việc thử trong game.</p>
+      ${sources([...(pd.sources || [])])}`;
+  }
+
   // ---------- Status ----------
   function status() {
     const info = repoInfo();
@@ -309,6 +423,7 @@
     try {
       if (r.page === 'status') { view.innerHTML = status(); return; }
       if (r.page === 'build') { view.innerHTML = await buildDetail(r); return; }
+      if (r.page === 'pets') { view.innerHTML = await pets(r); return; }
       const d = await data(r.game, r.page);
       view.innerHTML = { season, builds, farm, items }[r.page](r, d);
     } catch (e) {
@@ -328,6 +443,16 @@
     if (t.dataset.g) { const r = route(); location.hash = `#/${t.dataset.g}/${r.page === 'status' || r.page === 'build' ? 'builds' : r.page}`; return; }
     if (t.dataset.reload) { t.disabled = true; await reloadAll(); return; }
     if (t.dataset.mode) { itemsUI.mode = t.dataset.mode; render(); return; }
+    if (t.dataset.jump) { e.preventDefault(); document.getElementById('pres')?.scrollIntoView({ behavior: 'smooth' }); return; }
+    if (t.dataset.pet !== undefined) {
+      const cur = petSlotsFromHash(route());
+      const i = cur.findIndex((n) => norm(n) === norm(t.dataset.pet));
+      if (i >= 0) cur.splice(i, 1); else { if (cur.length >= 3) cur.pop(); cur.push(t.dataset.pet); }
+      petScroll = window.scrollY; setPetSlots(cur); return;
+    }
+    if (t.dataset.unpet !== undefined) { const cur = petSlotsFromHash(route()); cur.splice(+t.dataset.unpet, 1); petScroll = window.scrollY; setPetSlots(cur); return; }
+    if (t.dataset.petclear) { setPetSlots([]); return; }
+    if (t.dataset.pcat !== undefined) { petsUI.cat = t.dataset.pcat; petScroll = window.scrollY; await render(); window.scrollTo(0, petScroll); return; }
     if (t.classList.contains('copy')) {
       const el = document.getElementById(t.dataset.copy);
       try { await navigator.clipboard.writeText(el.textContent); t.textContent = 'Đã copy'; }
@@ -340,19 +465,26 @@
     if (e.target.id === 'f-play') { buildsUI.play = e.target.value; render(); }
     if (e.target.id === 'f-budget') { buildsUI.budget = e.target.value; render(); }
     if (e.target.id === 'f-cat') { itemsUI.cat = e.target.value; render(); }
+    if (e.target.id === 'f-prar') { petsUI.rar = e.target.value; render(); }
+    if (e.target.id === 'f-pall') { petsUI.allSeasons = e.target.checked; render(); }
   });
   let qTimer;
   document.addEventListener('input', (e) => {
     const id = e.target.id;
-    if (id !== 'f-q' && id !== 'f-bq') return;
+    if (id !== 'f-q' && id !== 'f-bq' && id !== 'f-pq') return;
     clearTimeout(qTimer);
     qTimer = setTimeout(async () => {
-      if (id === 'f-q') itemsUI.q = e.target.value; else buildsUI.q = e.target.value;
+      if (id === 'f-q') itemsUI.q = e.target.value; else if (id === 'f-pq') petsUI.q = e.target.value; else buildsUI.q = e.target.value;
       await render();
       const f = $('#' + id); if (f) { f.focus(); f.setSelectionRange(f.value.length, f.value.length); }
     }, 300);
   });
 
-  window.addEventListener('hashchange', render);
+  let petScroll = null;
+  window.addEventListener('hashchange', async () => {
+    const keep = petScroll; petScroll = null;
+    await render();
+    if (keep != null && route().page === 'pets') window.scrollTo(0, keep);
+  });
   reloadAll();
 })();
