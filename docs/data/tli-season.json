@@ -1,22 +1,22 @@
 {
   "name": "Tartarus",
-  "patch": "",
-  "start": "",
-  "end": "",
+  "patch": "Không rõ trong nguồn",
+  "start": "Không rõ trong nguồn",
+  "end": "Không rõ trong nguồn (ước tính)",
   "mechanics": [
     {
-      "name": "Tartarus",
-      "desc": "Capture Caged Beasts on the board in the Netherrealm and crush the prison Riot for rich rewards."
+      "name": "Tartarus Prison Hunt",
+      "desc": "Người chơi vào vai Warden để săn lùng các Inmates trốn thoát khỏi nhà tù Tartarus và đưa chúng trở lại tù."
     }
   ],
   "changes": [
-    "New Hero Trait: Youga - The Ultimate One (Wield the Clockwork Core and hunt down your parallel selves).",
-    "Hero Model Revamps: Three familiar faces—Gemma - Frostbitten Heart, Carino - Lethal Flash, and Bing - Blast Nova—get fresh visual upgrades."
+    "Ra mắt Hero mới: Rosa (Redefine the Knight)",
+    "Bổ sung các chế độ chơi mới: Solo Self Found & Hardcore"
   ],
-  "next": "",
+  "next": "Không đề cập trong nguồn",
   "sources": [
-    "https://torchlight.xd.com/"
+    "https://torchlight.xd.com/index"
   ],
-  "model": "gemini-3.5-flash-lite",
-  "updatedAt": "2026-11-06T02:50:20.075Z"
+  "model": "gemini-3.6-flash",
+  "updatedAt": "2026-11-06T14:01:45.169Z"
 }

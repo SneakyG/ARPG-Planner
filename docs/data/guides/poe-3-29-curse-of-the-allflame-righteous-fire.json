@@ -1,0 +1,12 @@
+{
+  "id": "3-29-curse-of-the-allflame-righteous-fire",
+  "game": "poe",
+  "name": "Righteous Fire",
+  "markdown": "Dựa trên các nguồn thông tin được cung cấp, dưới đây là phản hồi chi tiết theo cấu trúc yêu cầu:\n\n---\n\n### PHẦN 1: TỔNG QUAN BUILD & TIER RATING\n\n* **Tên Build & Class / Hero Trait:** Righteous Fire — Chieftain\n* **Xếp hạng Meta:** [Không thể xác định từ nguồn] \n  * *Lý do:* Các nguồn tài liệu được cung cấp chỉ chứa thông tin về tổ chức y tế toàn cầu PATH (chương trình tiêm chủng, kiểm soát sốt xuất huyết/sốt rét, trụ sở tại Seattle), hoàn toàn không chứa dữ liệu meta hay thông số kỹ năng của trò chơi Path of Exile.\n* **Đặc tính chơi (Playstyle):** Tanker (Theo yêu cầu từ người dùng).\n* **Ưu & Nhược điểm:** \n  * *Ưu điểm:* Dữ liệu không xuất hiện trong nguồn.\n  * *Nhược điểm:* Dữ liệu không xuất hiện trong nguồn.\n\n---\n\n### PHẦN 2: LỘ TRÌNH PHÁT TRIỂN BUILD (STARTER TO ENDGAME)\n\n#### 1. Giai đoạn Starter (Leveling / Campaign - Level 1 to 80)\n* **Kỹ năng & Chuỗi ngọc liên kết (Gem Links):** Không có thông tin trong nguồn.\n* **Bảng thiên phú (Talent Tree):** Không có thông tin trong nguồn.\n* **Chỉ số trang bị ưu tiên:** Không có thông tin trong nguồn.\n\n#### 2. Giai đoạn Mid-Game (Early Maps / Netherrealm K7-K8)\n* **Thiết lập Gem 6-Link:** Không có thông tin trong nguồn.\n* **Trang bị Unique bắt buộc:** Không có thông tin trong nguồn.\n* **Mốc chỉ số sinh tồn & DPS tối thiểu:** Không có thông tin trong nguồn.\n\n#### 3. Giai đoạn End-Game Tối Thượng (T17 Maps / Deep Space / Floor 20)\n* **Danh mục trang bị Min-Max:** Không có thông tin trong nguồn.\n* **Mã chia sẻ Build (PoB Link):**\n```text\nChưa có code công khai trong nguồn\n```\n* **Hướng dẫn kỹ năng chiến đấu:** Không có thông tin trong nguồn.\n\n---\n\n### PHẦN 3: CHIẾN LƯỢC FARM TÀI NGUYÊN (CURRENCY FARMING)\n\n| Cấp độ Farm | Chiến thuật & Cấu hình | Ước tính Lợi nhuận/Giờ |\n| :--- | :--- | :--- |\n| **Early Farming** | Không có thông tin trong nguồn | Ước tính: Không có dữ liệu |\n| **Mid-Game Farming** | Không có thông tin trong nguồn | Ước tính: Không có dữ liệu |\n| **High-Investment Farming** | Không có thông tin trong nguồn | Ước tính: Không có dữ liệu |\n\n---\n\n### Nguồn\n* https://www.path.org/\n* https://www.path.org/where-we-work/americas/united-states/",
+  "sources": [
+    "https://www.path.org/",
+    "https://www.path.org/where-we-work/americas/united-states/"
+  ],
+  "model": "gemini-3.6-flash",
+  "updatedAt": "2026-11-06T14:01:13.713Z"
+}

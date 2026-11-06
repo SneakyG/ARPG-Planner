@@ -1,24 +1,14 @@
 {
   "kind": "ai",
-  "season": "Torchlight: Infinite Tartarus",
-  "items": [
-    {
-      "name": "Legendary Drop Pactspirit Selection Pack",
-      "category": "Legendary",
-      "price": "",
-      "trend": "unknown",
-      "source": "https://torchlight.xd.com/",
-      "why": "Phần thưởng điểm danh mùa Tartarus giúp nhận Pactspirit phẩm chất Legendary.",
-      "where": "Nhận khi đăng nhập trong mùa Tartarus"
-    }
-  ],
-  "notes": "Chỉ có một vật phẩm phần thưởng sự kiện mùa Tartarus được đề cập trực tiếp trong nguồn.",
+  "season": "Torchlight: Infinite Không rõ trong nguồn Tartarus",
+  "items": [],
+  "notes": "Trong các nguồn được cung cấp không có thông tin chi tiết về danh sách vật phẩm cụ thể, giá cả (Flame Elementium), vị trí farm hay xu hướng thị trường cho mùa Tartarus của Torchlight: Infinite.",
   "sources": [
+    "https://torchlight.xd.com/index",
     "https://store.steampowered.com/app/41500/Torchlight/",
-    "https://en.wikipedia.org/wiki/Torchlight",
-    "https://torchlight.xd.com/",
+    "https://en.m.wikipedia.org/wiki/Torchlight",
     "https://store.steampowered.com/app/1974050/Torchlight_Infinite/"
   ],
-  "model": "gemini-3.5-flash-lite",
-  "updatedAt": "2026-11-06T02:53:22.494Z"
+  "model": "gemini-3.6-flash",
+  "updatedAt": "2026-11-06T14:03:13.654Z"
 }

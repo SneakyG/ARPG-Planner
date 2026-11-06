@@ -2,29 +2,30 @@
   "name": "Curse of the Allflame",
   "patch": "3.29",
   "start": "2026-07-24",
-  "end": "2026-12-07 (ước tính)",
+  "end": "2026-12-07 ước tính",
   "mechanics": [
     {
-      "name": "Voyages và Đáy Biển",
-      "desc": "Người chơi tham gia thám hiểm đáy biển cùng thuyền trưởng Valerie trên tàu The Sovereign, sử dụng Bathysphere và đặt Đèn lồng Allflame để đẩy lùi áp lực nước, tạo vùng an toàn và thu thập Dead Man's Sulfur."
+      "name": "Voyages and Ocean Floor",
+      "desc": "Người chơi sử dụng tàu The Sovereign và lặn xuống đáy đại dương bằng Bathysphere, dùng Đèn Allflame để xua đuổi áp lực nước và thu thập Dead Man's Sulfur."
     },
     {
       "name": "Allflame Crafting",
-      "desc": "Hệ thống chế tác mới tại lò rèn của Vesper, cho phép người chơi xem trước nhiều kết quả dạng ma quái của vật phẩm và chọn một kết quả mong muốn thay vì ngẫu nhiên hoàn toàn."
+      "desc": "Hệ thống chế tác cho phép người chơi xem trước các kết quả ma quái của vật phẩm và chọn phương án mong muốn thay vì ngẫu nhiên hoàn toàn."
     }
   ],
   "changes": [
-    "Loại bỏ hoàn toàn hệ thống màu của Socket trên trang bị; mọi gem có thể cắm vào bất kỳ socket nào, và cắm gem đúng màu khớp với socket sẽ nhận thêm bổ trợ Quality.",
-    "Làm lại toàn bộ cơ chế Abyss theo phong cách mới, bỏ việc đuổi theo vết nứt quanh bản đồ và chuyển thành dạng đứng giữ chân quái kết hợp trùm cuối Pinnacle Boss mới.",
-    "Làm lại Legion với phần thưởng Vestigial Unique Items và tinh chỉnh các thợ săn tiền thưởng Mercenaries of Trarthus thành cơ chế cốt lõi vĩnh viễn kèm Ascendancy Luminary mới cho Scion."
+    "Loại bỏ hoàn toàn hệ thống màu socket; mọi viên ngọc kỹ năng đều có thể gắn vào bất kỳ socket nào, socket trùng màu cung cấp thêm chất lượng (Quality).",
+    "Làm lại toàn diện cơ chế Abyss với việc bỏ các vết nứt di chuyển để chuyển thành các hố mở sẵn thu hút quái vật.",
+    "Làm lại cơ chế Legion với phần thưởng độc quyền mới như Vestigial Unique Items và Enshrouding Crystals.",
+    "Cải tiến lớn cho hệ thống phép thuật (Spellcaster) với hơn 100 phép được cân bằng lại và bổ sung ngọc Pact."
   ],
-  "next": "Thông tin về mùa giải kế tiếp chưa được công bố.",
+  "next": "",
   "sources": [
     "https://www.arcanestash.com/guides/curse-of-the-allflame-new-path-of-exile-1-league",
-    "https://tech.yahoo.com/gaming/articles/path-exile-curse-allflame-guide-230714063.html",
     "https://www.poebuilds.net/post/path-of-exile-3-29-curse-of-the-allflame",
+    "https://tech.yahoo.com/gaming/articles/path-exile-curse-allflame-guide-230714063.html",
     "https://ggseason.com/blog/path-of-exile-all-leagues-dates/"
   ],
   "model": "gemini-3.5-flash-lite",
-  "updatedAt": "2026-11-06T02:48:37.118Z"
+  "updatedAt": "2026-11-06T13:53:02.663Z"
 }
