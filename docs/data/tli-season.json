@@ -1,8 +1,8 @@
 {
   "name": "Tartarus",
-  "patch": "Tartarus Season",
+  "patch": "SS14",
   "start": "2026-07-01",
-  "end": "chưa công bố",
+  "end": "",
   "mechanics": [
     {
       "name": "Tartarus Prison",
@@ -14,7 +14,7 @@
     "Cập nhật các chế độ chơi mới bao gồm Solo Self Found và Hardcore",
     "Cải thiện hệ thống thu thập loot và các trận chiến tốc độ cao"
   ],
-  "next": "chưa có thông tin",
+  "next": "",
   "sources": [
     "https://torchlight.xd.com/index"
   ],

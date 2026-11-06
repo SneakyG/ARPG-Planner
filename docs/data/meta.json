@@ -4,9 +4,9 @@
   "status": {
     "poe:items": {
       "ok": true,
-      "at": "2026-11-06T15:52:24.048Z",
-      "info": "742 món",
-      "ms": 3531
+      "at": "2026-11-06T16:48:44.222Z",
+      "info": "749 món",
+      "ms": 2644
     },
     "poe:season": {
       "ok": false,
@@ -70,8 +70,13 @@
       "ok": false,
       "at": "2026-11-06T16:01:15.537Z",
       "error": "Chỉ đọc được 0 Pactspirit từ tlidb.com (cấu trúc trang có thể đã đổi). Giữ danh sách cũ."
+    },
+    "tli:cleanup": {
+      "ok": true,
+      "at": "2026-11-06T16:48:41.577Z",
+      "info": "Đã sửa nhãn mùa: mùa → \"SS14 Tartarus\", build \"tartarus-season-tartarus\" → \"SS14 Tartarus\", build \"khong-ro-trong-nguon-tartarus\" → \"SS14 Tartarus\""
     }
   },
   "guidesTopN": 5,
-  "updatedAt": "2026-11-06T16:03:43.513Z"
+  "updatedAt": "2026-11-06T16:48:44.222Z"
 }
