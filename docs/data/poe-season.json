@@ -2,36 +2,30 @@
   "name": "Curse of the Allflame",
   "patch": "3.29",
   "start": "2026-07-24",
-  "end": "",
+  "end": "2026-12-07 (ước tính)",
   "mechanics": [
     {
-      "name": "Thám hiểm đáy biển & Voyage",
-      "desc": "Người chơi cùng thuyền trưởng Valerie và hoa tiêu Vesper trên tàu The Sovereign dùng Bathysphere xuống đáy biển, sử dụng Allflame Lanterns tạo vùng an toàn để thu thập Dead Man's Sulphur và vật phẩm. Thu thập 9 bản đồ (Charts) để ghép thành một Voyage lớn trên Voyage Board với nhiều modifier gia tăng phần thưởng."
+      "name": "The Sovereign & Seafloor Voyages",
+      "desc": "Người chơi gặp gỡ nữ thuyền trưởng Valerie để khám phá đáy đại dương. Dùng thuyền The Sovereign, thu thập Lost Charts và sử dụng Allflame Lanterns để tạo vùng an toàn tránh sóng lớn, sau đó kết nối các vùng trên Voyage Board."
     },
     {
-      "name": "Chế tạo Allflame (Allflame Crafting) & Ducats",
-      "desc": "Sử dụng Dead Man's Sulphur tại Bàn chế tạo Allflame để tách vật phẩm thành nhiều kết quả xem trước dạng linh hồn và chọn 1 kết quả ưng ý. Các đồng Ducat hiếm thu thập từ Chart đặc biệt cung cấp những hiệu ứng chế tạo độc nhất."
-    },
-    {
-      "name": "Mercenaries of Trarthus & Luminary Ascendancy",
-      "desc": "Mercenaries trở thành cơ chế cố định trong game, cho phép khiêu chiến lấy trang bị hoặc lấy Warrant để triệu hồi sau. Lớp Ascendancy mới Luminary của Scion cho phép chiêu mộ cố định 1 Mercenary làm đồng minh chiến đấu và tùy chỉnh trang bị cho họ."
+      "name": "Allflame Crafting",
+      "desc": "Hệ thống chế tác mới dưới boong tàu cho phép phân rã vật phẩm thành nhiều kết quả ma quái và chọn trực tiếp kết quả mong muốn bằng Dead Man's Sulfur và Ducats thay vì ngẫu nhiên hoàn toàn."
     }
   ],
   "changes": [
-    "Loại bỏ hạn chế màu sắc của Socket: Tất cả Socket mặc định chuyển thành màu trắng để lắp vừa mọi Gem, việc dùng Gem trùng màu Socket chỉ còn mang lại bonus +10% Gem Quality chứ không bắt buộc.",
-    "Làm lại Abyss: Các hố Abyss mở sẵn phát ra năng lượng corrupt quái vật xung quanh để tích tụ năng lượng gọi trùm và quái Abyss xuất hiện mà không cần đuổi theo vết nứt; trở thành nguồn rớt duy nhất của Abyssal Jewels và Stygian Vises.",
-    "Làm lại Legion: Thêm Enshrouding Crystals để biến đổi Unique Armour trong Domain of Timeless Conflict thành Vestigial Unique Items mang modifier chuyển giao từ Unique gốc.",
-    "Làm lại Talismans: Chuyển thành phần thưởng độc quyền của Bestiary, không còn mặc định bị Corrupted và thay thế dòng implicit bằng các dòng Enchanted modifiers mạnh mẽ.",
-    "Thêm Atlas Anomalies: Cơ chế endgame mới xuất hiện sau khi hoàn thành Map chịu ảnh hưởng của Voidstone, cho phép tham gia các cuộc chạm trán độc lập như giao dịch với Cadiro Perandus bằng Gold hoặc Heist Blueprint wing.",
-    "Tái cân bằng Spellcasting & thêm Pacts: Buff cho hơn 100 kỹ năng phép và gậy caster (staves), đồng thời bổ sung dòng Exceptional Skill Gems mới mang tên Pacts nhận từ trùm Beyond và Lycia."
+    "Hệ thống socket được đại tu hoàn toàn: Gem màu bất kỳ có thể lắp vào mọi socket, nếu lắp đúng màu sẽ nhận thêm Quality.",
+    "Abyss và Legion nhận được bản làm lại lớn về cơ chế chiến đấu và phần thưởng.",
+    "Cải tiến lớn cho spellcaster (hơn 100 phép thuật được cân bằng lại, thêm các Exceptional Skill Gem dạng Pact và hỗ trợ tốt hơn cho staves).",
+    "Giới thiệu Ascendancy class mới cho Scion là Luminary."
   ],
   "next": "",
   "sources": [
-    "https://tech.yahoo.com/gaming/articles/path-exile-curse-allflame-guide-230714063.html",
-    "https://maxroll.gg/poe/news/poe-3-29-curse-of-the-allflame-league-branch-update",
-    "https://maxroll.gg/poe/news/3-29-curse-of-the-allflame-reveal-summary",
-    "https://www.poebuilds.net/post/path-of-exile-3-29-curse-of-the-allflame"
+    "https://www.poebuilds.net/post/path-of-exile-3-29-curse-of-the-allflame",
+    "https://www.arcanestash.com/guides/curse-of-the-allflame-new-path-of-exile-1-league",
+    "https://www.ign.com/wikis/path-of-exile/Path_of_Exile_Curse_of_the_Allflame_3.29_Release_Date_and_Patch_Notes",
+    "https://ggseason.com/blog/path-of-exile-all-leagues-dates/"
   ],
-  "model": "gemini-3.6-flash",
-  "updatedAt": "2026-11-07T01:10:07.526Z"
+  "model": "gemini-3.5-flash-lite",
+  "updatedAt": "2026-11-07T02:20:14.245Z"
 }
