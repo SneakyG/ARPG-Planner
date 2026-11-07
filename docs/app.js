@@ -11,6 +11,8 @@
   const safeUrl = (u) => (/^https?:\/\//.test(u || '') ? esc(u) : '#');
   let meta = null;
   let imgIndex = {};
+  let live = null;
+  const liveUI = { channel: { poe: '', tli: '' } };
   let itemsUI = { mode: 'hot', cat: '', q: '' };
   let buildsUI = { play: '', budget: '', season: '', q: '' };
 
@@ -98,17 +100,62 @@
 
   // ---------- Season ----------
   function season(r, d) {
-    if (!d || !d.name) return head(r, GAME[r.game], 'Mùa giải', d, 'season') + `<div class="empty">Chưa có dữ liệu mùa giải.</div>`;
+    if (!d || !d.name) return head(r, GAME[r.game], 'Mùa giải', d, 'season') + `<div class="empty">Chưa có dữ liệu mùa giải.</div>` + liveSection(r);
     return head(r, `${GAME[r.game]} · mùa hiện hành`, `${d.patch ? d.patch + ' · ' : ''}${d.name}`, d, 'season') + `
       <div class="season-hero">
         <div class="stat"><small>Bắt đầu</small><b>${esc(d.start || '—')}</b></div>
         <div class="stat"><small>Kết thúc</small><b>${esc(d.end || '—')}</b></div>
         <div class="stat"><small>Mùa kế tiếp</small><b>${esc(d.next || '—')}</b></div>
       </div>
+      ${liveSection(r)}
       ${d.note ? `<p class="note">${esc(d.note)}</p>` : ''}
       ${(d.mechanics || []).length ? `<h2 class="sec">Cơ chế mùa</h2><div class="mech">${d.mechanics.map((m) => `<div><h3>${esc(m.name)}</h3><div class="muted">${esc(m.desc)}</div></div>`).join('')}</div>` : ''}
       ${(d.changes || []).length ? `<h2 class="sec">Thay đổi đáng chú ý</h2><ul>${d.changes.map((c) => `<li>${esc(c)}</li>`).join('')}</ul>` : ''}
       ${sources(d.sources)}`;
+  }
+
+
+  // ---------- Live streams (Twitch) ----------
+  // Rules followed: video only through Twitch's official player (min 400×300, not covered, HTTPS, parent=domain);
+  // API data shown only while it is less than 24 hours old; thumbnails load from Twitch's CDN.
+  const LIVE_MAX_AGE = 24 * 3600 * 1000;
+  const YT_LIVE = { poe: 'Path of Exile', tli: 'Torchlight Infinite' };
+  const ago = (iso) => { const m = Math.max(0, Math.round((Date.now() - Date.parse(iso)) / 60000)); return m < 60 ? `${m} phút` : `${Math.floor(m / 60)} giờ ${m % 60} phút`; };
+  const fmtView = (n) => (n >= 1000 ? (n / 1000).toFixed(n >= 10000 ? 0 : 1).replace('.', ',') + 'K' : String(n));
+  function liveSection(r) {
+    const yt = `https://www.youtube.com/results?search_query=${encodeURIComponent(YT_LIVE[r.game])}&sp=EgJAAQ%253D%253D`;
+    const ytLink = `<a href="${yt}" target="_blank" rel="noopener">Tìm live trên YouTube ↗</a>`;
+    const wrap = (inner) => `<section class="live" aria-label="Livestream"><div class="live-h"><h2 class="sec">Đang live trên Twitch</h2><span class="muted small">${ytLink}</span></div>${inner}</section>`;
+    if (!live) return wrap(`<div class="empty">Chưa có dữ liệu livestream. Thêm 2 secret <code>TWITCH_CLIENT_ID</code> và <code>TWITCH_CLIENT_SECRET</code> vào repo (xem README) rồi chạy workflow.</div>`);
+    if (live.error) return wrap(`<div class="empty">Không lấy được danh sách live: ${esc(live.error)}</div>`);
+    if (!live.updatedAt || Date.now() - Date.parse(live.updatedAt) > LIVE_MAX_AGE) return wrap(`<div class="empty">Dữ liệu livestream đã quá 24 giờ nên không hiển thị. Chạy lại workflow để cập nhật.</div>`);
+    const g = live.games?.[r.game] || {};
+    const streams = g.streams || [];
+    if (!streams.length) return wrap(`<div class="empty">Hiện không có ai live ${esc(g.game?.name || GAME[r.game])} trên Twitch (lúc ${when(live.updatedAt)}).</div>`);
+    const sel = streams.find((x) => x.login === liveUI.channel[r.game]) || streams[0];
+    const host = location.hostname || 'localhost';
+    // Twitch requires at least 400×300: only embed when the screen is wide enough, otherwise link out.
+    const canEmbed = window.innerWidth >= 432;
+    const player = canEmbed
+      ? `<div class="player"><iframe src="https://player.twitch.tv/?channel=${encodeURIComponent(sel.login)}&parent=${encodeURIComponent(host)}&autoplay=false" title="Twitch: ${esc(sel.name)}" allowfullscreen></iframe></div>`
+      : `<a class="player-fallback" href="https://www.twitch.tv/${encodeURIComponent(sel.login)}" target="_blank" rel="noopener"><img src="${safeUrl(sel.thumb)}" alt="" loading="lazy"><span>Xem ${esc(sel.name)} trên Twitch ↗</span></a><p class="muted small">Màn hình hẹp hơn kích thước tối thiểu Twitch cho phép nhúng (400×300), nên mở trực tiếp trên Twitch.</p>`;
+    const row = (x) => `<button class="lrow ${x.login === sel.login ? 'on' : ''}" data-live="${esc(x.login)}" title="${esc(x.title)}">
+        <span class="lthumb"><img src="${safeUrl(x.thumb)}" alt="" loading="lazy"></span>
+        <span class="lmeta"><span class="lname">${esc(x.name)}</span><span class="lview">● ${fmtView(x.viewers)}${x.language ? ` · ${esc(x.language.toUpperCase())}` : ''}</span><span class="ltitle">${esc(x.title)}</span></span></button>`;
+    return wrap(`
+      <div class="livebox">
+        <div class="stage">
+          ${player}
+          <div class="now"><div><b>${esc(sel.name)}</b> <span class="lbadge inline">● ${fmtView(sel.viewers)} người xem</span>${sel.startedAt ? ` <span class="muted small">· live ${ago(sel.startedAt)}</span>` : ''}</div>
+            <div class="ltitle big">${esc(sel.title)}</div>
+            <a href="https://www.twitch.tv/${encodeURIComponent(sel.login)}" target="_blank" rel="noopener">Mở kênh trên Twitch ↗</a></div>
+        </div>
+        <aside class="lside" aria-label="Kênh đang live">
+          <div class="lside-h">${streams.length} kênh đang live</div>
+          <div class="lrows">${streams.map(row).join('')}</div>
+        </aside>
+      </div>
+      <p class="muted small">Danh sách từ Twitch, xếp theo số người xem, cập nhật lúc ${when(live.updatedAt)} (khoảng 30 phút/lần). Video phát qua player chính thức của Twitch. Bấm một kênh trong danh sách để xem.</p>`);
   }
 
   // ---------- Builds ----------
@@ -433,6 +480,7 @@
   async function reloadAll() {
     meta = await getJSON('data/meta.json');
     imgIndex = (await getJSON('data/img/index.json')) || {};
+    live = await getJSON('data/live.json');
     for (const k in seeds) delete seeds[k];
     await render();
   }
@@ -442,6 +490,7 @@
     if (!t) return;
     if (t.dataset.g) { const r = route(); location.hash = `#/${t.dataset.g}/${r.page === 'status' || r.page === 'build' ? 'builds' : r.page}`; return; }
     if (t.dataset.reload) { t.disabled = true; await reloadAll(); return; }
+    if (t.dataset.live) { const r0 = route(); liveUI.channel[r0.game] = t.dataset.live; const y = window.scrollY; await render(); window.scrollTo(0, y); document.querySelector('.stage')?.scrollIntoView({ behavior: 'smooth', block: 'start' }); return; }
     if (t.dataset.mode) { itemsUI.mode = t.dataset.mode; render(); return; }
     if (t.dataset.jump) { e.preventDefault(); document.getElementById('pres')?.scrollIntoView({ behavior: 'smooth' }); return; }
     if (t.dataset.pet !== undefined) {

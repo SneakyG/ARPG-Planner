@@ -103,6 +103,28 @@ Hoặc tạo `config.local.json` (đã nằm trong `.gitignore`, không bị pus
 }
 ```
 
+## Livestream Twitch (trang Mùa giải)
+
+Trang Mùa giải có khung xem stream đông người xem nhất của game đang chọn, và lưới thumbnail các kênh đang live (bấm để đổi kênh).
+
+**Cài đặt (1 lần):**
+
+1. Tài khoản Twitch cần bật xác thực 2 bước (Settings → Security and Privacy → Two-Factor Authentication).
+2. Vào https://dev.twitch.tv/console → **Register Your Application**:
+   - Name: tên bất kỳ, ví dụ `arpg-planner-<tên-bạn>`
+   - OAuth Redirect URLs: `http://localhost`
+   - Category: `Website Integration`, Client Type: `Confidential`
+3. Bấm **Manage** → chép **Client ID**, bấm **New Secret** → chép **Client Secret**.
+4. Trong repo: **Settings → Secrets and variables → Actions** → thêm 2 secret `TWITCH_CLIENT_ID` và `TWITCH_CLIENT_SECRET`.
+5. **Actions → Update data → Run workflow**, chọn `live`.
+
+**Tuân thủ điều khoản Twitch:**
+
+- Video chỉ phát qua player chính thức của Twitch, kích thước tối thiểu 400×300, không che player, khai báo `parent` là domain của trang. Màn hình hẹp hơn thì chỉ hiện ảnh và link sang Twitch.
+- Danh sách live được lấy mỗi ~30 phút trong lúc deploy, ghi thẳng vào trang và **không commit vào git** (`docs/data/live.json` nằm trong `.gitignore`). Twitch chỉ cho lưu tạm dữ liệu API tối đa 24 giờ; trang tự ẩn dữ liệu cũ hơn 24 giờ.
+- Thumbnail tải trực tiếp từ máy chủ Twitch, không sao chép.
+- YouTube: chỉ có link tìm live trên YouTube, không dùng YouTube Data API (API này đòi chính sách quyền riêng tư và hiển thị thương hiệu theo quy chuẩn riêng).
+
 ## Pet → Build (Torchlight: Infinite)
 
 Chọn 3 Battle Pactspirit, trang xếp hạng build phù hợp trong mùa hiện tại (tick "Tìm cả mùa cũ" để tìm rộng hơn).
