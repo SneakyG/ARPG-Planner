@@ -6,12 +6,12 @@
       "label": "SS14 Tartarus",
       "patch": "SS14",
       "name": "Tartarus",
-      "updatedAt": "2026-11-06T16:00:39.163Z",
+      "updatedAt": "2026-11-07T01:15:34.896Z",
       "builds": [
         {
           "rank": 1,
-          "name": "Howling Gale",
-          "class": "Selena 1 — Sing with the Tide",
+          "name": "Selena 1 - Howling Gale",
+          "class": "Selena 1 - Sing with the Tide",
           "tier": "S",
           "playstyle": "All-Rounder",
           "budget": "Thấp",
@@ -19,7 +19,7 @@
           "clear": 5,
           "boss": 4,
           "tank": 4,
-          "why": "Build league start tuyệt vời với khả năng đóng băng mạnh mẽ, dễ chơi và không tốn nhiều đầu tư ban đầu.",
+          "why": "Build có độ khó thấp, khả năng đóng băng tốt và rất ổn định để bắt đầu mùa giải mà không cần đầu tư lớn.",
           "tags": [
             "cold",
             "spell"
@@ -27,77 +27,25 @@
           "pactspirits": [],
           "guides": [
             {
-              "title": "Selena 1 Sing with the Tide",
+              "title": "Selena 1 - Sing with the Tide",
               "url": "https://tlifaq.pages.dev/hero/selena_01/"
             }
           ],
-          "id": "ss14-tartarus-howling-gale",
+          "id": "ss14-tartarus-selena-1-howling-gale",
           "season": "SS14 Tartarus"
         },
         {
           "rank": 2,
-          "name": "Wilting Beam",
-          "class": "Selena 1 — Sing with the Tide",
-          "tier": "S",
+          "name": "Gemma 2 - Frost Core / Ice Shards",
+          "class": "Gemma 2 - Frostbitten Heart",
+          "tier": "A",
           "playstyle": "All-Rounder",
-          "budget": "Trung bình",
-          "difficulty": "Trung bình",
+          "budget": "Thấp",
+          "difficulty": "Dễ",
           "clear": 4,
           "boss": 4,
           "tank": 4,
-          "why": "Sử dụng Erosion DoT và Reap, giúp farm tốt từ league start đến T8 mà không cần trang bị quá đắt đỏ.",
-          "tags": [
-            "erosion",
-            "spell"
-          ],
-          "pactspirits": [],
-          "guides": [
-            {
-              "title": "Selena 1 Sing with the Tide",
-              "url": "https://tlifaq.pages.dev/hero/selena_01/"
-            }
-          ],
-          "id": "ss14-tartarus-wilting-beam",
-          "season": "SS14 Tartarus"
-        },
-        {
-          "rank": 3,
-          "name": "Corrosive Throw",
-          "class": "Erika 1 — Wind Stalker",
-          "tier": "S",
-          "playstyle": "Speed Mapper",
-          "budget": "Trung bình",
-          "difficulty": "Trung bình",
-          "clear": 5,
-          "boss": 3,
-          "tank": 3,
-          "why": "Khả năng dọn map nhanh, phù hợp cho giai đoạn đầu mùa để kiếm những đồng tiền tệ đầu tiên.",
-          "tags": [
-            "attack",
-            "erosion"
-          ],
-          "pactspirits": [],
-          "guides": [
-            {
-              "title": "Erika 1 Wind Stalker",
-              "url": "https://tlifaq.pages.dev/hero/erika_01/"
-            }
-          ],
-          "id": "ss14-tartarus-corrosive-throw",
-          "season": "SS14 Tartarus"
-        },
-        {
-          "rank": 4,
-          "name": "Frost Spike",
-          "class": "Rosa 2 — Unsullied Blade",
-          "tier": "S",
-          "playstyle": "All-Rounder",
-          "budget": "Trung bình",
-          "difficulty": "Trung bình",
-          "clear": 4,
-          "boss": 4,
-          "tank": 4,
-          "why": "Hiệu quả từ cấp độ 1 tiến thẳng đến Profound với lối chơi ổn định, dù nhận một số điều chỉnh nerf nhẹ ở SS14.",
+          "why": "Được buff trong SS14, lối chơi đơn giản, hiệu quả cao cho người mới bắt đầu.",
           "tags": [
             "cold",
             "spell"
@@ -105,51 +53,77 @@
           "pactspirits": [],
           "guides": [
             {
-              "title": "Rosa 2 Unsullied Blade",
-              "url": "https://tlifaq.pages.dev/hero/rosa_02/"
+              "title": "Gemma 2 - Frostbitten Heart",
+              "url": "https://tlifaq.pages.dev/hero/gemma_02/"
             }
           ],
-          "id": "ss14-tartarus-frost-spike",
+          "id": "ss14-tartarus-gemma-2-frost-core-ice-shards",
           "season": "SS14 Tartarus"
         },
         {
-          "rank": 5,
-          "name": "Scorching Beam",
-          "class": "Selena 1 — Sing with the Tide",
-          "tier": "S",
-          "playstyle": "Boss Killer",
-          "budget": "Trung bình",
-          "difficulty": "Trung bình",
-          "clear": 3,
-          "boss": 5,
-          "tank": 4,
-          "why": "Tập trung vào cơ chế Ignite, giúp tiêu diệt các boss đầu game và endgame rất hiệu quả.",
+          "rank": 3,
+          "name": "Youga 2 - Spacetime Elapse DoT",
+          "class": "Youga 2 - Spacetime Elapse",
+          "tier": "A",
+          "playstyle": "All-Rounder",
+          "budget": "Thấp",
+          "difficulty": "Dễ",
+          "clear": 4,
+          "boss": 4,
+          "tank": 3,
+          "why": "Lối chơi DoT dễ tiếp cận, không yêu cầu trang bị đắt đỏ để farm Netherrealm.",
           "tags": [
-            "fire",
-            "spell"
+            "persistent"
           ],
           "pactspirits": [],
           "guides": [
             {
-              "title": "Selena 1 Sing with the Tide",
-              "url": "https://tlifaq.pages.dev/hero/selena_01/"
+              "title": "Youga 2 - Spacetime Elapse",
+              "url": "https://tlifaq.pages.dev/hero/youga_02/"
             }
           ],
-          "id": "ss14-tartarus-scorching-beam",
+          "id": "ss14-tartarus-youga-2-spacetime-elapse-dot",
           "season": "SS14 Tartarus"
         },
         {
-          "rank": 6,
-          "name": "Frost Spike: campaign to Profound",
-          "class": "Rehan 2 — Seething Silhouette",
+          "rank": 4,
+          "name": "Selena 2 - Ground Autowalk",
+          "class": "Selena 2 - Dance of the Deep",
+          "tier": "A",
+          "playstyle": "Speed Mapper",
+          "budget": "Thấp",
+          "difficulty": "Dễ",
+          "clear": 5,
+          "boss": 3,
+          "tank": 3,
+          "why": "Cơ chế tự động di chuyển giúp việc dọn dẹp bản đồ cực kỳ nhanh chóng và thoải mái.",
+          "tags": [
+            "fire",
+            "cold",
+            "lightning"
+          ],
+          "pactspirits": [],
+          "guides": [
+            {
+              "title": "Selena 2 - Dance of the Deep",
+              "url": "https://tlifaq.pages.dev/hero/selena_02/"
+            }
+          ],
+          "id": "ss14-tartarus-selena-2-ground-autowalk",
+          "season": "SS14 Tartarus"
+        },
+        {
+          "rank": 5,
+          "name": "Rehan 2 - Frost Spike",
+          "class": "Rehan 2 - Seething Silhouette",
           "tier": "S",
           "playstyle": "All-Rounder",
           "budget": "Trung bình",
           "difficulty": "Trung bình",
           "clear": 4,
-          "boss": 4,
+          "boss": 5,
           "tank": 4,
-          "why": "Chuyển đổi mượt mà từ Groundshaker sang Frost Spike và Spiral Strike từ cốt truyện đến Profound.",
+          "why": "Khả năng dọn dẹp và đánh boss cân bằng, là một trong những lựa chọn mạnh nhất SS14.",
           "tags": [
             "cold",
             "attack"
@@ -157,69 +131,69 @@
           "pactspirits": [],
           "guides": [
             {
-              "title": "Rehan 2 Seething Silhouette",
+              "title": "Rehan 2 - Seething Silhouette",
               "url": "https://tlifaq.pages.dev/hero/rehan_02/"
             }
           ],
-          "id": "ss14-tartarus-frost-spike-campaign-to-profound",
+          "id": "ss14-tartarus-rehan-2-frost-spike",
           "season": "SS14 Tartarus"
         },
         {
-          "rank": 7,
-          "name": "Spacetime Elapse DoT",
-          "class": "Youga 2 — Spacetime Elapse",
-          "tier": "A",
-          "playstyle": "Speed Mapper",
-          "budget": "Thấp",
-          "difficulty": "Dễ",
+          "rank": 6,
+          "name": "Erika 1 - Corrosive Throw",
+          "class": "Erika 1 - Wind Stalker",
+          "tier": "S",
+          "playstyle": "All-Rounder",
+          "budget": "Trung bình",
+          "difficulty": "Trung bình",
           "clear": 4,
-          "boss": 3,
+          "boss": 4,
           "tank": 3,
-          "why": "Lối chơi dễ tiếp cận nhờ Mind Control và Channeled Depths, hoàn hảo cho người mới bắt đầu không có vốn.",
+          "why": "Sát thương ổn định, phù hợp để farm currency từ giai đoạn đầu đến endgame.",
           "tags": [
-            "spell",
+            "attack",
             "erosion"
           ],
           "pactspirits": [],
           "guides": [
             {
-              "title": "Youga 2 Spacetime Elapse",
-              "url": "https://tlifaq.pages.dev/hero/youga_02/"
+              "title": "Erika 1 - Wind Stalker",
+              "url": "https://tlifaq.pages.dev/hero/erika_01/"
             }
           ],
-          "id": "ss14-tartarus-spacetime-elapse-dot",
+          "id": "ss14-tartarus-erika-1-corrosive-throw",
           "season": "SS14 Tartarus"
         },
         {
-          "rank": 8,
-          "name": "Frost Core / Ice Shards",
-          "class": "Gemma 2 — Frostbitten Heart",
-          "tier": "A",
+          "rank": 7,
+          "name": "Selena 1 - Wilting Beam",
+          "class": "Selena 1 - Sing with the Tide",
+          "tier": "S",
           "playstyle": "All-Rounder",
-          "budget": "Thấp",
-          "difficulty": "Dễ",
+          "budget": "Trung bình",
+          "difficulty": "Trung bình",
           "clear": 4,
-          "boss": 3,
+          "boss": 4,
           "tank": 3,
-          "why": "Được hưởng lợi từ các thay đổi buff ở bản vá SS14, giúp xây dựng lối chơi băng giá cực kỳ thân thiện với người chơi khởi đầu.",
+          "why": "Sử dụng Erosion DoT, hiệu quả từ league start đến tận T8.",
           "tags": [
-            "cold",
-            "spell"
+            "erosion",
+            "persistent"
           ],
           "pactspirits": [],
           "guides": [
             {
-              "title": "Gemma 2 Frostbitten Heart",
-              "url": "https://tlifaq.pages.dev/hero/gemma_02/"
+              "title": "Selena 1 - Sing with the Tide",
+              "url": "https://tlifaq.pages.dev/hero/selena_01/"
             }
           ],
-          "id": "ss14-tartarus-frost-core-ice-shards",
+          "id": "ss14-tartarus-selena-1-wilting-beam",
           "season": "SS14 Tartarus"
         },
         {
-          "rank": 9,
-          "name": "Split Lightning Bolt",
-          "class": "Thea 1 — Wisdom of The Gods",
+          "rank": 8,
+          "name": "Iris 2 - Erosion Magus",
+          "class": "Iris 2 - Vigilant Breeze",
           "tier": "A",
           "playstyle": "All-Rounder",
           "budget": "Trung bình",
@@ -227,51 +201,23 @@
           "clear": 4,
           "boss": 4,
           "tank": 3,
-          "why": "Khả năng mở rộng tốt từ giai đoạn league start kéo dài đến tận endgame với cơ chế Tangle chuyển sang Spell Burst.",
-          "tags": [
-            "lightning",
-            "spell"
-          ],
-          "pactspirits": [],
-          "guides": [
-            {
-              "title": "Thea 1 Wisdom of The Gods",
-              "url": "https://tlifaq.pages.dev/hero/thea_01/"
-            }
-          ],
-          "id": "ss14-tartarus-split-lightning-bolt",
-          "season": "SS14 Tartarus"
-        },
-        {
-          "rank": 10,
-          "name": "Erosion Magus",
-          "class": "Iris 2 — Vigilant Breeze",
-          "tier": "A",
-          "playstyle": "All-Rounder",
-          "budget": "Trung bình",
-          "difficulty": "Trung bình",
-          "clear": 4,
-          "boss": 3,
-          "tank": 4,
-          "why": "Sử dụng các loại Magus triệu hồi (Erosion / Fire / Frost) giúp dọn bàn chơi từ cốt truyện lên đến Profound an toàn.",
+          "why": "Build triệu hồi ổn định, dễ dàng vượt qua các cấp độ từ chiến dịch đến Profound.",
           "tags": [
             "summon",
-            "erosion",
-            "fire",
-            "cold"
+            "erosion"
           ],
           "pactspirits": [],
           "guides": [
             {
-              "title": "Iris 2 Vigilant Breeze",
+              "title": "Iris 2 - Vigilant Breeze",
               "url": "https://tlifaq.pages.dev/hero/iris_02/"
             }
           ],
-          "id": "ss14-tartarus-erosion-magus",
+          "id": "ss14-tartarus-iris-2-erosion-magus",
           "season": "SS14 Tartarus"
         }
       ],
-      "notes": "Các bảng xếp hạng và tier list cho mùa Tartarus (SS14) có thể thay đổi tùy thuộc vào thú cưng (pact spirits), trang bị và lượng ngân sách đầu tư ban đầu của người chơi.",
+      "notes": "Mùa Tartarus (SS14) có nhiều thay đổi về cân bằng hero. Các build hạng S thường là những build được buff hoặc có hiệu suất ổn định nhất. Hãy ưu tiên các build có độ khó 'Dễ' nếu bạn là người mới bắt đầu để tối ưu hóa việc farm Flame Elementium.",
       "sources": [
         "https://tlifaq.pages.dev/",
         "https://torchlight.xd.com/index",
@@ -279,8 +225,8 @@
         "https://en.wikipedia.org/wiki/Torchlight",
         "https://store.steampowered.com/app/1974050/Torchlight_Infinite/"
       ],
-      "model": "gemini-3.5-flash-lite"
+      "model": "gemini-3.1-flash-lite"
     }
   ],
-  "updatedAt": "2026-11-06T16:00:39.163Z"
+  "updatedAt": "2026-11-07T01:15:34.896Z"
 }

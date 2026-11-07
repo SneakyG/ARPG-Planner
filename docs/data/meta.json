@@ -4,62 +4,63 @@
   "status": {
     "poe:items": {
       "ok": true,
-      "at": "2026-11-06T23:13:15.591Z",
-      "info": "754 món",
-      "ms": 3169
+      "at": "2026-11-07T01:09:45.647Z",
+      "info": "746 món",
+      "ms": 5097
     },
     "poe:season": {
-      "ok": false,
-      "at": "2026-11-06T15:54:56.738Z",
-      "error": "The operation was aborted due to timeout"
+      "ok": true,
+      "at": "2026-11-07T01:10:07.527Z",
+      "info": "",
+      "ms": 21880
     },
     "poe:builds": {
       "ok": true,
-      "at": "2026-11-06T15:58:00.080Z",
+      "at": "2026-11-07T01:11:23.668Z",
       "info": "10 build",
-      "ms": 183342
+      "ms": 76141
     },
     "poe:farm": {
       "ok": true,
-      "at": "2026-11-06T15:59:04.979Z",
+      "at": "2026-11-07T01:11:57.869Z",
       "info": "",
-      "ms": 56898
+      "ms": 26197
     },
     "poe:guides": {
       "ok": true,
-      "at": "2026-11-06T16:00:00.602Z",
+      "at": "2026-11-07T01:14:44.950Z",
       "info": "tạo 3, lỗi 0",
-      "ms": 47618
+      "ms": 159077
     },
     "tli:season": {
       "ok": true,
-      "at": "2026-11-06T16:00:23.831Z",
+      "at": "2026-11-07T01:14:58.944Z",
       "info": "",
-      "ms": 15226
+      "ms": 5989
     },
     "tli:builds": {
       "ok": true,
-      "at": "2026-11-06T16:00:39.163Z",
-      "info": "10 build",
-      "ms": 7330
+      "at": "2026-11-07T01:15:34.897Z",
+      "info": "8 build",
+      "ms": 27950
     },
     "tli:farm": {
       "ok": true,
-      "at": "2026-11-06T16:00:56.663Z",
+      "at": "2026-11-07T01:15:49.180Z",
       "info": "",
-      "ms": 9499
+      "ms": 6279
     },
     "tli:items": {
       "ok": true,
-      "at": "2026-11-06T16:01:06.433Z",
-      "info": "1 món",
-      "ms": 1767
+      "at": "2026-11-07T01:15:58.778Z",
+      "info": "0 món",
+      "ms": 1597
     },
     "tli:guides": {
       "ok": true,
-      "at": "2026-11-06T16:03:35.506Z",
+      "at": "2026-11-07T01:17:26.192Z",
       "info": "tạo 5, lỗi 0",
-      "ms": 139969
+      "ms": 78930
     },
     "poe:cleanup": {
       "ok": true,
@@ -68,7 +69,7 @@
     },
     "tli:pacts": {
       "ok": false,
-      "at": "2026-11-06T16:01:15.537Z",
+      "at": "2026-11-07T01:16:07.262Z",
       "error": "Chỉ đọc được 0 Pactspirit từ tlidb.com (cấu trúc trang có thể đã đổi). Giữ danh sách cũ."
     },
     "tli:cleanup": {
@@ -78,5 +79,5 @@
     }
   },
   "guidesTopN": 5,
-  "updatedAt": "2026-11-06T23:13:15.591Z"
+  "updatedAt": "2026-11-07T01:17:34.193Z"
 }

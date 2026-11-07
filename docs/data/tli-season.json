@@ -1,23 +1,21 @@
 {
   "name": "Tartarus",
   "patch": "SS14",
-  "start": "2026-07-01",
+  "start": "",
   "end": "",
   "mechanics": [
     {
       "name": "Tartarus Prison",
-      "desc": "Người chơi săn lùng những Inmates đã trốn thoát trong nhà tù Tartarus và tống chúng trở lại, đối mặt với các cuộc bạo loạn (Riot) sắp xảy ra."
+      "desc": "Khu ngục tối Tartarus tràn ngập những tù nhân tồi tệ nhất, nơi Warden nắm giữ quyền lực tuyệt đối."
     }
   ],
   "changes": [
-    "Giới thiệu Hero mới: Rosa",
-    "Cập nhật các chế độ chơi mới bao gồm Solo Self Found và Hardcore",
-    "Cải thiện hệ thống thu thập loot và các trận chiến tốc độ cao"
+    "Săn lùng các tù nhân vượt ngục kiêu ngạo để đưa họ trở lại Tartarus và đối mặt với Riot sắp tới."
   ],
   "next": "",
   "sources": [
     "https://torchlight.xd.com/index"
   ],
-  "model": "gemini-3.1-flash-lite",
-  "updatedAt": "2026-11-06T16:00:23.830Z"
+  "model": "gemini-3.5-flash-lite",
+  "updatedAt": "2026-11-07T01:14:58.943Z"
 }

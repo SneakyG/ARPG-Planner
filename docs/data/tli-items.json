@@ -1,18 +1,8 @@
 {
   "kind": "ai",
-  "season": "Torchlight: Infinite Tartarus Season Tartarus",
-  "items": [
-    {
-      "name": "Endless Loot",
-      "category": "Legendary",
-      "price": "",
-      "trend": "unknown",
-      "source": "https://torchlight.xd.com/index",
-      "where": "Tartarus Season",
-      "why": "Collect endless loot in the new season."
-    }
-  ],
-  "notes": "Các nguồn cấp dữ liệu hiện tại tập trung giới thiệu mùa Tartarus mới và New Hero Rosa, chưa liệt kê cụ thể tên từng vật phẩm vật lý, giá FE chi tiết hay địa điểm farm cụ thể từng item.",
+  "season": "Torchlight: Infinite SS14 Tartarus",
+  "items": [],
+  "notes": "Các nguồn được cung cấp không đề cập đến danh sách chi tiết các vật phẩm, giá cả (Flame Elementium), hay địa điểm farm cụ thể cho mùa SS14 Tartarus của Torchlight: Infinite.",
   "sources": [
     "https://torchlight.xd.com/index",
     "https://store.steampowered.com/app/41500/Torchlight/",
@@ -20,5 +10,5 @@
     "https://store.steampowered.com/app/1974050/Torchlight_Infinite/"
   ],
   "model": "gemini-3.5-flash-lite",
-  "updatedAt": "2026-11-06T16:01:06.433Z"
+  "updatedAt": "2026-11-07T01:15:58.777Z"
 }
