@@ -585,7 +585,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_AWuAWu2_01_116.webp",
         "category": "Attack",
         "rarity": "Magic",
-        "desc": "Increases Attack Damage, Attack Critical Strike, and Attack Speed"
+        "desc": "Increases Attack Damage, Attack Critical Strike, and Attack Speed",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+3% additional Attack Damage dealt to Nearby enemies"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Traveling Lizard - Green Leaf",
@@ -593,7 +604,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LvXingXiaoXi2_01_116.webp",
         "category": "Attack",
         "rarity": "Rare",
-        "desc": "Increases Attack Damage, Attack Critical Strike, and Attack Speed"
+        "desc": "Increases Attack Damage, Attack Critical Strike, and Attack Speed",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+6% additional Attack Damage dealt to Nearby enemies"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Red Umbrella",
@@ -601,7 +623,19 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ChiSan2_01_116.webp",
         "category": "Attack",
         "rarity": "Legendary",
-        "desc": "Increases Attack Damage, Attack Critical Strike, and Attack Speed"
+        "desc": "Increases Attack Damage, Attack Critical Strike, and Attack Speed",
+        "mods": [
+          [
+            "+26% chance for Attacks to inflict Paralysis on hit",
+            "+14% additional Attack Damage dealt to Nearby enemies"
+          ],
+          [
+            "+12% additional Attack Damage dealt to Nearby enemies"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Idling Weasel - Shallow sea",
@@ -609,7 +643,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_XianYouXiaoYou2_02_116.webp",
         "category": "Attack",
         "rarity": "Magic",
-        "desc": "Increases Double Attack, Attack Damage, and Multistrike"
+        "desc": "Increases Double Attack, Attack Damage, and Multistrike",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+8% Movement Speed when at least 2 enemies are Nearby"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Plaintive Ball of Thread - Violet",
@@ -617,7 +662,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_AiYuanXianQiu2_03_116.webp",
         "category": "Attack",
         "rarity": "Rare",
-        "desc": "Increases Double Attack, Attack Damage, and Multistrike"
+        "desc": "Increases Double Attack, Attack Damage, and Multistrike",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+15% Movement Speed when at least 2 enemies are Nearby"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Fog Scorpion",
@@ -625,7 +681,19 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_WuXie2_01_116.webp",
         "category": "Attack",
         "rarity": "Legendary",
-        "desc": "Increases Double Attack, Attack Damage, and Multistrike"
+        "desc": "Increases Double Attack, Attack Damage, and Multistrike",
+        "mods": [
+          [
+            "+27% additional Attack Speed when only 1 enemies are Nearby",
+            "+12% Movement Speed when at least 2 enemies are Nearby"
+          ],
+          [
+            "+30% Movement Speed when at least 2 enemies are Nearby"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Awooawoo - Drizzle",
@@ -633,7 +701,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_AWuAWu2_02_116.webp",
         "category": "Attack",
         "rarity": "Magic",
-        "desc": "Increases Projectile Damage, Projectile Speed, and Attack Critical Strike"
+        "desc": "Increases Projectile Damage, Projectile Speed, and Attack Critical Strike",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+35 Attack Projectile Skill Critical Strike Rating against Distant enemies"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Traveling Lizard - Violet",
@@ -641,7 +720,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LvXingXiaoXi2_02_116.webp",
         "category": "Attack",
         "rarity": "Rare",
-        "desc": "Increases Projectile Damage, Projectile Speed, and Attack Critical Strike"
+        "desc": "Increases Projectile Damage, Projectile Speed, and Attack Critical Strike",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+70 Attack Projectile Skill Critical Strike Rating against Distant enemies"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Flower Whisperer",
@@ -649,7 +739,19 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_HuaYuZhe2_01_116.webp",
         "category": "Attack",
         "rarity": "Legendary",
-        "desc": "Increases Projectile Damage, Projectile Speed, and Attack Critical Strike"
+        "desc": "Increases Projectile Damage, Projectile Speed, and Attack Critical Strike",
+        "mods": [
+          [
+            "+21% additional Projectile Skill Critical Strike Damage against Distant enemies",
+            "+55 Attack Projectile Skill Critical Strike Rating against Distant enemies"
+          ],
+          [
+            "+140 Attack Projectile Skill Critical Strike Rating against Distant enemies"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Luluri - Amethyst",
@@ -657,7 +759,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_LuLuLi2_01_116.webp",
         "category": "Spell",
         "rarity": "Magic",
-        "desc": "Increases Mana Restoration, Spell Damage, and Critical Strike damage"
+        "desc": "Increases Mana Restoration, Spell Damage, and Critical Strike damage",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+4% Critical Strike Damage per Ailment on enemies, up to +8%"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Hell Cavalry - Glow",
@@ -665,7 +778,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_YouYuQingQi2_04_116.webp",
         "category": "Spell",
         "rarity": "Rare",
-        "desc": "Increases Mana Restoration, Spell Damage, and Critical Strike damage"
+        "desc": "Increases Mana Restoration, Spell Damage, and Critical Strike damage",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+9% Critical Strike Damage per Ailment on enemies, up to +18%"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "The Bone worm's Daughter",
@@ -673,7 +797,19 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_GuChongZhiNv2_01_116.webp",
         "category": "Spell",
         "rarity": "Legendary",
-        "desc": "Increases Mana Restoration, Spell Damage, and Critical Strike damage"
+        "desc": "Increases Mana Restoration, Spell Damage, and Critical Strike damage",
+        "mods": [
+          [
+            "+70 Spell Critical Strike Rating per Ailment on enemies, up to +140",
+            "+7% Critical Strike Damage per Ailment on enemies, up to +14%"
+          ],
+          [
+            "+18% Critical Strike Damage per Ailment on enemies, up to +36%"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Luluri - Maple",
@@ -681,7 +817,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_LuLuLi2_04_116.webp",
         "category": "Spell",
         "rarity": "Magic",
-        "desc": "Increases double Spell, Spell Damage, and Cast Speed"
+        "desc": "Increases double Spell, Spell Damage, and Cast Speed",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+3% Movement Speed per second when an Elite is nearby, up to +3 stack(s)"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Winter Darer - Shallow Sea",
@@ -689,7 +836,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LinDongMangHan2_02_116.webp",
         "category": "Spell",
         "rarity": "Rare",
-        "desc": "Increases double Spell, Spell Damage, and Cast Speed"
+        "desc": "Increases double Spell, Spell Damage, and Cast Speed",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+5% Movement Speed per second when an Elite is nearby, up to +3 stack(s)"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Starcatcher",
@@ -697,7 +855,19 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_BuXingZhe2_01_116.webp",
         "category": "Spell",
         "rarity": "Legendary",
-        "desc": "Increases double Spell, Spell Damage, and Cast Speed"
+        "desc": "Increases double Spell, Spell Damage, and Cast Speed",
+        "mods": [
+          [
+            "+8% additional Cast Speed per second when an Elite is Nearby, up to +24%",
+            "+4% Movement Speed when an Elite is Nearby, up to +12%"
+          ],
+          [
+            "+10% Movement Speed per second when an Elite is nearby, up to +3 stack(s)"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Idling Weasel - Sprouts",
@@ -705,7 +875,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_XianYouXiaoYou2_03_116.webp",
         "category": "Spell",
         "rarity": "Magic",
-        "desc": "Increases Elemental Damage, Elemental Piercing, and Cast Speed"
+        "desc": "Increases Elemental Damage, Elemental Piercing, and Cast Speed",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "0.8% Elemental Resistance Penetration every time you hit an enemy with Elemental Damage recently. Stacks up to 4 times"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Cloudgatherer - Violet",
@@ -713,7 +894,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_CaiYunZhe2_02_116.webp",
         "category": "Spell",
         "rarity": "Rare",
-        "desc": "Increases Elemental Damage, Elemental Piercing, and Cast Speed"
+        "desc": "Increases Elemental Damage, Elemental Piercing, and Cast Speed",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "1.6% Elemental Resistance Penetration every time you hit an enemy with Elemental Damage recently. Stacks up to 4 times"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Dreamweaver",
@@ -721,7 +913,19 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ZhiMengZhe2_01_116.webp",
         "category": "Spell",
         "rarity": "Legendary",
-        "desc": "Increases Elemental Damage, Elemental Piercing, and Cast Speed"
+        "desc": "Increases Elemental Damage, Elemental Piercing, and Cast Speed",
+        "mods": [
+          [
+            "+19% additional Elemental Damage dealt by Spell Skills",
+            "1.2% Elemental Resistance Penetration when hitting an enemy with Elemental Damage, stacking up to 4 times"
+          ],
+          [
+            "+3% Elemental Resistance Penetration every time you hit an enemy with Elemental Damage recently. Stacks up to 4 times"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Awooawoo - Amber",
@@ -729,7 +933,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_AWuAWu2_04_116.webp",
         "category": "Persistent",
         "rarity": "Magic",
-        "desc": "Increases Damage Over Time, Ailment Chance, and Damage Affliction"
+        "desc": "Increases Damage Over Time, Ailment Chance, and Damage Affliction",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "3.6% Reaping Duration for each Reap dealt, stacking up to 4 times."
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Greedy Chestnut - Lotus Leaf",
@@ -737,7 +952,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_TanCaiXiaoLi2_03_116.webp",
         "category": "Persistent",
         "rarity": "Rare",
-        "desc": "Increases Damage Over Time, Ailment Chance, and Damage Affliction"
+        "desc": "Increases Damage Over Time, Ailment Chance, and Damage Affliction",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+7% Reaping Duration for each Reap dealt, stacking up to 4 times."
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Fire Swordsman",
@@ -745,7 +971,19 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_YanDaoKe2_01_116.webp",
         "category": "Persistent",
         "rarity": "Legendary",
-        "desc": "Increases Damage Over Time, Ailment Chance, and Damage Affliction"
+        "desc": "Increases Damage Over Time, Ailment Chance, and Damage Affliction",
+        "mods": [
+          [
+            "Reaps 1 s of Damage Over Time when inflicting an Ailment. The effect has a 6 s Recovery Time against the same target",
+            "+6% Reaping Duration for each recent Reaping. Stacks up to 4 time(s)"
+          ],
+          [
+            "+14% Reaping Duration for each Reap dealt, stacking up to 4 times."
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Idling Weasel - Abyss",
@@ -753,7 +991,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_XianYouXiaoYou2_01_116.webp",
         "category": "Persistent",
         "rarity": "Magic",
-        "desc": "Increases Ailment Chance, Ailment Damage, and Ailment Duration"
+        "desc": "Increases Ailment Chance, Ailment Damage, and Ailment Duration",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+5% Curse Effect"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Greedy Chestnut - Emerald",
@@ -761,7 +1010,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_TanCaiXiaoLi2_04_116.webp",
         "category": "Persistent",
         "rarity": "Rare",
-        "desc": "Increases Ailment Chance, Ailment Damage, and Ailment Duration"
+        "desc": "Increases Ailment Chance, Ailment Damage, and Ailment Duration",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+10% Curse Effect"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Crossroad Walker",
@@ -769,7 +1029,19 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_QiLuRen2_01_116.webp",
         "category": "Persistent",
         "rarity": "Legendary",
-        "desc": "Increases Ailment Chance, Ailment Damage, and Ailment Duration"
+        "desc": "Increases Ailment Chance, Ailment Damage, and Ailment Duration",
+        "mods": [
+          [
+            "+18% additional Ailment Damage against Cursed enemies",
+            "+15% Curse effect"
+          ],
+          [
+            "+20% Curse Effect"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Luluri - Golden Leaf",
@@ -777,7 +1049,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_LuLuLi2_03_116.webp",
         "category": "Persistent",
         "rarity": "Magic",
-        "desc": "Increases Damage Over Time, Skill Duration, and Damage Affliction"
+        "desc": "Increases Damage Over Time, Skill Duration, and Damage Affliction",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+8 Affliction inflicted per second at Full Life."
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Greedy Chestnut - Radiance",
@@ -785,7 +1068,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_TanCaiXiaoLi2_01_116.webp",
         "category": "Persistent",
         "rarity": "Rare",
-        "desc": "Increases Damage Over Time, Skill Duration, and Damage Affliction"
+        "desc": "Increases Damage Over Time, Skill Duration, and Damage Affliction",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+16 Affliction inflicted per second at Full Life."
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Firewing",
@@ -793,7 +1087,19 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ChiYu2_01_116.webp",
         "category": "Persistent",
         "rarity": "Legendary",
-        "desc": "Increases Damage Over Time, Skill Duration, and Damage Affliction"
+        "desc": "Increases Damage Over Time, Skill Duration, and Damage Affliction",
+        "mods": [
+          [
+            "+105% Affliction effect at Full Life.",
+            "+14 Affliction inflicted per second on Full Life."
+          ],
+          [
+            "+30 Affliction inflicted per second at Full Life."
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Spiny Snail - Flower",
@@ -801,7 +1107,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_CiTouXiaoWo2_03_116.webp",
         "category": "Summon",
         "rarity": "Magic",
-        "desc": "Increases Servant Damage, Servant Speed, and Servant Life"
+        "desc": "Increases Servant Damage, Servant Speed, and Servant Life",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+5% Minion Attack and Cast Speed for 4 s when your Synthetic Troops deal Double Damage"
+          ],
+          [
+            "+4% additional Minion Damage"
+          ]
+        ]
       },
       {
         "name": "Winter Darer",
@@ -809,7 +1126,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LinDongMangHan2_01_116.webp",
         "category": "Summon",
         "rarity": "Rare",
-        "desc": "Increases Servant Damage, Servant Speed, and Servant Life"
+        "desc": "Increases Servant Damage, Servant Speed, and Servant Life",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+10% Minion Attack and Cast Speed for 4 s when your Synthetic Troops deal Double Damage"
+          ],
+          [
+            "+4% additional Minion Damage"
+          ]
+        ]
       },
       {
         "name": "Mechanical Throne",
@@ -817,7 +1145,19 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_JiGuanQuanBing2_01_116.webp",
         "category": "Summon",
         "rarity": "Legendary",
-        "desc": "Increases Servant Damage, Servant Speed, and Servant Life"
+        "desc": "Increases Servant Damage, Servant Speed, and Servant Life",
+        "mods": [
+          [
+            "+19% chance for Synthetic Troop Minions to deal Double Damage",
+            "+8% Minion Attack and Cast Speed for 4 s when your Synthetic Troop Minions deal Double Damage"
+          ],
+          [
+            "+20% Minion Attack and Cast Speed for 4 s when your Synthetic Troops deal Double Damage"
+          ],
+          [
+            "+4% additional Minion Damage"
+          ]
+        ]
       },
       {
         "name": "Explorer Otter - Olive",
@@ -825,7 +1165,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_TanXianXiaoTa2_02_116.webp",
         "category": "Summon",
         "rarity": "Magic",
-        "desc": "Increases Servant Buff, Servant Cooldown, and Servant Life"
+        "desc": "Increases Servant Buff, Servant Cooldown, and Servant Life",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+2% additional Spirit Magus Skill Damage"
+          ],
+          [
+            "+4% additional Minion Damage"
+          ]
+        ]
       },
       {
         "name": "Greedy Chestnut - Lotus Root",
@@ -833,7 +1184,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_TanCaiXiaoLi2_02_116.webp",
         "category": "Summon",
         "rarity": "Rare",
-        "desc": "Increases Servant Buff, Servant Cooldown, and Servant Life"
+        "desc": "Increases Servant Buff, Servant Cooldown, and Servant Life",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+4% additional Spirit Magus Skill Damage"
+          ],
+          [
+            "+4% additional Minion Damage"
+          ]
+        ]
       },
       {
         "name": "Drapion Lady",
@@ -841,7 +1203,19 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_LongXieHuoNv2_01_116.webp",
         "category": "Summon",
         "rarity": "Legendary",
-        "desc": "Increases Servant Buff, Servant Cooldown, and Servant Life"
+        "desc": "Increases Servant Buff, Servant Cooldown, and Servant Life",
+        "mods": [
+          [
+            "+55% Origin of Spirit Magus effect",
+            "+7% additional Spirit Magus Skill Damage"
+          ],
+          [
+            "+8% additional Spirit Magus Skill Damage"
+          ],
+          [
+            "+4% additional Minion Damage"
+          ]
+        ]
       },
       {
         "name": "Spiny Snail - Iris",
@@ -849,7 +1223,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_CiTouXiaoWo2_02_116.webp",
         "category": "Summon",
         "rarity": "Magic",
-        "desc": "Increases Servant Damage, Servant Speed, and Servant Life"
+        "desc": "Increases Servant Damage, Servant Speed, and Servant Life",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+40 Critical Strike Rating for recently summoned Minions"
+          ],
+          [
+            "+4% additional Minion Damage"
+          ]
+        ]
       },
       {
         "name": "Cloudgatherer - Sparkle",
@@ -857,7 +1242,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_CaiYunZhe2_01_116.webp",
         "category": "Summon",
         "rarity": "Rare",
-        "desc": "Increases Servant Damage, Servant Speed, and Servant Life"
+        "desc": "Increases Servant Damage, Servant Speed, and Servant Life",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+80 Critical Strike Rating for recently summoned Minions"
+          ],
+          [
+            "+4% additional Minion Damage"
+          ]
+        ]
       },
       {
         "name": "Whisperwind Leaves",
@@ -865,7 +1261,19 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_FengYuYe2_01_116.webp",
         "category": "Summon",
         "rarity": "Legendary",
-        "desc": "Increases Servant Damage, Servant Speed, and Servant Life"
+        "desc": "Increases Servant Damage, Servant Speed, and Servant Life",
+        "mods": [
+          [
+            "+30% additional damage for recently summoned Minions",
+            "+60 Critical Strike Rating for recently summoned Minions"
+          ],
+          [
+            "+160 Critical Strike Rating for recently summoned Minions"
+          ],
+          [
+            "+4% additional Minion Damage"
+          ]
+        ]
       },
       {
         "name": "Explorer Otter - Mudstone",
@@ -873,7 +1281,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_TanXianXiaoTa2_01_116.webp",
         "category": "Survival",
         "rarity": "Magic",
-        "desc": "Increases Maximum Life, Mana Restoration, and XP Balance"
+        "desc": "Increases Maximum Life, Mana Restoration, and XP Balance",
+        "mods": [
+          [
+            "-6% additional damage taken"
+          ],
+          [
+            "Regenerates 0.6% Life per second"
+          ],
+          [
+            "-4% additional damage taken"
+          ]
+        ]
       },
       {
         "name": "Plaintive Ball of Thread",
@@ -881,7 +1300,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_AiYuanXianQiu2_01_116.webp",
         "category": "Survival",
         "rarity": "Rare",
-        "desc": "Increases Maximum Life, Mana Restoration, and XP Balance"
+        "desc": "Increases Maximum Life, Mana Restoration, and XP Balance",
+        "mods": [
+          [
+            "-6% additional damage taken"
+          ],
+          [
+            "Regenerates 1.2% Life per second"
+          ],
+          [
+            "-4% additional damage taken"
+          ]
+        ]
       },
       {
         "name": "Anthem",
@@ -889,7 +1319,19 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ShengGe2_01_116.webp",
         "category": "Survival",
         "rarity": "Legendary",
-        "desc": "Increases Maximum Life, Mana Restoration, and XP Balance"
+        "desc": "Increases Maximum Life, Mana Restoration, and XP Balance",
+        "mods": [
+          [
+            "+14% additional Life",
+            "Regenerates 0.9% Life per second"
+          ],
+          [
+            "Regenerates 2% Life per second"
+          ],
+          [
+            "-4% additional damage taken"
+          ]
+        ]
       },
       {
         "name": "Explorer Otter - Rock",
@@ -897,7 +1339,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_TanXianXiaoTa2_04_116.webp",
         "category": "Survival",
         "rarity": "Magic",
-        "desc": "Increases Max Energy Shield, Mana Restoration, and XP bonus"
+        "desc": "Increases Max Energy Shield, Mana Restoration, and XP bonus",
+        "mods": [
+          [
+            "-6% additional damage taken"
+          ],
+          [
+            "+4% Energy Shield Charge Speed"
+          ],
+          [
+            "-4% additional damage taken"
+          ]
+        ]
       },
       {
         "name": "Traveling Lizard - Ocean",
@@ -905,7 +1358,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LvXingXiaoXi2_03_116.webp",
         "category": "Survival",
         "rarity": "Rare",
-        "desc": "Increases Max Energy Shield, Mana Restoration, and XP bonus"
+        "desc": "Increases Max Energy Shield, Mana Restoration, and XP bonus",
+        "mods": [
+          [
+            "-6% additional damage taken"
+          ],
+          [
+            "+8% Energy Shield Charge Speed"
+          ],
+          [
+            "-4% additional damage taken"
+          ]
+        ]
       },
       {
         "name": "Spirit Bless",
@@ -913,7 +1377,19 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_LingYou2_01_116.webp",
         "category": "Survival",
         "rarity": "Legendary",
-        "desc": "Increases Max Energy Shield, Mana Restoration, and XP bonus"
+        "desc": "Increases Max Energy Shield, Mana Restoration, and XP bonus",
+        "mods": [
+          [
+            "+14% additional Max Energy Shield",
+            "+8% Energy Shield Charge Speed"
+          ],
+          [
+            "+16% Energy Shield Charge Speed"
+          ],
+          [
+            "-4% additional damage taken"
+          ]
+        ]
       },
       {
         "name": "Explorer Otter - Quicksand",
@@ -921,7 +1397,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_TanXianXiaoTa2_03_116.webp",
         "category": "Survival",
         "rarity": "Magic",
-        "desc": "Increases Elemental Resistance, damage avoidance, and XP protection"
+        "desc": "Increases Elemental Resistance, damage avoidance, and XP protection",
+        "mods": [
+          [
+            "-6% additional damage taken"
+          ],
+          [
+            "+5% Movement Speed"
+          ],
+          [
+            "-4% additional damage taken"
+          ]
+        ]
       },
       {
         "name": "Traveling Lizard - Flower",
@@ -929,7 +1416,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LvXingXiaoXi2_04_116.webp",
         "category": "Survival",
         "rarity": "Rare",
-        "desc": "Increases Elemental Resistance, damage avoidance, and XP protection"
+        "desc": "Increases Elemental Resistance, damage avoidance, and XP protection",
+        "mods": [
+          [
+            "-6% additional damage taken"
+          ],
+          [
+            "+10% Movement Speed"
+          ],
+          [
+            "-4% additional damage taken"
+          ]
+        ]
       },
       {
         "name": "Preserver of Eternity",
@@ -937,7 +1435,19 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_YongHengHuHuan2_02_116.webp",
         "category": "Survival",
         "rarity": "Legendary",
-        "desc": "Increases Elemental Resistance, damage avoidance, and XP protection"
+        "desc": "Increases Elemental Resistance, damage avoidance, and XP protection",
+        "mods": [
+          [
+            "+40% Movement Speed if you haven't been hit recently",
+            "+8% Movement Speed"
+          ],
+          [
+            "+20% Movement Speed"
+          ],
+          [
+            "-4% additional damage taken"
+          ]
+        ]
       },
       {
         "name": "Spiny Snail - Cloudless Sky",
@@ -945,7 +1455,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_CiTouXiaoWo2_01_116.webp",
         "category": "Survival",
         "rarity": "Magic",
-        "desc": "Increases Elemental Resistance, damage mitigation, and XP bonus"
+        "desc": "Increases Elemental Resistance, damage mitigation, and XP bonus",
+        "mods": [
+          [
+            "-6% additional damage taken"
+          ],
+          [
+            "-2% additional damage taken"
+          ],
+          [
+            "-4% additional damage taken"
+          ]
+        ]
       },
       {
         "name": "Hell Cavalry",
@@ -953,7 +1474,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_YouYuQingQi2_01_116.webp",
         "category": "Survival",
         "rarity": "Rare",
-        "desc": "Increases Elemental Resistance, damage mitigation, and XP bonus"
+        "desc": "Increases Elemental Resistance, damage mitigation, and XP bonus",
+        "mods": [
+          [
+            "-6% additional damage taken"
+          ],
+          [
+            "-4% additional damage taken"
+          ],
+          [
+            "-4% additional damage taken"
+          ]
+        ]
       },
       {
         "name": "Knight of Pale Blue",
@@ -961,7 +1493,19 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_CangLanQiShi2_01_116.webp",
         "category": "Survival",
         "rarity": "Legendary",
-        "desc": "Increases Elemental Resistance, damage mitigation, and XP bonus"
+        "desc": "Increases Elemental Resistance, damage mitigation, and XP bonus",
+        "mods": [
+          [
+            "-55% additional Physical Damage taken when there are only 1 enemies Nearby",
+            "-4% additional damage taken"
+          ],
+          [
+            "-8% additional damage taken"
+          ],
+          [
+            "-4% additional damage taken"
+          ]
+        ]
       },
       {
         "name": "Idling Weasel - Cherry Blossom",
@@ -969,7 +1513,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_XianYouXiaoYou2_04_116.webp",
         "category": "Drop",
         "rarity": "Magic",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "+8% Drop Quantity"
+          ],
+          [
+            "+4% additional Ember Drop Quantity"
+          ],
+          [
+            "+6% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Cloudgatherer - Sky",
@@ -977,7 +1532,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_CaiYunZhe2_03_116.webp",
         "category": "Drop",
         "rarity": "Rare",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "+8% Drop Quantity"
+          ],
+          [
+            "+8% additional Ember Drop Quantity"
+          ],
+          [
+            "+6% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Captain Shadow",
@@ -985,7 +1551,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_YouLingJianZhang2_01_116.webp",
         "category": "Drop",
         "rarity": "Legendary",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "Bosses defeated: 80% chance to drop 1-3 additional random Embers"
+          ],
+          [
+            "+16% additional Ember Drop Quantity"
+          ],
+          [
+            "+6% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Luluri - Green Leaf",
@@ -993,7 +1570,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_LuLuLi2_02_116.webp",
         "category": "Drop",
         "rarity": "Magic",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "+8% Drop Quantity"
+          ],
+          [
+            "16% chance to unlock 1 additional reward type(s) when the Dark Surge is initiated for the first time on a map"
+          ],
+          [
+            "+6% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Plaintive Ball of Thread - Flower",
@@ -1001,7 +1589,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_AiYuanXianQiu2_04_116.webp",
         "category": "Drop",
         "rarity": "Rare",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "+8% Drop Quantity"
+          ],
+          [
+            "30% chance to unlock 1 additional reward type(s) when the Dark Surge is initiated for the first time on a map"
+          ],
+          [
+            "+6% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Eternity Summoner",
@@ -1009,7 +1608,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_YongHengHuHuan2_01_116.webp",
         "category": "Drop",
         "rarity": "Legendary",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "60% chance to unlock 2 additional reward type(s) when the Dark Surge is initiated for the first time on a map"
+          ],
+          [
+            "60% chance to unlock 1 additional reward type(s) when the Dark Surge is initiated for the first time on a map"
+          ],
+          [
+            "+6% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Happy Chonky",
@@ -1017,7 +1627,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_KuaiLeXiaoFei2_01_116.webp",
         "category": "Drop",
         "rarity": "Magic",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "+8% Drop Quantity"
+          ],
+          [
+            "+5% additional Flame Fuel Drop Quantity"
+          ],
+          [
+            "+6% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Cloudgatherer - Surging Gold",
@@ -1025,7 +1646,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_CaiYunZhe2_04_116.webp",
         "category": "Drop",
         "rarity": "Rare",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "+8% Drop Quantity"
+          ],
+          [
+            "+10% additional Flame Fuel Drop Quantity"
+          ],
+          [
+            "+6% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Chalk Spirit",
@@ -1033,7 +1665,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_BaiEZhiLing2_01_116.webp",
         "category": "Drop",
         "rarity": "Legendary",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "1.3% chance for defeated monsters to drop 1 additional set(s) of random Flame Fuel"
+          ],
+          [
+            "+20% additional Flame Fuel Drop Quantity"
+          ],
+          [
+            "+6% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Happy Chonky - Ember",
@@ -1041,7 +1684,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_KuaiLeXiaoFei_04_116.webp",
         "category": "Fire",
         "rarity": "Magic",
-        "desc": "+ Fire Damage; + Fire Penetration; + Fire Area"
+        "desc": "+ Fire Damage; + Fire Penetration; + Fire Area",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+3% additional Fire Damage"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Winter Darer - Lava",
@@ -1049,7 +1703,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LinDongMangHan_04_116.webp",
         "category": "Fire",
         "rarity": "Rare",
-        "desc": "+ Fire Damage; + Fire Penetration; + Fire Area"
+        "desc": "+ Fire Damage; + Fire Penetration; + Fire Area",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+6% additional Fire Damage"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Melting Flames",
@@ -1057,7 +1722,20 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_RongHuo_01_116.webp",
         "category": "Fire",
         "rarity": "Legendary",
-        "desc": "+ Fire Damage; + Fire Penetration; + Fire Area"
+        "desc": "+ Fire Damage; + Fire Penetration; + Fire Area",
+        "mods": [
+          [
+            "Covers targets within a 5m radius with flames and debuffs enemies within the area.",
+            "Debuff: + 35% additional Fire Damage taken by the enemy for 3s.",
+            "Cooldown: 5 s."
+          ],
+          [
+            "+12% additional Fire Damage"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Awooawoo - White Mist",
@@ -1065,7 +1743,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_AWuAWu_03_116.webp",
         "category": "Cold",
         "rarity": "Magic",
-        "desc": "Increases Cold Damage, Cold Penetration, and Max Frostbite Rating"
+        "desc": "Increases Cold Damage, Cold Penetration, and Max Frostbite Rating",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+3% additional Cold Damage"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Hell Cavalry - Crushed Ice",
@@ -1073,7 +1762,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_YouYuQingQi_02_116.webp",
         "category": "Cold",
         "rarity": "Rare",
-        "desc": "Increases Cold Damage, Cold Penetration, and Max Frostbite Rating"
+        "desc": "Increases Cold Damage, Cold Penetration, and Max Frostbite Rating",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+6% additional Cold Damage"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Ice Puppet",
@@ -1081,7 +1781,19 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_KuiBing_01_116.webp",
         "category": "Cold",
         "rarity": "Legendary",
-        "desc": "Increases Cold Damage, Cold Penetration, and Max Frostbite Rating"
+        "desc": "Increases Cold Damage, Cold Penetration, and Max Frostbite Rating",
+        "mods": [
+          [
+            "Focus energy to create an ice prison Near yourself and the Pact Holder, which debuffs Frostbitten enemies inside every second and makes them take +13% additional Cold Damage, up to 4 stacks, for 6s.",
+            "Cooldown: 10s"
+          ],
+          [
+            "+12% additional Cold Damage"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Happy Chonky - Electrify",
@@ -1089,7 +1801,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_KuaiLeXiaoFei_02_116.webp",
         "category": "Lightning",
         "rarity": "Magic",
-        "desc": "+ Lightning Damage; + Lightning Penetration; + Attack and Cast Speed"
+        "desc": "+ Lightning Damage; + Lightning Penetration; + Attack and Cast Speed",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+3% additional Lightning Damage"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Hell Cavalry - Muffled Thunder",
@@ -1097,7 +1820,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_YouYuQingQi_03_116.webp",
         "category": "Lightning",
         "rarity": "Rare",
-        "desc": "+ Lightning Damage; + Lightning Penetration; + Attack and Cast Speed"
+        "desc": "+ Lightning Damage; + Lightning Penetration; + Attack and Cast Speed",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+6% additional Lightning Damage"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Bitter Thunder",
@@ -1105,7 +1839,19 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_LingLei_01_116.webp",
         "category": "Lightning",
         "rarity": "Legendary",
-        "desc": "+ Lightning Damage; + Lightning Penetration; + Attack and Cast Speed"
+        "desc": "+ Lightning Damage; + Lightning Penetration; + Attack and Cast Speed",
+        "mods": [
+          [
+            "Bestows the surging power of lightning to the pact holder, granting + 19% additional Lightning Damage and + 20% additional Max Damage for 5s.",
+            "Cooldown: 10s."
+          ],
+          [
+            "+12% additional Lightning Damage"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Happy Chonky - Emerald",
@@ -1113,7 +1859,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_KuaiLeXiaoFei_03_116.webp",
         "category": "Drop",
         "rarity": "Magic",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "+8% Drop Quantity"
+          ],
+          [
+            "+2% additional Drop Quantity"
+          ],
+          [
+            "+6% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Plaintive Ball of Thread - Gold Leaf",
@@ -1121,7 +1878,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_AiYuanXianQiu_02_116.webp",
         "category": "Drop",
         "rarity": "Rare",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "+8% Drop Quantity"
+          ],
+          [
+            "+4% additional Drop Quantity"
+          ],
+          [
+            "+6% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Starfish Chanter",
@@ -1129,7 +1897,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_HuanHaiXingKui_01_116.webp",
         "category": "Drop",
         "rarity": "Legendary",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "27% chance to double the effect of the Seal Whisper revealed when defeating Void Pirates"
+          ],
+          [
+            "+8% additional Drop Quantity"
+          ],
+          [
+            "+6% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Idling Weasel - Sparkle",
@@ -1137,7 +1916,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_XianYouXiaoYou_05_116.webp",
         "category": "Drop",
         "rarity": "Magic",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "+8% Drop Quantity"
+          ],
+          [
+            "Fluorescent Memories dropped have a 5% chance to be replicated 1 time(s)"
+          ],
+          [
+            "+6% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Cloudgatherer - Sky's Dome",
@@ -1145,7 +1935,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_CaiYunZhe_05_116.webp",
         "category": "Drop",
         "rarity": "Rare",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "+8% Drop Quantity"
+          ],
+          [
+            "Fluorescent Memories dropped have a 10% chance to be replicated 1 time(s)"
+          ],
+          [
+            "+6% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Kong",
@@ -1153,7 +1954,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_AKong_01_116.webp",
         "category": "Drop",
         "rarity": "Legendary",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "Fluorescent Memories dropped have a 13% chance to be replicated 2 time(s)"
+          ],
+          [
+            "Fluorescent Memories dropped have a 20% chance to be replicated 1 time(s)"
+          ],
+          [
+            "+6% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Happy Chonky - Sun",
@@ -1161,7 +1973,15 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_KuaiLeXiaoFei_05_116.webp",
         "category": "Drop",
         "rarity": "Magic",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "+3% additional Gear Drop Quantity"
+          ],
+          [
+            "+6% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Plaintive Ball of Thread - Frost",
@@ -1169,7 +1989,15 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_AiYuanXianQiu_05_116.webp",
         "category": "Drop",
         "rarity": "Rare",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "+6% additional Gear Drop Quantity"
+          ],
+          [
+            "+6% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Corgi Fighter No.32",
@@ -1177,7 +2005,30 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ZhanDouJi_01_116.webp",
         "category": "Drop",
         "rarity": "Legendary",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "+5% additional Drop Quantity"
+          ],
+          [
+            "The Star of Calamity boss has a 1.2% chance to drop an additional 1 Proof(s) of Star Hunter"
+          ],
+          [
+            "The Star of Calamity boss on the map has a 100% chance to replicate 1 times"
+          ],
+          [
+            "The Star of Calamity boss has a 0.45% chance to drop an additional Tidemaster's Exclusive Drop (Only effective in stages at Timemark 5 and above)"
+          ],
+          [
+            "The Star of Calamity boss has a 0.45% chance to drop an additional Lord of the Void Sea's Exclusive Drop (Only effective in stages at Timemark 5 and above)"
+          ],
+          [
+            "The Star of Calamity boss has a 0.45% chance to drop an additional the Law Bearer's Exclusive Drop (Only effective in stages at Timemark 5 and above)"
+          ],
+          [
+            "The Star of Calamity boss has a 0.45% chance to drop an additional Lone King of Aeterna's Exclusive Drop (Only effective in stages at Timemark 5 and above)"
+          ]
+        ]
       },
       {
         "name": "Spiny Snail - Cloud",
@@ -1185,7 +2036,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_CiTouXiaoWo_04_116.webp",
         "category": "Drop",
         "rarity": "Magic",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "+8% Drop Quantity"
+          ],
+          [
+            "+10% Divinity Stone Drop Quantity."
+          ],
+          [
+            "+6% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Hell Cavalry - Sea",
@@ -1193,7 +2055,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_YouYuQingQi_05_116.webp",
         "category": "Drop",
         "rarity": "Rare",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "+8% Drop Quantity"
+          ],
+          [
+            "+18% Divinity Stone Drop Quantity."
+          ],
+          [
+            "+6% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Heart-binding Rose",
@@ -1201,7 +2074,8 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ZangAiMingQing_01_116.webp",
         "category": "Drop",
         "rarity": "Legendary",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": []
       },
       {
         "name": "Spiny Snail - Green",
@@ -1209,7 +2083,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_CiTouXiaoWo_05_116.webp",
         "category": "Survival",
         "rarity": "Magic",
-        "desc": "Increases Elemental Resistance, Mana Restoration, and XP bonus"
+        "desc": "Increases Elemental Resistance, Mana Restoration, and XP bonus",
+        "mods": [
+          [
+            "-6% additional damage taken"
+          ],
+          [
+            "Converts 2% of Physical Damage taken to random Elemental Damage"
+          ],
+          [
+            "-4% additional damage taken"
+          ]
+        ]
       },
       {
         "name": "Winter Darer - Rock",
@@ -1217,7 +2102,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LinDongMangHan_03_116.webp",
         "category": "Survival",
         "rarity": "Rare",
-        "desc": "Increases Elemental Resistance, Mana Restoration, and XP bonus"
+        "desc": "Increases Elemental Resistance, Mana Restoration, and XP bonus",
+        "mods": [
+          [
+            "-6% additional damage taken"
+          ],
+          [
+            "Converts 4% of Physical Damage taken to random Elemental Damage"
+          ],
+          [
+            "-4% additional damage taken"
+          ]
+        ]
       },
       {
         "name": "Warbler of Plum Blossoms",
@@ -1225,7 +2121,21 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_XianMeiZhiYing_01_116.webp",
         "category": "Survival",
         "rarity": "Legendary",
-        "desc": "Increases Elemental Resistance, Mana Restoration, and XP bonus"
+        "desc": "Increases Elemental Resistance, Mana Restoration, and XP bonus",
+        "mods": [
+          [
+            "+14% Elemental Resistance"
+          ],
+          [
+            "Converts 3% of Physical Damage taken to random Elemental Damage"
+          ],
+          [
+            "Converts 8% of Physical Damage taken to random Elemental Damage"
+          ],
+          [
+            "-4% additional damage taken"
+          ]
+        ]
       },
       {
         "name": "Spiny Snail - Flame",
@@ -1233,7 +2143,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_CiTouXiaoWo_06_116.webp",
         "category": "Attack",
         "rarity": "Magic",
-        "desc": "Increases damage, weakens the Cursed enemies, and has a Curse effect"
+        "desc": "Increases damage, weakens the Cursed enemies, and has a Curse effect",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+4% additional damage against Cursed enemies"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Winter Darer - Sky",
@@ -1241,7 +2162,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LinDongMangHan_05_116.webp",
         "category": "Attack",
         "rarity": "Rare",
-        "desc": "Increases damage, weakens the Cursed enemies, and has a Curse effect"
+        "desc": "Increases damage, weakens the Cursed enemies, and has a Curse effect",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+8% additional damage against Cursed enemies"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Poisoned Omen",
@@ -1249,7 +2181,21 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_GaoSiZhiZhen_01_116.webp",
         "category": "Attack",
         "rarity": "Legendary",
-        "desc": "Increases damage, weakens the Cursed enemies, and has a Curse effect"
+        "desc": "Increases damage, weakens the Cursed enemies, and has a Curse effect",
+        "mods": [
+          [
+            "You can cast 1 additional Curses"
+          ],
+          [
+            "6.5% Movement Speed if you have cast a Curse Skill recently"
+          ],
+          [
+            "+16% additional damage against Cursed enemies"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Shocket",
@@ -1257,7 +2203,15 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_YiDongDianZi_01_116.webp",
         "category": "Drop",
         "rarity": "Magic",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "There is a 4% chance for rewards to be doubled when the player enters the reward gameplay in the City of Aeterna"
+          ],
+          [
+            "+8% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Letice",
@@ -1265,7 +2219,15 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_ChunKunXiaoWo_01_116.webp",
         "category": "Drop",
         "rarity": "Rare",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "There is a 8% chance for rewards to be doubled when the player enters the reward gameplay in the City of Aeterna"
+          ],
+          [
+            "+8% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Monument Knight",
@@ -1273,7 +2235,15 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_FengBeiQiShi_01_116.webp",
         "category": "Drop",
         "rarity": "Legendary",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "Every time the player completes the Candelabrum gameplay in the Ruins of Aeterna, there is a 21% chance to increase the number of reward spots in the Aeterna Map by 1, up to 15 extra spot(s). After the City of Aeterna is rebuilt, all additional reward spots will be randomly assigned in traversable areas of the Aeterna Map."
+          ],
+          [
+            "There is a 16% chance for rewards to be doubled when the player enters the reward gameplay in the City of Aeterna"
+          ]
+        ]
       },
       {
         "name": "Shocket - Violet",
@@ -1281,7 +2251,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_YiDongDianZi_02_116.webp",
         "category": "Persistent",
         "rarity": "Magic",
-        "desc": "Increases Reaping Cooldown, Damage Over Time, and Damage Affliction."
+        "desc": "Increases Reaping Cooldown, Damage Over Time, and Damage Affliction.",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+5% Movement Speed if you have caused Reaping recently"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Letice - Flame",
@@ -1289,7 +2270,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_ChunKunXiaoWo_03_116.webp",
         "category": "Persistent",
         "rarity": "Rare",
-        "desc": "Increases Reaping Cooldown, Damage Over Time, and Damage Affliction."
+        "desc": "Increases Reaping Cooldown, Damage Over Time, and Damage Affliction.",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+10% Movement Speed if you have caused Reaping recently"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Abyssal King Soul",
@@ -1297,7 +2289,21 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ShenYuanWangHun_01_116.webp",
         "category": "Persistent",
         "rarity": "Legendary",
-        "desc": "Increases Reaping Cooldown, Damage Over Time, and Damage Affliction."
+        "desc": "Increases Reaping Cooldown, Damage Over Time, and Damage Affliction.",
+        "mods": [
+          [
+            "50% chance for Damage Over Time to spread to targets in Proximity"
+          ],
+          [
+            "+35% additional Reaping Recovery Speed"
+          ],
+          [
+            "+20% Movement Speed if you have caused Reaping recently"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Shocket - Pale",
@@ -1305,7 +2311,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_YiDongDianZi_04_116.webp",
         "category": "Summon",
         "rarity": "Magic",
-        "desc": "Increases Spirit Magus seal removal, damage, and skill duration."
+        "desc": "Increases Spirit Magus seal removal, damage, and skill duration.",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+28% Spirit Magus Skill Damage"
+          ],
+          [
+            "+4% additional Minion Damage"
+          ]
+        ]
       },
       {
         "name": "Letice - Amethyst",
@@ -1313,7 +2330,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_ChunKunXiaoWo_04_116.webp",
         "category": "Summon",
         "rarity": "Rare",
-        "desc": "Increases Spirit Magus seal removal, damage, and skill duration."
+        "desc": "Increases Spirit Magus seal removal, damage, and skill duration.",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+56% Spirit Magus Skill Damage"
+          ],
+          [
+            "+4% additional Minion Damage"
+          ]
+        ]
       },
       {
         "name": "Scale of Original Sin",
@@ -1321,7 +2349,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_EYuShiTu_01_116.webp",
         "category": "Summon",
         "rarity": "Legendary",
-        "desc": "Increases Spirit Magus seal removal, damage, and skill duration."
+        "desc": "Increases Spirit Magus seal removal, damage, and skill duration.",
+        "mods": [
+          [
+            "+53% additional Spirit Magus Ultimate Damage and Ailment Damage dealt by Ultimate when any two of Strength, Dexterity, and Intelligence are equal"
+          ],
+          [
+            "+2 Spirit Magus Skill Level"
+          ],
+          [
+            "+4% additional Minion Damage"
+          ]
+        ]
       },
       {
         "name": "Fluffhead Hare",
@@ -1329,7 +2368,12 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_HuLiHuTu_01_116.webp",
         "category": "Drop",
         "rarity": "Legendary",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "+5% additional Drop Quantity\\n$+sp1$% chance for 2 additional Gladiator(s) to appear in the stage (Only effective in the Invincible Champion Season-exclusive gameplay)"
+          ]
+        ]
       },
       {
         "name": "Shocket - Dark Night",
@@ -1337,7 +2381,15 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_YiDongDianZi_03_116.webp",
         "category": "Drop",
         "rarity": "Magic",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "While escaping from the Nightmare, whenever you remove Nightmare Roots, there is a 2% chance that all Dream Bubbles you have obtained will drop 1 additional time."
+          ],
+          [
+            "+8% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Letice - Frost",
@@ -1345,7 +2397,15 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_ChunKunXiaoWo_02_116.webp",
         "category": "Drop",
         "rarity": "Rare",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "While escaping from the Nightmare, whenever you remove Nightmare Roots, there is a 3% chance that all Dream Bubbles you have obtained will drop 1 additional time."
+          ],
+          [
+            "+8% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Shepherd",
@@ -1353,7 +2413,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_MuLingRen_01_116.webp",
         "category": "Drop",
         "rarity": "Legendary",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "While escaping from the Nightmare, whenever you remove Nightmare Roots, there is a 13% chance that all Dream Bubbles you have obtained will drop 1 additional time."
+          ],
+          [
+            "Upon entering a Nightmare, there is a 100% chance to trigger 1 additional Sweet Dream Omen selection (this selection will not be accompanied by a Nightmare Omen)"
+          ],
+          [
+            "During each round of Twinightmare, gain 2 chance(s) to re-roll the current Dream Omens"
+          ]
+        ]
       },
       {
         "name": "Shocket - Green Leaf",
@@ -1361,7 +2432,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_YiDongDianZi_05_116.webp",
         "category": "Attack",
         "rarity": "Magic",
-        "desc": "Increases Damage, Attack Block, Spell Block"
+        "desc": "Increases Damage, Attack Block, Spell Block",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "1.6% Block Ratio when there is a Boss Nearby"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Letice - Withered Leaf",
@@ -1369,7 +2451,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_ChunKunXiaoWo_05_116.webp",
         "category": "Attack",
         "rarity": "Rare",
-        "desc": "Increases Damage, Attack Block, Spell Block"
+        "desc": "Increases Damage, Attack Block, Spell Block",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+3% Block Ratio when there is a Boss Nearby"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Raging Sands of Eternal Night",
@@ -1377,7 +2470,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_YongYeKuangSha_01_116.webp",
         "category": "Attack",
         "rarity": "Legendary",
-        "desc": "Increases Damage, Attack Block, Spell Block"
+        "desc": "Increases Damage, Attack Block, Spell Block",
+        "mods": [
+          [
+            "Attacks eliminate enemies under 20% Life on hit if you have Blocked recently"
+          ],
+          [
+            "+6% Block Ratio when there is a Boss Nearby"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Awooawoo - Blue Sky",
@@ -1385,7 +2489,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_AWuAWu_05_116.webp",
         "category": "Attack",
         "rarity": "Magic",
-        "desc": "Increases Damage, Erosion Resistance, and Crowd Control Effects"
+        "desc": "Increases Damage, Erosion Resistance, and Crowd Control Effects",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "For every type of crowd control effect the enemy has, you and your Minions deal 0.8% additional damage to them"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Hell Cavalry - Twilight",
@@ -1393,7 +2508,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_YouYuQingQi_06_116.webp",
         "category": "Attack",
         "rarity": "Rare",
-        "desc": "Increases Damage, Erosion Resistance, and Crowd Control Effects"
+        "desc": "Increases Damage, Erosion Resistance, and Crowd Control Effects",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "For every type of crowd control effect the enemy has, you and your Minions deal 1.6% additional damage to them"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Witch Antelope of Lust",
@@ -1401,7 +2527,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_MeiYuSiJi_01_116.webp",
         "category": "Attack",
         "rarity": "Legendary",
-        "desc": "Increases Damage, Erosion Resistance, and Crowd Control Effects"
+        "desc": "Increases Damage, Erosion Resistance, and Crowd Control Effects",
+        "mods": [
+          [
+            "Inflicts Paralysis or Weaken on enemies within 10m in turn. Cooldown: 4 s"
+          ],
+          [
+            "For every type of crowd control effect the enemy has, you and your Minions deal +3% additional damage to them"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Happy Chonky - Violet",
@@ -1409,7 +2546,15 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_KuaiLeXiaoFei_06_116.webp",
         "category": "Drop",
         "rarity": "Magic",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "When opening a Chest of Folklores, there is a 2.5% chance that 1 additional Chest of Folklores will appear (this can only be triggered once)"
+          ],
+          [
+            "+8% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "First Mate of the Furious Sea - Silent Night",
@@ -1417,7 +2562,15 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_NuHaiDaFu_03_116.webp",
         "category": "Drop",
         "rarity": "Rare",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "When opening a Chest of Folklores, there is a 5% chance that 1 additional Chest of Folklores will appear (this can only be triggered once)"
+          ],
+          [
+            "+8% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Mistville Orphan",
@@ -1425,7 +2578,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ShuangMianYeCha_01_116.webp",
         "category": "Drop",
         "rarity": "Legendary",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "In each round of the Whispering Mist gameplay, additionally gain 3 chance(s) to refresh the items for free at the Mistville Trader (only takes effect if you are carrying this Pactspirit when you enter Mistville)"
+          ],
+          [
+            "When going to the Clock Tower, there is a 13% chance to skip the battle and enter the Misty Lake, gaining 3 Chests of Folklores at the same time"
+          ],
+          [
+            "When opening a Chest of Folklores, there is a 10% chance that 1 additional Chest of Folklores will appear (this can only be triggered once)"
+          ]
+        ]
       },
       {
         "name": "Idling Weasel - Sandstone",
@@ -1433,7 +2597,21 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_XianYouXiaoYou_06_116.webp",
         "category": "Attack",
         "rarity": "Magic",
-        "desc": "Increases Attack and Cast Speed, Lightning Damage, and Movement Speed"
+        "desc": "Increases Attack and Cast Speed, Lightning Damage, and Movement Speed",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "When inflicting Numbed, restores 1.5% Missing Life and Energy Shield. Interval: 0.8 s"
+          ],
+          [
+            "3.75% Movement Speed if you have inflicted Numbed recently"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "First Mate of the Furious Sea - Rock",
@@ -1441,7 +2619,21 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_NuHaiDaFu_01_116.webp",
         "category": "Attack",
         "rarity": "Rare",
-        "desc": "Increases Attack and Cast Speed, Lightning Damage, and Movement Speed"
+        "desc": "Increases Attack and Cast Speed, Lightning Damage, and Movement Speed",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "When inflicting Numbed, restores 1.5% Missing Life and Energy Shield. Interval: 0.4 s"
+          ],
+          [
+            "7.5% Movement Speed if you have inflicted Numbed recently"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Backup Power",
@@ -1449,7 +2641,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_DianNengChuBeiLiang_01_116.webp",
         "category": "Attack",
         "rarity": "Legendary",
-        "desc": "Increases Attack and Cast Speed, Lightning Damage, and Movement Speed"
+        "desc": "Increases Attack and Cast Speed, Lightning Damage, and Movement Speed",
+        "mods": [
+          [
+            "+45% Numbed Effect"
+          ],
+          [
+            "When inflicting Numbed, restores 3% Missing Life and Energy Shield. Interval: 0.2 s"
+          ],
+          [
+            "+30% Movement Speed if you have inflicted Numbed recently"
+          ]
+        ]
       },
       {
         "name": "Luluri - Shallow Sea",
@@ -1457,7 +2660,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_LuLuLi_05_116.webp",
         "category": "Attack",
         "rarity": "Magic",
-        "desc": "Warcry Duration, Warcry Skill Cooldown, Warcry Effect"
+        "desc": "Warcry Duration, Warcry Skill Cooldown, Warcry Effect",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "5.5% Warcry Cooldown Recovery Speed"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "First Mate of the Furious Sea - Sky",
@@ -1465,7 +2679,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_NuHaiDaFu_02_116.webp",
         "category": "Attack",
         "rarity": "Rare",
-        "desc": "Warcry Duration, Warcry Skill Cooldown, Warcry Effect"
+        "desc": "Warcry Duration, Warcry Skill Cooldown, Warcry Effect",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+11% Warcry Cooldown Recovery Speed"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Captain Kitty of the Furious Sea",
@@ -1473,7 +2698,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_NuHaiMiaoWang_116.webp",
         "category": "Attack",
         "rarity": "Legendary",
-        "desc": "Warcry Duration, Warcry Skill Cooldown, Warcry Effect"
+        "desc": "Warcry Duration, Warcry Skill Cooldown, Warcry Effect",
+        "mods": [
+          [
+            "Immediately casts Warcry. +25% additional Warcry Skill Effect"
+          ],
+          [
+            "+22% Warcry Cooldown Recovery Speed"
+          ],
+          [
+            "+2 Max Warcry Skill Charges"
+          ]
+        ]
       },
       {
         "name": "Feasting Samurai - Honey",
@@ -1481,7 +2717,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_GanFanWuShi_05_116.webp",
         "category": "Attack",
         "rarity": "Magic",
-        "desc": "Knockback Distance, Projectile Speed, Projectile Damage"
+        "desc": "Knockback Distance, Projectile Speed, Projectile Damage",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+2% additional Attack and Cast Speed when no enemies are in proximity"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Dragon Plant - Truffle",
@@ -1489,7 +2736,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_QingLongCaiCai_05_116.webp",
         "category": "Attack",
         "rarity": "Rare",
-        "desc": "Knockback Distance, Projectile Speed, Projectile Damage"
+        "desc": "Knockback Distance, Projectile Speed, Projectile Damage",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+4% additional Attack and Cast Speed when no enemies are in proximity"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Iron Lion",
@@ -1497,7 +2755,21 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_TieZhuXiongShi_01_116.webp",
         "category": "Attack",
         "rarity": "Legendary",
-        "desc": "Knockback Distance, Projectile Speed, Projectile Damage"
+        "desc": "Knockback Distance, Projectile Speed, Projectile Damage",
+        "mods": [
+          [
+            "Projectile Quantity +2"
+          ],
+          [
+            "+8% additional Attack and Cast Speed when no enemies are in proximity"
+          ],
+          [
+            "+48% Knockback distance"
+          ],
+          [
+            "+14% Projectile Speed"
+          ]
+        ]
       },
       {
         "name": "Feasting Samurai",
@@ -1505,7 +2777,15 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_GanFanWuShi_01_116.webp",
         "category": "Drop",
         "rarity": "Magic",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "All Member Services gain an additional effect: Each time after completing Operation Cogwheel, there is a 4% chance to get 1 additional Cogwheel Voucher (takes effect immediately after selecting Member Services and lasts for the duration of this game)"
+          ],
+          [
+            "+8% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Dragon Plant",
@@ -1513,7 +2793,15 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_QingLongCaiCai_01_116.webp",
         "category": "Drop",
         "rarity": "Rare",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "All Member Services gain an additional effect: Each time after completing Operation Cogwheel, there is a 8% chance to get 1 additional Cogwheel Voucher (takes effect immediately after selecting Member Services and lasts for the duration of this game)"
+          ],
+          [
+            "+8% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Alice 1",
@@ -1521,7 +2809,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ZhiXieYiGu_01_116.webp",
         "category": "Drop",
         "rarity": "Legendary",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "All Member Services gain an additional effect: When settling Clockwork Ballet Games, there is a 33% chance to settle the rewards 1 additional time. This can only be triggered once (takes effect immediately after selecting Member Services and lasts for the duration of this game)"
+          ],
+          [
+            "All Member Services gain an additional effect: Each time after completing Operation Cogwheel, there is a 16% chance to get 1 additional Cogwheel Voucher (takes effect immediately after selecting Member Services and lasts for the duration of this game)"
+          ],
+          [
+            "Member Services refresh attempts +2"
+          ]
+        ]
       },
       {
         "name": "Feasting Samurai - Mint",
@@ -1529,7 +2828,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_GanFanWuShi_03_116.webp",
         "category": "Drop",
         "rarity": "Magic",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "There is a 25% chance that 2 additional Splendor Egg(s) of random color will appear when entering the Frozen Canvas map."
+          ],
+          [
+            "In the Paint phase of each round, you gain Brushstroke Effect refresh attempt(s). (Only takes effect if you are carrying this Pactspirit before starting a painting)"
+          ],
+          [
+            "+8% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Dragon Plant - Lettuce",
@@ -1537,7 +2847,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_QingLongCaiCai_02_116.webp",
         "category": "Drop",
         "rarity": "Rare",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "There is a 50% chance that 2 additional Splendor Egg(s) of random color will appear when entering the Frozen Canvas map."
+          ],
+          [
+            "In the Paint phase of each round, you gain Brushstroke Effect refresh attempt(s). (Only takes effect if you are carrying this Pactspirit before starting a painting)"
+          ],
+          [
+            "+8% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Rainbowpaint Owl",
@@ -1545,7 +2866,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_XueGuoYeXiao_116.webp",
         "category": "Drop",
         "rarity": "Legendary",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "When the painting is completed, randomly transforms 2-5 Cells to Pactspirit Exclusive Cells that do not require combat and grant double rewards."
+          ],
+          [
+            "There is a 100% chance that 2 additional Splendor Egg(s) of random color will appear when entering the Frozen Canvas map."
+          ],
+          [
+            "In the Paint phase of each round, you gain 2 Brushstroke Effect refresh attempt(s). (Only takes effect if you are carrying this Pactspirit before starting a painting)"
+          ]
+        ]
       },
       {
         "name": "Feasting Samurai - Orange",
@@ -1553,7 +2885,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_GanFanWuShi_02_116.webp",
         "category": "Attack",
         "rarity": "Magic",
-        "desc": "Increases Attack and Cast Speed, Channeled Damage, and Movement Speed"
+        "desc": "Increases Attack and Cast Speed, Channeled Damage, and Movement Speed",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "At max channeled stacks, +2% additional damage for Channeled Skills for 4 s"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Dragon Plant - Kale",
@@ -1561,7 +2904,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_QingLongCaiCai_04_116.webp",
         "category": "Attack",
         "rarity": "Rare",
-        "desc": "Increases Attack and Cast Speed, Channeled Damage, and Movement Speed"
+        "desc": "Increases Attack and Cast Speed, Channeled Damage, and Movement Speed",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "At max channeled stacks, +4% additional damage for Channeled Skills for 4 s"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Swaying Bonnie",
@@ -1569,7 +2923,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_BangNiYaoBai_01_116.webp",
         "category": "Attack",
         "rarity": "Legendary",
-        "desc": "Increases Attack and Cast Speed, Channeled Damage, and Movement Speed"
+        "desc": "Increases Attack and Cast Speed, Channeled Damage, and Movement Speed",
+        "mods": [
+          [
+            "+2 to Max Channeled Stacks"
+          ],
+          [
+            "At max channeled stacks, +12% additional damage for Channeled Skills for 4 s"
+          ],
+          [
+            "For every 4 channeled stacks, inflicts Weaken on enemies within 20 m"
+          ]
+        ]
       },
       {
         "name": "Feasting Samurai - Garlic",
@@ -1577,7 +2942,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_GanFanWuShi_04_116.webp",
         "category": "Summon",
         "rarity": "Magic",
-        "desc": "Servant Damage, Servant Damage, Servant Speed"
+        "desc": "Servant Damage, Servant Damage, Servant Speed",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+3% Movement Speed when a Spirit Magus is nearby"
+          ],
+          [
+            "+4% additional Minion Damage"
+          ]
+        ]
       },
       {
         "name": "Dragon Plant - Onion",
@@ -1585,7 +2961,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_QingLongCaiCai_03_116.webp",
         "category": "Summon",
         "rarity": "Rare",
-        "desc": "Servant Damage, Servant Damage, Servant Speed"
+        "desc": "Servant Damage, Servant Damage, Servant Speed",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+6% Movement Speed when a Spirit Magus is nearby"
+          ],
+          [
+            "+4% additional Minion Damage"
+          ]
+        ]
       },
       {
         "name": "Sprite of Silent Vale",
@@ -1593,7 +2980,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_YouGuHuaLing_116.webp",
         "category": "Summon",
         "rarity": "Legendary",
-        "desc": "Servant Damage, Servant Damage, Servant Speed"
+        "desc": "Servant Damage, Servant Damage, Servant Speed",
+        "mods": [
+          [
+            "+75 initial Growth for Spirit Magi"
+          ],
+          [
+            "+12% Movement Speed when a Spirit Magus is nearby"
+          ],
+          [
+            "For every 20 Growth a Spirit Magus has, it deals +1% additional damage, up to +10% additional damage"
+          ]
+        ]
       },
       {
         "name": "Sprouting Grass",
@@ -1601,7 +2999,15 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_ZhongCaoXiaoYa_116.webp",
         "category": "Drop",
         "rarity": "Magic",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "When opening a Chest of Destiny in Fateful Contest, there is a 1% chance to double the Chest of Destiny rewards (takes effect immediately after entering Fateful Contest)"
+          ],
+          [
+            "+8% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Benign Bug - Barbie Pink",
@@ -1609,7 +3015,15 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LiangXingBaGe_02_116.webp",
         "category": "Drop",
         "rarity": "Rare",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "When opening a Chest of Destiny in Fateful Contest, there is a 2% chance to double the Chest of Destiny rewards (takes effect immediately after entering Fateful Contest)"
+          ],
+          [
+            "+8% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Jestress",
@@ -1617,7 +3031,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_HongTaoHuangNv_01_116.webp",
         "category": "Drop",
         "rarity": "Legendary",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "When opening a Chest of Destiny in Fateful Contest, there is a 38% chance to double the Chest of Destiny rewards (takes effect immediately after entering Fateful Contest)"
+          ],
+          [
+            "When entering the Tarot Path, there is a 100% chance to gain 1 additional Note of Arcana"
+          ],
+          [
+            "When opening a Chest of Destiny in Fateful Contest, doubled Chest of Destiny rewards have a 100% chance to be tripled instead (takes effect immediately after entering Fateful Contest)"
+          ]
+        ]
       },
       {
         "name": "Sprouting Grass - Purple Sand",
@@ -1625,7 +3050,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_ZhongCaoXiaoYa_02_116.webp",
         "category": "Drop",
         "rarity": "Magic",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "+8% Drop Quantity"
+          ],
+          [
+            "+5% additional Compass Drop Quantity"
+          ],
+          [
+            "+6% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Benign Bug",
@@ -1633,7 +3069,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LiangXingBaGe_116.webp",
         "category": "Drop",
         "rarity": "Rare",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "+8% Drop Quantity"
+          ],
+          [
+            "+9% additional Compass Drop Quantity"
+          ],
+          [
+            "+6% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Doro-Doro Dorothy",
@@ -1641,7 +3088,15 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_TLS007_116.webp",
         "category": "Drop",
         "rarity": "Legendary",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "In Netherrealm stages, when a Compass drops, there is a 5% chance for a Doro-Doro Supply containing 5-10 Compasses to drop. There is a 34% chance for 1 additional Doro-Doro Supply to drop."
+          ],
+          [
+            "+18% additional Compass Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Sprouting Grass - White Porcelain",
@@ -1649,7 +3104,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_ZhongCaoXiaoYa_05_116.webp",
         "category": "Drop",
         "rarity": "Magic",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "+8% Drop Quantity"
+          ],
+          [
+            "When returning from a raid, there is a 2.5% chance to bring back 1 laborer"
+          ],
+          [
+            "When returning from a trade, there is a 2.5% chance to bring back 1 laborer"
+          ]
+        ]
       },
       {
         "name": "Benign Bug - Merciless Silver",
@@ -1657,7 +3123,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LiangXingBaGe_03_116.webp",
         "category": "Drop",
         "rarity": "Rare",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "+8% Drop Quantity"
+          ],
+          [
+            "When returning from a raid, there is a 5% chance to bring back 1 laborer"
+          ],
+          [
+            "When returning from a trade, there is a 5% chance to bring back 1 laborer"
+          ]
+        ]
       },
       {
         "name": "Moonshadow Guide",
@@ -1665,7 +3142,24 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ShaHaiMiaoMiao_116.webp",
         "category": "Drop",
         "rarity": "Legendary",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "When completing a raid or a trade, or settling an order, there is a 24% chance for all rewards to be replicated 1 time"
+          ],
+          [
+            "There is a 16% chance to +100% additional Drop Quantity during raids"
+          ],
+          [
+            "When returning from a trade, there is a 10% chance to bring back 1 laborer"
+          ],
+          [
+            "When starting a trade, there is a 16% chance to regain the invested resources and immediately settle the rewards"
+          ],
+          [
+            "When returning from a raid, there is a 10% chance to bring back 1 laborer"
+          ]
+        ]
       },
       {
         "name": "Sprouting Grass - Green Porcelain",
@@ -1673,7 +3167,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_ZhongCaoXiaoYa_04_116.webp",
         "category": "Erosion",
         "rarity": "Magic",
-        "desc": "Erosion Damage, Erosion Damage, Erosion Penetration"
+        "desc": "Erosion Damage, Erosion Damage, Erosion Penetration",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+14% Erosion Damage"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Benign Bug - Ghost Light Yellow",
@@ -1681,7 +3186,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LiangXingBaGe_05_116.webp",
         "category": "Erosion",
         "rarity": "Rare",
-        "desc": "Erosion Damage, Erosion Damage, Erosion Penetration"
+        "desc": "Erosion Damage, Erosion Damage, Erosion Penetration",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+28% Erosion Damage"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Portrait of a Fallen Saintess",
@@ -1689,7 +3205,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_XieDuShengNvDeXiaoXiang_01_116.webp",
         "category": "Erosion",
         "rarity": "Legendary",
-        "desc": "Erosion Damage, Erosion Damage, Erosion Penetration"
+        "desc": "Erosion Damage, Erosion Damage, Erosion Penetration",
+        "mods": [
+          [
+            "Gains 1 stack of Repentance when gaining any Blessing"
+          ],
+          [
+            "+3 Max Repentance Stacks"
+          ],
+          [
+            "+3% Erosion Resistance per stack of Repentance"
+          ]
+        ]
       },
       {
         "name": "Lumidrake",
@@ -1697,7 +3224,15 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_XiaoDengLong_01_116.webp",
         "category": "Drop",
         "rarity": "Magic",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "1% chance for all reward units from Carjack or TOWER Co. Central Vault in a Netherrealm stage to be recoded by Prof. SOURCE when they appear, replicating their rewards 1 time (takes effect immediately after starting Carjack and lasts for the duration of the operation; must be carried at all times in TOWER Co. Central Vault)"
+          ],
+          [
+            "+8% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Shro-Shroom",
@@ -1705,7 +3240,15 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_XiaoGuGuGu_01_116.webp",
         "category": "Drop",
         "rarity": "Rare",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "2% chance for all reward units from Carjack or TOWER Co. Central Vault in a Netherrealm stage to be recoded by Prof. SOURCE when they appear, replicating their rewards 1 time (takes effect immediately after starting Carjack and lasts for the duration of the operation; must be carried at all times in TOWER Co. Central Vault)"
+          ],
+          [
+            "+8% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Prof. SOURCE",
@@ -1713,7 +3256,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_YuanBoShi_01_116.webp",
         "category": "Drop",
         "rarity": "Legendary",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "28% chance for all reward units from Carjack or TOWER Co. Central Vault in a Netherrealm stage to be recoded by Prof. SOURCE when they appear, replicating their rewards 1 time (takes effect immediately after starting Carjack and lasts for the duration of the operation; must be carried at all times in TOWER Co. Central Vault)"
+          ],
+          [
+            "100% chance for all reward units from Carjack or TOWER Co. Central Vault that have been recoded in a Netherrealm stage to be replicated 1 time again (takes effect immediately after starting Carjack and lasts for the duration of the operation; must be carried at all times in TOWER Co. Central Vault)"
+          ],
+          [
+            "After revealing a Bounty Order, gains 2 chance(s) to refresh Bounty Orders"
+          ]
+        ]
       },
       {
         "name": "Sprouting Grass - Black Porcelain",
@@ -1721,7 +3275,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_ZhongCaoXiaoYa_03_116.webp",
         "category": "Attack",
         "rarity": "Magic",
-        "desc": "Attack Damage, Attack Critical Strike, and Attack Speed"
+        "desc": "Attack Damage, Attack Critical Strike, and Attack Speed",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+14% Elemental Damage"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Shro-Shroom - Boletus",
@@ -1729,7 +3294,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_XiaoGuGuGu_02_116.webp",
         "category": "Attack",
         "rarity": "Rare",
-        "desc": "Attack Damage, Attack Critical Strike, and Attack Speed"
+        "desc": "Attack Damage, Attack Critical Strike, and Attack Speed",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+28% Elemental Damage"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Valkyrie's Night Patrol",
@@ -1737,7 +3313,21 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_NvWuShenDeYeXun_01_116.webp",
         "category": "Attack",
         "rarity": "Legendary",
-        "desc": "Attack Damage, Attack Critical Strike, and Attack Speed"
+        "desc": "Attack Damage, Attack Critical Strike, and Attack Speed",
+        "mods": [
+          [
+            "Gains 1 stack of Valkyrie's Hymn for every 2% Max Mana consumed"
+          ],
+          [
+            "+2 Max Valkyrie's Hymn Stacks"
+          ],
+          [
+            "+8% Elemental Damage for every stack of Valkyrie's Hymn"
+          ],
+          [
+            "Upon reaching Max Valkyrie's Hymn Stacks, +10% Elemental Resistance Penetration"
+          ]
+        ]
       },
       {
         "name": "Lumidrake - Fluorescence",
@@ -1745,7 +3335,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_XiaoDengLong_02_116.webp",
         "category": "Attack",
         "rarity": "Magic",
-        "desc": "Attack Damage, Attack Critical Strike, and Attack Speed"
+        "desc": "Attack Damage, Attack Critical Strike, and Attack Speed",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+14% Attack Damage"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Benign Bug - Tolerant Green",
@@ -1753,7 +3354,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LiangXingBaGe_04_116.webp",
         "category": "Attack",
         "rarity": "Rare",
-        "desc": "Attack Damage, Attack Critical Strike, and Attack Speed"
+        "desc": "Attack Damage, Attack Critical Strike, and Attack Speed",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+28% Attack Damage"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Azure Gunslinger",
@@ -1761,7 +3373,24 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_LanXinHuoChong_01_116.webp",
         "category": "Attack",
         "rarity": "Legendary",
-        "desc": "Attack Damage, Attack Critical Strike, and Attack Speed"
+        "desc": "Attack Damage, Attack Critical Strike, and Attack Speed",
+        "mods": [
+          [
+            "Gains 1 stack of Pure Heart when using an Attack Mobility Skill"
+          ],
+          [
+            "When gaining Pure Heart, there is a 100% chance to gain 1 additional stack of Pure Heart"
+          ],
+          [
+            "-8% additional damage taken when Pure Heart is active"
+          ],
+          [
+            "+1 Max Pure Heart Stacks"
+          ],
+          [
+            "+100% Pure Heart Duration"
+          ]
+        ]
       },
       {
         "name": "Lumidrake - Glow",
@@ -1769,7 +3398,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_XiaoDengLong_03_116.webp",
         "category": "Drop",
         "rarity": "Magic",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "+8% Drop Quantity"
+          ],
+          [
+            "+6% Drop Quantity"
+          ],
+          [
+            "All items dropped in the Overrealm have a 1% chance to be replicated 1 additional time(s)"
+          ]
+        ]
       },
       {
         "name": "Shro-Shroom - Lurid Bolete",
@@ -1777,7 +3417,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_XiaoGuGuGu_03_116.webp",
         "category": "Drop",
         "rarity": "Rare",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "+8% Drop Quantity"
+          ],
+          [
+            "+6% Drop Quantity"
+          ],
+          [
+            "All items dropped in the Overrealm have a 2% chance to be replicated 1 additional time(s)"
+          ]
+        ]
       },
       {
         "name": "Key of Overrealm",
@@ -1785,7 +3436,15 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_WeiTeLuWei_01_116.webp",
         "category": "Drop",
         "rarity": "Legendary",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "All items dropped in the Overrealm have a 27% chance to be replicated 1 additional time. Upon triggering a replication, they have a 100% chance to be replicated 1 additional time again"
+          ],
+          [
+            "When entering the first level of the Overrealm, there is a 24% chance for an additional Bottled Shadow to appear on the Containment Progress bar"
+          ]
+        ]
       },
       {
         "name": "Lumidrake - Aurora",
@@ -1793,7 +3452,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_XiaoDengLong_04_116.webp",
         "category": "Spell",
         "rarity": "Magic",
-        "desc": "Spell Damage, Spell Critical Strike, Cast Speed"
+        "desc": "Spell Damage, Spell Critical Strike, Cast Speed",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+14% Spell Damage"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Shro-Shroom - Oyster Mushroom",
@@ -1801,7 +3471,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_XiaoGuGuGu_04_116.webp",
         "category": "Spell",
         "rarity": "Rare",
-        "desc": "Spell Damage, Spell Critical Strike, Cast Speed"
+        "desc": "Spell Damage, Spell Critical Strike, Cast Speed",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+28% Spell Damage"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Squiddle",
@@ -1809,7 +3490,21 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_CaiMoDuoDuo_01_116.webp",
         "category": "Spell",
         "rarity": "Legendary",
-        "desc": "Spell Damage, Spell Critical Strike, Cast Speed"
+        "desc": "Spell Damage, Spell Critical Strike, Cast Speed",
+        "mods": [
+          [
+            "Consuming Spell Burst with at least 4 stack(s) of Max Spell Burst grants 1 stack of Squidnova"
+          ],
+          [
+            "+50% Squidnova Effect"
+          ],
+          [
+            "+8% additional Spell Damage when having Squidnova"
+          ],
+          [
+            "+1 to Max Spell Burst when having Squidnova"
+          ]
+        ]
       },
       {
         "name": "Lumidrake - Candlelight",
@@ -1817,7 +3512,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_XiaoDengLong_05_116.webp",
         "category": "Attack",
         "rarity": "Magic",
-        "desc": "Attack Damage, Attack Critical Strike, and Attack Speed"
+        "desc": "Attack Damage, Attack Critical Strike, and Attack Speed",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+14% Attack Damage"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Shro-Shroom - Gloom Shroom",
@@ -1825,7 +3531,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_XiaoGuGuGu_05_116.webp",
         "category": "Attack",
         "rarity": "Rare",
-        "desc": "Attack Damage, Attack Critical Strike, and Attack Speed"
+        "desc": "Attack Damage, Attack Critical Strike, and Attack Speed",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+28% Attack Damage"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Kitty Express",
@@ -1833,7 +3550,21 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_KuMaoZhaiJiSong_01_116.webp",
         "category": "Attack",
         "rarity": "Legendary",
-        "desc": "Attack Damage, Attack Critical Strike, and Attack Speed"
+        "desc": "Attack Damage, Attack Critical Strike, and Attack Speed",
+        "mods": [
+          [
+            "Gains 1 stack of Feline Stimulant when triggering a Main Skill"
+          ],
+          [
+            "+2 to Max Feline Stimulant stacks"
+          ],
+          [
+            "+8% additional Attack Damage when having Feline Stimulant"
+          ],
+          [
+            "Has Attack Aggression when reaching Max Feline Stimulant stacks"
+          ]
+        ]
       },
       {
         "name": "Lumidrake - Flare",
@@ -1841,7 +3572,15 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_XiaoDengLong_06_116.webp",
         "category": "Drop",
         "rarity": "Magic",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "When opening an Antidote Vial, it has a 1% chance to be reopened once (this can only be triggered once; must be carried at all times in Shelley's Operating Theater)"
+          ],
+          [
+            "+8% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Bird Nest",
@@ -1849,7 +3588,15 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_NiaoWoTouTou_01_116.webp",
         "category": "Drop",
         "rarity": "Rare",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "When opening an Antidote Vial, it has a 2% chance to be reopened once (this can only be triggered once; must be carried at all times in Shelley's Operating Theater)"
+          ],
+          [
+            "+8% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Intern Shelley",
@@ -1857,7 +3604,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ShiXiYiShengXueLai_01_116.webp",
         "category": "Drop",
         "rarity": "Legendary",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "When opening an Antidote Vial, all items dropped from it have a 28% chance to be replicated 1 additional time (must be carried at all times in Shelley's Operating Theater)"
+          ],
+          [
+            "During the Surgical Preparation phase, Surgical Instrument refresh attempts +2 (takes effect immediately after entering the Surgical Preparation screen)"
+          ],
+          [
+            "When opening an Antidote Vial, it has a 20% chance to be reopened once (this can only be triggered once; must be carried at all times in Shelley's Operating Theater)"
+          ]
+        ]
       },
       {
         "name": "Meowth",
@@ -1865,7 +3623,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_MaoEZi_01_116.webp",
         "category": "Elixir",
         "rarity": "Magic",
-        "desc": "Damage, Damage, Movement Speed"
+        "desc": "Damage, Damage, Movement Speed",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+4% additional damage and Minion Damage while an Elixir Skill is active"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Miss Melancholy",
@@ -1873,7 +3642,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_GuYingYouYou_01_116.webp",
         "category": "Elixir",
         "rarity": "Rare",
-        "desc": "Damage, Damage, Movement Speed"
+        "desc": "Damage, Damage, Movement Speed",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+4% additional damage and Minion Damage while an Elixir Skill is active"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Elixir Fairies",
@@ -1881,7 +3661,21 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_YaoXianZi_01_116.webp",
         "category": "Elixir",
         "rarity": "Legendary",
-        "desc": "Damage, Damage, Movement Speed"
+        "desc": "Damage, Damage, Movement Speed",
+        "mods": [
+          [
+            "+35% Elixir Skill Effect"
+          ],
+          [
+            "+8% additional damage and Minion Damage while an Elixir Skill is active"
+          ],
+          [
+            "+10% Movement Speed while an Elixir Skill is active"
+          ],
+          [
+            "1.5% Elixir Skill Effect for every Elixir Skill cast recently. Stacks up to 12 time(s)"
+          ]
+        ]
       },
       {
         "name": "Meowth - Violet",
@@ -1889,7 +3683,15 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_MaoEZi_02_116.webp",
         "category": "Drop",
         "rarity": "Magic",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "Upon entering the gameplay area, Avatar of Moon has a 2.5% chance to bless several random statues, increasing its Drop Quantity by an additional 100%"
+          ],
+          [
+            "+8% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Miss Melancholy - Cyan",
@@ -1897,7 +3699,15 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_GuYingYouYou_02_116.webp",
         "category": "Drop",
         "rarity": "Rare",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "Upon entering the gameplay area, Avatar of Moon has a 5% chance to bless several random statues, increasing its Drop Quantity by an additional 100%"
+          ],
+          [
+            "+8% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Avatar of Moon",
@@ -1905,7 +3715,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_JiaoYueHuaShen_01_116.webp",
         "category": "Drop",
         "rarity": "Legendary",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "When Strumming, there is a 25% chance to buff all activated units, replicating their drops 1 additional time"
+          ],
+          [
+            "When replicated, all items dropped have a 100% chance to be replicated 1 additional time"
+          ],
+          [
+            "Upon entering the gameplay area, Avatar of Moon has a 10% chance to bless several random statues, increasing its Drop Quantity by an additional 100%"
+          ]
+        ]
       },
       {
         "name": "Meowth - Nightfire",
@@ -1913,7 +3734,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_MaoEZi_03_116.webp",
         "category": "Drop",
         "rarity": "Magic",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "+8% Drop Quantity"
+          ],
+          [
+            "+6% Drop Quantity"
+          ],
+          [
+            "+2% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Miss Melancholy - Pink",
@@ -1921,7 +3753,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_GuYingYouYou_03_116.webp",
         "category": "Drop",
         "rarity": "Rare",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "+8% Drop Quantity"
+          ],
+          [
+            "+6% Drop Quantity"
+          ],
+          [
+            "+4% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Twilight Sparks",
@@ -1929,7 +3772,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_HuaXinXiaoMan_116.webp",
         "category": "Drop",
         "rarity": "Legendary",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "+13% additional Drop Quantity"
+          ],
+          [
+            "+6% Drop Quantity"
+          ],
+          [
+            "+3% additional Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Meowth - Jade",
@@ -1937,7 +3791,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_MaoEZi_04_116.webp",
         "category": "Spell",
         "rarity": "Magic",
-        "desc": "Terra Damage, Terra Charge, Terra Area"
+        "desc": "Terra Damage, Terra Charge, Terra Area",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+12% Terra Skill Damage"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Miss Melancholy - Bone",
@@ -1945,7 +3810,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_GuYingYouYou_04_116.webp",
         "category": "Spell",
         "rarity": "Rare",
-        "desc": "Terra Damage, Terra Charge, Terra Area"
+        "desc": "Terra Damage, Terra Charge, Terra Area",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+24% Terra Skill Damage"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Icemirror",
@@ -1953,7 +3829,21 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ShuangJing_01_116.webp",
         "category": "Spell",
         "rarity": "Legendary",
-        "desc": "Terra Damage, Terra Charge, Terra Area"
+        "desc": "Terra Damage, Terra Charge, Terra Area",
+        "mods": [
+          [
+            "Gains 1 stack of Mirrored Shade every 1 s while standing on a Terra Skill"
+          ],
+          [
+            "+2 to Max Mirrored Shade Stacks"
+          ],
+          [
+            "+8% additional Terra Skill Damage while having Mirrored Shade"
+          ],
+          [
+            "+1 to Max Terra Charge Stacks when Mirrored Shade reaches max stacks"
+          ]
+        ]
       },
       {
         "name": "Meowth - Aurora",
@@ -1961,7 +3851,12 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_MaoEZi_05_116.webp",
         "category": "Drop",
         "rarity": "Magic",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "+8% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Miss Melancholy - Azure",
@@ -1969,7 +3864,12 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_GuYingYouYou_05_116.webp",
         "category": "Drop",
         "rarity": "Rare",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "+8% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Lady Obituary",
@@ -1977,7 +3877,15 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_FuGaoFuRen_01_116.webp",
         "category": "Drop",
         "rarity": "Legendary",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "In the Vigil, whenever a wave of Wraiths spawns, there is a 25% chance to trigger Elegy, replicating rewards from all reward units spawned this wave 1 time"
+          ],
+          [
+            "In the Vigil, rewards from all reward units under the influence of Elegy have a 100% chance to be replicated 1 time again"
+          ]
+        ]
       },
       {
         "name": "Ripplepop",
@@ -1985,7 +3893,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_HaiLangPaoPao_01_116.webp",
         "category": "Spell",
         "rarity": "Magic",
-        "desc": "Spell Damage, Spell Critical Strike, Cast Speed"
+        "desc": "Spell Damage, Spell Critical Strike, Cast Speed",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+12% Spell Damage"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Heartbloom",
@@ -1993,7 +3912,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_FangXinXiaoHua_01_116.webp",
         "category": "Spell",
         "rarity": "Rare",
-        "desc": "Spell Damage, Spell Critical Strike, Cast Speed"
+        "desc": "Spell Damage, Spell Critical Strike, Cast Speed",
+        "mods": [
+          [
+            "+7% additional damage; +7% additional Minion Damage"
+          ],
+          [
+            "+24% Spell Damage"
+          ],
+          [
+            "+4% additional damage"
+          ]
+        ]
       },
       {
         "name": "Witch of the Night",
@@ -2001,7 +3931,21 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_HeiYeMoNv_01_116.webp",
         "category": "Spell",
         "rarity": "Legendary",
-        "desc": "Spell Damage, Spell Critical Strike, Cast Speed"
+        "desc": "Spell Damage, Spell Critical Strike, Cast Speed",
+        "mods": [
+          [
+            "Gains 1 stack of Night Feather Entanglement for every 1 active Tangle"
+          ],
+          [
+            "+50% Night Feather Entanglement Effect"
+          ],
+          [
+            "+8% additional Spell Damage when having Night Feather Entanglement"
+          ],
+          [
+            "Gains 1 stack of Focus Blessing every 1 s when Night Feather Entanglement reaches max stacks"
+          ]
+        ]
       },
       {
         "name": "Ripplepop - Taro",
@@ -2009,7 +3953,15 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_HaiLangPaoPao_02_116.webp",
         "category": "Drop",
         "rarity": "Magic",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "When opening a Warden's Cache, it has a 1% chance to be reopened once (this can only be triggered once)"
+          ],
+          [
+            "+8% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Heartbloom - Iris",
@@ -2017,7 +3969,15 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_FangXinXiaoHua_02_116.webp",
         "category": "Drop",
         "rarity": "Rare",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "When opening a Warden's Cache, it has a 2% chance to be reopened once (this can only be triggered once)"
+          ],
+          [
+            "+8% Drop Quantity"
+          ]
+        ]
       },
       {
         "name": "Twin Inquisitors",
@@ -2025,7 +3985,18 @@
         "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ShuangShengYuZu_01_116.webp",
         "category": "Drop",
         "rarity": "Legendary",
-        "desc": "Increases Drop Quantity"
+        "desc": "Increases Drop Quantity",
+        "mods": [
+          [
+            "When opening a Warden's Cache, all items dropped from it have a 28% chance to be replicated 1 additional time"
+          ],
+          [
+            "There is a 100% chance to gain 1 Torture Instrument refresh count(s) during the Warden's Duty phase"
+          ],
+          [
+            "When opening a Warden's Cache, it has a 16% chance to be reopened once (this can only be triggered once)"
+          ]
+        ]
       }
     ],
     "sources": [

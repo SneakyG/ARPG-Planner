@@ -340,7 +340,7 @@
   const CAT2TAG = { Attack: 'attack', Spell: 'spell', Persistent: 'persistent', Summon: 'summon', Fire: 'fire', Cold: 'cold', Lightning: 'lightning', Erosion: 'erosion' };
   const TAG_VI = { attack: 'Attack', spell: 'Spell', persistent: 'Persistent/DoT', summon: 'Summon', fire: 'Fire', cold: 'Cold', lightning: 'Lightning', erosion: 'Erosion' };
   const NEUTRAL = ['Survival', 'Elixir'];
-  let petsUI = { cat: '', q: '', rar: '', allSeasons: false };
+  let petsUI = { cat: '', q: '', rar: '', allSeasons: false, sort: 'rarity' };
   let petList = [];
 
   function petSlotsFromHash(r) { return (r.id || '').split('~').map((s) => s.trim()).filter(Boolean).slice(0, 3); }
@@ -363,6 +363,17 @@
     return { k: 'bad', s: -1, t: `Build không dùng ${CAT_VI[p.category] || p.category}` };
   }
 
+  // Detail panel shown above the grid. It is docked (not a floating tooltip) so it never covers the next pet.
+  function petCard(p) {
+    if (!p) return '<p class="muted small">Rê chuột (hoặc chạm) vào một Pactspirit để xem hiệu ứng.</p>';
+    const mods = (p.mods || []).slice(0, 6);
+    return `<div class="pi-head">${petIcon(p, 'l')}<div class="pi-t"><b>${esc(p.name)}</b>
+        <span><i class="cdot c-${esc(p.category)}"></i>${esc(CAT_VI[p.category] || p.category)} · <span class="rtxt r-${esc(p.rarity)}">${esc(p.rarity || '')}</span></span></div>
+        ${p.url ? `<a class="pi-link" href="${safeUrl(p.url)}" target="_blank" rel="noopener">tlidb ↗</a>` : ''}</div>
+      ${p.desc ? `<div class="pi-desc">${esc(p.desc)}</div>` : ''}
+      ${mods.length ? `<ul class="pi-mods">${mods.map((m) => `<li>${m.map(esc).join('<br>')}</li>`).join('')}</ul>` : '<p class="muted small">Chưa có dữ liệu hiệu ứng (cập nhật ở lần lấy dữ liệu tlidb kế tiếp).</p>'}`;
+  }
+
   async function pets(r) {
     const [pd, bd] = await Promise.all([data('tli', 'pacts'), data('tli', 'builds')]);
     petList = (pd.items || []).filter((p) => p.category && p.category !== 'Drop');
@@ -379,9 +390,27 @@
 
     // Picker
     const q = norm(petsUI.q);
-    const shown = petList.filter((p) => (!petsUI.cat || p.category === petsUI.cat) && (!petsUI.rar || p.rarity === petsUI.rar) && (!q || norm(p.name + ' ' + p.category).includes(q)));
+    const RAR_ORDER = { Legendary: 0, Rare: 1, Magic: 2 };
+    const catIdx = (c) => { const i = PET_CATS.indexOf(c); return i < 0 ? 99 : i; };
+    const shown = petList.filter((p) => (!petsUI.cat || p.category === petsUI.cat) && (!petsUI.rar || p.rarity === petsUI.rar) && (!q || norm(p.name + ' ' + p.category).includes(q)))
+      .map((p, i) => ({ p, i }))
+      .sort((a, b) => {
+        if (petsUI.sort === 'name') return a.p.name.localeCompare(b.p.name);
+        if (petsUI.sort === 'category') return catIdx(a.p.category) - catIdx(b.p.category) || (RAR_ORDER[a.p.rarity] ?? 9) - (RAR_ORDER[b.p.rarity] ?? 9) || a.i - b.i;
+        // Default: by rarity colour (Legendary → Rare → Magic), then group, then tlidb order.
+        return (RAR_ORDER[a.p.rarity] ?? 9) - (RAR_ORDER[b.p.rarity] ?? 9) || catIdx(a.p.category) - catIdx(b.p.category) || a.i - b.i;
+      })
+      .map((x) => x.p);
     const chips = ['', ...PET_CATS].map((c) => `<button class="pchip ${petsUI.cat === c ? 'on' : ''} ${c ? 'c-' + c : ''}" data-pcat="${c}">${c ? CAT_VI[c] : 'Tất cả'}</button>`).join('');
-    const grid = shown.map((p) => `<button class="pet ${chosenSet.has(norm(p.name)) ? 'sel' : ''} r-${esc(p.rarity)}" data-pet="${esc(p.name)}" title="${esc(p.desc || '')}">${petIcon(p)}<span class="pn">${esc(p.name)}</span><span class="pm">${esc(CAT_VI[p.category] || p.category)} · ${esc((p.rarity || '').slice(0, 1))}</span></button>`).join('');
+    // Group headers when sorted by rarity, so each colour band is labelled.
+    let lastBand = '';
+    const RAR_VI = { Legendary: 'Legendary', Rare: 'Rare', Magic: 'Magic' };
+    const grid = shown.map((p) => {
+      const band = petsUI.sort === 'rarity' ? p.rarity : petsUI.sort === 'category' ? p.category : '';
+      const hdr = band && band !== lastBand ? `<div class="pband ${petsUI.sort === 'rarity' ? 'r-' + esc(band) : 'c-' + esc(band)}">${esc(petsUI.sort === 'rarity' ? RAR_VI[band] || band : CAT_VI[band] || band)}</div>` : '';
+      lastBand = band;
+      return `${hdr}<button class="pet ${chosenSet.has(norm(p.name)) ? 'sel' : ''} r-${esc(p.rarity)}" data-pet="${esc(p.name)}">${petIcon(p)}<span class="pn">${esc(p.name)}</span><span class="pm"><i class="cdot c-${esc(p.category)}"></i>${esc(CAT_VI[p.category] || p.category)}</span></button>`;
+    }).join('');
 
     // Results
     const arc = archive(bd);
@@ -434,9 +463,11 @@
             <div class="filters">
               <input id="f-pq" type="search" placeholder="Tìm tên Pactspirit…" value="${esc(petsUI.q)}" aria-label="Tìm Pactspirit">
               <select id="f-prar" aria-label="Độ hiếm"><option value="">Mọi độ hiếm</option>${['Legendary', 'Rare', 'Magic'].map((x) => `<option ${petsUI.rar === x ? 'selected' : ''}>${x}</option>`).join('')}</select>
+              <select id="f-psort" aria-label="Sắp xếp Pactspirit">${[['rarity', 'Sắp theo màu độ hiếm'], ['category', 'Sắp theo nhóm'], ['name', 'Sắp theo tên']].map(([v, t]) => `<option value="${v}" ${petsUI.sort === v ? 'selected' : ''}>${t}</option>`).join('')}</select>
               <label class="chk"><input id="f-pall" type="checkbox" ${petsUI.allSeasons ? 'checked' : ''}> Tìm cả mùa cũ</label>
             </div>
           </div>
+          <div id="pinspect" class="pinspect" aria-live="polite">${petCard(chosen[chosen.length - 1] && chosen[chosen.length - 1].category ? chosen[chosen.length - 1] : shown[0])}</div>
           <div class="petgrid">${grid || '<p class="muted">Không có Pactspirit khớp.</p>'}</div>
         </div>
         <div class="pright" id="pres"><h2 class="sec">Build phù hợp</h2>${results}</div>
@@ -518,6 +549,7 @@
     if (e.target.id === 'f-budget') { buildsUI.budget = e.target.value; render(); }
     if (e.target.id === 'f-cat') { itemsUI.cat = e.target.value; render(); }
     if (e.target.id === 'f-prar') { petsUI.rar = e.target.value; render(); }
+    if (e.target.id === 'f-psort') { petsUI.sort = e.target.value; render(); }
     if (e.target.id === 'f-pall') { petsUI.allSeasons = e.target.checked; render(); }
   });
   let qTimer;
@@ -533,6 +565,16 @@
   });
 
   let petScroll = null;
+  const inspectPet = (e) => {
+    const t = e.target.closest && e.target.closest('.pet');
+    const box = document.getElementById('pinspect');
+    if (!t || !box || box.dataset.cur === t.dataset.pet) return;
+    const p = petList.find((x) => x.name === t.dataset.pet);
+    if (p) { box.innerHTML = petCard(p); box.dataset.cur = p.name; }
+  };
+  document.addEventListener('mouseover', inspectPet);
+  document.addEventListener('focusin', inspectPet);
+
   window.addEventListener('hashchange', async () => {
     const keep = petScroll; petScroll = null;
     await render();
