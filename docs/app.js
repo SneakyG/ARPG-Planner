@@ -125,13 +125,16 @@
   function liveSection(r) {
     const yt = `https://www.youtube.com/results?search_query=${encodeURIComponent(YT_LIVE[r.game])}&sp=EgJAAQ%253D%253D`;
     const ytLink = `<a href="${yt}" target="_blank" rel="noopener">Tìm live trên YouTube ↗</a>`;
-    const wrap = (inner) => `<section class="live" aria-label="Livestream"><div class="live-h"><h2 class="sec">Đang live trên Twitch</h2><span class="muted small">${ytLink}</span></div>${inner}</section>`;
+    const wrap = (inner) => `<section class="live" aria-label="Livestream"><div class="live-h"><h2 class="sec">Đang live trên Twitch${live && (live.languages || ['en']).length ? ` <small class="muted small">(${(live.languages || ['en']).map((l) => ({ en: 'kênh tiếng Anh', vi: 'kênh tiếng Việt' }[l] || l.toUpperCase())).join(', ')})</small>` : ''}</h2><span class="muted small">${ytLink}</span></div>${inner}</section>`;
     if (!live) return wrap(`<div class="empty">Chưa có dữ liệu livestream. Thêm 2 secret <code>TWITCH_CLIENT_ID</code> và <code>TWITCH_CLIENT_SECRET</code> vào repo (xem README) rồi chạy workflow.</div>`);
     if (live.error) return wrap(`<div class="empty">Không lấy được danh sách live: ${esc(live.error)}</div>`);
     if (!live.updatedAt || Date.now() - Date.parse(live.updatedAt) > LIVE_MAX_AGE) return wrap(`<div class="empty">Dữ liệu livestream đã quá 24 giờ nên không hiển thị. Chạy lại workflow để cập nhật.</div>`);
     const g = live.games?.[r.game] || {};
-    const streams = g.streams || [];
-    if (!streams.length) return wrap(`<div class="empty">Hiện không có ai live ${esc(g.game?.name || GAME[r.game])} trên Twitch (lúc ${when(live.updatedAt)}).</div>`);
+    const langs = live.languages || ['en'];
+    const LANG_VI = { en: 'tiếng Anh', vi: 'tiếng Việt' };
+    const langLabel = langs.length ? langs.map((l) => LANG_VI[l] || l.toUpperCase()).join(', ') : '';
+    const streams = (g.streams || []).filter((x) => !langs.length || langs.includes(String(x.language || '').toLowerCase()));
+    if (!streams.length) return wrap(`<div class="empty">Hiện không có kênh ${esc(langLabel)} nào live ${esc(g.game?.name || GAME[r.game])} trên Twitch (lúc ${when(live.updatedAt)}).</div>`);
     const sel = streams.find((x) => x.login === liveUI.channel[r.game]) || streams[0];
     const host = location.hostname || 'localhost';
     // Twitch requires at least 400×300: only embed when the screen is wide enough, otherwise link out.

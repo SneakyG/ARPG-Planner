@@ -581,921 +581,1457 @@
     "items": [
       {
         "name": "Awooawoo - Violet",
+        "url": "https://tlidb.com/en/Awooawoo_-_Violet",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_AWuAWu2_01_116.webp",
         "category": "Attack",
         "rarity": "Magic",
-        "desc": "Tăng Attack Damage, Attack Critical Strike, Attack Speed",
-        "url": "https://tlidb.com/en/Awooawoo_-_Violet",
-        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_AWuAWu2_01_116.webp"
+        "desc": "Increases Attack Damage, Attack Critical Strike, and Attack Speed"
       },
       {
         "name": "Traveling Lizard - Green Leaf",
+        "url": "https://tlidb.com/en/Traveling_Lizard_-_Green_Leaf",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LvXingXiaoXi2_01_116.webp",
         "category": "Attack",
         "rarity": "Rare",
-        "desc": "Tăng Attack Damage, Attack Critical Strike, Attack Speed",
-        "url": "https://tlidb.com/en/Traveling_Lizard_-_Green_Leaf",
-        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LvXingXiaoXi2_01_116.webp"
+        "desc": "Increases Attack Damage, Attack Critical Strike, and Attack Speed"
       },
       {
         "name": "Red Umbrella",
+        "url": "https://tlidb.com/en/Red_Umbrella",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ChiSan2_01_116.webp",
         "category": "Attack",
         "rarity": "Legendary",
-        "desc": "Tăng Attack Damage, Attack Critical Strike, Attack Speed",
-        "url": "https://tlidb.com/en/Red_Umbrella",
-        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ChiSan2_01_116.webp"
+        "desc": "Increases Attack Damage, Attack Critical Strike, and Attack Speed"
       },
       {
-        "name": "Idling Weasel - Shallow Sea",
+        "name": "Idling Weasel - Shallow sea",
+        "url": "https://tlidb.com/en/Idling_Weasel_-_Shallow_sea",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_XianYouXiaoYou2_02_116.webp",
         "category": "Attack",
         "rarity": "Magic",
-        "desc": "Tăng Attack Damage, Attack Critical Strike, Attack Speed",
-        "url": "https://tlidb.com/en/Idling_Weasel_-_Shallow_Sea",
-        "image": ""
+        "desc": "Increases Double Attack, Attack Damage, and Multistrike"
       },
       {
         "name": "Plaintive Ball of Thread - Violet",
+        "url": "https://tlidb.com/en/Plaintive_Ball_of_Thread_-_Violet",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_AiYuanXianQiu2_03_116.webp",
         "category": "Attack",
         "rarity": "Rare",
-        "desc": "Tăng Attack Damage, Attack Critical Strike, Attack Speed",
-        "url": "https://tlidb.com/en/Plaintive_Ball_of_Thread_-_Violet",
-        "image": ""
+        "desc": "Increases Double Attack, Attack Damage, and Multistrike"
       },
       {
         "name": "Fog Scorpion",
+        "url": "https://tlidb.com/en/Fog_Scorpion",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_WuXie2_01_116.webp",
         "category": "Attack",
         "rarity": "Legendary",
-        "desc": "Tăng Attack Damage, Attack Critical Strike, Attack Speed",
-        "url": "https://tlidb.com/en/Fog_Scorpion",
-        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_WuXie2_01_116.webp"
+        "desc": "Increases Double Attack, Attack Damage, and Multistrike"
       },
       {
         "name": "Awooawoo - Drizzle",
+        "url": "https://tlidb.com/en/Awooawoo_-_Drizzle",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_AWuAWu2_02_116.webp",
         "category": "Attack",
         "rarity": "Magic",
-        "desc": "Tăng Attack Damage, Attack Critical Strike, Attack Speed",
-        "url": "https://tlidb.com/en/Awooawoo_-_Drizzle",
-        "image": ""
+        "desc": "Increases Projectile Damage, Projectile Speed, and Attack Critical Strike"
       },
       {
         "name": "Traveling Lizard - Violet",
+        "url": "https://tlidb.com/en/Traveling_Lizard_-_Violet",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LvXingXiaoXi2_02_116.webp",
         "category": "Attack",
         "rarity": "Rare",
-        "desc": "Tăng Attack Damage, Attack Critical Strike, Attack Speed",
-        "url": "https://tlidb.com/en/Traveling_Lizard_-_Violet",
-        "image": ""
+        "desc": "Increases Projectile Damage, Projectile Speed, and Attack Critical Strike"
       },
       {
         "name": "Flower Whisperer",
-        "category": "Attack",
-        "rarity": "Legendary",
-        "desc": "Tăng Attack Damage, Attack Critical Strike, Attack Speed",
         "url": "https://tlidb.com/en/Flower_Whisperer",
-        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_HuaYuZhe2_01_116.webp"
-      },
-      {
-        "name": "Feasting Samurai - Honey",
-        "category": "Attack",
-        "rarity": "Magic",
-        "desc": "Tăng Attack Damage, Attack Critical Strike, Attack Speed",
-        "url": "https://tlidb.com/en/Feasting_Samurai_-_Honey",
-        "image": ""
-      },
-      {
-        "name": "Dragon Plant - Truffle",
-        "category": "Attack",
-        "rarity": "Rare",
-        "desc": "Tăng Attack Damage, Attack Critical Strike, Attack Speed",
-        "url": "https://tlidb.com/en/Dragon_Plant_-_Truffle",
-        "image": ""
-      },
-      {
-        "name": "Iron Lion",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_HuaYuZhe2_01_116.webp",
         "category": "Attack",
         "rarity": "Legendary",
-        "desc": "Tăng Attack Damage, Attack Critical Strike, Attack Speed",
-        "url": "https://tlidb.com/en/Iron_Lion",
-        "image": ""
-      },
-      {
-        "name": "Feasting Samurai - Orange",
-        "category": "Attack",
-        "rarity": "Magic",
-        "desc": "Tăng Attack Damage, Attack Critical Strike, Attack Speed",
-        "url": "https://tlidb.com/en/Feasting_Samurai_-_Orange",
-        "image": ""
-      },
-      {
-        "name": "Dragon Plant - Kale",
-        "category": "Attack",
-        "rarity": "Rare",
-        "desc": "Tăng Attack Damage, Attack Critical Strike, Attack Speed",
-        "url": "https://tlidb.com/en/Dragon_Plant_-_Kale",
-        "image": ""
-      },
-      {
-        "name": "Swaying Bonnie",
-        "category": "Attack",
-        "rarity": "Legendary",
-        "desc": "Tăng Attack Damage, Attack Critical Strike, Attack Speed",
-        "url": "https://tlidb.com/en/Swaying_Bonnie",
-        "image": ""
-      },
-      {
-        "name": "Spiny Snail - Flame",
-        "category": "Attack",
-        "rarity": "Magic",
-        "desc": "Tăng Attack Damage, Attack Critical Strike, Attack Speed",
-        "url": "https://tlidb.com/en/Spiny_Snail_-_Flame",
-        "image": ""
-      },
-      {
-        "name": "Winter Darer - Sky",
-        "category": "Attack",
-        "rarity": "Rare",
-        "desc": "Tăng Attack Damage, Attack Critical Strike, Attack Speed",
-        "url": "https://tlidb.com/en/Winter_Darer_-_Sky",
-        "image": ""
-      },
-      {
-        "name": "Poisoned Omen",
-        "category": "Attack",
-        "rarity": "Legendary",
-        "desc": "Tăng Attack Damage, Attack Critical Strike, Attack Speed",
-        "url": "https://tlidb.com/en/Poisoned_Omen",
-        "image": ""
-      },
-      {
-        "name": "Shocket - Green Leaf",
-        "category": "Attack",
-        "rarity": "Magic",
-        "desc": "Tăng Attack Damage, Attack Critical Strike, Attack Speed",
-        "url": "https://tlidb.com/en/Shocket_-_Green_Leaf",
-        "image": ""
-      },
-      {
-        "name": "Letice - Withered Leaf",
-        "category": "Attack",
-        "rarity": "Rare",
-        "desc": "Tăng Attack Damage, Attack Critical Strike, Attack Speed",
-        "url": "https://tlidb.com/en/Letice_-_Withered_Leaf",
-        "image": ""
-      },
-      {
-        "name": "Raging Sands of Eternal Night",
-        "category": "Attack",
-        "rarity": "Legendary",
-        "desc": "Tăng Attack Damage, Attack Critical Strike, Attack Speed",
-        "url": "https://tlidb.com/en/Raging_Sands_of_Eternal_Night",
-        "image": ""
-      },
-      {
-        "name": "Awooawoo - Blue Sky",
-        "category": "Attack",
-        "rarity": "Magic",
-        "desc": "Tăng Attack Damage, Attack Critical Strike, Attack Speed",
-        "url": "https://tlidb.com/en/Awooawoo_-_Blue_Sky",
-        "image": ""
-      },
-      {
-        "name": "Hell Cavalry - Twilight",
-        "category": "Attack",
-        "rarity": "Rare",
-        "desc": "Tăng Attack Damage, Attack Critical Strike, Attack Speed",
-        "url": "https://tlidb.com/en/Hell_Cavalry_-_Twilight",
-        "image": ""
-      },
-      {
-        "name": "Witch Antelope of Lust",
-        "category": "Attack",
-        "rarity": "Legendary",
-        "desc": "Tăng Attack Damage, Attack Critical Strike, Attack Speed",
-        "url": "https://tlidb.com/en/Witch_Antelope_of_Lust",
-        "image": ""
-      },
-      {
-        "name": "Idling Weasel - Sandstone",
-        "category": "Attack",
-        "rarity": "Magic",
-        "desc": "Tăng Attack Damage, Attack Critical Strike, Attack Speed",
-        "url": "https://tlidb.com/en/Idling_Weasel_-_Sandstone",
-        "image": ""
-      },
-      {
-        "name": "First Mate of the Furious Sea - Rock",
-        "category": "Attack",
-        "rarity": "Rare",
-        "desc": "Tăng Attack Damage, Attack Critical Strike, Attack Speed",
-        "url": "https://tlidb.com/en/First_Mate_of_the_Furious_Sea_-_Rock",
-        "image": ""
-      },
-      {
-        "name": "Backup Power",
-        "category": "Attack",
-        "rarity": "Legendary",
-        "desc": "Tăng Attack Damage, Attack Critical Strike, Attack Speed",
-        "url": "https://tlidb.com/en/Backup_Power",
-        "image": ""
-      },
-      {
-        "name": "Luluri - Shallow Sea",
-        "category": "Attack",
-        "rarity": "Magic",
-        "desc": "Tăng Attack Damage, Attack Critical Strike, Attack Speed",
-        "url": "https://tlidb.com/en/Luluri_-_Shallow_Sea",
-        "image": ""
-      },
-      {
-        "name": "First Mate of the Furious Sea - Sky",
-        "category": "Attack",
-        "rarity": "Rare",
-        "desc": "Tăng Attack Damage, Attack Critical Strike, Attack Speed",
-        "url": "https://tlidb.com/en/First_Mate_of_the_Furious_Sea_-_Sky",
-        "image": ""
-      },
-      {
-        "name": "Captain Kitty of the Furious Sea",
-        "category": "Attack",
-        "rarity": "Legendary",
-        "desc": "Tăng Attack Damage, Attack Critical Strike, Attack Speed",
-        "url": "https://tlidb.com/en/Captain_Kitty_of_the_Furious_Sea",
-        "image": ""
-      },
-      {
-        "name": "Sprouting Grass - Black Porcelain",
-        "category": "Attack",
-        "rarity": "Magic",
-        "desc": "Tăng Attack Damage, Attack Critical Strike, Attack Speed",
-        "url": "https://tlidb.com/en/Sprouting_Grass_-_Black_Porcelain",
-        "image": ""
-      },
-      {
-        "name": "Shro-Shroom - Boletus",
-        "category": "Attack",
-        "rarity": "Rare",
-        "desc": "Tăng Attack Damage, Attack Critical Strike, Attack Speed",
-        "url": "https://tlidb.com/en/Shro-Shroom_-_Boletus",
-        "image": ""
-      },
-      {
-        "name": "Valkyrie's Night Patrol",
-        "category": "Attack",
-        "rarity": "Legendary",
-        "desc": "Tăng Attack Damage, Attack Critical Strike, Attack Speed",
-        "url": "https://tlidb.com/en/Valkyrie's_Night_Patrol",
-        "image": ""
-      },
-      {
-        "name": "Lumidrake - Fluorescence",
-        "category": "Attack",
-        "rarity": "Magic",
-        "desc": "Tăng Attack Damage, Attack Critical Strike, Attack Speed",
-        "url": "https://tlidb.com/en/Lumidrake_-_Fluorescence",
-        "image": ""
-      },
-      {
-        "name": "Benign Bug - Tolerant Green",
-        "category": "Attack",
-        "rarity": "Rare",
-        "desc": "Tăng Attack Damage, Attack Critical Strike, Attack Speed",
-        "url": "https://tlidb.com/en/Benign_Bug_-_Tolerant_Green",
-        "image": ""
-      },
-      {
-        "name": "Azure Gunslinger",
-        "category": "Attack",
-        "rarity": "Legendary",
-        "desc": "Tăng Attack Damage, Attack Critical Strike, Attack Speed",
-        "url": "https://tlidb.com/en/Azure_Gunslinger",
-        "image": ""
-      },
-      {
-        "name": "Lumidrake - Candlelight",
-        "category": "Attack",
-        "rarity": "Magic",
-        "desc": "Tăng Attack Damage, Attack Critical Strike, Attack Speed",
-        "url": "https://tlidb.com/en/Lumidrake_-_Candlelight",
-        "image": ""
-      },
-      {
-        "name": "Shro-Shroom - Gloom Shroom",
-        "category": "Attack",
-        "rarity": "Rare",
-        "desc": "Tăng Attack Damage, Attack Critical Strike, Attack Speed",
-        "url": "https://tlidb.com/en/Shro-Shroom_-_Gloom_Shroom",
-        "image": ""
-      },
-      {
-        "name": "Kitty Express",
-        "category": "Attack",
-        "rarity": "Legendary",
-        "desc": "Tăng Attack Damage, Attack Critical Strike, Attack Speed",
-        "url": "https://tlidb.com/en/Kitty_Express",
-        "image": ""
+        "desc": "Increases Projectile Damage, Projectile Speed, and Attack Critical Strike"
       },
       {
         "name": "Luluri - Amethyst",
+        "url": "https://tlidb.com/en/Luluri_-_Amethyst",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_LuLuLi2_01_116.webp",
         "category": "Spell",
         "rarity": "Magic",
-        "desc": "Tăng Spell Damage, Spell Critical Strike, Cast Speed",
-        "url": "https://tlidb.com/en/Luluri_-_Amethyst",
-        "image": ""
+        "desc": "Increases Mana Restoration, Spell Damage, and Critical Strike damage"
       },
       {
         "name": "Hell Cavalry - Glow",
+        "url": "https://tlidb.com/en/Hell_Cavalry_-_Glow",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_YouYuQingQi2_04_116.webp",
         "category": "Spell",
         "rarity": "Rare",
-        "desc": "Tăng Spell Damage, Spell Critical Strike, Cast Speed",
-        "url": "https://tlidb.com/en/Hell_Cavalry_-_Glow",
-        "image": ""
+        "desc": "Increases Mana Restoration, Spell Damage, and Critical Strike damage"
       },
       {
         "name": "The Bone worm's Daughter",
+        "url": "https://tlidb.com/en/The_Bone_worms_Daughter",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_GuChongZhiNv2_01_116.webp",
         "category": "Spell",
         "rarity": "Legendary",
-        "desc": "Tăng Spell Damage, Spell Critical Strike, Cast Speed",
-        "url": "https://tlidb.com/en/The_Bone_worm's_Daughter",
-        "image": ""
+        "desc": "Increases Mana Restoration, Spell Damage, and Critical Strike damage"
       },
       {
         "name": "Luluri - Maple",
+        "url": "https://tlidb.com/en/Luluri_-_Maple",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_LuLuLi2_04_116.webp",
         "category": "Spell",
         "rarity": "Magic",
-        "desc": "Tăng Spell Damage, Spell Critical Strike, Cast Speed",
-        "url": "https://tlidb.com/en/Luluri_-_Maple",
-        "image": ""
+        "desc": "Increases double Spell, Spell Damage, and Cast Speed"
       },
       {
         "name": "Winter Darer - Shallow Sea",
+        "url": "https://tlidb.com/en/Winter_Darer_-_Shallow_Sea",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LinDongMangHan2_02_116.webp",
         "category": "Spell",
         "rarity": "Rare",
-        "desc": "Tăng Spell Damage, Spell Critical Strike, Cast Speed",
-        "url": "https://tlidb.com/en/Winter_Darer_-_Shallow_Sea",
-        "image": ""
+        "desc": "Increases double Spell, Spell Damage, and Cast Speed"
       },
       {
         "name": "Starcatcher",
+        "url": "https://tlidb.com/en/Starcatcher",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_BuXingZhe2_01_116.webp",
         "category": "Spell",
         "rarity": "Legendary",
-        "desc": "Tăng Spell Damage, Spell Critical Strike, Cast Speed",
-        "url": "https://tlidb.com/en/Starcatcher",
-        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_BuXingZhe2_01_116.webp"
+        "desc": "Increases double Spell, Spell Damage, and Cast Speed"
       },
       {
         "name": "Idling Weasel - Sprouts",
+        "url": "https://tlidb.com/en/Idling_Weasel_-_Sprouts",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_XianYouXiaoYou2_03_116.webp",
         "category": "Spell",
         "rarity": "Magic",
-        "desc": "Tăng Spell Damage, Spell Critical Strike, Cast Speed",
-        "url": "https://tlidb.com/en/Idling_Weasel_-_Sprouts",
-        "image": ""
+        "desc": "Increases Elemental Damage, Elemental Piercing, and Cast Speed"
       },
       {
         "name": "Cloudgatherer - Violet",
+        "url": "https://tlidb.com/en/Cloudgatherer_-_Violet",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_CaiYunZhe2_02_116.webp",
         "category": "Spell",
         "rarity": "Rare",
-        "desc": "Tăng Spell Damage, Spell Critical Strike, Cast Speed",
-        "url": "https://tlidb.com/en/Cloudgatherer_-_Violet",
-        "image": ""
+        "desc": "Increases Elemental Damage, Elemental Piercing, and Cast Speed"
       },
       {
         "name": "Dreamweaver",
-        "category": "Spell",
-        "rarity": "Legendary",
-        "desc": "Tăng Spell Damage, Spell Critical Strike, Cast Speed",
         "url": "https://tlidb.com/en/Dreamweaver",
-        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ZhiMengZhe2_01_116.webp"
-      },
-      {
-        "name": "Lumidrake - Aurora",
-        "category": "Spell",
-        "rarity": "Magic",
-        "desc": "Tăng Spell Damage, Spell Critical Strike, Cast Speed",
-        "url": "https://tlidb.com/en/Lumidrake_-_Aurora",
-        "image": ""
-      },
-      {
-        "name": "Shro-Shroom - Oyster Mushroom",
-        "category": "Spell",
-        "rarity": "Rare",
-        "desc": "Tăng Spell Damage, Spell Critical Strike, Cast Speed",
-        "url": "https://tlidb.com/en/Shro-Shroom_-_Oyster_Mushroom",
-        "image": ""
-      },
-      {
-        "name": "Squiddle",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ZhiMengZhe2_01_116.webp",
         "category": "Spell",
         "rarity": "Legendary",
-        "desc": "Tăng Spell Damage, Spell Critical Strike, Cast Speed",
-        "url": "https://tlidb.com/en/Squiddle",
-        "image": ""
-      },
-      {
-        "name": "Meowth - Jade",
-        "category": "Spell",
-        "rarity": "Magic",
-        "desc": "Tăng Spell Damage, Spell Critical Strike, Cast Speed",
-        "url": "https://tlidb.com/en/Meowth_-_Jade",
-        "image": ""
-      },
-      {
-        "name": "Miss Melancholy - Bone",
-        "category": "Spell",
-        "rarity": "Rare",
-        "desc": "Tăng Spell Damage, Spell Critical Strike, Cast Speed",
-        "url": "https://tlidb.com/en/Miss_Melancholy_-_Bone",
-        "image": ""
-      },
-      {
-        "name": "Icemirror",
-        "category": "Spell",
-        "rarity": "Legendary",
-        "desc": "Tăng Spell Damage, Spell Critical Strike, Cast Speed",
-        "url": "https://tlidb.com/en/Icemirror",
-        "image": ""
-      },
-      {
-        "name": "Ripplepop",
-        "category": "Spell",
-        "rarity": "Magic",
-        "desc": "Tăng Spell Damage, Spell Critical Strike, Cast Speed",
-        "url": "https://tlidb.com/en/Ripplepop",
-        "image": ""
-      },
-      {
-        "name": "Heartbloom",
-        "category": "Spell",
-        "rarity": "Rare",
-        "desc": "Tăng Spell Damage, Spell Critical Strike, Cast Speed",
-        "url": "https://tlidb.com/en/Heartbloom",
-        "image": ""
-      },
-      {
-        "name": "Witch of the Night",
-        "category": "Spell",
-        "rarity": "Legendary",
-        "desc": "Tăng Spell Damage, Spell Critical Strike, Cast Speed",
-        "url": "https://tlidb.com/en/Witch_of_the_Night",
-        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_HeiYeMoNv_01_116.webp"
+        "desc": "Increases Elemental Damage, Elemental Piercing, and Cast Speed"
       },
       {
         "name": "Awooawoo - Amber",
+        "url": "https://tlidb.com/en/Awooawoo_-_Amber",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_AWuAWu2_04_116.webp",
         "category": "Persistent",
         "rarity": "Magic",
-        "desc": "Tăng Damage over Time, Ailment, Affliction",
-        "url": "https://tlidb.com/en/Awooawoo_-_Amber",
-        "image": ""
+        "desc": "Increases Damage Over Time, Ailment Chance, and Damage Affliction"
       },
       {
         "name": "Greedy Chestnut - Lotus Leaf",
+        "url": "https://tlidb.com/en/Greedy_Chestnut_-_Lotus_Leaf",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_TanCaiXiaoLi2_03_116.webp",
         "category": "Persistent",
         "rarity": "Rare",
-        "desc": "Tăng Damage over Time, Ailment, Affliction",
-        "url": "https://tlidb.com/en/Greedy_Chestnut_-_Lotus_Leaf",
-        "image": ""
+        "desc": "Increases Damage Over Time, Ailment Chance, and Damage Affliction"
       },
       {
         "name": "Fire Swordsman",
+        "url": "https://tlidb.com/en/Fire_Swordsman",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_YanDaoKe2_01_116.webp",
         "category": "Persistent",
         "rarity": "Legendary",
-        "desc": "Tăng Damage over Time, Ailment, Affliction",
-        "url": "https://tlidb.com/en/Fire_Swordsman",
-        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_YanDaoKe2_01_116.webp"
+        "desc": "Increases Damage Over Time, Ailment Chance, and Damage Affliction"
       },
       {
         "name": "Idling Weasel - Abyss",
+        "url": "https://tlidb.com/en/Idling_Weasel_-_Abyss",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_XianYouXiaoYou2_01_116.webp",
         "category": "Persistent",
         "rarity": "Magic",
-        "desc": "Tăng Damage over Time, Ailment, Affliction",
-        "url": "https://tlidb.com/en/Idling_Weasel_-_Abyss",
-        "image": ""
+        "desc": "Increases Ailment Chance, Ailment Damage, and Ailment Duration"
       },
       {
         "name": "Greedy Chestnut - Emerald",
+        "url": "https://tlidb.com/en/Greedy_Chestnut_-_Emerald",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_TanCaiXiaoLi2_04_116.webp",
         "category": "Persistent",
         "rarity": "Rare",
-        "desc": "Tăng Damage over Time, Ailment, Affliction",
-        "url": "https://tlidb.com/en/Greedy_Chestnut_-_Emerald",
-        "image": ""
+        "desc": "Increases Ailment Chance, Ailment Damage, and Ailment Duration"
       },
       {
         "name": "Crossroad Walker",
+        "url": "https://tlidb.com/en/Crossroad_Walker",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_QiLuRen2_01_116.webp",
         "category": "Persistent",
         "rarity": "Legendary",
-        "desc": "Tăng Damage over Time, Ailment, Affliction",
-        "url": "https://tlidb.com/en/Crossroad_Walker",
-        "image": ""
+        "desc": "Increases Ailment Chance, Ailment Damage, and Ailment Duration"
       },
       {
         "name": "Luluri - Golden Leaf",
+        "url": "https://tlidb.com/en/Luluri_-_Golden_Leaf",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_LuLuLi2_03_116.webp",
         "category": "Persistent",
         "rarity": "Magic",
-        "desc": "Tăng Damage over Time, Ailment, Affliction",
-        "url": "https://tlidb.com/en/Luluri_-_Golden_Leaf",
-        "image": ""
+        "desc": "Increases Damage Over Time, Skill Duration, and Damage Affliction"
       },
       {
         "name": "Greedy Chestnut - Radiance",
+        "url": "https://tlidb.com/en/Greedy_Chestnut_-_Radiance",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_TanCaiXiaoLi2_01_116.webp",
         "category": "Persistent",
         "rarity": "Rare",
-        "desc": "Tăng Damage over Time, Ailment, Affliction",
-        "url": "https://tlidb.com/en/Greedy_Chestnut_-_Radiance",
-        "image": ""
+        "desc": "Increases Damage Over Time, Skill Duration, and Damage Affliction"
       },
       {
         "name": "Firewing",
-        "category": "Persistent",
-        "rarity": "Legendary",
-        "desc": "Tăng Damage over Time, Ailment, Affliction",
         "url": "https://tlidb.com/en/Firewing",
-        "image": ""
-      },
-      {
-        "name": "Shocket - Violet",
-        "category": "Persistent",
-        "rarity": "Magic",
-        "desc": "Tăng Damage over Time, Ailment, Affliction",
-        "url": "https://tlidb.com/en/Shocket_-_Violet",
-        "image": ""
-      },
-      {
-        "name": "Letice - Flame",
-        "category": "Persistent",
-        "rarity": "Rare",
-        "desc": "Tăng Damage over Time, Ailment, Affliction",
-        "url": "https://tlidb.com/en/Letice_-_Flame",
-        "image": ""
-      },
-      {
-        "name": "Abyssal King Soul",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ChiYu2_01_116.webp",
         "category": "Persistent",
         "rarity": "Legendary",
-        "desc": "Tăng Damage over Time, Ailment, Affliction",
-        "url": "https://tlidb.com/en/Abyssal_King_Soul",
-        "image": ""
+        "desc": "Increases Damage Over Time, Skill Duration, and Damage Affliction"
       },
       {
         "name": "Spiny Snail - Flower",
+        "url": "https://tlidb.com/en/Spiny_Snail_-_Flower",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_CiTouXiaoWo2_03_116.webp",
         "category": "Summon",
         "rarity": "Magic",
-        "desc": "Tăng Minion Damage, tốc độ và Life của Minion",
-        "url": "https://tlidb.com/en/Spiny_Snail_-_Flower",
-        "image": ""
+        "desc": "Increases Servant Damage, Servant Speed, and Servant Life"
       },
       {
         "name": "Winter Darer",
+        "url": "https://tlidb.com/en/Winter_Darer",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LinDongMangHan2_01_116.webp",
         "category": "Summon",
         "rarity": "Rare",
-        "desc": "Tăng Minion Damage, tốc độ và Life của Minion",
-        "url": "https://tlidb.com/en/Winter_Darer",
-        "image": ""
+        "desc": "Increases Servant Damage, Servant Speed, and Servant Life"
       },
       {
         "name": "Mechanical Throne",
+        "url": "https://tlidb.com/en/Mechanical_Throne",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_JiGuanQuanBing2_01_116.webp",
         "category": "Summon",
         "rarity": "Legendary",
-        "desc": "Tăng Minion Damage, tốc độ và Life của Minion",
-        "url": "https://tlidb.com/en/Mechanical_Throne",
-        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_JiGuanQuanBing2_01_116.webp"
+        "desc": "Increases Servant Damage, Servant Speed, and Servant Life"
       },
       {
         "name": "Explorer Otter - Olive",
+        "url": "https://tlidb.com/en/Explorer_Otter_-_Olive",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_TanXianXiaoTa2_02_116.webp",
         "category": "Summon",
         "rarity": "Magic",
-        "desc": "Tăng Minion Damage, tốc độ và Life của Minion",
-        "url": "https://tlidb.com/en/Explorer_Otter_-_Olive",
-        "image": ""
+        "desc": "Increases Servant Buff, Servant Cooldown, and Servant Life"
       },
       {
         "name": "Greedy Chestnut - Lotus Root",
+        "url": "https://tlidb.com/en/Greedy_Chestnut_-_Lotus_Root",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_TanCaiXiaoLi2_02_116.webp",
         "category": "Summon",
         "rarity": "Rare",
-        "desc": "Tăng Minion Damage, tốc độ và Life của Minion",
-        "url": "https://tlidb.com/en/Greedy_Chestnut_-_Lotus_Root",
-        "image": ""
+        "desc": "Increases Servant Buff, Servant Cooldown, and Servant Life"
       },
       {
         "name": "Drapion Lady",
+        "url": "https://tlidb.com/en/Drapion_Lady",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_LongXieHuoNv2_01_116.webp",
         "category": "Summon",
         "rarity": "Legendary",
-        "desc": "Tăng Minion Damage, tốc độ và Life của Minion",
-        "url": "https://tlidb.com/en/Drapion_Lady",
-        "image": ""
+        "desc": "Increases Servant Buff, Servant Cooldown, and Servant Life"
       },
       {
         "name": "Spiny Snail - Iris",
+        "url": "https://tlidb.com/en/Spiny_Snail_-_Iris",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_CiTouXiaoWo2_02_116.webp",
         "category": "Summon",
         "rarity": "Magic",
-        "desc": "Tăng Minion Damage, tốc độ và Life của Minion",
-        "url": "https://tlidb.com/en/Spiny_Snail_-_Iris",
-        "image": ""
+        "desc": "Increases Servant Damage, Servant Speed, and Servant Life"
       },
       {
         "name": "Cloudgatherer - Sparkle",
+        "url": "https://tlidb.com/en/Cloudgatherer_-_Sparkle",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_CaiYunZhe2_01_116.webp",
         "category": "Summon",
         "rarity": "Rare",
-        "desc": "Tăng Minion Damage, tốc độ và Life của Minion",
-        "url": "https://tlidb.com/en/Cloudgatherer_-_Sparkle",
-        "image": ""
+        "desc": "Increases Servant Damage, Servant Speed, and Servant Life"
       },
       {
         "name": "Whisperwind Leaves",
-        "category": "Summon",
-        "rarity": "Legendary",
-        "desc": "Tăng Minion Damage, tốc độ và Life của Minion",
         "url": "https://tlidb.com/en/Whisperwind_Leaves",
-        "image": ""
-      },
-      {
-        "name": "Shocket - Pale",
-        "category": "Summon",
-        "rarity": "Magic",
-        "desc": "Tăng Minion Damage, tốc độ và Life của Minion",
-        "url": "https://tlidb.com/en/Shocket_-_Pale",
-        "image": ""
-      },
-      {
-        "name": "Letice - Amethyst",
-        "category": "Summon",
-        "rarity": "Rare",
-        "desc": "Tăng Minion Damage, tốc độ và Life của Minion",
-        "url": "https://tlidb.com/en/Letice_-_Amethyst",
-        "image": ""
-      },
-      {
-        "name": "Scale of Original Sin",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_FengYuYe2_01_116.webp",
         "category": "Summon",
         "rarity": "Legendary",
-        "desc": "Tăng Minion Damage, tốc độ và Life của Minion",
-        "url": "https://tlidb.com/en/Scale_of_Original_Sin",
-        "image": ""
-      },
-      {
-        "name": "Feasting Samurai - Garlic",
-        "category": "Summon",
-        "rarity": "Magic",
-        "desc": "Tăng Minion Damage, tốc độ và Life của Minion",
-        "url": "https://tlidb.com/en/Feasting_Samurai_-_Garlic",
-        "image": ""
-      },
-      {
-        "name": "Dragon Plant - Onion",
-        "category": "Summon",
-        "rarity": "Rare",
-        "desc": "Tăng Minion Damage, tốc độ và Life của Minion",
-        "url": "https://tlidb.com/en/Dragon_Plant_-_Onion",
-        "image": ""
-      },
-      {
-        "name": "Sprite of Silent Vale",
-        "category": "Summon",
-        "rarity": "Legendary",
-        "desc": "Tăng Minion Damage, tốc độ và Life của Minion",
-        "url": "https://tlidb.com/en/Sprite_of_Silent_Vale",
-        "image": ""
+        "desc": "Increases Servant Damage, Servant Speed, and Servant Life"
       },
       {
         "name": "Explorer Otter - Mudstone",
+        "url": "https://tlidb.com/en/Explorer_Otter_-_Mudstone",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_TanXianXiaoTa2_01_116.webp",
         "category": "Survival",
         "rarity": "Magic",
-        "desc": "Tăng Life/Energy Shield, kháng và phòng thủ",
-        "url": "https://tlidb.com/en/Explorer_Otter_-_Mudstone",
-        "image": ""
+        "desc": "Increases Maximum Life, Mana Restoration, and XP Balance"
       },
       {
         "name": "Plaintive Ball of Thread",
+        "url": "https://tlidb.com/en/Plaintive_Ball_of_Thread",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_AiYuanXianQiu2_01_116.webp",
         "category": "Survival",
         "rarity": "Rare",
-        "desc": "Tăng Life/Energy Shield, kháng và phòng thủ",
-        "url": "https://tlidb.com/en/Plaintive_Ball_of_Thread",
-        "image": ""
+        "desc": "Increases Maximum Life, Mana Restoration, and XP Balance"
       },
       {
         "name": "Anthem",
+        "url": "https://tlidb.com/en/Anthem",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ShengGe2_01_116.webp",
         "category": "Survival",
         "rarity": "Legendary",
-        "desc": "Tăng Life/Energy Shield, kháng và phòng thủ",
-        "url": "https://tlidb.com/en/Anthem",
-        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ShengGe2_01_116.webp"
+        "desc": "Increases Maximum Life, Mana Restoration, and XP Balance"
       },
       {
         "name": "Explorer Otter - Rock",
+        "url": "https://tlidb.com/en/Explorer_Otter_-_Rock",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_TanXianXiaoTa2_04_116.webp",
         "category": "Survival",
         "rarity": "Magic",
-        "desc": "Tăng Life/Energy Shield, kháng và phòng thủ",
-        "url": "https://tlidb.com/en/Explorer_Otter_-_Rock",
-        "image": ""
+        "desc": "Increases Max Energy Shield, Mana Restoration, and XP bonus"
       },
       {
         "name": "Traveling Lizard - Ocean",
+        "url": "https://tlidb.com/en/Traveling_Lizard_-_Ocean",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LvXingXiaoXi2_03_116.webp",
         "category": "Survival",
         "rarity": "Rare",
-        "desc": "Tăng Life/Energy Shield, kháng và phòng thủ",
-        "url": "https://tlidb.com/en/Traveling_Lizard_-_Ocean",
-        "image": ""
+        "desc": "Increases Max Energy Shield, Mana Restoration, and XP bonus"
       },
       {
         "name": "Spirit Bless",
+        "url": "https://tlidb.com/en/Spirit_Bless",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_LingYou2_01_116.webp",
         "category": "Survival",
         "rarity": "Legendary",
-        "desc": "Tăng Life/Energy Shield, kháng và phòng thủ",
-        "url": "https://tlidb.com/en/Spirit_Bless",
-        "image": ""
+        "desc": "Increases Max Energy Shield, Mana Restoration, and XP bonus"
       },
       {
         "name": "Explorer Otter - Quicksand",
+        "url": "https://tlidb.com/en/Explorer_Otter_-_Quicksand",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_TanXianXiaoTa2_03_116.webp",
         "category": "Survival",
         "rarity": "Magic",
-        "desc": "Tăng Life/Energy Shield, kháng và phòng thủ",
-        "url": "https://tlidb.com/en/Explorer_Otter_-_Quicksand",
-        "image": ""
+        "desc": "Increases Elemental Resistance, damage avoidance, and XP protection"
       },
       {
         "name": "Traveling Lizard - Flower",
+        "url": "https://tlidb.com/en/Traveling_Lizard_-_Flower",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LvXingXiaoXi2_04_116.webp",
         "category": "Survival",
         "rarity": "Rare",
-        "desc": "Tăng Life/Energy Shield, kháng và phòng thủ",
-        "url": "https://tlidb.com/en/Traveling_Lizard_-_Flower",
-        "image": ""
+        "desc": "Increases Elemental Resistance, damage avoidance, and XP protection"
       },
       {
         "name": "Preserver of Eternity",
+        "url": "https://tlidb.com/en/Preserver_of_Eternity",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_YongHengHuHuan2_02_116.webp",
         "category": "Survival",
         "rarity": "Legendary",
-        "desc": "Tăng Life/Energy Shield, kháng và phòng thủ",
-        "url": "https://tlidb.com/en/Preserver_of_Eternity",
-        "image": ""
+        "desc": "Increases Elemental Resistance, damage avoidance, and XP protection"
       },
       {
         "name": "Spiny Snail - Cloudless Sky",
+        "url": "https://tlidb.com/en/Spiny_Snail_-_Cloudless_Sky",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_CiTouXiaoWo2_01_116.webp",
         "category": "Survival",
         "rarity": "Magic",
-        "desc": "Tăng Life/Energy Shield, kháng và phòng thủ",
-        "url": "https://tlidb.com/en/Spiny_Snail_-_Cloudless_Sky",
-        "image": ""
+        "desc": "Increases Elemental Resistance, damage mitigation, and XP bonus"
       },
       {
         "name": "Hell Cavalry",
+        "url": "https://tlidb.com/en/Hell_Cavalry",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_YouYuQingQi2_01_116.webp",
         "category": "Survival",
         "rarity": "Rare",
-        "desc": "Tăng Life/Energy Shield, kháng và phòng thủ",
-        "url": "https://tlidb.com/en/Hell_Cavalry",
-        "image": ""
+        "desc": "Increases Elemental Resistance, damage mitigation, and XP bonus"
       },
       {
         "name": "Knight of Pale Blue",
-        "category": "Survival",
-        "rarity": "Legendary",
-        "desc": "Tăng Life/Energy Shield, kháng và phòng thủ",
         "url": "https://tlidb.com/en/Knight_of_Pale_Blue",
-        "image": ""
-      },
-      {
-        "name": "Spiny Snail - Green",
-        "category": "Survival",
-        "rarity": "Magic",
-        "desc": "Tăng Life/Energy Shield, kháng và phòng thủ",
-        "url": "https://tlidb.com/en/Spiny_Snail_-_Green",
-        "image": ""
-      },
-      {
-        "name": "Winter Darer - Rock",
-        "category": "Survival",
-        "rarity": "Rare",
-        "desc": "Tăng Life/Energy Shield, kháng và phòng thủ",
-        "url": "https://tlidb.com/en/Winter_Darer_-_Rock",
-        "image": ""
-      },
-      {
-        "name": "Warbler of Plum Blossoms",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_CangLanQiShi2_01_116.webp",
         "category": "Survival",
         "rarity": "Legendary",
-        "desc": "Tăng Life/Energy Shield, kháng và phòng thủ",
-        "url": "https://tlidb.com/en/Warbler_of_Plum_Blossoms",
-        "image": ""
+        "desc": "Increases Elemental Resistance, damage mitigation, and XP bonus"
+      },
+      {
+        "name": "Idling Weasel - Cherry Blossom",
+        "url": "https://tlidb.com/en/Idling_Weasel_-_Cherry_Blossom",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_XianYouXiaoYou2_04_116.webp",
+        "category": "Drop",
+        "rarity": "Magic",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Cloudgatherer - Sky",
+        "url": "https://tlidb.com/en/Cloudgatherer_-_Sky",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_CaiYunZhe2_03_116.webp",
+        "category": "Drop",
+        "rarity": "Rare",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Captain Shadow",
+        "url": "https://tlidb.com/en/Captain_Shadow",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_YouLingJianZhang2_01_116.webp",
+        "category": "Drop",
+        "rarity": "Legendary",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Luluri - Green Leaf",
+        "url": "https://tlidb.com/en/Luluri_-_Green_Leaf",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_LuLuLi2_02_116.webp",
+        "category": "Drop",
+        "rarity": "Magic",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Plaintive Ball of Thread - Flower",
+        "url": "https://tlidb.com/en/Plaintive_Ball_of_Thread_-_Flower",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_AiYuanXianQiu2_04_116.webp",
+        "category": "Drop",
+        "rarity": "Rare",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Eternity Summoner",
+        "url": "https://tlidb.com/en/Eternity_Summoner",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_YongHengHuHuan2_01_116.webp",
+        "category": "Drop",
+        "rarity": "Legendary",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Happy Chonky",
+        "url": "https://tlidb.com/en/Happy_Chonky",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_KuaiLeXiaoFei2_01_116.webp",
+        "category": "Drop",
+        "rarity": "Magic",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Cloudgatherer - Surging Gold",
+        "url": "https://tlidb.com/en/Cloudgatherer_-_Surging_Gold",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_CaiYunZhe2_04_116.webp",
+        "category": "Drop",
+        "rarity": "Rare",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Chalk Spirit",
+        "url": "https://tlidb.com/en/Chalk_Spirit",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_BaiEZhiLing2_01_116.webp",
+        "category": "Drop",
+        "rarity": "Legendary",
+        "desc": "Increases Drop Quantity"
       },
       {
         "name": "Happy Chonky - Ember",
+        "url": "https://tlidb.com/en/Happy_Chonky_-_Ember",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_KuaiLeXiaoFei_04_116.webp",
         "category": "Fire",
         "rarity": "Magic",
-        "desc": "Tăng Fire Damage",
-        "url": "https://tlidb.com/en/Happy_Chonky_-_Ember",
-        "image": ""
+        "desc": "+ Fire Damage; + Fire Penetration; + Fire Area"
       },
       {
         "name": "Winter Darer - Lava",
+        "url": "https://tlidb.com/en/Winter_Darer_-_Lava",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LinDongMangHan_04_116.webp",
         "category": "Fire",
         "rarity": "Rare",
-        "desc": "Tăng Fire Damage",
-        "url": "https://tlidb.com/en/Winter_Darer_-_Lava",
-        "image": ""
+        "desc": "+ Fire Damage; + Fire Penetration; + Fire Area"
       },
       {
         "name": "Melting Flames",
+        "url": "https://tlidb.com/en/Melting_Flames",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_RongHuo_01_116.webp",
         "category": "Fire",
         "rarity": "Legendary",
-        "desc": "Tăng Fire Damage",
-        "url": "https://tlidb.com/en/Melting_Flames",
-        "image": ""
+        "desc": "+ Fire Damage; + Fire Penetration; + Fire Area"
       },
       {
         "name": "Awooawoo - White Mist",
+        "url": "https://tlidb.com/en/Awooawoo_-_White_Mist",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_AWuAWu_03_116.webp",
         "category": "Cold",
         "rarity": "Magic",
-        "desc": "Tăng Cold Damage",
-        "url": "https://tlidb.com/en/Awooawoo_-_White_Mist",
-        "image": ""
+        "desc": "Increases Cold Damage, Cold Penetration, and Max Frostbite Rating"
       },
       {
         "name": "Hell Cavalry - Crushed Ice",
+        "url": "https://tlidb.com/en/Hell_Cavalry_-_Crushed_Ice",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_YouYuQingQi_02_116.webp",
         "category": "Cold",
         "rarity": "Rare",
-        "desc": "Tăng Cold Damage",
-        "url": "https://tlidb.com/en/Hell_Cavalry_-_Crushed_Ice",
-        "image": ""
+        "desc": "Increases Cold Damage, Cold Penetration, and Max Frostbite Rating"
       },
       {
         "name": "Ice Puppet",
+        "url": "https://tlidb.com/en/Ice_Puppet",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_KuiBing_01_116.webp",
         "category": "Cold",
         "rarity": "Legendary",
-        "desc": "Tăng Cold Damage",
-        "url": "https://tlidb.com/en/Ice_Puppet",
-        "image": ""
+        "desc": "Increases Cold Damage, Cold Penetration, and Max Frostbite Rating"
       },
       {
         "name": "Happy Chonky - Electrify",
+        "url": "https://tlidb.com/en/Happy_Chonky_-_Electrify",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_KuaiLeXiaoFei_02_116.webp",
         "category": "Lightning",
         "rarity": "Magic",
-        "desc": "Tăng Lightning Damage",
-        "url": "https://tlidb.com/en/Happy_Chonky_-_Electrify",
-        "image": ""
+        "desc": "+ Lightning Damage; + Lightning Penetration; + Attack and Cast Speed"
       },
       {
         "name": "Hell Cavalry - Muffled Thunder",
+        "url": "https://tlidb.com/en/Hell_Cavalry_-_Muffled_Thunder",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_YouYuQingQi_03_116.webp",
         "category": "Lightning",
         "rarity": "Rare",
-        "desc": "Tăng Lightning Damage",
-        "url": "https://tlidb.com/en/Hell_Cavalry_-_Muffled_Thunder",
-        "image": ""
+        "desc": "+ Lightning Damage; + Lightning Penetration; + Attack and Cast Speed"
       },
       {
         "name": "Bitter Thunder",
+        "url": "https://tlidb.com/en/Bitter_Thunder",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_LingLei_01_116.webp",
         "category": "Lightning",
         "rarity": "Legendary",
-        "desc": "Tăng Lightning Damage",
-        "url": "https://tlidb.com/en/Bitter_Thunder",
-        "image": ""
+        "desc": "+ Lightning Damage; + Lightning Penetration; + Attack and Cast Speed"
+      },
+      {
+        "name": "Happy Chonky - Emerald",
+        "url": "https://tlidb.com/en/Happy_Chonky_-_Emerald",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_KuaiLeXiaoFei_03_116.webp",
+        "category": "Drop",
+        "rarity": "Magic",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Plaintive Ball of Thread - Gold Leaf",
+        "url": "https://tlidb.com/en/Plaintive_Ball_of_Thread_-_Gold_Leaf",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_AiYuanXianQiu_02_116.webp",
+        "category": "Drop",
+        "rarity": "Rare",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Starfish Chanter",
+        "url": "https://tlidb.com/en/Starfish_Chanter",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_HuanHaiXingKui_01_116.webp",
+        "category": "Drop",
+        "rarity": "Legendary",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Idling Weasel - Sparkle",
+        "url": "https://tlidb.com/en/Idling_Weasel_-_Sparkle",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_XianYouXiaoYou_05_116.webp",
+        "category": "Drop",
+        "rarity": "Magic",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Cloudgatherer - Sky's Dome",
+        "url": "https://tlidb.com/en/Cloudgatherer_-_Skys_Dome",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_CaiYunZhe_05_116.webp",
+        "category": "Drop",
+        "rarity": "Rare",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Kong",
+        "url": "https://tlidb.com/en/Kong",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_AKong_01_116.webp",
+        "category": "Drop",
+        "rarity": "Legendary",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Happy Chonky - Sun",
+        "url": "https://tlidb.com/en/Happy_Chonky_-_Sun",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_KuaiLeXiaoFei_05_116.webp",
+        "category": "Drop",
+        "rarity": "Magic",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Plaintive Ball of Thread - Frost",
+        "url": "https://tlidb.com/en/Plaintive_Ball_of_Thread_-_Frost",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_AiYuanXianQiu_05_116.webp",
+        "category": "Drop",
+        "rarity": "Rare",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Corgi Fighter No.32",
+        "url": "https://tlidb.com/en/Corgi_Fighter_No.32",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ZhanDouJi_01_116.webp",
+        "category": "Drop",
+        "rarity": "Legendary",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Spiny Snail - Cloud",
+        "url": "https://tlidb.com/en/Spiny_Snail_-_Cloud",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_CiTouXiaoWo_04_116.webp",
+        "category": "Drop",
+        "rarity": "Magic",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Hell Cavalry - Sea",
+        "url": "https://tlidb.com/en/Hell_Cavalry_-_Sea",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_YouYuQingQi_05_116.webp",
+        "category": "Drop",
+        "rarity": "Rare",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Heart-binding Rose",
+        "url": "https://tlidb.com/en/Heart-binding_Rose",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ZangAiMingQing_01_116.webp",
+        "category": "Drop",
+        "rarity": "Legendary",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Spiny Snail - Green",
+        "url": "https://tlidb.com/en/Spiny_Snail_-_Green",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_CiTouXiaoWo_05_116.webp",
+        "category": "Survival",
+        "rarity": "Magic",
+        "desc": "Increases Elemental Resistance, Mana Restoration, and XP bonus"
+      },
+      {
+        "name": "Winter Darer - Rock",
+        "url": "https://tlidb.com/en/Winter_Darer_-_Rock",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LinDongMangHan_03_116.webp",
+        "category": "Survival",
+        "rarity": "Rare",
+        "desc": "Increases Elemental Resistance, Mana Restoration, and XP bonus"
+      },
+      {
+        "name": "Warbler of Plum Blossoms",
+        "url": "https://tlidb.com/en/Warbler_of_Plum_Blossoms",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_XianMeiZhiYing_01_116.webp",
+        "category": "Survival",
+        "rarity": "Legendary",
+        "desc": "Increases Elemental Resistance, Mana Restoration, and XP bonus"
+      },
+      {
+        "name": "Spiny Snail - Flame",
+        "url": "https://tlidb.com/en/Spiny_Snail_-_Flame",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_CiTouXiaoWo_06_116.webp",
+        "category": "Attack",
+        "rarity": "Magic",
+        "desc": "Increases damage, weakens the Cursed enemies, and has a Curse effect"
+      },
+      {
+        "name": "Winter Darer - Sky",
+        "url": "https://tlidb.com/en/Winter_Darer_-_Sky",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LinDongMangHan_05_116.webp",
+        "category": "Attack",
+        "rarity": "Rare",
+        "desc": "Increases damage, weakens the Cursed enemies, and has a Curse effect"
+      },
+      {
+        "name": "Poisoned Omen",
+        "url": "https://tlidb.com/en/Poisoned_Omen",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_GaoSiZhiZhen_01_116.webp",
+        "category": "Attack",
+        "rarity": "Legendary",
+        "desc": "Increases damage, weakens the Cursed enemies, and has a Curse effect"
+      },
+      {
+        "name": "Shocket",
+        "url": "https://tlidb.com/en/Shocket",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_YiDongDianZi_01_116.webp",
+        "category": "Drop",
+        "rarity": "Magic",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Letice",
+        "url": "https://tlidb.com/en/Letice",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_ChunKunXiaoWo_01_116.webp",
+        "category": "Drop",
+        "rarity": "Rare",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Monument Knight",
+        "url": "https://tlidb.com/en/Monument_Knight",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_FengBeiQiShi_01_116.webp",
+        "category": "Drop",
+        "rarity": "Legendary",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Shocket - Violet",
+        "url": "https://tlidb.com/en/Shocket_-_Violet",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_YiDongDianZi_02_116.webp",
+        "category": "Persistent",
+        "rarity": "Magic",
+        "desc": "Increases Reaping Cooldown, Damage Over Time, and Damage Affliction."
+      },
+      {
+        "name": "Letice - Flame",
+        "url": "https://tlidb.com/en/Letice_-_Flame",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_ChunKunXiaoWo_03_116.webp",
+        "category": "Persistent",
+        "rarity": "Rare",
+        "desc": "Increases Reaping Cooldown, Damage Over Time, and Damage Affliction."
+      },
+      {
+        "name": "Abyssal King Soul",
+        "url": "https://tlidb.com/en/Abyssal_King_Soul",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ShenYuanWangHun_01_116.webp",
+        "category": "Persistent",
+        "rarity": "Legendary",
+        "desc": "Increases Reaping Cooldown, Damage Over Time, and Damage Affliction."
+      },
+      {
+        "name": "Shocket - Pale",
+        "url": "https://tlidb.com/en/Shocket_-_Pale",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_YiDongDianZi_04_116.webp",
+        "category": "Summon",
+        "rarity": "Magic",
+        "desc": "Increases Spirit Magus seal removal, damage, and skill duration."
+      },
+      {
+        "name": "Letice - Amethyst",
+        "url": "https://tlidb.com/en/Letice_-_Amethyst",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_ChunKunXiaoWo_04_116.webp",
+        "category": "Summon",
+        "rarity": "Rare",
+        "desc": "Increases Spirit Magus seal removal, damage, and skill duration."
+      },
+      {
+        "name": "Scale of Original Sin",
+        "url": "https://tlidb.com/en/Scale_of_Original_Sin",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_EYuShiTu_01_116.webp",
+        "category": "Summon",
+        "rarity": "Legendary",
+        "desc": "Increases Spirit Magus seal removal, damage, and skill duration."
+      },
+      {
+        "name": "Fluffhead Hare",
+        "url": "https://tlidb.com/en/Fluffhead_Hare",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_HuLiHuTu_01_116.webp",
+        "category": "Drop",
+        "rarity": "Legendary",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Shocket - Dark Night",
+        "url": "https://tlidb.com/en/Shocket_-_Dark_Night",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_YiDongDianZi_03_116.webp",
+        "category": "Drop",
+        "rarity": "Magic",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Letice - Frost",
+        "url": "https://tlidb.com/en/Letice_-_Frost",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_ChunKunXiaoWo_02_116.webp",
+        "category": "Drop",
+        "rarity": "Rare",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Shepherd",
+        "url": "https://tlidb.com/en/Shepherd",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_MuLingRen_01_116.webp",
+        "category": "Drop",
+        "rarity": "Legendary",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Shocket - Green Leaf",
+        "url": "https://tlidb.com/en/Shocket_-_Green_Leaf",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_YiDongDianZi_05_116.webp",
+        "category": "Attack",
+        "rarity": "Magic",
+        "desc": "Increases Damage, Attack Block, Spell Block"
+      },
+      {
+        "name": "Letice - Withered Leaf",
+        "url": "https://tlidb.com/en/Letice_-_Withered_Leaf",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_ChunKunXiaoWo_05_116.webp",
+        "category": "Attack",
+        "rarity": "Rare",
+        "desc": "Increases Damage, Attack Block, Spell Block"
+      },
+      {
+        "name": "Raging Sands of Eternal Night",
+        "url": "https://tlidb.com/en/Raging_Sands_of_Eternal_Night",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_YongYeKuangSha_01_116.webp",
+        "category": "Attack",
+        "rarity": "Legendary",
+        "desc": "Increases Damage, Attack Block, Spell Block"
+      },
+      {
+        "name": "Awooawoo - Blue Sky",
+        "url": "https://tlidb.com/en/Awooawoo_-_Blue_Sky",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_AWuAWu_05_116.webp",
+        "category": "Attack",
+        "rarity": "Magic",
+        "desc": "Increases Damage, Erosion Resistance, and Crowd Control Effects"
+      },
+      {
+        "name": "Hell Cavalry - Twilight",
+        "url": "https://tlidb.com/en/Hell_Cavalry_-_Twilight",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_YouYuQingQi_06_116.webp",
+        "category": "Attack",
+        "rarity": "Rare",
+        "desc": "Increases Damage, Erosion Resistance, and Crowd Control Effects"
+      },
+      {
+        "name": "Witch Antelope of Lust",
+        "url": "https://tlidb.com/en/Witch_Antelope_of_Lust",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_MeiYuSiJi_01_116.webp",
+        "category": "Attack",
+        "rarity": "Legendary",
+        "desc": "Increases Damage, Erosion Resistance, and Crowd Control Effects"
+      },
+      {
+        "name": "Happy Chonky - Violet",
+        "url": "https://tlidb.com/en/Happy_Chonky_-_Violet",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_KuaiLeXiaoFei_06_116.webp",
+        "category": "Drop",
+        "rarity": "Magic",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "First Mate of the Furious Sea - Silent Night",
+        "url": "https://tlidb.com/en/First_Mate_of_the_Furious_Sea_-_Silent_Night",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_NuHaiDaFu_03_116.webp",
+        "category": "Drop",
+        "rarity": "Rare",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Mistville Orphan",
+        "url": "https://tlidb.com/en/Mistville_Orphan",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ShuangMianYeCha_01_116.webp",
+        "category": "Drop",
+        "rarity": "Legendary",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Idling Weasel - Sandstone",
+        "url": "https://tlidb.com/en/Idling_Weasel_-_Sandstone",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_XianYouXiaoYou_06_116.webp",
+        "category": "Attack",
+        "rarity": "Magic",
+        "desc": "Increases Attack and Cast Speed, Lightning Damage, and Movement Speed"
+      },
+      {
+        "name": "First Mate of the Furious Sea - Rock",
+        "url": "https://tlidb.com/en/First_Mate_of_the_Furious_Sea_-_Rock",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_NuHaiDaFu_01_116.webp",
+        "category": "Attack",
+        "rarity": "Rare",
+        "desc": "Increases Attack and Cast Speed, Lightning Damage, and Movement Speed"
+      },
+      {
+        "name": "Backup Power",
+        "url": "https://tlidb.com/en/Backup_Power",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_DianNengChuBeiLiang_01_116.webp",
+        "category": "Attack",
+        "rarity": "Legendary",
+        "desc": "Increases Attack and Cast Speed, Lightning Damage, and Movement Speed"
+      },
+      {
+        "name": "Luluri - Shallow Sea",
+        "url": "https://tlidb.com/en/Luluri_-_Shallow_Sea",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_LuLuLi_05_116.webp",
+        "category": "Attack",
+        "rarity": "Magic",
+        "desc": "Warcry Duration, Warcry Skill Cooldown, Warcry Effect"
+      },
+      {
+        "name": "First Mate of the Furious Sea - Sky",
+        "url": "https://tlidb.com/en/First_Mate_of_the_Furious_Sea_-_Sky",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_NuHaiDaFu_02_116.webp",
+        "category": "Attack",
+        "rarity": "Rare",
+        "desc": "Warcry Duration, Warcry Skill Cooldown, Warcry Effect"
+      },
+      {
+        "name": "Captain Kitty of the Furious Sea",
+        "url": "https://tlidb.com/en/Captain_Kitty_of_the_Furious_Sea",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_NuHaiMiaoWang_116.webp",
+        "category": "Attack",
+        "rarity": "Legendary",
+        "desc": "Warcry Duration, Warcry Skill Cooldown, Warcry Effect"
+      },
+      {
+        "name": "Feasting Samurai - Honey",
+        "url": "https://tlidb.com/en/Feasting_Samurai_-_Honey",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_GanFanWuShi_05_116.webp",
+        "category": "Attack",
+        "rarity": "Magic",
+        "desc": "Knockback Distance, Projectile Speed, Projectile Damage"
+      },
+      {
+        "name": "Dragon Plant - Truffle",
+        "url": "https://tlidb.com/en/Dragon_Plant_-_Truffle",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_QingLongCaiCai_05_116.webp",
+        "category": "Attack",
+        "rarity": "Rare",
+        "desc": "Knockback Distance, Projectile Speed, Projectile Damage"
+      },
+      {
+        "name": "Iron Lion",
+        "url": "https://tlidb.com/en/Iron_Lion",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_TieZhuXiongShi_01_116.webp",
+        "category": "Attack",
+        "rarity": "Legendary",
+        "desc": "Knockback Distance, Projectile Speed, Projectile Damage"
+      },
+      {
+        "name": "Feasting Samurai",
+        "url": "https://tlidb.com/en/Feasting_Samurai",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_GanFanWuShi_01_116.webp",
+        "category": "Drop",
+        "rarity": "Magic",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Dragon Plant",
+        "url": "https://tlidb.com/en/Dragon_Plant",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_QingLongCaiCai_01_116.webp",
+        "category": "Drop",
+        "rarity": "Rare",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Alice 1",
+        "url": "https://tlidb.com/en/Alice_1",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ZhiXieYiGu_01_116.webp",
+        "category": "Drop",
+        "rarity": "Legendary",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Feasting Samurai - Mint",
+        "url": "https://tlidb.com/en/Feasting_Samurai_-_Mint",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_GanFanWuShi_03_116.webp",
+        "category": "Drop",
+        "rarity": "Magic",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Dragon Plant - Lettuce",
+        "url": "https://tlidb.com/en/Dragon_Plant_-_Lettuce",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_QingLongCaiCai_02_116.webp",
+        "category": "Drop",
+        "rarity": "Rare",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Rainbowpaint Owl",
+        "url": "https://tlidb.com/en/Rainbowpaint_Owl",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_XueGuoYeXiao_116.webp",
+        "category": "Drop",
+        "rarity": "Legendary",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Feasting Samurai - Orange",
+        "url": "https://tlidb.com/en/Feasting_Samurai_-_Orange",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_GanFanWuShi_02_116.webp",
+        "category": "Attack",
+        "rarity": "Magic",
+        "desc": "Increases Attack and Cast Speed, Channeled Damage, and Movement Speed"
+      },
+      {
+        "name": "Dragon Plant - Kale",
+        "url": "https://tlidb.com/en/Dragon_Plant_-_Kale",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_QingLongCaiCai_04_116.webp",
+        "category": "Attack",
+        "rarity": "Rare",
+        "desc": "Increases Attack and Cast Speed, Channeled Damage, and Movement Speed"
+      },
+      {
+        "name": "Swaying Bonnie",
+        "url": "https://tlidb.com/en/Swaying_Bonnie",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_BangNiYaoBai_01_116.webp",
+        "category": "Attack",
+        "rarity": "Legendary",
+        "desc": "Increases Attack and Cast Speed, Channeled Damage, and Movement Speed"
+      },
+      {
+        "name": "Feasting Samurai - Garlic",
+        "url": "https://tlidb.com/en/Feasting_Samurai_-_Garlic",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_GanFanWuShi_04_116.webp",
+        "category": "Summon",
+        "rarity": "Magic",
+        "desc": "Servant Damage, Servant Damage, Servant Speed"
+      },
+      {
+        "name": "Dragon Plant - Onion",
+        "url": "https://tlidb.com/en/Dragon_Plant_-_Onion",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_QingLongCaiCai_03_116.webp",
+        "category": "Summon",
+        "rarity": "Rare",
+        "desc": "Servant Damage, Servant Damage, Servant Speed"
+      },
+      {
+        "name": "Sprite of Silent Vale",
+        "url": "https://tlidb.com/en/Sprite_of_Silent_Vale",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_YouGuHuaLing_116.webp",
+        "category": "Summon",
+        "rarity": "Legendary",
+        "desc": "Servant Damage, Servant Damage, Servant Speed"
+      },
+      {
+        "name": "Sprouting Grass",
+        "url": "https://tlidb.com/en/Sprouting_Grass",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_ZhongCaoXiaoYa_116.webp",
+        "category": "Drop",
+        "rarity": "Magic",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Benign Bug - Barbie Pink",
+        "url": "https://tlidb.com/en/Benign_Bug_-_Barbie_Pink",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LiangXingBaGe_02_116.webp",
+        "category": "Drop",
+        "rarity": "Rare",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Jestress",
+        "url": "https://tlidb.com/en/Jestress",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_HongTaoHuangNv_01_116.webp",
+        "category": "Drop",
+        "rarity": "Legendary",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Sprouting Grass - Purple Sand",
+        "url": "https://tlidb.com/en/Sprouting_Grass_-_Purple_Sand",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_ZhongCaoXiaoYa_02_116.webp",
+        "category": "Drop",
+        "rarity": "Magic",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Benign Bug",
+        "url": "https://tlidb.com/en/Benign_Bug",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LiangXingBaGe_116.webp",
+        "category": "Drop",
+        "rarity": "Rare",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Doro-Doro Dorothy",
+        "url": "https://tlidb.com/en/Doro-Doro_Dorothy",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_TLS007_116.webp",
+        "category": "Drop",
+        "rarity": "Legendary",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Sprouting Grass - White Porcelain",
+        "url": "https://tlidb.com/en/Sprouting_Grass_-_White_Porcelain",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_ZhongCaoXiaoYa_05_116.webp",
+        "category": "Drop",
+        "rarity": "Magic",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Benign Bug - Merciless Silver",
+        "url": "https://tlidb.com/en/Benign_Bug_-_Merciless_Silver",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LiangXingBaGe_03_116.webp",
+        "category": "Drop",
+        "rarity": "Rare",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Moonshadow Guide",
+        "url": "https://tlidb.com/en/Moonshadow_Guide",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ShaHaiMiaoMiao_116.webp",
+        "category": "Drop",
+        "rarity": "Legendary",
+        "desc": "Increases Drop Quantity"
       },
       {
         "name": "Sprouting Grass - Green Porcelain",
+        "url": "https://tlidb.com/en/Sprouting_Grass_-_Green_Porcelain",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_ZhongCaoXiaoYa_04_116.webp",
         "category": "Erosion",
         "rarity": "Magic",
-        "desc": "Tăng Erosion Damage",
-        "url": "https://tlidb.com/en/Sprouting_Grass_-_Green_Porcelain",
-        "image": ""
+        "desc": "Erosion Damage, Erosion Damage, Erosion Penetration"
       },
       {
         "name": "Benign Bug - Ghost Light Yellow",
+        "url": "https://tlidb.com/en/Benign_Bug_-_Ghost_Light_Yellow",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LiangXingBaGe_05_116.webp",
         "category": "Erosion",
         "rarity": "Rare",
-        "desc": "Tăng Erosion Damage",
-        "url": "https://tlidb.com/en/Benign_Bug_-_Ghost_Light_Yellow",
-        "image": ""
+        "desc": "Erosion Damage, Erosion Damage, Erosion Penetration"
       },
       {
         "name": "Portrait of a Fallen Saintess",
+        "url": "https://tlidb.com/en/Portrait_of_a_Fallen_Saintess",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_XieDuShengNvDeXiaoXiang_01_116.webp",
         "category": "Erosion",
         "rarity": "Legendary",
-        "desc": "Tăng Erosion Damage",
-        "url": "https://tlidb.com/en/Portrait_of_a_Fallen_Saintess",
-        "image": ""
+        "desc": "Erosion Damage, Erosion Damage, Erosion Penetration"
+      },
+      {
+        "name": "Lumidrake",
+        "url": "https://tlidb.com/en/Lumidrake",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_XiaoDengLong_01_116.webp",
+        "category": "Drop",
+        "rarity": "Magic",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Shro-Shroom",
+        "url": "https://tlidb.com/en/Shro-Shroom",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_XiaoGuGuGu_01_116.webp",
+        "category": "Drop",
+        "rarity": "Rare",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Prof. SOURCE",
+        "url": "https://tlidb.com/en/Prof._SOURCE",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_YuanBoShi_01_116.webp",
+        "category": "Drop",
+        "rarity": "Legendary",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Sprouting Grass - Black Porcelain",
+        "url": "https://tlidb.com/en/Sprouting_Grass_-_Black_Porcelain",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_ZhongCaoXiaoYa_03_116.webp",
+        "category": "Attack",
+        "rarity": "Magic",
+        "desc": "Attack Damage, Attack Critical Strike, and Attack Speed"
+      },
+      {
+        "name": "Shro-Shroom - Boletus",
+        "url": "https://tlidb.com/en/Shro-Shroom_-_Boletus",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_XiaoGuGuGu_02_116.webp",
+        "category": "Attack",
+        "rarity": "Rare",
+        "desc": "Attack Damage, Attack Critical Strike, and Attack Speed"
+      },
+      {
+        "name": "Valkyrie's Night Patrol",
+        "url": "https://tlidb.com/en/Valkyries_Night_Patrol",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_NvWuShenDeYeXun_01_116.webp",
+        "category": "Attack",
+        "rarity": "Legendary",
+        "desc": "Attack Damage, Attack Critical Strike, and Attack Speed"
+      },
+      {
+        "name": "Lumidrake - Fluorescence",
+        "url": "https://tlidb.com/en/Lumidrake_-_Fluorescence",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_XiaoDengLong_02_116.webp",
+        "category": "Attack",
+        "rarity": "Magic",
+        "desc": "Attack Damage, Attack Critical Strike, and Attack Speed"
+      },
+      {
+        "name": "Benign Bug - Tolerant Green",
+        "url": "https://tlidb.com/en/Benign_Bug_-_Tolerant_Green",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LiangXingBaGe_04_116.webp",
+        "category": "Attack",
+        "rarity": "Rare",
+        "desc": "Attack Damage, Attack Critical Strike, and Attack Speed"
+      },
+      {
+        "name": "Azure Gunslinger",
+        "url": "https://tlidb.com/en/Azure_Gunslinger",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_LanXinHuoChong_01_116.webp",
+        "category": "Attack",
+        "rarity": "Legendary",
+        "desc": "Attack Damage, Attack Critical Strike, and Attack Speed"
+      },
+      {
+        "name": "Lumidrake - Glow",
+        "url": "https://tlidb.com/en/Lumidrake_-_Glow",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_XiaoDengLong_03_116.webp",
+        "category": "Drop",
+        "rarity": "Magic",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Shro-Shroom - Lurid Bolete",
+        "url": "https://tlidb.com/en/Shro-Shroom_-_Lurid_Bolete",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_XiaoGuGuGu_03_116.webp",
+        "category": "Drop",
+        "rarity": "Rare",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Key of Overrealm",
+        "url": "https://tlidb.com/en/Key_of_Overrealm",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_WeiTeLuWei_01_116.webp",
+        "category": "Drop",
+        "rarity": "Legendary",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Lumidrake - Aurora",
+        "url": "https://tlidb.com/en/Lumidrake_-_Aurora",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_XiaoDengLong_04_116.webp",
+        "category": "Spell",
+        "rarity": "Magic",
+        "desc": "Spell Damage, Spell Critical Strike, Cast Speed"
+      },
+      {
+        "name": "Shro-Shroom - Oyster Mushroom",
+        "url": "https://tlidb.com/en/Shro-Shroom_-_Oyster_Mushroom",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_XiaoGuGuGu_04_116.webp",
+        "category": "Spell",
+        "rarity": "Rare",
+        "desc": "Spell Damage, Spell Critical Strike, Cast Speed"
+      },
+      {
+        "name": "Squiddle",
+        "url": "https://tlidb.com/en/Squiddle",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_CaiMoDuoDuo_01_116.webp",
+        "category": "Spell",
+        "rarity": "Legendary",
+        "desc": "Spell Damage, Spell Critical Strike, Cast Speed"
+      },
+      {
+        "name": "Lumidrake - Candlelight",
+        "url": "https://tlidb.com/en/Lumidrake_-_Candlelight",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_XiaoDengLong_05_116.webp",
+        "category": "Attack",
+        "rarity": "Magic",
+        "desc": "Attack Damage, Attack Critical Strike, and Attack Speed"
+      },
+      {
+        "name": "Shro-Shroom - Gloom Shroom",
+        "url": "https://tlidb.com/en/Shro-Shroom_-_Gloom_Shroom",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_XiaoGuGuGu_05_116.webp",
+        "category": "Attack",
+        "rarity": "Rare",
+        "desc": "Attack Damage, Attack Critical Strike, and Attack Speed"
+      },
+      {
+        "name": "Kitty Express",
+        "url": "https://tlidb.com/en/Kitty_Express",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_KuMaoZhaiJiSong_01_116.webp",
+        "category": "Attack",
+        "rarity": "Legendary",
+        "desc": "Attack Damage, Attack Critical Strike, and Attack Speed"
+      },
+      {
+        "name": "Lumidrake - Flare",
+        "url": "https://tlidb.com/en/Lumidrake_-_Flare",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_XiaoDengLong_06_116.webp",
+        "category": "Drop",
+        "rarity": "Magic",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Bird Nest",
+        "url": "https://tlidb.com/en/Bird_Nest",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_NiaoWoTouTou_01_116.webp",
+        "category": "Drop",
+        "rarity": "Rare",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Intern Shelley",
+        "url": "https://tlidb.com/en/Intern_Shelley",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ShiXiYiShengXueLai_01_116.webp",
+        "category": "Drop",
+        "rarity": "Legendary",
+        "desc": "Increases Drop Quantity"
       },
       {
         "name": "Meowth",
+        "url": "https://tlidb.com/en/Meowth",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_MaoEZi_01_116.webp",
         "category": "Elixir",
         "rarity": "Magic",
-        "desc": "Tăng hiệu ứng Elixir",
-        "url": "https://tlidb.com/en/Meowth",
-        "image": ""
+        "desc": "Damage, Damage, Movement Speed"
       },
       {
         "name": "Miss Melancholy",
+        "url": "https://tlidb.com/en/Miss_Melancholy",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_GuYingYouYou_01_116.webp",
         "category": "Elixir",
         "rarity": "Rare",
-        "desc": "Tăng hiệu ứng Elixir",
-        "url": "https://tlidb.com/en/Miss_Melancholy",
-        "image": ""
+        "desc": "Damage, Damage, Movement Speed"
       },
       {
         "name": "Elixir Fairies",
+        "url": "https://tlidb.com/en/Elixir_Fairies",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_YaoXianZi_01_116.webp",
         "category": "Elixir",
         "rarity": "Legendary",
-        "desc": "Tăng hiệu ứng Elixir",
-        "url": "https://tlidb.com/en/Elixir_Fairies",
-        "image": ""
+        "desc": "Damage, Damage, Movement Speed"
+      },
+      {
+        "name": "Meowth - Violet",
+        "url": "https://tlidb.com/en/Meowth_-_Violet",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_MaoEZi_02_116.webp",
+        "category": "Drop",
+        "rarity": "Magic",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Miss Melancholy - Cyan",
+        "url": "https://tlidb.com/en/Miss_Melancholy_-_Cyan",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_GuYingYouYou_02_116.webp",
+        "category": "Drop",
+        "rarity": "Rare",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Avatar of Moon",
+        "url": "https://tlidb.com/en/Avatar_of_Moon",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_JiaoYueHuaShen_01_116.webp",
+        "category": "Drop",
+        "rarity": "Legendary",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Meowth - Nightfire",
+        "url": "https://tlidb.com/en/Meowth_-_Nightfire",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_MaoEZi_03_116.webp",
+        "category": "Drop",
+        "rarity": "Magic",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Miss Melancholy - Pink",
+        "url": "https://tlidb.com/en/Miss_Melancholy_-_Pink",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_GuYingYouYou_03_116.webp",
+        "category": "Drop",
+        "rarity": "Rare",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Twilight Sparks",
+        "url": "https://tlidb.com/en/Twilight_Sparks",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_HuaXinXiaoMan_116.webp",
+        "category": "Drop",
+        "rarity": "Legendary",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Meowth - Jade",
+        "url": "https://tlidb.com/en/Meowth_-_Jade",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_MaoEZi_04_116.webp",
+        "category": "Spell",
+        "rarity": "Magic",
+        "desc": "Terra Damage, Terra Charge, Terra Area"
+      },
+      {
+        "name": "Miss Melancholy - Bone",
+        "url": "https://tlidb.com/en/Miss_Melancholy_-_Bone",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_GuYingYouYou_04_116.webp",
+        "category": "Spell",
+        "rarity": "Rare",
+        "desc": "Terra Damage, Terra Charge, Terra Area"
+      },
+      {
+        "name": "Icemirror",
+        "url": "https://tlidb.com/en/Icemirror",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ShuangJing_01_116.webp",
+        "category": "Spell",
+        "rarity": "Legendary",
+        "desc": "Terra Damage, Terra Charge, Terra Area"
+      },
+      {
+        "name": "Meowth - Aurora",
+        "url": "https://tlidb.com/en/Meowth_-_Aurora",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_MaoEZi_05_116.webp",
+        "category": "Drop",
+        "rarity": "Magic",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Miss Melancholy - Azure",
+        "url": "https://tlidb.com/en/Miss_Melancholy_-_Azure",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_GuYingYouYou_05_116.webp",
+        "category": "Drop",
+        "rarity": "Rare",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Lady Obituary",
+        "url": "https://tlidb.com/en/Lady_Obituary",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_FuGaoFuRen_01_116.webp",
+        "category": "Drop",
+        "rarity": "Legendary",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Ripplepop",
+        "url": "https://tlidb.com/en/Ripplepop",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_HaiLangPaoPao_01_116.webp",
+        "category": "Spell",
+        "rarity": "Magic",
+        "desc": "Spell Damage, Spell Critical Strike, Cast Speed"
+      },
+      {
+        "name": "Heartbloom",
+        "url": "https://tlidb.com/en/Heartbloom",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_FangXinXiaoHua_01_116.webp",
+        "category": "Spell",
+        "rarity": "Rare",
+        "desc": "Spell Damage, Spell Critical Strike, Cast Speed"
+      },
+      {
+        "name": "Witch of the Night",
+        "url": "https://tlidb.com/en/Witch_of_the_Night",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_HeiYeMoNv_01_116.webp",
+        "category": "Spell",
+        "rarity": "Legendary",
+        "desc": "Spell Damage, Spell Critical Strike, Cast Speed"
+      },
+      {
+        "name": "Ripplepop - Taro",
+        "url": "https://tlidb.com/en/Ripplepop_-_Taro",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_HaiLangPaoPao_02_116.webp",
+        "category": "Drop",
+        "rarity": "Magic",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Heartbloom - Iris",
+        "url": "https://tlidb.com/en/Heartbloom_-_Iris",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_FangXinXiaoHua_02_116.webp",
+        "category": "Drop",
+        "rarity": "Rare",
+        "desc": "Increases Drop Quantity"
+      },
+      {
+        "name": "Twin Inquisitors",
+        "url": "https://tlidb.com/en/Twin_Inquisitors",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_ShuangShengYuZu_01_116.webp",
+        "category": "Drop",
+        "rarity": "Legendary",
+        "desc": "Increases Drop Quantity"
       }
     ],
     "sources": [
       "https://tlidb.com/en/Pactspirit"
     ],
-    "note": "Danh sách Battle Pactspirit lấy từ tlidb.com (06/11/2026). Ảnh đầy đủ có sau lần cập nhật tự động.",
-    "updatedAt": "2026-11-06T12:00:00.000Z"
+    "note": "Danh sách đầy đủ lấy từ tlidb.com ngày 08/11/2026.",
+    "updatedAt": "2026-11-08T07:00:00.000Z"
   }
 }

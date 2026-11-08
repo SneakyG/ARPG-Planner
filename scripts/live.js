@@ -14,14 +14,15 @@ async function main() {
   const config = loadConfig();
   const id = process.env.TWITCH_CLIENT_ID || config.twitch?.clientId;
   const secret = process.env.TWITCH_CLIENT_SECRET || config.twitch?.clientSecret;
-  const out = { updatedAt: new Date().toISOString(), source: 'twitch', games: {} };
+  const languages = config.twitch?.languages ?? ['en'];
+  const out = { updatedAt: new Date().toISOString(), source: 'twitch', languages, games: {} };
   if (!id || !secret) {
     out.error = 'Chưa có Twitch Client ID/Secret (secrets TWITCH_CLIENT_ID, TWITCH_CLIENT_SECRET).';
   } else {
     try {
       const tok = await twitch.token(id, secret);
       for (const [g, names] of Object.entries(config.twitch?.categories || GAMES)) {
-        try { out.games[g] = await twitch.liveFor(names, id, tok, 24); }
+        try { out.games[g] = await twitch.liveFor(names, id, tok, 24, languages); }
         catch (e) { out.games[g] = { game: null, streams: [], error: e.message }; }
       }
     } catch (e) { out.error = e.message; }
