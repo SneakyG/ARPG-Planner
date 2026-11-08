@@ -51,10 +51,6 @@
     "file": "img/d58cc1b96ee1b4.jpg",
     "at": "2026-11-06T14:12:48.395Z"
   },
-  "https://torchlight.xd.com/en/ep": {
-    "none": true,
-    "at": "2026-11-06T14:12:50.726Z"
-  },
   "https://torchlight.xd.com/ep/us": {
     "file": "img/997b69bbd763e6.jpg",
     "at": "2026-11-06T14:12:58.398Z"
@@ -82,5 +78,13 @@
   "https://torchlight.xd.com/index": {
     "file": "img/69f12e486ca39f.jpg",
     "at": "2026-11-07T01:18:43.152Z"
+  },
+  "https://maxroll.gg/poe/poe-atlas-tree/5sjlhq0x": {
+    "file": "img/88be2eb95c2755.jpg",
+    "at": "2026-11-08T02:04:06.999Z"
+  },
+  "https://maxroll.gg/poe/tierlists/endgame-farming-tier-list": {
+    "file": "img/6eae5a3956401e.jpg",
+    "at": "2026-11-08T02:04:31.384Z"
   }
 }

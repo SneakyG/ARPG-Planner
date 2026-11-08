@@ -1,33 +1,14 @@
 {
   "kind": "ai",
   "season": "Torchlight: Infinite SS14 Tartarus",
-  "items": [
-    {
-      "name": "Flame Elementium",
-      "category": "Currency",
-      "price": "",
-      "trend": "unknown",
-      "source": "https://torchlight.xd.com/index",
-      "where": "Netherrealm",
-      "why": "Đơn vị tiền tệ chính để giao dịch trong game"
-    },
-    {
-      "name": "Loot",
-      "category": "General",
-      "price": "",
-      "trend": "unknown",
-      "source": "https://torchlight.xd.com/index",
-      "where": "Tartarus Prison",
-      "why": "Thu thập vật phẩm từ Inmates để tối ưu hóa build"
-    }
-  ],
-  "notes": "Các nguồn cung cấp hiện tại tập trung vào thông tin mùa Tartarus và giới thiệu chung về game, không liệt kê danh sách cụ thể các vật phẩm hay giá trị thị trường chi tiết (Flame Elementium được nhắc đến như đơn vị tiền tệ chính trong hệ thống giao dịch của game).",
+  "items": [],
+  "notes": "Các nguồn được cung cấp không chứa thông tin hay dữ liệu về danh sách vật phẩm, giá cả (FE), vị trí farm hay xu hướng kinh tế trong mùa Tartarus của Torchlight: Infinite. Do tuân thủ nguyên tắc không bịa đặt thông tin ngoài nguồn, danh sách vật phẩm được để trống.",
   "sources": [
     "https://torchlight.xd.com/index",
     "https://store.steampowered.com/app/41500/Torchlight/",
-    "https://en.wikipedia.org/wiki/Torchlight",
+    "https://en.m.wikipedia.org/wiki/Torchlight",
     "https://store.steampowered.com/app/1974050/Torchlight_Infinite/"
   ],
-  "model": "gemini-3.1-flash-lite",
-  "updatedAt": "2026-11-07T02:24:14.969Z"
+  "model": "gemini-3.8-flash",
+  "updatedAt": "2026-11-08T02:02:44.282Z"
 }

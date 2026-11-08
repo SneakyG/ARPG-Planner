@@ -2,30 +2,40 @@
   "name": "Curse of the Allflame",
   "patch": "3.29",
   "start": "2026-07-24",
-  "end": "2026-12-07 (ước tính)",
+  "end": "",
   "mechanics": [
     {
-      "name": "The Sovereign & Seafloor Voyages",
-      "desc": "Người chơi gặp gỡ nữ thuyền trưởng Valerie để khám phá đáy đại dương. Dùng thuyền The Sovereign, thu thập Lost Charts và sử dụng Allflame Lanterns để tạo vùng an toàn tránh sóng lớn, sau đó kết nối các vùng trên Voyage Board."
+      "name": "Lost Charts & Thám hiểm đáy biển (Bathysphere)",
+      "desc": "Người chơi tìm Lost Charts trong Map, lên tàu The Sovereign và dùng buồng lặn Bathysphere lặn xuống đáy đại dương. Đặt Allflame Lanterns để tạo vùng an toàn dưỡng khí, tiêu diệt quái vật và thu hoạch Luminous Coral chuyển thành Dead Man's Sulphur."
     },
     {
-      "name": "Allflame Crafting",
-      "desc": "Hệ thống chế tác mới dưới boong tàu cho phép phân rã vật phẩm thành nhiều kết quả ma quái và chọn trực tiếp kết quả mong muốn bằng Dead Man's Sulfur và Ducats thay vì ngẫu nhiên hoàn toàn."
+      "name": "Voyages",
+      "desc": "Thu thập và ghép 9 Charts trên một bảng lưới để bắt đầu một Voyage rộng lớn với nhiều modifier liên kết và cộng dồn phần thưởng, đồng thời dùng Allflame Capsule để chuyển trang bị nhặt được lên bờ."
+    },
+    {
+      "name": "Allflame Crafting & Ducats",
+      "desc": "Hệ thống chế tạo định hướng trên tàu The Sovereign dùng Dead Man's Sulphur làm nhiên liệu, cho phép chọn 1 trong tối đa 4 kết quả mong muốn khi ép tiền tệ, cùng các loại tiền tệ Ducat với hiệu ứng độc quyền."
+    },
+    {
+      "name": "Mercenaries of Trarthus (Core)",
+      "desc": "Cơ chế lính đánh thuê chính thức vào core với cây Atlas Passive và Scarab riêng; lính đánh thuê không còn tồn tại vĩnh viễn theo mặc định và có thể đóng chai thành Warrant sau khi đánh bại qua Rematch."
     }
   ],
   "changes": [
-    "Hệ thống socket được đại tu hoàn toàn: Gem màu bất kỳ có thể lắp vào mọi socket, nếu lắp đúng màu sẽ nhận thêm Quality.",
-    "Abyss và Legion nhận được bản làm lại lớn về cơ chế chiến đấu và phần thưởng.",
-    "Cải tiến lớn cho spellcaster (hơn 100 phép thuật được cân bằng lại, thêm các Exceptional Skill Gem dạng Pact và hỗ trợ tốt hơn cho staves).",
-    "Giới thiệu Ascendancy class mới cho Scion là Luminary."
+    "Rework Abyss: Loại bỏ việc chạy đuổi theo vết nứt; các hố Abyssal mở sẵn và triệu hồi Abyssal Legion khi tiêu diệt quái bị khống chế; Abyss là nguồn rớt duy nhất của Abyssal Jewels và Stygian Vises; xóa bỏ Abyssal Delirium Orbs; bổ sung Pinnacle Boss mới.",
+    "Rework Legion: Dễ dàng mở khóa quái và rương hơn; Splinter rơi ít hơn nhưng stack size lớn hơn; xóa Unrelenting Timeless Emblems; Legion Generals có thể rơi Enshrouding Crystals dùng để nâng cấp Unique Armour trong Domain of Timeless Conflict.",
+    "Đại tu hệ thống Socket: Mặc định mọi trang bị luôn có socket màu trắng cho phép gắn mọi Gem; Chromatic Orb đảm bảo tạo ra socket màu (Đỏ, Xanh lá, Xanh dương); gắn Gem đúng màu socket tăng thêm +10% Gem Quality.",
+    "Tăng sức mạnh lớn cho caster: Hầu hết các kỹ năng Spell (đặc biệt là nhóm tự cast / self-cast) đều được buff trong bản cập nhật.",
+    "Ascendancy mới của Scion - Luminary: Cho phép thuê Mercenary vĩnh viễn và mở khóa từng slot trang bị Unique cho Mercenary.",
+    "Cải tổ Talisman: Không còn rơi ra ở trạng thái Corrupted, implicit được thay bằng modifier Enchanted mạnh mẽ (cạnh tranh với Anoint)."
   ],
   "next": "",
   "sources": [
-    "https://www.poebuilds.net/post/path-of-exile-3-29-curse-of-the-allflame",
     "https://www.arcanestash.com/guides/curse-of-the-allflame-new-path-of-exile-1-league",
-    "https://www.ign.com/wikis/path-of-exile/Path_of_Exile_Curse_of_the_Allflame_3.29_Release_Date_and_Patch_Notes",
-    "https://ggseason.com/blog/path-of-exile-all-leagues-dates/"
+    "https://pathofisildur.pl/poe1/patchnote/",
+    "https://maxroll.gg/poe/news/3-29-curse-of-the-allflame-reveal-summary",
+    "https://maxroll.gg/poe/news/poe-3-29-curse-of-the-allflame-league-branch-update"
   ],
-  "model": "gemini-3.5-flash-lite",
-  "updatedAt": "2026-11-07T02:20:14.245Z"
+  "model": "gemini-3.8-flash",
+  "updatedAt": "2026-11-08T01:49:12.384Z"
 }
