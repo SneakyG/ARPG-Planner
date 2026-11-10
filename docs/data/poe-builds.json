@@ -6,7 +6,7 @@
       "label": "3.29 Curse of the Allflame",
       "patch": "3.29",
       "name": "Curse of the Allflame",
-      "updatedAt": "2026-11-09T02:01:03.728Z",
+      "updatedAt": "2026-11-10T04:19:11.639Z",
       "builds": [
         {
           "rank": 1,
@@ -19,7 +19,7 @@
           "clear": 4,
           "boss": 5,
           "tank": 4,
-          "why": "Được xếp hạng S Tier và là lựa chọn tốt nhất cho người chơi mới nhờ lối chơi thả totem an toàn, APM thấp, đồ rẻ và có thể hạ các trùm endgame dễ dàng.",
+          "why": "Lối chơi Totem cực kỳ an toàn, chi phí trang bị ban đầu rất thấp nhưng vẫn có khả năng đánh Uber Boss và tiến trình 4 Voidstone dễ dàng.",
           "guides": [
             {
               "title": "Storm Burst of Repulsion Totem Hierophant League Starter",
@@ -31,66 +31,29 @@
         },
         {
           "rank": 2,
-          "name": "Righteous Fire",
-          "class": "Chieftain",
-          "tier": "A",
-          "playstyle": "Tanker",
-          "budget": "Thấp",
-          "difficulty": "Dễ",
-          "clear": 4,
-          "boss": 3,
-          "tank": 5,
-          "why": "Build cực kỳ trâu bò và dễ chơi nhất trong game, thao tác tối giản giúp tân thủ tiến trình qua các Map một cách an toàn nhất.",
-          "guides": [],
-          "id": "3-29-curse-of-the-allflame-righteous-fire",
-          "season": "3.29 Curse of the Allflame"
-        },
-        {
-          "rank": 3,
-          "name": "Toxic Rain",
-          "class": "Pathfinder",
-          "tier": "A",
-          "playstyle": "Speed Mapper",
-          "budget": "Thấp",
-          "difficulty": "Dễ",
-          "clear": 4,
-          "boss": 4,
-          "tank": 4,
-          "why": "Lựa chọn công thủ toàn diện với chi phí khởi đầu dưới 10 Divine Orb, tốc độ di chuyển cao rất phù hợp để farm Heist và dọn Map.",
-          "guides": [
-            {
-              "title": "PathofEvening's Toxic Rain Pathfinder Build Guide",
-              "url": "https://www.poe-vault.com/guides/toxic-rain-pathfinder-build-guide"
-            }
-          ],
-          "id": "3-29-curse-of-the-allflame-toxic-rain",
-          "season": "3.29 Curse of the Allflame"
-        },
-        {
-          "rank": 4,
-          "name": "Explosive Arrow Ballista",
-          "class": "Hierophant",
-          "tier": "A",
+          "name": "Earthshatter / Bleed Slams",
+          "class": "Slayer",
+          "tier": "S",
           "playstyle": "All-Rounder",
           "budget": "Thấp",
           "difficulty": "Dễ",
           "clear": 4,
           "boss": 5,
           "tank": 4,
-          "why": "Phong cách đặt totem né đòn an toàn, sở hữu sát thương đơn mục tiêu cực cao giúp dọn trùm và lấy 4 Voidstone dễ dàng.",
+          "why": "Sát thương Campaign và Map ấn tượng với chi phí tối thiểu, cho khả năng hạ gục Boss tốt và thăng tiến sức mạnh mượt mà.",
           "guides": [
             {
-              "title": "POEGuy's Explosive Arrow Ballista Hierophant Build Guide",
-              "url": "https://www.poe-vault.com/guides/explosive-arrow-ballista-hierophant-build-guide"
+              "title": "Earthshatter Slayer League Starter",
+              "url": "https://maxroll.gg/poe/build-guides/earthshatter-slayer-league-starter"
             }
           ],
-          "id": "3-29-curse-of-the-allflame-explosive-arrow-ballista",
+          "id": "3-29-curse-of-the-allflame-earthshatter-bleed-slams",
           "season": "3.29 Curse of the Allflame"
         },
         {
-          "rank": 5,
-          "name": "Earthshatter / Slams",
-          "class": "Slayer",
+          "rank": 3,
+          "name": "Absolution / Poison Animate Weapon",
+          "class": "Necromancer",
           "tier": "S",
           "playstyle": "All-Rounder",
           "budget": "Thấp",
@@ -98,18 +61,18 @@
           "clear": 4,
           "boss": 5,
           "tank": 4,
-          "why": "Thống trị S Tier ở các bảng xếp hạng khởi đầu nhờ sát thương campaign bá đạo và khả năng hạ boss mà không cần trang bị đắt tiền.",
+          "why": "Minion là archetype rất an toàn cho người mới, dễ leveling với Absolution và chuyển sang Animate Weapon để clear content mà không cần đồ đắt.",
           "guides": [
             {
-              "title": "Earthshatter Slayer League Starter",
-              "url": "https://maxroll.gg/poe/build-guides/earthshatter-slayer-league-starter"
+              "title": "Poison Ranged Animate Weapons League Starter",
+              "url": "https://maxroll.gg/poe/build-guides/poison-ranged-animate-weapons-league-starter"
             }
           ],
-          "id": "3-29-curse-of-the-allflame-earthshatter-slams",
+          "id": "3-29-curse-of-the-allflame-absolution-poison-animate-weapon",
           "season": "3.29 Curse of the Allflame"
         },
         {
-          "rank": 6,
+          "rank": 4,
           "name": "Kinetic Fusillade Ballista",
           "class": "Hierophant",
           "tier": "S",
@@ -117,9 +80,9 @@
           "budget": "Thấp",
           "difficulty": "Dễ",
           "clear": 4,
-          "boss": 5,
+          "boss": 4,
           "tank": 4,
-          "why": "Lối chơi Totem bắn liên hoàn tốc độ cao vô cùng an toàn và giá rẻ ở đầu mùa giải.",
+          "why": "Cơ chế Ballista Totem rảnh tay, tốc độ bắn cực cao, an toàn và chi phí rất rẻ để cày currency đầu mùa.",
           "guides": [
             {
               "title": "Kinetic Fusillade Ballista Hierophant League Starter",
@@ -130,7 +93,7 @@
           "season": "3.29 Curse of the Allflame"
         },
         {
-          "rank": 7,
+          "rank": 5,
           "name": "Winter Orb",
           "class": "Elementalist",
           "tier": "S",
@@ -140,7 +103,7 @@
           "clear": 5,
           "boss": 3,
           "tank": 3,
-          "why": "Được tăng sức mạnh lớn nhờ đợt rebalance phép thuật 3.29, mang lại tốc độ dọn Map cực nhanh và scale mạnh về cuối game.",
+          "why": "Được buff mạnh ở bản 3.29, sở hữu tốc độ dọn bản đồ hàng đầu và tỉ lệ tăng tiến sức mạnh vượt trội khi đầu tư.",
           "guides": [
             {
               "title": "Winter Orb Elementalist League Starter",
@@ -151,28 +114,61 @@
           "season": "3.29 Curse of the Allflame"
         },
         {
-          "rank": 8,
-          "name": "Poison Summon Raging Spirits (Poison SRS)",
-          "class": "Necromancer",
-          "tier": "B",
-          "playstyle": "All-Rounder",
+          "rank": 6,
+          "name": "Righteous Fire",
+          "class": "Chieftain",
+          "tier": "A",
+          "playstyle": "Tanker",
+          "budget": "Thấp",
+          "difficulty": "Dễ",
+          "clear": 4,
+          "boss": 3,
+          "tank": 5,
+          "why": "Cực kỳ trâu bò, thao tác ít và độ an toàn tối đa, là lựa chọn lý tưởng cho người chơi mới muốn trải nghiệm nhẹ nhàng.",
+          "guides": [],
+          "id": "3-29-curse-of-the-allflame-righteous-fire",
+          "season": "3.29 Curse of the Allflame"
+        },
+        {
+          "rank": 7,
+          "name": "Toxic Rain",
+          "class": "Pathfinder",
+          "tier": "A",
+          "playstyle": "Speed Mapper",
           "budget": "Thấp",
           "difficulty": "Dễ",
           "clear": 4,
           "boss": 4,
           "tank": 4,
-          "why": "Build Minion cực kỳ an toàn cho người mới, đồ đạc dễ kiếm và lối chơi đứng từ xa thả đệ đánh giúp vượt nội dung game mượt mà.",
+          "why": "Tốc độ di chuyển cao, ngân sách dưới 10 Divine Orb, dọn Map mượt và đặc biệt tối ưu cho cày Heist.",
           "guides": [
             {
-              "title": "BalorMage's Poison Summon Raging Spirits Necromancer Build Guide",
-              "url": "https://www.poe-vault.com/guides/balormage-summon-raging-spirits-necromancer-build-guide"
-            },
-            {
-              "title": "Poison SRS Necromancer League Starter",
-              "url": "https://maxroll.gg/poe/build-guides/poison-srs-necromancer-league-starter"
+              "title": "PathofEvening's Toxic Rain Pathfinder Build Guide",
+              "url": "https://www.poe-vault.com/guides/toxic-rain-pathfinder-build-guide"
             }
           ],
-          "id": "3-29-curse-of-the-allflame-poison-summon-raging-spirits-poison-srs",
+          "id": "3-29-curse-of-the-allflame-toxic-rain",
+          "season": "3.29 Curse of the Allflame"
+        },
+        {
+          "rank": 8,
+          "name": "Explosive Arrow Ballista",
+          "class": "Hierophant",
+          "tier": "A",
+          "playstyle": "All-Rounder",
+          "budget": "Thấp",
+          "difficulty": "Dễ",
+          "clear": 4,
+          "boss": 5,
+          "tank": 4,
+          "why": "Khả năng diệt Boss vượt trội ở mức ngân sách thấp, đặt Totem giữ khoảng cách giúp hoàn thành endgame an toàn.",
+          "guides": [
+            {
+              "title": "POEGuy's Explosive Arrow Ballista Hierophant Build Guide",
+              "url": "https://www.poe-vault.com/guides/explosive-arrow-ballista-hierophant-build-guide"
+            }
+          ],
+          "id": "3-29-curse-of-the-allflame-explosive-arrow-ballista",
           "season": "3.29 Curse of the Allflame"
         },
         {
@@ -185,16 +181,16 @@
           "difficulty": "Dễ",
           "clear": 4,
           "boss": 3,
-          "tank": 3,
-          "why": "Lối chơi xoay 1 nút bấm đơn giản, dễ chơi, hoạt động tốt với các món unique giá rẻ như Carnage Heart để cày tiền đầu mùa.",
+          "tank": 4,
+          "why": "Lối chơi xoay một nút đơn giản, dễ vận hành và chỉ cần các món trang bị Unique giá rẻ là có thể hoạt động tốt.",
           "guides": [
-            {
-              "title": "Cyclone Slayer Build Guide (PoE Curse of the Allflame 3.29)",
-              "url": "https://www.poe-vault.com/guides/murder-on-a-budget-cyclone-slayer-build-guide"
-            },
             {
               "title": "Cyclone Shockwave Slayer League Starter",
               "url": "https://maxroll.gg/poe/build-guides/cyclone-shockwave-slayer-league-starter"
+            },
+            {
+              "title": "Cyclone Slayer Build Guide",
+              "url": "https://www.poe-vault.com/guides/murder-on-a-budget-cyclone-slayer-build-guide"
             }
           ],
           "id": "3-29-curse-of-the-allflame-cyclone-shockwave",
@@ -202,31 +198,35 @@
         },
         {
           "rank": 10,
-          "name": "Exsanguinate Miner",
-          "class": "Trickster",
-          "tier": "A",
-          "playstyle": "Speed Mapper",
+          "name": "Poison SRS (Summon Raging Spirits)",
+          "class": "Necromancer",
+          "tier": "B",
+          "playstyle": "All-Rounder",
           "budget": "Thấp",
           "difficulty": "Trung bình",
-          "clear": 5,
-          "boss": 3,
-          "tank": 3,
-          "why": "Khả năng dọn toàn màn hình vượt trội, cực kỳ thích hợp để farm Expedition ở giai đoạn League Start.",
+          "clear": 4,
+          "boss": 4,
+          "tank": 4,
+          "why": "Cung cấp sự cân bằng tốt giữa tốc độ dọn map và sát thương mục tiêu đơn, thích hợp để cày currency lấy 4 Voidstone.",
           "guides": [
             {
-              "title": "Exsanguinate Miner Trickster League Starter",
-              "url": "https://maxroll.gg/poe/build-guides/exsanguinate-miner-trickster-league-starter"
+              "title": "Poison SRS Necromancer League Starter",
+              "url": "https://maxroll.gg/poe/build-guides/poison-srs-necromancer-league-starter"
+            },
+            {
+              "title": "BalorMage's Poison Summon Raging Spirits Necromancer Build Guide",
+              "url": "https://www.poe-vault.com/guides/balormage-summon-raging-spirits-necromancer-build-guide"
             }
           ],
-          "id": "3-29-curse-of-the-allflame-exsanguinate-miner",
+          "id": "3-29-curse-of-the-allflame-poison-srs-summon-raging-spirits",
           "season": "3.29 Curse of the Allflame"
         }
       ],
-      "notes": "Mùa giải PoE 3.29 Curse of the Allflame chứng kiến sự lên ngôi của các Spellcaster nhờ đợt buff phép thuật rộng rãi và việc bỏ giới hạn màu socket khi craft đồ. Các lối chơi Totem (Storm Burst, Kinetic Fusillade), Melee Slams và Minion vẫn là sự lựa chọn an toàn và rẻ nhất cho người chơi bắt đầu với 0 vốn.",
+      "notes": "Meta mùa 3.29 Curse of the Allflame đánh dấu sự trỗi dậy của các build Totem (Storm Burst, Kinetic Fusillade), Melee Slams (Slayer/Berserker), Minion (Animate Weapon) và Spellcaster vừa được buff (Winter Orb). Người chơi xuất phát điểm 0 vốn nên ưu tiên Totem, Slams hoặc Minion để có độ an toàn cao và không phụ thuộc trang bị đắt tiền.",
       "sources": [
         "https://maxroll.gg/poe/tierlists/league-starter-build-tier-list",
         "https://www.poe-vault.com/guides/tag/cheap-budget-friendly-builds-for-path-of-exile",
-        "https://www.poe-vault.com/guides/builds-for-path-of-exile?tag=1",
+        "https://www.poe-vault.com/guides/curse-of-the-all-flames-league-starters",
         "https://rank1gear.com/en/blog/poe-329-curse-of-the-allflame-league-start-tier-list",
         "https://www.mtmmo.com/news/2288--poe-329-builds-tier-list-curse-of-the-allflame-league"
       ],
@@ -407,5 +407,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-09T02:01:03.728Z"
+  "updatedAt": "2026-11-10T04:19:11.639Z"
 }

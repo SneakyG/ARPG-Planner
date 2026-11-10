@@ -10044,9 +10044,9 @@
       "name": "Polaric Invitation",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVlc3RJdGVtcy9DbGVhbnNpbmdGaXJlT3JiUXVlc3QwIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/b2cc512e70/CleansingFireOrbQuest0.png",
       "category": "Invitation",
-      "chaos": 247,
-      "divine": 0.47,
-      "change": 394,
+      "chaos": 236.2,
+      "divine": 0.45,
+      "change": 372.4,
       "spark": [
         0,
         20,
@@ -10054,19 +10054,19 @@
         80,
         189.2,
         425,
-        394
+        372.4
       ],
       "volume": null,
-      "listings": 217
+      "listings": 219
     },
     {
       "id": "writhing-invitation",
       "name": "Writhing Invitation",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVlc3RJdGVtcy9UYW5nbGVkT3JiUXVlc3QwIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/5dbc2f3ffc/TangledOrbQuest0.png",
       "category": "Invitation",
-      "chaos": 192,
+      "chaos": 192.5,
       "divine": 0.37,
-      "change": 291.4,
+      "change": 292.5,
       "spark": [
         0,
         29.46,
@@ -10074,10 +10074,10 @@
         83.49,
         185.8,
         307.8,
-        291.4
+        292.5
       ],
       "volume": null,
-      "listings": 208
+      "listings": 210
     },
     {
       "id": "screaming-invitation",
@@ -10097,7 +10097,7 @@
         70
       ],
       "volume": null,
-      "listings": 7411
+      "listings": 7403
     },
     {
       "id": "incandescent-invitation",
@@ -10117,16 +10117,16 @@
         7.14
       ],
       "volume": null,
-      "listings": 4759
+      "listings": 4764
     },
     {
       "id": "farric-tiger-alpha",
       "name": "Farric Tiger Alpha",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQmVzdGlhcnlPcmJGdWxsIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/3214b44360/BestiaryOrbFull.png",
       "category": "Beast",
-      "chaos": 2620,
+      "chaos": 2626,
       "divine": 5,
-      "change": 1646,
+      "change": 1650,
       "spark": [
         0,
         0,
@@ -10134,7 +10134,7 @@
         -7.13,
         0,
         562.9,
-        1646
+        1650
       ],
       "volume": null,
       "listings": 103
@@ -10144,9 +10144,9 @@
       "name": "Black Mórrigan",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQmVzdGlhcnlPcmJGdWxsIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/3214b44360/BestiaryOrbFull.png",
       "category": "Beast",
-      "chaos": 2620,
+      "chaos": 2626,
       "divine": 5,
-      "change": 63.51,
+      "change": 63.89,
       "spark": [
         0,
         -24.87,
@@ -10154,19 +10154,19 @@
         -6.46,
         -12.61,
         21.1,
-        63.51
+        63.89
       ],
       "volume": null,
-      "listings": 504
+      "listings": 516
     },
     {
       "id": "craicic-croaker",
       "name": "Craicic Croaker",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQmVzdGlhcnlPcmJGdWxsIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/3214b44360/BestiaryOrbFull.png",
       "category": "Beast",
-      "chaos": 1572,
+      "chaos": 1575,
       "divine": 3,
-      "change": 32.45,
+      "change": 32.75,
       "spark": [
         0,
         -27.06,
@@ -10174,7 +10174,7 @@
         17.13,
         17.48,
         51.1,
-        32.45
+        32.75
       ],
       "volume": null,
       "listings": 5318
@@ -10184,9 +10184,9 @@
       "name": "Fenumal Plagued Arachnid",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQmVzdGlhcnlPcmJGdWxsIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/3214b44360/BestiaryOrbFull.png",
       "category": "Beast",
-      "chaos": 523.9,
+      "chaos": 525.1,
       "divine": 1,
-      "change": 178.7,
+      "change": 179.3,
       "spark": [
         0,
         27.66,
@@ -10194,7 +10194,7 @@
         58.3,
         54.26,
         313.7,
-        178.7
+        179.3
       ],
       "volume": null,
       "listings": 915
@@ -10204,9 +10204,9 @@
       "name": "Farrul, First of the Plains",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQmVzdGlhcnlPcmJGdWxsIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/3214b44360/BestiaryOrbFull.png",
       "category": "Beast",
-      "chaos": 509.2,
+      "chaos": 510.1,
       "divine": 0.97,
-      "change": 69.74,
+      "change": 70.02,
       "spark": [
         null,
         0,
@@ -10214,7 +10214,7 @@
         0,
         52.4,
         66.07,
-        69.74
+        70.02
       ],
       "volume": null,
       "listings": 30
@@ -10237,7 +10237,7 @@
         286.1
       ],
       "volume": null,
-      "listings": 289
+      "listings": 286
     },
     {
       "id": "feral-fowl",
@@ -14112,9 +14112,9 @@
       "name": "Craicic Savage Crab",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQmVzdGlhcnlPcmJGdWxsIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/3214b44360/BestiaryOrbFull.png",
       "category": "Beast",
-      "chaos": 0.33,
+      "chaos": 0.32,
       "divine": null,
-      "change": 65,
+      "change": 60,
       "spark": [
         0,
         0,
@@ -14122,7 +14122,7 @@
         400,
         400,
         400,
-        65
+        60
       ],
       "volume": null,
       "listings": 4919
@@ -14132,9 +14132,9 @@
       "name": "Craicic Watcher",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQmVzdGlhcnlPcmJGdWxsIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/3214b44360/BestiaryOrbFull.png",
       "category": "Beast",
-      "chaos": 0.33,
+      "chaos": 0.32,
       "divine": null,
-      "change": -59.76,
+      "change": -60.98,
       "spark": [
         0,
         -0.61,
@@ -14142,7 +14142,7 @@
         21.95,
         21.95,
         21.95,
-        -59.76
+        -60.98
       ],
       "volume": null,
       "listings": 1559
@@ -14152,9 +14152,9 @@
       "name": "Fenumal Scrabbler",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQmVzdGlhcnlPcmJGdWxsIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/3214b44360/BestiaryOrbFull.png",
       "category": "Beast",
-      "chaos": 0.33,
+      "chaos": 0.32,
       "divine": null,
-      "change": 65,
+      "change": 60,
       "spark": [
         0,
         160,
@@ -14162,7 +14162,7 @@
         400,
         400,
         400,
-        65
+        60
       ],
       "volume": null,
       "listings": 2932
@@ -14172,5 +14172,5 @@
   "sources": [
     "https://poe.ninja"
   ],
-  "updatedAt": "2026-11-10T03:36:23.640Z"
+  "updatedAt": "2026-11-10T04:18:12.836Z"
 }

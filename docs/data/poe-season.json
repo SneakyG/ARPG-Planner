@@ -2,40 +2,31 @@
   "name": "Curse of the Allflame",
   "patch": "3.29",
   "start": "2026-07-24",
-  "end": "",
+  "end": "2026-12-07 (ước tính)",
   "mechanics": [
     {
-      "name": "Lost Charts & Thám hiểm đáy biển (Bathysphere)",
-      "desc": "Người chơi tìm Lost Charts trong Map, lên tàu The Sovereign và dùng buồng lặn Bathysphere lặn xuống đáy đại dương. Đặt Allflame Lanterns để tạo vùng an toàn dưỡng khí, tiêu diệt quái vật và thu hoạch Luminous Coral chuyển thành Dead Man's Sulphur."
-    },
-    {
-      "name": "Voyages",
-      "desc": "Thu thập và ghép 9 Charts trên một bảng lưới để bắt đầu một Voyage rộng lớn với nhiều modifier liên kết và cộng dồn phần thưởng, đồng thời dùng Allflame Capsule để chuyển trang bị nhặt được lên bờ."
+      "name": "Thám hiểm đáy biển & Hải trình (Voyages)",
+      "desc": "Người chơi thu thập Lost Charts trong Map để cùng thuyền trưởng Valerie và navigator Vesper lặn xuống đáy biển bằng Bathysphere. Tại đây, người chơi đặt Allflame Lanterns tạo vùng an toàn để tiêu diệt quái vật và thu thập Dead Man's Sulphur."
     },
     {
       "name": "Allflame Crafting & Ducats",
-      "desc": "Hệ thống chế tạo định hướng trên tàu The Sovereign dùng Dead Man's Sulphur làm nhiên liệu, cho phép chọn 1 trong tối đa 4 kết quả mong muốn khi ép tiền tệ, cùng các loại tiền tệ Ducat với hiệu ứng độc quyền."
-    },
-    {
-      "name": "Mercenaries of Trarthus (Core)",
-      "desc": "Cơ chế lính đánh thuê chính thức vào core với cây Atlas Passive và Scarab riêng; lính đánh thuê không còn tồn tại vĩnh viễn theo mặc định và có thể đóng chai thành Warrant sau khi đánh bại qua Rematch."
+      "desc": "Hệ thống chế đồ mới trên tàu The Sovereign sử dụng Dead Man's Sulphur làm nhiên liệu để hiển thị trước tối đa 4 kết quả chế tác cho người chơi lựa chọn, kết hợp với các đồng tiền Ducats mang lại hiệu ứng chế tạo độc bản."
     }
   ],
   "changes": [
-    "Rework Abyss: Loại bỏ việc chạy đuổi theo vết nứt; các hố Abyssal mở sẵn và triệu hồi Abyssal Legion khi tiêu diệt quái bị khống chế; Abyss là nguồn rớt duy nhất của Abyssal Jewels và Stygian Vises; xóa bỏ Abyssal Delirium Orbs; bổ sung Pinnacle Boss mới.",
-    "Rework Legion: Dễ dàng mở khóa quái và rương hơn; Splinter rơi ít hơn nhưng stack size lớn hơn; xóa Unrelenting Timeless Emblems; Legion Generals có thể rơi Enshrouding Crystals dùng để nâng cấp Unique Armour trong Domain of Timeless Conflict.",
-    "Đại tu hệ thống Socket: Mặc định mọi trang bị luôn có socket màu trắng cho phép gắn mọi Gem; Chromatic Orb đảm bảo tạo ra socket màu (Đỏ, Xanh lá, Xanh dương); gắn Gem đúng màu socket tăng thêm +10% Gem Quality.",
-    "Tăng sức mạnh lớn cho caster: Hầu hết các kỹ năng Spell (đặc biệt là nhóm tự cast / self-cast) đều được buff trong bản cập nhật.",
-    "Ascendancy mới của Scion - Luminary: Cho phép thuê Mercenary vĩnh viễn và mở khóa từng slot trang bị Unique cho Mercenary.",
-    "Cải tổ Talisman: Không còn rơi ra ở trạng thái Corrupted, implicit được thay bằng modifier Enchanted mạnh mẽ (cạnh tranh với Anoint)."
+    "Loại bỏ hạn chế màu của socket: Hầu hết socket trở thành không màu và nhận mọi Skill Gem, nếu lắp đúng màu gem sẽ được cộng thêm Quality",
+    "Làm lại mechanic Abyss: Bỏ cơ chế bám theo vết nứt di chuyển, thay bằng các hố Abyss mở sẵn thu thập linh hồn quái vật để triệu hồi Abyssal Legion và Kulemak; Abyss trở thành nguồn duy nhất rớt Abyssal Jewels và Stygian Vises",
+    "Làm lại mechanic Legion: Bỏ Unrelenting Timeless Emblems, giảm số lượng Splinter rơi nhưng tăng size của stack, bổ sung Enshrouding Crystal rơi từ Legion Generals để biến Unique Armour thành dạng Enshrouded",
+    "Đưa Mercenaries of Trarthus trở thành cơ chế core từ Act 3 và ra mắt Ascendancy mới Luminary dành riêng cho Scion giúp biến Mercenary thành đồng hành vĩnh viễn",
+    "Cải tổ toàn bộ hệ thống Spellcasting: buff archetype self-cast, nâng cấp gậy phép (caster staves), chỉnh sửa hơn 100 phép thuật và thêm loại gem mới Pacts từ Beyond bosses/Lycia"
   ],
   "next": "",
   "sources": [
     "https://www.arcanestash.com/guides/curse-of-the-allflame-new-path-of-exile-1-league",
-    "https://pathofisildur.pl/poe1/patchnote/",
     "https://maxroll.gg/poe/news/3-29-curse-of-the-allflame-reveal-summary",
-    "https://maxroll.gg/poe/news/poe-3-29-curse-of-the-allflame-league-branch-update"
+    "https://tech.yahoo.com/gaming/articles/path-exile-curse-allflame-guide-230714063.html",
+    "https://ggseason.com/blog/path-of-exile-all-leagues-dates/"
   ],
-  "model": "gemini-3.8-flash",
-  "updatedAt": "2026-11-08T01:49:12.384Z"
+  "model": "gemini-3.6-flash",
+  "updatedAt": "2026-11-10T04:18:29.531Z"
 }
