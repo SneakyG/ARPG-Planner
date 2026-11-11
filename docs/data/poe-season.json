@@ -2,31 +2,32 @@
   "name": "Curse of the Allflame",
   "patch": "3.29",
   "start": "2026-07-24",
-  "end": "2026-12-07 (ước tính)",
+  "end": "",
   "mechanics": [
     {
-      "name": "Thám hiểm đáy biển & Hải trình (Voyages)",
-      "desc": "Người chơi thu thập Lost Charts trong Map để cùng thuyền trưởng Valerie và navigator Vesper lặn xuống đáy biển bằng Bathysphere. Tại đây, người chơi đặt Allflame Lanterns tạo vùng an toàn để tiêu diệt quái vật và thu thập Dead Man's Sulphur."
+      "name": "Thám hiểm Đáy biển & Voyages",
+      "desc": "Người chơi thu thập Lost Charts trong Maps, lên tàu The Sovereign và dùng buồng lặn Bathysphere xuống đáy biển. Tại đây, đặt các Allflame Lanterns để tạo vùng an toàn thu thập tài nguyên trước khi đèn tắt, sau đó có thể ghép nhiều Chart trên Voyage Board để tạo hành trình Voyage quy mô lớn với nhiều modifier khuếch đại phần thưởng."
     },
     {
       "name": "Allflame Crafting & Ducats",
-      "desc": "Hệ thống chế đồ mới trên tàu The Sovereign sử dụng Dead Man's Sulphur làm nhiên liệu để hiển thị trước tối đa 4 kết quả chế tác cho người chơi lựa chọn, kết hợp với các đồng tiền Ducats mang lại hiệu ứng chế tạo độc bản."
+      "desc": "Sử dụng Dead Man's Sulphur tại lò rèn của Vesper trên tàu The Sovereign để phân tách trang bị thành nhiều kết quả ảo (ghostly outcomes) và tự chọn kết quả mong muốn thay vì chế tạo ngẫu nhiên. Đồng thời, tìm kiếm các đồng Ducat đặc biệt ở đáy biển để biến đổi trang bị theo các thuộc tính độc quyền."
     }
   ],
   "changes": [
-    "Loại bỏ hạn chế màu của socket: Hầu hết socket trở thành không màu và nhận mọi Skill Gem, nếu lắp đúng màu gem sẽ được cộng thêm Quality",
-    "Làm lại mechanic Abyss: Bỏ cơ chế bám theo vết nứt di chuyển, thay bằng các hố Abyss mở sẵn thu thập linh hồn quái vật để triệu hồi Abyssal Legion và Kulemak; Abyss trở thành nguồn duy nhất rớt Abyssal Jewels và Stygian Vises",
-    "Làm lại mechanic Legion: Bỏ Unrelenting Timeless Emblems, giảm số lượng Splinter rơi nhưng tăng size của stack, bổ sung Enshrouding Crystal rơi từ Legion Generals để biến Unique Armour thành dạng Enshrouded",
-    "Đưa Mercenaries of Trarthus trở thành cơ chế core từ Act 3 và ra mắt Ascendancy mới Luminary dành riêng cho Scion giúp biến Mercenary thành đồng hành vĩnh viễn",
-    "Cải tổ toàn bộ hệ thống Spellcasting: buff archetype self-cast, nâng cấp gậy phép (caster staves), chỉnh sửa hơn 100 phép thuật và thêm loại gem mới Pacts từ Beyond bosses/Lycia"
+    "Loại bỏ giới hạn màu của Socket: Bất kỳ Skill Gem hoặc Support Gem nào cũng có thể lắp vào mọi Socket, việc lắp trùng màu Socket giờ đây sẽ thưởng thêm Quality cho Gem.",
+    "Làm lại cơ chế Abyss: Loại bỏ việc đuổi theo vết nứt; các hố Abyssal mở sẵn và hấp thụ linh hồn quái vật xung quanh để triệu hồi Abyssal Legion; trở thành nguồn duy nhất rơi Abyssal Jewels và Stygian Vises; bổ sung một Pinnacle Boss mới với Unique riêng.",
+    "Làm lại phần thưởng Legion: Bổ sung Enshrouding Crystals rơi từ Legion Generals, cho phép cường hóa Unique Armour trong Domain of Timeless Conflict để tạo ra Vestigial Unique Items kế thừa modifier.",
+    "Bổ sung Ascendancy mới cho Scion là Luminary, xoay quanh việc tuyển mộ vĩnh viễn và trang bị đồ đạc cho Mercenaries (Mercenaries of Trarthus).",
+    "Thêm hệ thống Atlas Anomalies xuất hiện sau khi hoàn thành Map có Voidstone, mang lại các khu vực phần thưởng độc lập (như gặp Cadiro Perandus, Reflecting Mists, Nameless Seer, Heist Blueprint).",
+    "Đại tu Spellcaster: Cân bằng lại hơn 100 Spells, buff dòng vũ khí staves, bổ sung loại Exceptional Skill Gems mới mang tên Pacts (nhận từ Beyond boss hoặc Lycia) cho phép đánh đổi buff cực mạnh với affliction bản thân."
   ],
   "next": "",
   "sources": [
     "https://www.arcanestash.com/guides/curse-of-the-allflame-new-path-of-exile-1-league",
-    "https://maxroll.gg/poe/news/3-29-curse-of-the-allflame-reveal-summary",
+    "https://www.poebuilds.net/post/path-of-exile-3-29-curse-of-the-allflame",
     "https://tech.yahoo.com/gaming/articles/path-exile-curse-allflame-guide-230714063.html",
-    "https://ggseason.com/blog/path-of-exile-all-leagues-dates/"
+    "https://neonsect.com/path-of-exile/poe-329-curse-allflame-mechanics-guide/"
   ],
-  "model": "gemini-3.6-flash",
-  "updatedAt": "2026-11-10T04:18:29.531Z"
+  "model": "gemini-3.8-flash",
+  "updatedAt": "2026-11-11T02:15:30.576Z"
 }

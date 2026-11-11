@@ -4,63 +4,60 @@
   "status": {
     "poe:items": {
       "ok": true,
-      "at": "2026-11-10T21:19:43.921Z",
-      "info": "740 món",
-      "ms": 5808
+      "at": "2026-11-11T02:13:14.474Z",
+      "info": "692 món",
+      "ms": 2077
     },
     "poe:season": {
       "ok": true,
-      "at": "2026-11-10T04:18:29.531Z",
+      "at": "2026-11-11T02:15:30.576Z",
       "info": "",
-      "ms": 16692
+      "ms": 136102
     },
     "poe:builds": {
-      "ok": true,
-      "at": "2026-11-10T04:19:11.639Z",
-      "info": "10 build",
-      "ms": 42108
+      "ok": false,
+      "at": "2026-11-11T02:19:34.168Z",
+      "error": "The operation was aborted due to timeout"
     },
     "poe:farm": {
-      "ok": true,
-      "at": "2026-11-10T04:19:30.949Z",
-      "info": "",
-      "ms": 11306
+      "ok": false,
+      "at": "2026-11-11T02:23:46.961Z",
+      "error": "The operation was aborted due to timeout"
     },
     "poe:guides": {
       "ok": true,
-      "at": "2026-11-10T04:20:13.394Z",
-      "info": "tạo 2, lỗi 0",
-      "ms": 34443
+      "at": "2026-11-11T02:23:54.966Z",
+      "info": "tạo 0, lỗi 0",
+      "ms": 1
     },
     "tli:season": {
-      "ok": true,
-      "at": "2026-11-10T04:20:35.819Z",
-      "info": "",
-      "ms": 14421
+      "ok": false,
+      "at": "2026-11-11T02:28:06.370Z",
+      "error": "The operation was aborted due to timeout"
     },
     "tli:builds": {
       "ok": true,
-      "at": "2026-11-10T04:20:51.925Z",
-      "info": "9 build",
-      "ms": 8104
+      "at": "2026-11-11T02:32:08.472Z",
+      "info": "10 build",
+      "ms": 234098
     },
     "tli:farm": {
       "ok": true,
-      "at": "2026-11-10T04:21:28.043Z",
+      "at": "2026-11-11T02:33:31.362Z",
       "info": "",
-      "ms": 28117
+      "ms": 74888
     },
     "tli:items": {
       "ok": true,
-      "at": "2026-11-10T04:21:55.222Z",
+      "at": "2026-11-11T02:33:54.070Z",
       "info": "0 món",
-      "ms": 19175
+      "ms": 14704
     },
     "tli:guides": {
       "ok": true,
-      "at": "2026-11-10T04:22:18.391Z",
-      "info": "tạo 1, lỗi 0",
-      "ms": 14659
+      "at": "2026-11-11T02:34:02.880Z",
+      "info": "tạo 0, lỗi 0",
+      "ms": 1
     },
     "poe:cleanup": {
       "ok": true,
@@ -69,7 +66,7 @@
     },
     "tli:pacts": {
       "ok": false,
-      "at": "2026-11-10T04:22:03.732Z",
+      "at": "2026-11-11T02:34:02.879Z",
       "error": "Chỉ đọc được 0 Pactspirit từ tlidb.com (trang có thể đã chặn máy chủ GitHub hoặc đổi cấu trúc). Giữ danh sách đã có."
     },
     "tli:cleanup": {
@@ -79,5 +76,5 @@
     }
   },
   "guidesTopN": 5,
-  "updatedAt": "2026-11-10T21:19:43.922Z"
+  "updatedAt": "2026-11-11T02:34:10.884Z"
 }
