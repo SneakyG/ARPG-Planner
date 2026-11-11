@@ -4,58 +4,57 @@
   "status": {
     "poe:items": {
       "ok": true,
-      "at": "2026-11-11T06:30:57.985Z",
-      "info": "727 món",
-      "ms": 1281
+      "at": "2026-11-11T14:58:52.681Z",
+      "info": "778 món",
+      "ms": 1376
     },
     "poe:season": {
-      "ok": true,
-      "at": "2026-11-11T02:15:30.576Z",
-      "info": "",
-      "ms": 136102
+      "ok": false,
+      "at": "2026-11-11T15:02:54.415Z",
+      "error": "The operation was aborted due to timeout"
     },
     "poe:builds": {
       "ok": false,
-      "at": "2026-11-11T02:19:34.168Z",
+      "at": "2026-11-11T15:06:57.047Z",
       "error": "The operation was aborted due to timeout"
     },
     "poe:farm": {
       "ok": false,
-      "at": "2026-11-11T02:23:46.961Z",
+      "at": "2026-11-11T15:11:06.875Z",
       "error": "The operation was aborted due to timeout"
     },
     "poe:guides": {
       "ok": true,
-      "at": "2026-11-11T02:23:54.966Z",
+      "at": "2026-11-11T15:11:14.880Z",
       "info": "tạo 0, lỗi 0",
       "ms": 1
     },
     "tli:season": {
-      "ok": false,
-      "at": "2026-11-11T02:28:06.370Z",
-      "error": "The operation was aborted due to timeout"
+      "ok": true,
+      "at": "2026-11-11T15:11:40.705Z",
+      "info": "",
+      "ms": 17822
     },
     "tli:builds": {
       "ok": true,
-      "at": "2026-11-11T02:32:08.472Z",
+      "at": "2026-11-11T15:12:10.076Z",
       "info": "10 build",
-      "ms": 234098
+      "ms": 21369
     },
     "tli:farm": {
       "ok": true,
-      "at": "2026-11-11T02:33:31.362Z",
+      "at": "2026-11-11T15:12:49.518Z",
       "info": "",
-      "ms": 74888
+      "ms": 31439
     },
     "tli:items": {
-      "ok": true,
-      "at": "2026-11-11T02:33:54.070Z",
-      "info": "0 món",
-      "ms": 14704
+      "ok": false,
+      "at": "2026-11-11T15:13:07.865Z",
+      "error": "Không model Gemini nào trả lời được → gemini-3.8-flash: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. · gemini-3.6-flash: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. · gemini-3.5-flash-lite: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. · gemini-3.1-flash-lite: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
     },
     "tli:guides": {
       "ok": true,
-      "at": "2026-11-11T02:34:02.880Z",
+      "at": "2026-11-11T15:13:16.385Z",
       "info": "tạo 0, lỗi 0",
       "ms": 1
     },
@@ -66,7 +65,7 @@
     },
     "tli:pacts": {
       "ok": false,
-      "at": "2026-11-11T02:34:02.879Z",
+      "at": "2026-11-11T15:13:16.384Z",
       "error": "Chỉ đọc được 0 Pactspirit từ tlidb.com (trang có thể đã chặn máy chủ GitHub hoặc đổi cấu trúc). Giữ danh sách đã có."
     },
     "tli:cleanup": {
@@ -76,5 +75,5 @@
     }
   },
   "guidesTopN": 5,
-  "updatedAt": "2026-11-11T06:30:57.985Z"
+  "updatedAt": "2026-11-11T15:13:24.389Z"
 }

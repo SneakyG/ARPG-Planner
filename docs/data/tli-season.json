@@ -1,22 +1,22 @@
 {
   "name": "Tartarus",
   "patch": "SS14",
-  "start": "",
-  "end": "",
+  "start": "Không đề cập trong nguồn",
+  "end": "Không đề cập trong nguồn",
   "mechanics": [
     {
       "name": "Tartarus Prison",
-      "desc": "Săn lùng các Inmates trốn thoát và tống họ trở lại nhà tù Tartarus dưới quyền kiểm soát của Warden."
+      "desc": "Người chơi vào vai Warden truy lùng những tù nhân vượt ngục (escaped Inmates) kiêu ngạo và tống họ trở lại nhà tù Tartarus."
     }
   ],
   "changes": [
-    "Thêm tướng mới Rosa (Redefine The Knight)",
-    "Thêm các chế độ chơi mới Solo Self Found và Hardcore"
+    "Thêm Hero mới: Rosa (Redefine the Knight).",
+    "Bổ sung các chế độ chơi mới: Solo Self Found & Hardcore."
   ],
-  "next": "",
+  "next": "Không đề cập trong nguồn",
   "sources": [
     "https://torchlight.xd.com/index"
   ],
   "model": "gemini-3.6-flash",
-  "updatedAt": "2026-11-10T04:20:35.819Z"
+  "updatedAt": "2026-11-11T15:11:40.705Z"
 }
