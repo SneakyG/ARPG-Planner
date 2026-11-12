@@ -4,21 +4,22 @@
     {
       "key": "starter",
       "title": "Giai đoạn Khởi đầu (Starter)",
-      "budget": "0 vốn (Flame Elementium)",
-      "content": "Chưa có thông tin cụ thể về Netherrealm tier trong NGUỒN",
+      "budget": "0 vốn (0 Flame Elementium)",
+      "content": "Nguồn không đề cập chi tiết Netherrealm tier cụ thể",
       "strategies": [
         {
-          "name": "Săn Inmates vượt ngục trong Tartarus Prison",
-          "where": "Tartarus Prison",
-          "setup": "Chưa có thông tin về Compass/Probe/Memory trong NGUỒN",
+          "name": "Farm cơ chế mùa giải Tartarus",
+          "where": "Săn lùng các Inmates vượt ngục (escaped Inmates) tại Tartarus Prison theo nội dung mùa giải Tartarus",
+          "setup": "Nguồn không cung cấp chi tiết setup Compass/Probe/Memory",
           "steps": [
-            "Sử dụng quyền năng của Warden để săn lùng các Inmates đã vượt ngục",
-            "Bắt và tống giam các Inmates trở lại Tartarus Prison"
+            "Tạo nhân vật mới (ví dụ Hero Rosa - Redefine the Knight).",
+            "Truy bắt và đánh bại các Inmates vượt ngục trong Tartarus Prison.",
+            "Thu thập tài nguyên ban đầu từ tính năng Endless Loot và các trận chiến Fast & Thrilling Battles."
           ],
           "maps": [
             {
               "name": "Tartarus Prison",
-              "note": "Nơi giam giữ các Inmates và diễn ra cơ chế mùa giải Tartarus",
+              "note": "Khu vực nhà tù chứa các Inmates vượt ngục trong mùa giải Tartarus",
               "url": "https://torchlight.xd.com/en/ep",
               "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Tartarus%20Prison"
             }
@@ -26,119 +27,84 @@
           "trees": [],
           "links": [
             {
-              "title": "Trang tin Mùa giải Tartarus",
+              "title": "Trang thông tin Mùa giải Tartarus",
               "url": "https://torchlight.xd.com/en/ep"
             }
           ],
           "profit": "chưa có số liệu",
-          "requires": "Build khởi đầu mùa giải",
+          "requires": "Build starter cơ bản (như Hero Rosa mới)",
           "risk": "Thấp",
-          "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20S%C4%83n%20Inmates%20v%C6%B0%E1%BB%A3t%20ng%E1%BB%A5c%20trong%20Tartarus%20Prison",
-          "treeSearch": "https://www.youtube.com/results?search_query=Torchlight%20Infinite%20SS14%20Tartarus%20S%C4%83n%20Inmates%20v%C6%B0%E1%BB%A3t%20ng%E1%BB%A5c%20trong%20Tartarus%20Prison%20farming%20setup"
-        },
-        {
-          "name": "Thu thập Endless Loot từ các trận chiến nhanh",
-          "where": "Fast & Thrilling Battles trong Mùa giải Tartarus",
-          "setup": "Chưa có thông tin trong NGUỒN",
-          "steps": [
-            "Tham gia vào các trận chiến Fast & Thrilling Battles",
-            "Thu thập vật phẩm rơi ra từ cơ chế Endless Loot"
-          ],
-          "maps": [],
-          "trees": [],
-          "links": [
-            {
-              "title": "Torchlight: Infinite Trang chủ",
-              "url": "https://torchlight.xd.com/index"
-            }
-          ],
-          "profit": "chưa có số liệu",
-          "requires": "Build căn bản có khả năng dọn quái nhanh",
-          "risk": "Trung bình",
-          "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Thu%20th%E1%BA%ADp%20Endless%20Loot%20t%E1%BB%AB%20c%C3%A1c%20tr%E1%BA%ADn%20chi%E1%BA%BFn%20nhanh",
-          "treeSearch": "https://www.youtube.com/results?search_query=Torchlight%20Infinite%20SS14%20Tartarus%20Thu%20th%E1%BA%ADp%20Endless%20Loot%20t%E1%BB%AB%20c%C3%A1c%20tr%E1%BA%ADn%20chi%E1%BA%BFn%20nhanh%20farming%20setup"
+          "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Farm%20c%C6%A1%20ch%E1%BA%BF%20m%C3%B9a%20gi%E1%BA%A3i%20Tartarus",
+          "treeSearch": "https://www.youtube.com/results?search_query=Torchlight%20Infinite%20SS14%20Tartarus%20Farm%20c%C6%A1%20ch%E1%BA%BF%20m%C3%B9a%20gi%E1%BA%A3i%20Tartarus%20farming%20setup"
         }
       ]
     },
     {
       "key": "mid",
-      "title": "Giai đoạn Tầm trung (Midgame)",
-      "budget": "Chưa có thông tin trong NGUỒN",
-      "content": "Chưa có thông tin cụ thể về Netherrealm tier trong NGUỒN",
+      "title": "Giai đoạn Trung cấp (Mid-game)",
+      "budget": "chưa có số liệu",
+      "content": "Nguồn không đề cập chi tiết Netherrealm tier cụ thể",
       "strategies": [
         {
-          "name": "Giao dịch vật phẩm qua hệ thống Trade at Will",
-          "where": "Hệ thống thị trường Trade at Will",
-          "setup": "Chưa có thông tin trong NGUỒN",
+          "name": "Giao dịch vật phẩm và tích lũy Flame Elementium",
+          "where": "Tận dụng hệ thống Trade at Will để quy đổi loot thành Flame Elementium",
+          "setup": "Nguồn không đề cập setup cụ thể",
           "steps": [
-            "Tích lũy các vật phẩm giá trị thu được từ Endless Loot",
-            "Tự do giao dịch với người chơi khác thông qua tính năng Trade at Will để đổi lấy tài nguyên"
+            "Tích cực nhặt trang bị và vật phẩm giá trị từ hệ thống Endless Loot.",
+            "Tải và niêm yết vật phẩm lên thị trường thông qua tính năng Trade at Will để thu về Flame Elementium."
           ],
           "maps": [],
           "trees": [],
-          "links": [],
+          "links": [
+            {
+              "title": "Torchlight Infinite Wiki (TLIDB)",
+              "url": "https://tlidb.com/en/"
+            }
+          ],
           "profit": "chưa có số liệu",
-          "requires": "Vật phẩm có giá trị từ loot",
+          "requires": "Build có DPS đủ dọn Map nhanh",
           "risk": "Trung bình",
-          "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Giao%20d%E1%BB%8Bch%20v%E1%BA%ADt%20ph%E1%BA%A9m%20qua%20h%E1%BB%87%20th%E1%BB%91ng%20Trade%20at%20Will",
-          "treeSearch": "https://www.youtube.com/results?search_query=Torchlight%20Infinite%20SS14%20Tartarus%20Giao%20d%E1%BB%8Bch%20v%E1%BA%ADt%20ph%E1%BA%A9m%20qua%20h%E1%BB%87%20th%E1%BB%91ng%20Trade%20at%20Will%20farming%20setup"
-        },
-        {
-          "name": "Thử thách Chế độ Solo Self Found / Hardcore",
-          "where": "Chế độ Solo Self Found & Hardcore",
-          "setup": "Chưa có thông tin trong NGUỒN",
-          "steps": [
-            "Tạo nhân vật ở chế độ Solo Self Found hoặc Hardcore",
-            "Tự cày cuốc và tối ưu hóa trang bị tự lượm để tiến vào nội dung khó hơn"
-          ],
-          "maps": [],
-          "trees": [],
-          "links": [],
-          "profit": "chưa có số liệu",
-          "requires": "Kỹ năng sinh tồn và quản lý tài nguyên tốt",
-          "risk": "Cao",
-          "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Th%E1%BB%AD%20th%C3%A1ch%20Ch%E1%BA%BF%20%C4%91%E1%BB%99%20Solo%20Self%20Found%20%2F%20Hardcore",
-          "treeSearch": "https://www.youtube.com/results?search_query=Torchlight%20Infinite%20SS14%20Tartarus%20Th%E1%BB%AD%20th%C3%A1ch%20Ch%E1%BA%BF%20%C4%91%E1%BB%99%20Solo%20Self%20Found%20%2F%20Hardcore%20farming%20setup"
+          "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Giao%20d%E1%BB%8Bch%20v%E1%BA%ADt%20ph%E1%BA%A9m%20v%C3%A0%20t%C3%ADch%20l%C5%A9y%20Flame%20Elementium",
+          "treeSearch": "https://www.youtube.com/results?search_query=Torchlight%20Infinite%20SS14%20Tartarus%20Giao%20d%E1%BB%8Bch%20v%E1%BA%ADt%20ph%E1%BA%A9m%20v%C3%A0%20t%C3%ADch%20l%C5%A9y%20Flame%20Elementium%20farming%20setup"
         }
       ]
     },
     {
       "key": "end",
-      "title": "Giai đoạn Cuối game (Endgame)",
-      "budget": "Chưa có thông tin trong NGUỒN",
-      "content": "Chưa có thông tin cụ thể về Netherrealm tier trong NGUỒN",
+      "title": "Giai đoạn Endgame",
+      "budget": "chưa có số liệu",
+      "content": "Nguồn không đề cập chi tiết Netherrealm tier cụ thể",
       "strategies": [
         {
-          "name": "Khống chế cuộc Bạo loạn (Riot) tại Tartarus",
-          "where": "Tartarus Prison",
-          "setup": "Chưa có thông tin trong NGUỒN",
+          "name": "Chinh phục thử thách Endgame & Chế độ nâng cao",
+          "where": "Tham gia các chế độ thử thách như Solo Self Found & Hardcore",
+          "setup": "Nguồn không cung cấp chi tiết setup Compass/Probe/Memory",
           "steps": [
-            "Sử dụng tối đa các quyền năng của Warden (chính nghĩa hoặc độc ác)",
-            "Đối mặt và dập tắt cuộc bạo loạn (Riot) của các Inmates trốn trại nguy hiểm nhất"
+            "Tối ưu hóa sức mạnh build để tham gia các chế độ Solo Self Found hoặc Hardcore.",
+            "Càn quét các trận chiến tốc độ cao (Fast & Thrilling Battles) để kiếm loot cao cấp và tích lũy Flame Elementium lớn."
           ],
-          "maps": [
+          "maps": [],
+          "trees": [],
+          "links": [
             {
-              "name": "Tartarus Prison",
-              "note": "Khu vực thử thách bạo loạn endgame",
-              "url": "https://torchlight.xd.com/en/ep",
-              "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Tartarus%20Prison"
+              "title": "Trang dữ liệu Torchlight Infinite Data",
+              "url": "https://torchlight.xd.com/en/data"
             }
           ],
-          "trees": [],
-          "links": [],
           "profit": "chưa có số liệu",
-          "requires": "Build Endgame mạnh mẽ (như Hero mới Rosa - Redefine the Knight)",
+          "requires": "Build Endgame tối ưu DPS và sinh tồn cao",
           "risk": "Cao",
-          "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Kh%E1%BB%91ng%20ch%E1%BA%BF%20cu%E1%BB%99c%20B%E1%BA%A1o%20lo%E1%BA%A1n%20(Riot)%20t%E1%BA%A1i%20Tartarus",
-          "treeSearch": "https://www.youtube.com/results?search_query=Torchlight%20Infinite%20SS14%20Tartarus%20Kh%E1%BB%91ng%20ch%E1%BA%BF%20cu%E1%BB%99c%20B%E1%BA%A1o%20lo%E1%BA%A1n%20(Riot)%20t%E1%BA%A1i%20Tartarus%20farming%20setup"
+          "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Chinh%20ph%E1%BB%A5c%20th%E1%BB%AD%20th%C3%A1ch%20Endgame%20%26%20Ch%E1%BA%BF%20%C4%91%E1%BB%99%20n%C3%A2ng%20cao",
+          "treeSearch": "https://www.youtube.com/results?search_query=Torchlight%20Infinite%20SS14%20Tartarus%20Chinh%20ph%E1%BB%A5c%20th%E1%BB%AD%20th%C3%A1ch%20Endgame%20%26%20Ch%E1%BA%BF%20%C4%91%E1%BB%99%20n%C3%A2ng%20cao%20farming%20setup"
         }
       ]
     }
   ],
   "tips": [
-    "Trải nghiệm hero mới Rosa (Redefine the Knight) trong mùa giải Tartarus.",
-    "Tra cứu cơ chế game và vật phẩm trên trang Wiki chính thức (https://tlidb.com/en/).",
-    "Sử dụng tính năng Trade at Will để tối ưu hóa việc mua bán vật phẩm tích lũy được."
+    "Sử dụng tính năng Trade at Will để tự do giao dịch vật phẩm thu được thành Flame Elementium.",
+    "Khám phá hero mới Rosa (Redefine the Knight) để trải nghiệm phong cách chiến đấu trong mùa giải Tartarus.",
+    "Lựa chọn các chế độ phù hợp như Solo Self Found hoặc Hardcore nếu muốn trải nghiệm thử thách khác nhau.",
+    "Tra cứu dữ liệu và vật phẩm tại Wiki chính thức (https://tlidb.com/en/) để nắm thông tin chi tiết."
   ],
   "sources": [
     "https://torchlight.xd.com/index",
@@ -150,5 +116,5 @@
     "https://torchlight.xd.com/index"
   ],
   "model": "gemini-3.6-flash",
-  "updatedAt": "2026-11-11T15:12:49.518Z"
+  "updatedAt": "2026-11-12T03:32:05.441Z"
 }
