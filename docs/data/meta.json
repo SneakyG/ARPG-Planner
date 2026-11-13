@@ -4,59 +4,59 @@
   "status": {
     "poe:items": {
       "ok": true,
-      "at": "2026-11-13T01:51:49.177Z",
-      "info": "811 món",
-      "ms": 833
+      "at": "2026-11-13T02:52:44.949Z",
+      "info": "807 món",
+      "ms": 694
     },
     "poe:season": {
       "ok": false,
-      "at": "2026-11-12T03:20:47.384Z",
-      "error": "AI trả về mùa \" \" không khớp league \"Standard\" trên poe.ninja. Giữ dữ liệu mùa cũ."
+      "at": "2026-11-13T02:56:49.545Z",
+      "error": "The operation was aborted due to timeout"
     },
     "poe:builds": {
       "ok": false,
-      "at": "2026-11-12T03:24:47.899Z",
+      "at": "2026-11-13T03:00:50.019Z",
       "error": "The operation was aborted due to timeout"
     },
     "poe:farm": {
       "ok": true,
-      "at": "2026-11-12T03:26:32.314Z",
+      "at": "2026-11-13T03:02:19.653Z",
       "info": "",
-      "ms": 96411
+      "ms": 81630
     },
     "poe:guides": {
       "ok": true,
-      "at": "2026-11-12T03:26:40.319Z",
+      "at": "2026-11-13T03:02:27.658Z",
       "info": "tạo 0, lỗi 0",
-      "ms": 1
+      "ms": 2
     },
     "tli:season": {
       "ok": false,
-      "at": "2026-11-12T03:30:50.868Z",
+      "at": "2026-11-13T03:06:38.408Z",
       "error": "The operation was aborted due to timeout"
     },
     "tli:builds": {
       "ok": true,
-      "at": "2026-11-12T03:31:36.909Z",
+      "at": "2026-11-13T03:07:35.387Z",
       "info": "10 build",
-      "ms": 38038
+      "ms": 48974
     },
     "tli:farm": {
       "ok": true,
-      "at": "2026-11-12T03:32:05.441Z",
+      "at": "2026-11-13T03:08:28.868Z",
       "info": "",
-      "ms": 20529
+      "ms": 45481
     },
     "tli:items": {
-      "ok": false,
-      "at": "2026-11-12T03:36:13.874Z",
-      "error": "The operation was aborted due to timeout"
+      "ok": true,
+      "at": "2026-11-13T03:08:51.791Z",
+      "info": "0 món",
+      "ms": 14918
     },
     "tli:guides": {
-      "ok": true,
-      "at": "2026-11-12T03:36:22.694Z",
-      "info": "tạo 0, lỗi 0",
-      "ms": 1
+      "ok": false,
+      "at": "2026-11-13T03:13:08.760Z",
+      "error": "ss14-tartarus-dynasty: The operation was aborted due to timeout"
     },
     "poe:cleanup": {
       "ok": true,
@@ -65,7 +65,7 @@
     },
     "tli:pacts": {
       "ok": false,
-      "at": "2026-11-12T03:36:22.693Z",
+      "at": "2026-11-13T03:09:00.192Z",
       "error": "Chỉ đọc được 0 Pactspirit từ tlidb.com (trang có thể đã chặn máy chủ GitHub hoặc đổi cấu trúc). Giữ danh sách đã có."
     },
     "tli:cleanup": {
@@ -75,5 +75,5 @@
     }
   },
   "guidesTopN": 5,
-  "updatedAt": "2026-11-13T01:51:49.177Z"
+  "updatedAt": "2026-11-13T03:13:16.768Z"
 }
