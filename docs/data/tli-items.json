@@ -2,12 +2,13 @@
   "kind": "ai",
   "season": "Torchlight: Infinite SS14 Tartarus",
   "items": [],
-  "notes": "Các nguồn được cung cấp không chứa bất kỳ thông tin nào liên quan đến game Torchlight: Infinite, mùa SS14 Tartarus hay các vật phẩm cần farm/bán.",
+  "notes": "Trong các nguồn được cung cấp, không có thông tin hay số liệu chi tiết nào về các vật phẩm cụ thể, danh mục, giá cả hoặc vị trí farm trong mùa Tartarus của Torchlight: Infinite. Nguồn 1 chỉ đề cập đến thông tin tổng quan của mùa giải (Hero Rosa, chế độ Solo Self Found & Hardcore, bối cảnh Tartarus Prison) và các nguồn còn lại không liên quan đến vật phẩm trong Torchlight: Infinite.",
   "sources": [
-    "http://www.dictionary.com/",
-    "https://dictionary.cambridge.org/",
-    "https://www.maroon5.com/tour/"
+    "https://torchlight.xd.com/index",
+    "https://store.steampowered.com/app/41500/Torchlight/",
+    "https://www.torchlight.com/",
+    "https://torchlightcurriculum.com/torchlight/"
   ],
-  "model": "gemini-3.6-flash",
-  "updatedAt": "2026-11-13T03:08:51.790Z"
+  "model": "gemini-3.8-flash",
+  "updatedAt": "2026-11-14T02:53:14.237Z"
 }

@@ -24,8 +24,8 @@
       "name": "Blessed Orb",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lJbXBsaWNpdE1vZCIsInNjYWxlIjoxfV0/48e700cc20/CurrencyImplicitMod.png",
       "category": "Currency",
-      "chaos": 0.3448,
-      "divine": 0.009495792,
+      "chaos": 0.4279,
+      "divine": 0.010094161,
       "change": 0,
       "spark": [
         null,
@@ -36,7 +36,7 @@
         null,
         0
       ],
-      "volume": 6.67,
+      "volume": 16.33,
       "listings": null
     },
     {
@@ -45,7 +45,7 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjF9XQ/46a2347805/CurrencyRerollRare.png",
       "category": "Currency",
       "chaos": 1,
-      "divine": 0.02754,
+      "divine": 0.02359,
       "change": 0,
       "spark": [
         null,
@@ -56,7 +56,7 @@
         null,
         0
       ],
-      "volume": 7539,
+      "volume": 19588,
       "listings": null
     },
     {
@@ -64,8 +64,8 @@
       "name": "Orb of Alchemy",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9SYXJlIiwic2NhbGUiOjF9XQ/0c72cd1d44/CurrencyUpgradeToRare.png",
       "category": "Currency",
-      "chaos": 0.06075,
-      "divine": 0.001673055,
+      "chaos": 0.05436,
+      "divine": 0.0012823524,
       "change": 0,
       "spark": [
         null,
@@ -76,7 +76,7 @@
         null,
         0
       ],
-      "volume": 82.33,
+      "volume": 123.2,
       "listings": null
     },
     {
@@ -84,8 +84,8 @@
       "name": "Orb of Alteration",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxNYWdpYyIsInNjYWxlIjoxfV0/6308fc8ca2/CurrencyRerollMagic.png",
       "category": "Currency",
-      "chaos": 0.03177,
-      "divine": 0.0008749458,
+      "chaos": 0.03356,
+      "divine": 0.0007916804,
       "change": 0,
       "spark": [
         null,
@@ -96,7 +96,7 @@
         null,
         0
       ],
-      "volume": 198,
+      "volume": 427.8,
       "listings": null
     },
     {
@@ -104,8 +104,8 @@
       "name": "Ancient Orb",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQW5jaWVudE9yYiIsInNjYWxlIjoxfV0/83015d0dc9/AncientOrb.png",
       "category": "Currency",
-      "chaos": 1.01,
-      "divine": 0.027815399999999997,
+      "chaos": 1.05,
+      "divine": 0.0247695,
       "change": 0,
       "spark": [
         null,
@@ -116,7 +116,7 @@
         null,
         0
       ],
-      "volume": 22.17,
+      "volume": 76,
       "listings": null
     },
     {
@@ -124,8 +124,8 @@
       "name": "Orb of Annulment",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQW5udWxsT3JiIiwic2NhbGUiOjF9XQ/0858a418ac/AnnullOrb.png",
       "category": "Currency",
-      "chaos": 1.44,
-      "divine": 0.039657599999999994,
+      "chaos": 1.63,
+      "divine": 0.0384517,
       "change": 0,
       "spark": [
         null,
@@ -136,7 +136,7 @@
         null,
         0
       ],
-      "volume": 33.33,
+      "volume": 120.5,
       "listings": null
     },
     {
@@ -144,8 +144,8 @@
       "name": "Orb of Augmentation",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb01hZ2ljIiwic2NhbGUiOjF9XQ/d879c15321/CurrencyAddModToMagic.png",
       "category": "Currency",
-      "chaos": 0.04611,
-      "divine": 0.0012698693999999998,
+      "chaos": 0.04201,
+      "divine": 0.0009910159,
       "change": 0,
       "spark": [
         null,
@@ -156,7 +156,7 @@
         null,
         0
       ],
-      "volume": 5.33,
+      "volume": 21.17,
       "listings": null
     },
     {
@@ -164,8 +164,8 @@
       "name": "Glassblower's Bauble",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lGbGFza1F1YWxpdHkiLCJzY2FsZSI6MX1d/59e57027e5/CurrencyFlaskQuality.png",
       "category": "Currency",
-      "chaos": 0.2397,
-      "divine": 0.006601337999999999,
+      "chaos": 0.2781,
+      "divine": 0.006560379,
       "change": 0,
       "spark": [
         null,
@@ -176,7 +176,7 @@
         null,
         0
       ],
-      "volume": 60.33,
+      "volume": 178.7,
       "listings": null
     },
     {
@@ -184,8 +184,8 @@
       "name": "Orb of Chance",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlUmFuZG9tbHkiLCJzY2FsZSI6MX1d/a3f9bf0917/CurrencyUpgradeRandomly.png",
       "category": "Currency",
-      "chaos": 0.6734,
-      "divine": 0.018545436,
+      "chaos": 0.5628,
+      "divine": 0.013276452,
       "change": 0,
       "spark": [
         null,
@@ -196,7 +196,7 @@
         null,
         0
       ],
-      "volume": 27.83,
+      "volume": 43.33,
       "listings": null
     },
     {
@@ -204,8 +204,8 @@
       "name": "Divine Orb",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJzY2FsZSI6MX1d/ec48896769/CurrencyModValues.png",
       "category": "Currency",
-      "chaos": 36.3,
-      "divine": 0.9997019999999999,
+      "chaos": 42.4,
+      "divine": 1.000216,
       "change": 0,
       "spark": [
         null,
@@ -216,7 +216,7 @@
         null,
         0
       ],
-      "volume": 7539,
+      "volume": 19588,
       "listings": null
     },
     {
@@ -224,8 +224,8 @@
       "name": "Enkindling Orb",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9GbGFza1BsYXRlIiwic2NhbGUiOjF9XQ/7c1a584a8d/FlaskPlate.png",
       "category": "Currency",
-      "chaos": 0.3063,
-      "divine": 0.008435502,
+      "chaos": 0.2936,
+      "divine": 0.006926024,
       "change": 0,
       "spark": [
         null,
@@ -236,7 +236,7 @@
         null,
         0
       ],
-      "volume": 5.67,
+      "volume": 11.5,
       "listings": null
     },
     {
@@ -244,8 +244,8 @@
       "name": "Exalted Orb",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MX1d/33f2656aea/CurrencyAddModToRare.png",
       "category": "Currency",
-      "chaos": 0.3528,
-      "divine": 0.009716111999999999,
+      "chaos": 0.3475,
+      "divine": 0.008197524999999999,
       "change": 0,
       "spark": [
         null,
@@ -256,7 +256,7 @@
         null,
         0
       ],
-      "volume": 139.2,
+      "volume": 304.5,
       "listings": null
     },
     {
@@ -264,8 +264,8 @@
       "name": "Orb of Fusing",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxTb2NrZXRMaW5rcyIsInNjYWxlIjoxfV0/c5e1959880/CurrencyRerollSocketLinks.png",
       "category": "Currency",
-      "chaos": 0.07266,
-      "divine": 0.0020010564,
+      "chaos": 0.08237,
+      "divine": 0.0019431083,
       "change": 0,
       "spark": [
         null,
@@ -276,7 +276,27 @@
         null,
         0
       ],
-      "volume": 225,
+      "volume": 651.8,
+      "listings": null
+    },
+    {
+      "id": "imbued-catalyst",
+      "name": "Imbued Catalyst",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ2F0YWx5c3RzL0ltYnVlZENhdGFseXN0Iiwic2NhbGUiOjF9XQ/cce071aa45/ImbuedCatalyst.png",
+      "category": "Currency",
+      "chaos": 3,
+      "divine": 0.07077,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 0.5,
       "listings": null
     },
     {
@@ -284,8 +304,8 @@
       "name": "Instilling Orb",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9GbGFza0luamVjdG9yIiwic2NhbGUiOjF9XQ/efc518b1be/FlaskInjector.png",
       "category": "Currency",
-      "chaos": 0.4431,
-      "divine": 0.012202973999999998,
+      "chaos": 0.532,
+      "divine": 0.012549880000000001,
       "change": 0,
       "spark": [
         null,
@@ -296,7 +316,7 @@
         null,
         0
       ],
-      "volume": 69.5,
+      "volume": 210.5,
       "listings": null
     },
     {
@@ -304,8 +324,8 @@
       "name": "Jeweller's Orb",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxTb2NrZXROdW1iZXJzIiwic2NhbGUiOjF9XQ/ba411ff58a/CurrencyRerollSocketNumbers.png",
       "category": "Currency",
-      "chaos": 0.05618,
-      "divine": 0.0015471972,
+      "chaos": 0.05931,
+      "divine": 0.0013991229000000001,
       "change": 0,
       "spark": [
         null,
@@ -316,7 +336,7 @@
         null,
         0
       ],
-      "volume": 206.8,
+      "volume": 558.7,
       "listings": null
     },
     {
@@ -324,8 +344,8 @@
       "name": "Lesser Eldritch Ember",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ2xlYW5zaW5nRmlyZU9yYlJhbmsxIiwic2NhbGUiOjF9XQ/c7df0e0316/CleansingFireOrbRank1.png",
       "category": "Currency",
-      "chaos": 1,
-      "divine": 0.02754,
+      "chaos": 0.9136,
+      "divine": 0.021551824,
       "change": 0,
       "spark": [
         null,
@@ -336,7 +356,7 @@
         null,
         0
       ],
-      "volume": 2.5,
+      "volume": 12.33,
       "listings": null
     },
     {
@@ -344,8 +364,8 @@
       "name": "Lesser Eldritch Ichor",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVGFuZ2xlT3JiUmFuazEiLCJzY2FsZSI6MX1d/70e5e53590/TangleOrbRank1.png",
       "category": "Currency",
-      "chaos": 1,
-      "divine": 0.02754,
+      "chaos": 0.6364,
+      "divine": 0.015012675999999999,
       "change": 0,
       "spark": [
         null,
@@ -356,7 +376,7 @@
         null,
         0
       ],
-      "volume": 1.5,
+      "volume": 4.67,
       "listings": null
     },
     {
@@ -364,8 +384,8 @@
       "name": "Orb of Unmaking",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUmVncmV0T3JiIiwic2NhbGUiOjF9XQ/beae1b00c7/RegretOrb.png",
       "category": "Currency",
-      "chaos": 0.4375,
-      "divine": 0.012048749999999999,
+      "chaos": 0.7059,
+      "divine": 0.016652181,
       "change": 0,
       "spark": [
         null,
@@ -376,7 +396,7 @@
         null,
         0
       ],
-      "volume": 1.17,
+      "volume": 6,
       "listings": null
     },
     {
@@ -384,8 +404,8 @@
       "name": "Primal Crystallised Lifeforce",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGFydmVzdC9QcmltYWxMaWZlZm9yY2UiLCJzY2FsZSI6MX1d/c498cdfd7f/PrimalLifeforce.png",
       "category": "Currency",
-      "chaos": 0.01219,
-      "divine": 0.0003357126,
+      "chaos": 0.01107,
+      "divine": 0.0002611413,
       "change": 0,
       "spark": [
         null,
@@ -396,7 +416,7 @@
         null,
         0
       ],
-      "volume": 3.67,
+      "volume": 24.17,
       "listings": null
     },
     {
@@ -404,8 +424,8 @@
       "name": "Regal Orb",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlTWFnaWNUb1JhcmUiLCJzY2FsZSI6MX1d/0ded706f57/CurrencyUpgradeMagicToRare.png",
       "category": "Currency",
-      "chaos": 0.2819,
-      "divine": 0.007763525999999999,
+      "chaos": 0.255,
+      "divine": 0.00601545,
       "change": 0,
       "spark": [
         null,
@@ -416,7 +436,7 @@
         null,
         0
       ],
-      "volume": 106.2,
+      "volume": 181,
       "listings": null
     },
     {
@@ -424,8 +444,8 @@
       "name": "Orb of Regret",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lQYXNzaXZlU2tpbGxSZWZ1bmQiLCJzY2FsZSI6MX1d/32d499f562/CurrencyPassiveSkillRefund.png",
       "category": "Currency",
-      "chaos": 0.3853,
-      "divine": 0.010611161999999999,
+      "chaos": 0.4601,
+      "divine": 0.010853759,
       "change": 0,
       "spark": [
         null,
@@ -436,7 +456,7 @@
         null,
         0
       ],
-      "volume": 192.8,
+      "volume": 611.8,
       "listings": null
     },
     {
@@ -444,8 +464,8 @@
       "name": "Orb of Scouring",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lDb252ZXJ0VG9Ob3JtYWwiLCJzY2FsZSI6MX1d/a0981d67fe/CurrencyConvertToNormal.png",
       "category": "Currency",
-      "chaos": 0.1794,
-      "divine": 0.004940676,
+      "chaos": 0.2039,
+      "divine": 0.0048100009999999995,
       "change": 0,
       "spark": [
         null,
@@ -456,7 +476,7 @@
         null,
         0
       ],
-      "volume": 65.33,
+      "volume": 186.7,
       "listings": null
     },
     {
@@ -464,588 +484,8 @@
       "name": "Armourer's Scrap",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBcm1vdXJRdWFsaXR5Iiwic2NhbGUiOjF9XQ/fc4e26afbc/CurrencyArmourQuality.png",
       "category": "Currency",
-      "chaos": 0.08486,
-      "divine": 0.0023370444,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 26.17,
-      "listings": null
-    },
-    {
-      "id": "tainted-orb-of-fusing",
-      "name": "Tainted Orb of Fusing",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGVsbHNjYXBlL0hlbGxzY2FwZU9yYk9mRnVzaW5nIiwic2NhbGUiOjF9XQ/845f3c20ed/HellscapeOrbOfFusing.png",
-      "category": "Currency",
-      "chaos": 5.89,
-      "divine": 0.16221059999999998,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 18.67,
-      "listings": null
-    },
-    {
-      "id": "vivid-lifeforce",
-      "name": "Vivid Crystallised Lifeforce",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGFydmVzdC9WaXZpZExpZmVmb3JjZSIsInNjYWxlIjoxfV0/a355b8a5a2/VividLifeforce.png",
-      "category": "Currency",
-      "chaos": 0.01122,
-      "divine": 0.0003089988,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 3.5,
-      "listings": null
-    },
-    {
-      "id": "wild-lifeforce",
-      "name": "Wild Crystallised Lifeforce",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGFydmVzdC9XaWxkTGlmZWZvcmNlIiwic2NhbGUiOjF9XQ/e3d0b372b0/WildLifeforce.png",
-      "category": "Currency",
-      "chaos": 0.0103,
-      "divine": 0.000283662,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 2.83,
-      "listings": null
-    },
-    {
-      "id": "chrome",
-      "name": "Chromatic Orb",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxTb2NrZXRDb2xvdXJzIiwic2NhbGUiOjF9XQ/19c8ddae20/CurrencyRerollSocketColours.png",
-      "category": "Currency",
-      "chaos": 0.2443,
-      "divine": 0.006728021999999999,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 42.67,
-      "listings": null
-    },
-    {
-      "id": "gcp",
-      "name": "Gemcutter's Prism",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lHZW1RdWFsaXR5Iiwic2NhbGUiOjF9XQ/dbe9678a28/CurrencyGemQuality.png",
-      "category": "Currency",
-      "chaos": 0.3939,
-      "divine": 0.010848005999999999,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 228.7,
-      "listings": null
-    },
-    {
-      "id": "portal",
-      "name": "Portal Scroll",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lQb3J0YWwiLCJzY2FsZSI6MX1d/d92d3478a0/CurrencyPortal.png",
-      "category": "Currency",
-      "chaos": 0.03101,
-      "divine": 0.0008540154,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 36.17,
-      "listings": null
-    },
-    {
-      "id": "rogues-marker",
-      "name": "Rogue's Marker",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGVpc3QvSGVpc3RDb2luQ3VycmVuY3kiLCJzY2FsZSI6MX1d/335e66630d/HeistCoinCurrency.png",
-      "category": "Currency",
-      "chaos": 0.0006386,
-      "divine": 0.000017587044,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 96.83,
-      "listings": null
-    },
-    {
-      "id": "sacred-orb",
-      "name": "Sacred Orb",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU2FjcmVkT3JiIiwic2NhbGUiOjF9XQ/0380fd0dba/SacredOrb.png",
-      "category": "Currency",
-      "chaos": 3.1,
-      "divine": 0.08537399999999999,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 21.67,
-      "listings": null
-    },
-    {
-      "id": "stacked-deck",
-      "name": "Stacked Deck",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvRGl2aW5hdGlvbi9EZWNrIiwic2NhbGUiOjF9XQ/8e83aea79a/Deck.png",
-      "category": "Currency",
-      "chaos": 0.346,
-      "divine": 0.009528839999999998,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 178.8,
-      "listings": null
-    },
-    {
-      "id": "tailoring-orb",
-      "name": "Tailoring Orb",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGl2aW5lRW5jaGFudFdlYXBvbkN1cnJlbmN5Iiwic2NhbGUiOjF9XQ/d417654a23/DivineEnchantWeaponCurrency.png",
-      "category": "Currency",
-      "chaos": 10.56,
-      "divine": 0.2908224,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 15.83,
-      "listings": null
-    },
-    {
-      "id": "tainted-chromatic-orb",
-      "name": "Tainted Chromatic Orb",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGVsbHNjYXBlL0hlbGxzY2FwZUNocm9tYXRpY09yYiIsInNjYWxlIjoxfV0/702d29c7ab/HellscapeChromaticOrb.png",
-      "category": "Currency",
-      "chaos": 1.33,
-      "divine": 0.0366282,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 1.33,
-      "listings": null
-    },
-    {
-      "id": "tainted-jewellers-orb",
-      "name": "Tainted Jeweller's Orb",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGVsbHNjYXBlL0hlbGxzY2FwZUpld2VsbGVyc09yYiIsInNjYWxlIjoxfV0/f146c29db2/HellscapeJewellersOrb.png",
-      "category": "Currency",
-      "chaos": 1.48,
-      "divine": 0.040759199999999995,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 6.17,
-      "listings": null
-    },
-    {
-      "id": "tainted-mythic-orb",
-      "name": "Tainted Mythic Orb",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGVsbHNjYXBlL0hlbGxzY2FwZU15dGhpY09yYiIsInNjYWxlIjoxfV0/72ba97d1a8/HellscapeMythicOrb.png",
-      "category": "Currency",
-      "chaos": 1,
-      "divine": 0.02754,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 0.1667,
-      "listings": null
-    },
-    {
-      "id": "tempering-orb",
-      "name": "Tempering Orb",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGl2aW5lRW5jaGFudEJvZHlBcm1vdXJDdXJyZW5jeSIsInNjYWxlIjoxfV0/37681eda1c/DivineEnchantBodyArmourCurrency.png",
-      "category": "Currency",
-      "chaos": 5.85,
-      "divine": 0.16110899999999997,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 12.67,
-      "listings": null
-    },
-    {
-      "id": "transmute",
-      "name": "Orb of Transmutation",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9NYWdpYyIsInNjYWxlIjoxfV0/ded9e8ee63/CurrencyUpgradeToMagic.png",
-      "category": "Currency",
-      "chaos": 0.05559,
-      "divine": 0.0015309485999999998,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 45.5,
-      "listings": null
-    },
-    {
-      "id": "vaal",
-      "name": "Vaal Orb",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lWYWFsIiwic2NhbGUiOjF9XQ/593fe2e22e/CurrencyVaal.png",
-      "category": "Currency",
-      "chaos": 0.2122,
-      "divine": 0.005843988,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 150.8,
-      "listings": null
-    },
-    {
-      "id": "whetstone",
-      "name": "Blacksmith's Whetstone",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lXZWFwb25RdWFsaXR5Iiwic2NhbGUiOjF9XQ/c9cd72719e/CurrencyWeaponQuality.png",
-      "category": "Currency",
-      "chaos": 0.2097,
-      "divine": 0.005775138,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 101.2,
-      "listings": null
-    },
-    {
-      "id": "wisdom",
-      "name": "Scroll of Wisdom",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lJZGVudGlmaWNhdGlvbiIsInNjYWxlIjoxfV0/c2d03ed3fd/CurrencyIdentification.png",
-      "category": "Currency",
-      "chaos": 0.01041,
-      "divine": 0.0002866914,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 15,
-      "listings": null
-    },
-    {
-      "id": "abyss-thread",
-      "name": "Abyss Thread",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVGhyZWFkcy9BYnlzc1RocmVhZCIsInNjYWxlIjoxfV0/fa2302d9d4/AbyssThread.png",
-      "category": "Fragment",
-      "chaos": 0.4146,
-      "divine": 0.011418084,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 2.83,
-      "listings": null
-    },
-    {
-      "id": "betrayal-thread",
-      "name": "Betrayal Thread",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVGhyZWFkcy9CZXRyYXlhbFRocmVhZCIsInNjYWxlIjoxfV0/fa10b037f1/BetrayalThread.png",
-      "category": "Fragment",
-      "chaos": 0.7368,
-      "divine": 0.020291471999999998,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 2.33,
-      "listings": null
-    },
-    {
-      "id": "breach-thread",
-      "name": "Breach Thread",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVGhyZWFkcy9CcmVhY2hUaHJlYWQiLCJzY2FsZSI6MX1d/d600d1d343/BreachThread.png",
-      "category": "Fragment",
-      "chaos": 1,
-      "divine": 0.02754,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 1,
-      "listings": null
-    },
-    {
-      "id": "blight-thread",
-      "name": "Blight Thread",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVGhyZWFkcy9CbGlnaHRUaHJlYWQiLCJzY2FsZSI6MX1d/add7a8099e/BlightThread.png",
-      "category": "Fragment",
-      "chaos": 0.9127,
-      "divine": 0.025135757999999998,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 19.17,
-      "listings": null
-    },
-    {
-      "id": "divine-vessel",
-      "name": "Divine Vessel",
-      "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9TaW5GbGFza0VtcHR5Iiwic2NhbGUiOjF9XQ/3a2d49608a/SinFlaskEmpty.png",
-      "category": "Fragment",
-      "chaos": 1.3,
-      "divine": 0.035802,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 4.33,
-      "listings": null
-    },
-    {
-      "id": "expedition-thread",
-      "name": "Expedition Thread",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVGhyZWFkcy9FeHBlZGl0aW9uVGhyZWFkIiwic2NhbGUiOjF9XQ/9541c89bf9/ExpeditionThread.png",
-      "category": "Fragment",
-      "chaos": 1,
-      "divine": 0.02754,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 0.6667,
-      "listings": null
-    },
-    {
-      "id": "ritual-thread",
-      "name": "Ritual Thread",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVGhyZWFkcy9SaXR1YWxUaHJlYWQiLCJzY2FsZSI6MX1d/ec35a48af4/RitualThread.png",
-      "category": "Fragment",
-      "chaos": 1,
-      "divine": 0.02754,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 3.67,
-      "listings": null
-    },
-    {
-      "id": "ultimatum-thread",
-      "name": "Ultimatum Thread",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVGhyZWFkcy9VbHRpbWF0dW1UaHJlYWQiLCJzY2FsZSI6MX1d/74155b9b4e/UltimatumThread.png",
-      "category": "Fragment",
-      "chaos": 0.5,
-      "divine": 0.01377,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 0.8333,
-      "listings": null
-    },
-    {
-      "id": "legion-thread",
-      "name": "Legion Thread",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVGhyZWFkcy9MZWdpb25UaHJlYWQiLCJzY2FsZSI6MX1d/819bd1a22b/LegionThread.png",
-      "category": "Fragment",
-      "chaos": 1,
-      "divine": 0.02754,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 1.17,
-      "listings": null
-    },
-    {
-      "id": "offer",
-      "name": "Offering to the Goddess",
-      "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9MYWJ5cmludGgiLCJzY2FsZSI6MX1d/24fe6dc261/Labyrinth.png",
-      "category": "Fragment",
-      "chaos": 2.55,
-      "divine": 0.070227,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 17.83,
-      "listings": null
-    },
-    {
-      "id": "voidborn-reliquary-key",
-      "name": "Voidborn Reliquary Key",
-      "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9Db3NtaWNDb3JlU3VwcG9ydGVyVmF1bHRLZXkiLCJzY2FsZSI6MX1d/1f2d34a36d/CosmicCoreSupporterVaultKey.png",
-      "category": "Fragment",
-      "chaos": 11.79,
-      "divine": 0.32469659999999995,
+      "chaos": 0.08046,
+      "divine": 0.0018980514000000001,
       "change": 0,
       "spark": [
         null,
@@ -1060,12 +500,752 @@
       "listings": null
     },
     {
+      "id": "tainted-blacksmiths-whetstone",
+      "name": "Tainted Blacksmith's Whetstone",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGVsbHNjYXBlL0hlbGxzY2FwZUJsYWNrc21pdGhXaGV0c3RvbmUiLCJzY2FsZSI6MX1d/0309648ccb/HellscapeBlacksmithWhetstone.png",
+      "category": "Currency",
+      "chaos": 1,
+      "divine": 0.02359,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 0.3333,
+      "listings": null
+    },
+    {
+      "id": "tainted-orb-of-fusing",
+      "name": "Tainted Orb of Fusing",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGVsbHNjYXBlL0hlbGxzY2FwZU9yYk9mRnVzaW5nIiwic2NhbGUiOjF9XQ/845f3c20ed/HellscapeOrbOfFusing.png",
+      "category": "Currency",
+      "chaos": 6.12,
+      "divine": 0.1443708,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 93.83,
+      "listings": null
+    },
+    {
+      "id": "turbulent-catalyst",
+      "name": "Turbulent Catalyst",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ2F0YWx5c3RzL1R1cmJ1bGVudENhdGFseXN0Iiwic2NhbGUiOjF9XQ/1f49d03e58/TurbulentCatalyst.png",
+      "category": "Currency",
+      "chaos": 0.5,
+      "divine": 0.011795,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 0.1667,
+      "listings": null
+    },
+    {
+      "id": "vivid-lifeforce",
+      "name": "Vivid Crystallised Lifeforce",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGFydmVzdC9WaXZpZExpZmVmb3JjZSIsInNjYWxlIjoxfV0/a355b8a5a2/VividLifeforce.png",
+      "category": "Currency",
+      "chaos": 0.01001,
+      "divine": 0.00023613589999999998,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 24.5,
+      "listings": null
+    },
+    {
+      "id": "wild-lifeforce",
+      "name": "Wild Crystallised Lifeforce",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGFydmVzdC9XaWxkTGlmZWZvcmNlIiwic2NhbGUiOjF9XQ/e3d0b372b0/WildLifeforce.png",
+      "category": "Currency",
+      "chaos": 0.007987,
+      "divine": 0.00018841333,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 18.33,
+      "listings": null
+    },
+    {
+      "id": "chrome",
+      "name": "Chromatic Orb",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxTb2NrZXRDb2xvdXJzIiwic2NhbGUiOjF9XQ/19c8ddae20/CurrencyRerollSocketColours.png",
+      "category": "Currency",
+      "chaos": 0.2342,
+      "divine": 0.005524778,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 95.5,
+      "listings": null
+    },
+    {
+      "id": "fracturing-orb",
+      "name": "Fracturing Orb",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRnJhY3R1cmluZ09yYkNvbWJpbmVkIiwic2NhbGUiOjF9XQ/3fb18e8a5b/FracturingOrbCombined.png",
+      "category": "Currency",
+      "chaos": 42.4,
+      "divine": 1.000216,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 7.07,
+      "listings": null
+    },
+    {
+      "id": "gcp",
+      "name": "Gemcutter's Prism",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lHZW1RdWFsaXR5Iiwic2NhbGUiOjF9XQ/dbe9678a28/CurrencyGemQuality.png",
+      "category": "Currency",
+      "chaos": 0.4168,
+      "divine": 0.009832312,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 494.2,
+      "listings": null
+    },
+    {
+      "id": "portal",
+      "name": "Portal Scroll",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lQb3J0YWwiLCJzY2FsZSI6MX1d/d92d3478a0/CurrencyPortal.png",
+      "category": "Currency",
+      "chaos": 0.03017,
+      "divine": 0.0007117102999999999,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 114.2,
+      "listings": null
+    },
+    {
+      "id": "rogues-marker",
+      "name": "Rogue's Marker",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGVpc3QvSGVpc3RDb2luQ3VycmVuY3kiLCJzY2FsZSI6MX1d/335e66630d/HeistCoinCurrency.png",
+      "category": "Currency",
+      "chaos": 0.0006137,
+      "divine": 0.000014477183,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 226.8,
+      "listings": null
+    },
+    {
+      "id": "sacred-orb",
+      "name": "Sacred Orb",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU2FjcmVkT3JiIiwic2NhbGUiOjF9XQ/0380fd0dba/SacredOrb.png",
+      "category": "Currency",
+      "chaos": 3.67,
+      "divine": 0.0865753,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 58.17,
+      "listings": null
+    },
+    {
+      "id": "stacked-deck",
+      "name": "Stacked Deck",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvRGl2aW5hdGlvbi9EZWNrIiwic2NhbGUiOjF9XQ/8e83aea79a/Deck.png",
+      "category": "Currency",
+      "chaos": 0.3382,
+      "divine": 0.007978138,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 446.3,
+      "listings": null
+    },
+    {
+      "id": "tailoring-orb",
+      "name": "Tailoring Orb",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGl2aW5lRW5jaGFudFdlYXBvbkN1cnJlbmN5Iiwic2NhbGUiOjF9XQ/d417654a23/DivineEnchantWeaponCurrency.png",
+      "category": "Currency",
+      "chaos": 10.8,
+      "divine": 0.254772,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 45,
+      "listings": null
+    },
+    {
+      "id": "tainted-armourers-scrap",
+      "name": "Tainted Armourer's Scrap",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGVsbHNjYXBlL0hlbGxzY2FwZUFybW91cmVyc1NjcmFwIiwic2NhbGUiOjF9XQ/9ee0a10625/HellscapeArmourersScrap.png",
+      "category": "Currency",
+      "chaos": 1,
+      "divine": 0.02359,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 0.1667,
+      "listings": null
+    },
+    {
+      "id": "tainted-chromatic-orb",
+      "name": "Tainted Chromatic Orb",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGVsbHNjYXBlL0hlbGxzY2FwZUNocm9tYXRpY09yYiIsInNjYWxlIjoxfV0/702d29c7ab/HellscapeChromaticOrb.png",
+      "category": "Currency",
+      "chaos": 1.33,
+      "divine": 0.0313747,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 5.33,
+      "listings": null
+    },
+    {
+      "id": "tainted-divine-orb",
+      "name": "Volatile Vaal Orb",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVm9sYXRpbGVWYWFsT3JiIiwic2NhbGUiOjF9XQ/9bcdda2c63/VolatileVaalOrb.png",
+      "category": "Currency",
+      "chaos": 26.88,
+      "divine": 0.6340992,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 35.83,
+      "listings": null
+    },
+    {
+      "id": "tainted-jewellers-orb",
+      "name": "Tainted Jeweller's Orb",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGVsbHNjYXBlL0hlbGxzY2FwZUpld2VsbGVyc09yYiIsInNjYWxlIjoxfV0/f146c29db2/HellscapeJewellersOrb.png",
+      "category": "Currency",
+      "chaos": 1.68,
+      "divine": 0.0396312,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 22.67,
+      "listings": null
+    },
+    {
+      "id": "tainted-mythic-orb",
+      "name": "Tainted Mythic Orb",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGVsbHNjYXBlL0hlbGxzY2FwZU15dGhpY09yYiIsInNjYWxlIjoxfV0/72ba97d1a8/HellscapeMythicOrb.png",
+      "category": "Currency",
+      "chaos": 2.14,
+      "divine": 0.0504826,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 2.5,
+      "listings": null
+    },
+    {
+      "id": "tempering-orb",
+      "name": "Tempering Orb",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGl2aW5lRW5jaGFudEJvZHlBcm1vdXJDdXJyZW5jeSIsInNjYWxlIjoxfV0/37681eda1c/DivineEnchantBodyArmourCurrency.png",
+      "category": "Currency",
+      "chaos": 7.38,
+      "divine": 0.1740942,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 29.5,
+      "listings": null
+    },
+    {
+      "id": "transmute",
+      "name": "Orb of Transmutation",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9NYWdpYyIsInNjYWxlIjoxfV0/ded9e8ee63/CurrencyUpgradeToMagic.png",
+      "category": "Currency",
+      "chaos": 0.04506,
+      "divine": 0.0010629654,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 79.33,
+      "listings": null
+    },
+    {
+      "id": "vaal",
+      "name": "Vaal Orb",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lWYWFsIiwic2NhbGUiOjF9XQ/593fe2e22e/CurrencyVaal.png",
+      "category": "Currency",
+      "chaos": 0.1948,
+      "divine": 0.004595332,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 249,
+      "listings": null
+    },
+    {
+      "id": "whetstone",
+      "name": "Blacksmith's Whetstone",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lXZWFwb25RdWFsaXR5Iiwic2NhbGUiOjF9XQ/c9cd72719e/CurrencyWeaponQuality.png",
+      "category": "Currency",
+      "chaos": 0.1866,
+      "divine": 0.004401894,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 207.5,
+      "listings": null
+    },
+    {
+      "id": "wisdom",
+      "name": "Scroll of Wisdom",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lJZGVudGlmaWNhdGlvbiIsInNjYWxlIjoxfV0/c2d03ed3fd/CurrencyIdentification.png",
+      "category": "Currency",
+      "chaos": 0.008617,
+      "divine": 0.00020327502999999998,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 41.5,
+      "listings": null
+    },
+    {
+      "id": "abyss-thread",
+      "name": "Abyss Thread",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVGhyZWFkcy9BYnlzc1RocmVhZCIsInNjYWxlIjoxfV0/fa2302d9d4/AbyssThread.png",
+      "category": "Fragment",
+      "chaos": 0.4182,
+      "divine": 0.009865338,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 11.5,
+      "listings": null
+    },
+    {
+      "id": "betrayal-thread",
+      "name": "Betrayal Thread",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVGhyZWFkcy9CZXRyYXlhbFRocmVhZCIsInNjYWxlIjoxfV0/fa10b037f1/BetrayalThread.png",
+      "category": "Fragment",
+      "chaos": 0.5033,
+      "divine": 0.011872846999999999,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 12.83,
+      "listings": null
+    },
+    {
+      "id": "breach-thread",
+      "name": "Breach Thread",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVGhyZWFkcy9CcmVhY2hUaHJlYWQiLCJzY2FsZSI6MX1d/d600d1d343/BreachThread.png",
+      "category": "Fragment",
+      "chaos": 0.5,
+      "divine": 0.011795,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 2.17,
+      "listings": null
+    },
+    {
+      "id": "bestiary-thread",
+      "name": "Bestiary Thread",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVGhyZWFkcy9CZXN0aWFyeVRocmVhZCIsInNjYWxlIjoxfV0/7fd44c21e8/BestiaryThread.png",
+      "category": "Fragment",
+      "chaos": 0.3103,
+      "divine": 0.007319977,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 1.5,
+      "listings": null
+    },
+    {
+      "id": "blight-thread",
+      "name": "Blight Thread",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVGhyZWFkcy9CbGlnaHRUaHJlYWQiLCJzY2FsZSI6MX1d/add7a8099e/BlightThread.png",
+      "category": "Fragment",
+      "chaos": 0.9333,
+      "divine": 0.022016547,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 63,
+      "listings": null
+    },
+    {
+      "id": "divine-vessel",
+      "name": "Divine Vessel",
+      "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9TaW5GbGFza0VtcHR5Iiwic2NhbGUiOjF9XQ/3a2d49608a/SinFlaskEmpty.png",
+      "category": "Fragment",
+      "chaos": 1.68,
+      "divine": 0.0396312,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 34.17,
+      "listings": null
+    },
+    {
+      "id": "expedition-thread",
+      "name": "Expedition Thread",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVGhyZWFkcy9FeHBlZGl0aW9uVGhyZWFkIiwic2NhbGUiOjF9XQ/9541c89bf9/ExpeditionThread.png",
+      "category": "Fragment",
+      "chaos": 0.5,
+      "divine": 0.011795,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 2.17,
+      "listings": null
+    },
+    {
+      "id": "ritual-thread",
+      "name": "Ritual Thread",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVGhyZWFkcy9SaXR1YWxUaHJlYWQiLCJzY2FsZSI6MX1d/ec35a48af4/RitualThread.png",
+      "category": "Fragment",
+      "chaos": 0.7115,
+      "divine": 0.016784285,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 6.17,
+      "listings": null
+    },
+    {
+      "id": "ultimatum-thread",
+      "name": "Ultimatum Thread",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVGhyZWFkcy9VbHRpbWF0dW1UaHJlYWQiLCJzY2FsZSI6MX1d/74155b9b4e/UltimatumThread.png",
+      "category": "Fragment",
+      "chaos": 0.283,
+      "divine": 0.006675969999999999,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 2.5,
+      "listings": null
+    },
+    {
+      "id": "legion-thread",
+      "name": "Legion Thread",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVGhyZWFkcy9MZWdpb25UaHJlYWQiLCJzY2FsZSI6MX1d/819bd1a22b/LegionThread.png",
+      "category": "Fragment",
+      "chaos": 0.8889,
+      "divine": 0.020969151000000002,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 1.33,
+      "listings": null
+    },
+    {
+      "id": "offer",
+      "name": "Offering to the Goddess",
+      "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9MYWJ5cmludGgiLCJzY2FsZSI6MX1d/24fe6dc261/Labyrinth.png",
+      "category": "Fragment",
+      "chaos": 2.88,
+      "divine": 0.06793919999999999,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 112.7,
+      "listings": null
+    },
+    {
+      "id": "voidborn-reliquary-key",
+      "name": "Voidborn Reliquary Key",
+      "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9Db3NtaWNDb3JlU3VwcG9ydGVyVmF1bHRLZXkiLCJzY2FsZSI6MX1d/1f2d34a36d/CosmicCoreSupporterVaultKey.png",
+      "category": "Fragment",
+      "chaos": 11.63,
+      "divine": 0.27435170000000003,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 174.5,
+      "listings": null
+    },
+    {
+      "id": "essence-of-horror",
+      "name": "Essence of Horror",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Ib3Jyb3IxIiwic2NhbGUiOjF9XQ/8be6722c5e/Horror1.png",
+      "category": "Essence",
+      "chaos": 5,
+      "divine": 0.11795,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 0.8333,
+      "listings": null
+    },
+    {
+      "id": "essence-of-hysteria",
+      "name": "Essence of Hysteria",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9UZXJyb3IxIiwic2NhbGUiOjF9XQ/10ab1f6037/Terror1.png",
+      "category": "Essence",
+      "chaos": 5,
+      "divine": 0.11795,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 0.8333,
+      "listings": null
+    },
+    {
       "id": "muttering-essence-of-greed",
       "name": "Muttering Essence of Greed",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVlZDIiLCJzY2FsZSI6MX1d/66dcbcfe6c/Greed2.png",
       "category": "Essence",
       "chaos": 1,
-      "divine": 0.02754,
+      "divine": 0.02359,
       "change": 0,
       "spark": [
         null,
@@ -1084,8 +1264,8 @@
       "name": "Screaming Essence of Contempt",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Db250ZW1wdDUiLCJzY2FsZSI6MX1d/57f3c59876/Contempt5.png",
       "category": "Essence",
-      "chaos": 2.17,
-      "divine": 0.0597618,
+      "chaos": 2.23,
+      "divine": 0.0526057,
       "change": 0,
       "spark": [
         null,
@@ -1096,7 +1276,7 @@
         null,
         0
       ],
-      "volume": 6.5,
+      "volume": 23,
       "listings": null
     },
     {
@@ -1104,8 +1284,8 @@
       "name": "Screaming Essence of Dread",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9EcmVhZDUiLCJzY2FsZSI6MX1d/089502a0ef/Dread5.png",
       "category": "Essence",
-      "chaos": 1.7,
-      "divine": 0.046818,
+      "chaos": 1.79,
+      "divine": 0.0422261,
       "change": 0,
       "spark": [
         null,
@@ -1116,7 +1296,7 @@
         null,
         0
       ],
-      "volume": 2.83,
+      "volume": 7.17,
       "listings": null
     },
     {
@@ -1124,8 +1304,8 @@
       "name": "Screaming Essence of Envy",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9FbnZ5NSIsInNjYWxlIjoxfV0/19657c80a1/Envy5.png",
       "category": "Essence",
-      "chaos": 1,
-      "divine": 0.02754,
+      "chaos": 1.21,
+      "divine": 0.0285439,
       "change": 0,
       "spark": [
         null,
@@ -1136,7 +1316,7 @@
         null,
         0
       ],
-      "volume": 0.8333,
+      "volume": 3.83,
       "listings": null
     },
     {
@@ -1144,8 +1324,8 @@
       "name": "Screaming Essence of Fear",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9GZWFyNSIsInNjYWxlIjoxfV0/1032005927/Fear5.png",
       "category": "Essence",
-      "chaos": 1.55,
-      "divine": 0.042686999999999996,
+      "chaos": 2.17,
+      "divine": 0.0511903,
       "change": 0,
       "spark": [
         null,
@@ -1156,7 +1336,7 @@
         null,
         0
       ],
-      "volume": 2.83,
+      "volume": 16.67,
       "listings": null
     },
     {
@@ -1164,8 +1344,8 @@
       "name": "Screaming Essence of Hatred",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9IYXRyZWQ1Iiwic2NhbGUiOjF9XQ/79d7666969/Hatred5.png",
       "category": "Essence",
-      "chaos": 1.94,
-      "divine": 0.0534276,
+      "chaos": 2,
+      "divine": 0.04718,
       "change": 0,
       "spark": [
         null,
@@ -1176,16 +1356,16 @@
         null,
         0
       ],
-      "volume": 5.5,
+      "volume": 21.33,
       "listings": null
     },
     {
-      "id": "screaming-essence-of-rage",
-      "name": "Screaming Essence of Rage",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9SYWdlNSIsInNjYWxlIjoxfV0/e59a378e12/Rage5.png",
+      "id": "screaming-essence-of-loathing",
+      "name": "Screaming Essence of Loathing",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Mb2F0aGluZzUiLCJzY2FsZSI6MX1d/b72c845694/Loathing5.png",
       "category": "Essence",
       "chaos": 1,
-      "divine": 0.02754,
+      "divine": 0.02359,
       "change": 0,
       "spark": [
         null,
@@ -1197,6 +1377,46 @@
         0
       ],
       "volume": 1,
+      "listings": null
+    },
+    {
+      "id": "screaming-essence-of-misery",
+      "name": "Screaming Essence of Misery",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9NaXNlcnk1Iiwic2NhbGUiOjF9XQ/f9d69650b9/Misery5.png",
+      "category": "Essence",
+      "chaos": 1,
+      "divine": 0.02359,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 0.3333,
+      "listings": null
+    },
+    {
+      "id": "screaming-essence-of-rage",
+      "name": "Screaming Essence of Rage",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9SYWdlNSIsInNjYWxlIjoxfV0/e59a378e12/Rage5.png",
+      "category": "Essence",
+      "chaos": 1.14,
+      "divine": 0.0268926,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 4,
       "listings": null
     },
     {
@@ -1205,7 +1425,7 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9TcGl0ZTUiLCJzY2FsZSI6MX1d/5e2c82ccb4/Spite5.png",
       "category": "Essence",
       "chaos": 1,
-      "divine": 0.02754,
+      "divine": 0.02359,
       "change": 0,
       "spark": [
         null,
@@ -1216,7 +1436,7 @@
         null,
         0
       ],
-      "volume": 0.1667,
+      "volume": 0.3333,
       "listings": null
     },
     {
@@ -1225,7 +1445,7 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9TdWZmZXJpbmc1Iiwic2NhbGUiOjF9XQ/08db350c33/Suffering5.png",
       "category": "Essence",
       "chaos": 1,
-      "divine": 0.02754,
+      "divine": 0.02359,
       "change": 0,
       "spark": [
         null,
@@ -1236,7 +1456,7 @@
         null,
         0
       ],
-      "volume": 0.6667,
+      "volume": 1.33,
       "listings": null
     },
     {
@@ -1244,8 +1464,8 @@
       "name": "Screaming Essence of Woe",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Xb2U1Iiwic2NhbGUiOjF9XQ/685579dedd/Woe5.png",
       "category": "Essence",
-      "chaos": 1.11,
-      "divine": 0.0305694,
+      "chaos": 1.51,
+      "divine": 0.0356209,
       "change": 0,
       "spark": [
         null,
@@ -1256,7 +1476,7 @@
         null,
         0
       ],
-      "volume": 1.67,
+      "volume": 9.33,
       "listings": null
     },
     {
@@ -1264,8 +1484,8 @@
       "name": "Shrieking Essence of Anger",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BbmdlcjYiLCJzY2FsZSI6MX1d/e3c71c9c4d/Anger6.png",
       "category": "Essence",
-      "chaos": 1,
-      "divine": 0.02754,
+      "chaos": 2.8,
+      "divine": 0.066052,
       "change": 0,
       "spark": [
         null,
@@ -1276,76 +1496,16 @@
         null,
         0
       ],
-      "volume": 0.1667,
+      "volume": 2.33,
       "listings": null
     },
     {
-      "id": "shrieking-essence-of-contempt",
-      "name": "Shrieking Essence of Contempt",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Db250ZW1wdDYiLCJzY2FsZSI6MX1d/fd0dfb89ba/Contempt6.png",
-      "category": "Essence",
-      "chaos": 6,
-      "divine": 0.16524,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 1,
-      "listings": null
-    },
-    {
-      "id": "shrieking-essence-of-wrath",
-      "name": "Shrieking Essence of Wrath",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9XcmF0aDYiLCJzY2FsZSI6MX1d/792a6dca01/Wrath6.png",
-      "category": "Essence",
-      "chaos": 2.33,
-      "divine": 0.0641682,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 1.17,
-      "listings": null
-    },
-    {
-      "id": "wailing-essence-of-contempt",
-      "name": "Wailing Essence of Contempt",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Db250ZW1wdDQiLCJzY2FsZSI6MX1d/8ab6b81ea8/Contempt4.png",
-      "category": "Essence",
-      "chaos": 1.7,
-      "divine": 0.046818,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 2.83,
-      "listings": null
-    },
-    {
-      "id": "wailing-essence-of-fear",
-      "name": "Wailing Essence of Fear",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9GZWFyNCIsInNjYWxlIjoxfV0/f5a9ea67a9/Fear4.png",
+      "id": "shrieking-essence-of-anguish",
+      "name": "Shrieking Essence of Anguish",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Bbmd1aXNoNiIsInNjYWxlIjoxfV0/080db712a7/Anguish6.png",
       "category": "Essence",
       "chaos": 1.5,
-      "divine": 0.04131,
+      "divine": 0.035385,
       "change": 0,
       "spark": [
         null,
@@ -1360,12 +1520,12 @@
       "listings": null
     },
     {
-      "id": "wailing-essence-of-greed",
-      "name": "Wailing Essence of Greed",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVlZDQiLCJzY2FsZSI6MX1d/a390d6d853/Greed4.png",
+      "id": "shrieking-essence-of-contempt",
+      "name": "Shrieking Essence of Contempt",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Db250ZW1wdDYiLCJzY2FsZSI6MX1d/fd0dfb89ba/Contempt6.png",
       "category": "Essence",
-      "chaos": 1.33,
-      "divine": 0.0366282,
+      "chaos": 4.36,
+      "divine": 0.10285240000000001,
       "change": 0,
       "spark": [
         null,
@@ -1376,7 +1536,267 @@
         null,
         0
       ],
-      "volume": 0.6667,
+      "volume": 8,
+      "listings": null
+    },
+    {
+      "id": "shrieking-essence-of-doubt",
+      "name": "Shrieking Essence of Doubt",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Eb3VidDYiLCJzY2FsZSI6MX1d/6972865109/Doubt6.png",
+      "category": "Essence",
+      "chaos": 2,
+      "divine": 0.04718,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 0.3333,
+      "listings": null
+    },
+    {
+      "id": "shrieking-essence-of-envy",
+      "name": "Shrieking Essence of Envy",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9FbnZ5NiIsInNjYWxlIjoxfV0/58075e71ff/Envy6.png",
+      "category": "Essence",
+      "chaos": 2.5,
+      "divine": 0.058975,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 1.67,
+      "listings": null
+    },
+    {
+      "id": "shrieking-essence-of-greed",
+      "name": "Shrieking Essence of Greed",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVlZDYiLCJzY2FsZSI6MX1d/ec10f707ab/Greed6.png",
+      "category": "Essence",
+      "chaos": 3.62,
+      "divine": 0.08539580000000001,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 4.83,
+      "listings": null
+    },
+    {
+      "id": "shrieking-essence-of-hatred",
+      "name": "Shrieking Essence of Hatred",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9IYXRyZWQ2Iiwic2NhbGUiOjF9XQ/f55a53e6f4/Hatred6.png",
+      "category": "Essence",
+      "chaos": 3.57,
+      "divine": 0.0842163,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 4.17,
+      "listings": null
+    },
+    {
+      "id": "shrieking-essence-of-loathing",
+      "name": "Shrieking Essence of Loathing",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Mb2F0aGluZzYiLCJzY2FsZSI6MX1d/7ffe10ffb7/Loathing6.png",
+      "category": "Essence",
+      "chaos": 2.67,
+      "divine": 0.0629853,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 1.33,
+      "listings": null
+    },
+    {
+      "id": "shrieking-essence-of-rage",
+      "name": "Shrieking Essence of Rage",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9SYWdlNiIsInNjYWxlIjoxfV0/387d05ebf5/Rage6.png",
+      "category": "Essence",
+      "chaos": 3,
+      "divine": 0.07077,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 1,
+      "listings": null
+    },
+    {
+      "id": "shrieking-essence-of-torment",
+      "name": "Shrieking Essence of Torment",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Ub3JtZW50NiIsInNjYWxlIjoxfV0/fba7f2005f/Torment6.png",
+      "category": "Essence",
+      "chaos": 3,
+      "divine": 0.07077,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 3,
+      "listings": null
+    },
+    {
+      "id": "shrieking-essence-of-wrath",
+      "name": "Shrieking Essence of Wrath",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9XcmF0aDYiLCJzY2FsZSI6MX1d/792a6dca01/Wrath6.png",
+      "category": "Essence",
+      "chaos": 4.55,
+      "divine": 0.1073345,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 8.33,
+      "listings": null
+    },
+    {
+      "id": "shrieking-essence-of-zeal",
+      "name": "Shrieking Essence of Zeal",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9aZWFsNiIsInNjYWxlIjoxfV0/e949dfa6e3/Zeal6.png",
+      "category": "Essence",
+      "chaos": 3,
+      "divine": 0.07077,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 3,
+      "listings": null
+    },
+    {
+      "id": "wailing-essence-of-anguish",
+      "name": "Wailing Essence of Anguish",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Bbmd1aXNoNCIsInNjYWxlIjoxfV0/b0116a21e3/Anguish4.png",
+      "category": "Essence",
+      "chaos": 1,
+      "divine": 0.02359,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 0.1667,
+      "listings": null
+    },
+    {
+      "id": "wailing-essence-of-contempt",
+      "name": "Wailing Essence of Contempt",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Db250ZW1wdDQiLCJzY2FsZSI6MX1d/8ab6b81ea8/Contempt4.png",
+      "category": "Essence",
+      "chaos": 1.79,
+      "divine": 0.0422261,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 5.67,
+      "listings": null
+    },
+    {
+      "id": "wailing-essence-of-fear",
+      "name": "Wailing Essence of Fear",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9GZWFyNCIsInNjYWxlIjoxfV0/f5a9ea67a9/Fear4.png",
+      "category": "Essence",
+      "chaos": 1.62,
+      "divine": 0.0382158,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 3.5,
+      "listings": null
+    },
+    {
+      "id": "wailing-essence-of-greed",
+      "name": "Wailing Essence of Greed",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVlZDQiLCJzY2FsZSI6MX1d/a390d6d853/Greed4.png",
+      "category": "Essence",
+      "chaos": 1.43,
+      "divine": 0.0337337,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 1.67,
       "listings": null
     },
     {
@@ -1385,7 +1805,7 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Tb3Jyb3c0Iiwic2NhbGUiOjF9XQ/3264cd0f60/Sorrow4.png",
       "category": "Essence",
       "chaos": 1,
-      "divine": 0.02754,
+      "divine": 0.02359,
       "change": 0,
       "spark": [
         null,
@@ -1400,12 +1820,52 @@
       "listings": null
     },
     {
+      "id": "wailing-essence-of-suffering",
+      "name": "Wailing Essence of Suffering",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9TdWZmZXJpbmc0Iiwic2NhbGUiOjF9XQ/98885460cb/Suffering4.png",
+      "category": "Essence",
+      "chaos": 1,
+      "divine": 0.02359,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 0.1667,
+      "listings": null
+    },
+    {
       "id": "wailing-essence-of-torment",
       "name": "Wailing Essence of Torment",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Ub3JtZW50NCIsInNjYWxlIjoxfV0/7f54171175/Torment4.png",
       "category": "Essence",
       "chaos": 2,
-      "divine": 0.05508,
+      "divine": 0.04718,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 0.6667,
+      "listings": null
+    },
+    {
+      "id": "wailing-essence-of-woe",
+      "name": "Wailing Essence of Woe",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Xb2U0Iiwic2NhbGUiOjF9XQ/7d06629499/Woe4.png",
+      "category": "Essence",
+      "chaos": 1,
+      "divine": 0.02359,
       "change": 0,
       "spark": [
         null,
@@ -1424,8 +1884,8 @@
       "name": "Wailing Essence of Wrath",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9XcmF0aDQiLCJzY2FsZSI6MX1d/24ec8dd88b/Wrath4.png",
       "category": "Essence",
-      "chaos": 1.67,
-      "divine": 0.04599179999999999,
+      "chaos": 1.77,
+      "divine": 0.0417543,
       "change": 0,
       "spark": [
         null,
@@ -1436,7 +1896,7 @@
         null,
         0
       ],
-      "volume": 1.67,
+      "volume": 3.83,
       "listings": null
     },
     {
@@ -1444,8 +1904,8 @@
       "name": "Wailing Essence of Zeal",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9aZWFsNCIsInNjYWxlIjoxfV0/a4af1958b7/Zeal4.png",
       "category": "Essence",
-      "chaos": 1,
-      "divine": 0.02754,
+      "chaos": 1.14,
+      "divine": 0.0268926,
       "change": 0,
       "spark": [
         null,
@@ -1456,7 +1916,7 @@
         null,
         0
       ],
-      "volume": 0.6667,
+      "volume": 1.33,
       "listings": null
     },
     {
@@ -1465,67 +1925,7 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BbmdlcjMiLCJzY2FsZSI6MX1d/d873f23914/Anger3.png",
       "category": "Essence",
       "chaos": 1,
-      "divine": 0.02754,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 0.1667,
-      "listings": null
-    },
-    {
-      "id": "weeping-essence-of-contempt",
-      "name": "Weeping Essence of Contempt",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Db250ZW1wdDMiLCJzY2FsZSI6MX1d/843175cf8e/Contempt3.png",
-      "category": "Essence",
-      "chaos": 1.5,
-      "divine": 0.04131,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 1.5,
-      "listings": null
-    },
-    {
-      "id": "weeping-essence-of-fear",
-      "name": "Weeping Essence of Fear",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9GZWFyMyIsInNjYWxlIjoxfV0/9d1b4909f4/Fear3.png",
-      "category": "Essence",
-      "chaos": 1.5,
-      "divine": 0.04131,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 2,
-      "listings": null
-    },
-    {
-      "id": "weeping-essence-of-hatred",
-      "name": "Weeping Essence of Hatred",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9IYXRyZWQzIiwic2NhbGUiOjF9XQ/27bb7480f9/Hatred3.png",
-      "category": "Essence",
-      "chaos": 1,
-      "divine": 0.02754,
+      "divine": 0.02359,
       "change": 0,
       "spark": [
         null,
@@ -1540,12 +1940,72 @@
       "listings": null
     },
     {
+      "id": "weeping-essence-of-contempt",
+      "name": "Weeping Essence of Contempt",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Db250ZW1wdDMiLCJzY2FsZSI6MX1d/843175cf8e/Contempt3.png",
+      "category": "Essence",
+      "chaos": 1.38,
+      "divine": 0.0325542,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 1.83,
+      "listings": null
+    },
+    {
+      "id": "weeping-essence-of-fear",
+      "name": "Weeping Essence of Fear",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9GZWFyMyIsInNjYWxlIjoxfV0/9d1b4909f4/Fear3.png",
+      "category": "Essence",
+      "chaos": 1.33,
+      "divine": 0.0313747,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 2.67,
+      "listings": null
+    },
+    {
+      "id": "weeping-essence-of-hatred",
+      "name": "Weeping Essence of Hatred",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9IYXRyZWQzIiwic2NhbGUiOjF9XQ/27bb7480f9/Hatred3.png",
+      "category": "Essence",
+      "chaos": 1,
+      "divine": 0.02359,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 1.5,
+      "listings": null
+    },
+    {
       "id": "weeping-essence-of-sorrow",
       "name": "Weeping Essence of Sorrow",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Tb3Jyb3czIiwic2NhbGUiOjF9XQ/93f2e30be4/Sorrow3.png",
       "category": "Essence",
       "chaos": 1,
-      "divine": 0.02754,
+      "divine": 0.02359,
       "change": 0,
       "spark": [
         null,
@@ -1564,8 +2024,8 @@
       "name": "Muttering Essence of Contempt",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Db250ZW1wdDIiLCJzY2FsZSI6MX1d/13a5416e7b/Contempt2.png",
       "category": "Essence",
-      "chaos": 1,
-      "divine": 0.02754,
+      "chaos": 0.8,
+      "divine": 0.018872,
       "change": 0,
       "spark": [
         null,
@@ -1576,7 +2036,7 @@
         null,
         0
       ],
-      "volume": 0.3333,
+      "volume": 0.6667,
       "listings": null
     },
     {
@@ -1585,7 +2045,7 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9GZWFyMiIsInNjYWxlIjoxfV0/e65af458a0/Fear2.png",
       "category": "Essence",
       "chaos": 1,
-      "divine": 0.02754,
+      "divine": 0.02359,
       "change": 0,
       "spark": [
         null,
@@ -1596,7 +2056,7 @@
         null,
         0
       ],
-      "volume": 1.5,
+      "volume": 2.33,
       "listings": null
     },
     {
@@ -1605,7 +2065,7 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9IYXRyZWQyIiwic2NhbGUiOjF9XQ/cb37284b43/Hatred2.png",
       "category": "Essence",
       "chaos": 1,
-      "divine": 0.02754,
+      "divine": 0.02359,
       "change": 0,
       "spark": [
         null,
@@ -1624,8 +2084,8 @@
       "name": "Screaming Essence of Anger",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BbmdlcjUiLCJzY2FsZSI6MX1d/495b51bb22/Anger5.png",
       "category": "Essence",
-      "chaos": 2.33,
-      "divine": 0.0641682,
+      "chaos": 1.86,
+      "divine": 0.043877400000000004,
       "change": 0,
       "spark": [
         null,
@@ -1636,7 +2096,27 @@
         null,
         0
       ],
-      "volume": 3.5,
+      "volume": 15.17,
+      "listings": null
+    },
+    {
+      "id": "screaming-essence-of-anguish",
+      "name": "Screaming Essence of Anguish",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Bbmd1aXNoNSIsInNjYWxlIjoxfV0/f1577676f8/Anguish5.png",
+      "category": "Essence",
+      "chaos": 1,
+      "divine": 0.02359,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 1.5,
       "listings": null
     },
     {
@@ -1645,7 +2125,7 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Eb3VidDUiLCJzY2FsZSI6MX1d/3411e349a4/Doubt5.png",
       "category": "Essence",
       "chaos": 1,
-      "divine": 0.02754,
+      "divine": 0.02359,
       "change": 0,
       "spark": [
         null,
@@ -1656,7 +2136,7 @@
         null,
         0
       ],
-      "volume": 0.3333,
+      "volume": 1,
       "listings": null
     },
     {
@@ -1664,8 +2144,8 @@
       "name": "Screaming Essence of Greed",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVlZDUiLCJzY2FsZSI6MX1d/f78130ca89/Greed5.png",
       "category": "Essence",
-      "chaos": 1.79,
-      "divine": 0.049296599999999996,
+      "chaos": 2.3,
+      "divine": 0.05425699999999999,
       "change": 0,
       "spark": [
         null,
@@ -1676,7 +2156,7 @@
         null,
         0
       ],
-      "volume": 4.17,
+      "volume": 20.33,
       "listings": null
     },
     {
@@ -1685,7 +2165,7 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9TY29ybjUiLCJzY2FsZSI6MX1d/0325ed7212/Scorn5.png",
       "category": "Essence",
       "chaos": 1,
-      "divine": 0.02754,
+      "divine": 0.02359,
       "change": 0,
       "spark": [
         null,
@@ -1700,12 +2180,12 @@
       "listings": null
     },
     {
-      "id": "screaming-essence-of-torment",
-      "name": "Screaming Essence of Torment",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Ub3JtZW50NSIsInNjYWxlIjoxfV0/46f5990204/Torment5.png",
+      "id": "screaming-essence-of-sorrow",
+      "name": "Screaming Essence of Sorrow",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Tb3Jyb3c1Iiwic2NhbGUiOjF9XQ/c4e14310c9/Sorrow5.png",
       "category": "Essence",
       "chaos": 1,
-      "divine": 0.02754,
+      "divine": 0.02359,
       "change": 0,
       "spark": [
         null,
@@ -1716,7 +2196,27 @@
         null,
         0
       ],
-      "volume": 0.6667,
+      "volume": 0.8333,
+      "listings": null
+    },
+    {
+      "id": "screaming-essence-of-torment",
+      "name": "Screaming Essence of Torment",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Ub3JtZW50NSIsInNjYWxlIjoxfV0/46f5990204/Torment5.png",
+      "category": "Essence",
+      "chaos": 1,
+      "divine": 0.02359,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 2.17,
       "listings": null
     },
     {
@@ -1724,8 +2224,8 @@
       "name": "Screaming Essence of Wrath",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9XcmF0aDUiLCJzY2FsZSI6MX1d/47601c9382/Wrath5.png",
       "category": "Essence",
-      "chaos": 2.42,
-      "divine": 0.06664679999999999,
+      "chaos": 2.48,
+      "divine": 0.0585032,
       "change": 0,
       "spark": [
         null,
@@ -1736,7 +2236,7 @@
         null,
         0
       ],
-      "volume": 4.83,
+      "volume": 13.67,
       "listings": null
     },
     {
@@ -1744,8 +2244,28 @@
       "name": "Screaming Essence of Zeal",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9aZWFsNSIsInNjYWxlIjoxfV0/27f4023314/Zeal5.png",
       "category": "Essence",
-      "chaos": 1,
-      "divine": 0.02754,
+      "chaos": 1.53,
+      "divine": 0.0360927,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 4.33,
+      "listings": null
+    },
+    {
+      "id": "shrieking-essence-of-dread",
+      "name": "Shrieking Essence of Dread",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9EcmVhZDYiLCJzY2FsZSI6MX1d/7a5c6cc4be/Dread6.png",
+      "category": "Essence",
+      "chaos": 3,
+      "divine": 0.07077,
       "change": 0,
       "spark": [
         null,
@@ -1764,8 +2284,8 @@
       "name": "Shrieking Essence of Fear",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9GZWFyNiIsInNjYWxlIjoxfV0/f5a1ac133b/Fear6.png",
       "category": "Essence",
-      "chaos": 4,
-      "divine": 0.11016,
+      "chaos": 4.17,
+      "divine": 0.0983703,
       "change": 0,
       "spark": [
         null,
@@ -1776,7 +2296,7 @@
         null,
         0
       ],
-      "volume": 0.6667,
+      "volume": 4.17,
       "listings": null
     },
     {
@@ -1785,87 +2305,7 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9TdWZmZXJpbmc2Iiwic2NhbGUiOjF9XQ/521d87c5a2/Suffering6.png",
       "category": "Essence",
       "chaos": 2,
-      "divine": 0.05508,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 0.3333,
-      "listings": null
-    },
-    {
-      "id": "shrieking-essence-of-woe",
-      "name": "Shrieking Essence of Woe",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Xb2U2Iiwic2NhbGUiOjF9XQ/89ba32200e/Woe6.png",
-      "category": "Essence",
-      "chaos": 2,
-      "divine": 0.05508,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 0.3333,
-      "listings": null
-    },
-    {
-      "id": "wailing-essence-of-anger",
-      "name": "Wailing Essence of Anger",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BbmdlcjQiLCJzY2FsZSI6MX1d/193cf26944/Anger4.png",
-      "category": "Essence",
-      "chaos": 1,
-      "divine": 0.02754,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 0.5,
-      "listings": null
-    },
-    {
-      "id": "wailing-essence-of-hatred",
-      "name": "Wailing Essence of Hatred",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9IYXRyZWQ0Iiwic2NhbGUiOjF9XQ/7bc001e2dd/Hatred4.png",
-      "category": "Essence",
-      "chaos": 1,
-      "divine": 0.02754,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 0.8333,
-      "listings": null
-    },
-    {
-      "id": "weeping-essence-of-greed",
-      "name": "Weeping Essence of Greed",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVlZDMiLCJzY2FsZSI6MX1d/4b4549da17/Greed3.png",
-      "category": "Essence",
-      "chaos": 1,
-      "divine": 0.02754,
+      "divine": 0.04718,
       "change": 0,
       "spark": [
         null,
@@ -1880,12 +2320,112 @@
       "listings": null
     },
     {
+      "id": "shrieking-essence-of-woe",
+      "name": "Shrieking Essence of Woe",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Xb2U2Iiwic2NhbGUiOjF9XQ/89ba32200e/Woe6.png",
+      "category": "Essence",
+      "chaos": 1.75,
+      "divine": 0.0412825,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 2.33,
+      "listings": null
+    },
+    {
+      "id": "wailing-essence-of-anger",
+      "name": "Wailing Essence of Anger",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BbmdlcjQiLCJzY2FsZSI6MX1d/193cf26944/Anger4.png",
+      "category": "Essence",
+      "chaos": 1,
+      "divine": 0.02359,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 1,
+      "listings": null
+    },
+    {
+      "id": "wailing-essence-of-hatred",
+      "name": "Wailing Essence of Hatred",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9IYXRyZWQ0Iiwic2NhbGUiOjF9XQ/7bc001e2dd/Hatred4.png",
+      "category": "Essence",
+      "chaos": 1.56,
+      "divine": 0.036800400000000004,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 2.33,
+      "listings": null
+    },
+    {
+      "id": "wailing-essence-of-rage",
+      "name": "Wailing Essence of Rage",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9SYWdlNCIsInNjYWxlIjoxfV0/c5fa73b85f/Rage4.png",
+      "category": "Essence",
+      "chaos": 1,
+      "divine": 0.02359,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 0.6667,
+      "listings": null
+    },
+    {
+      "id": "weeping-essence-of-greed",
+      "name": "Weeping Essence of Greed",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVlZDMiLCJzY2FsZSI6MX1d/4b4549da17/Greed3.png",
+      "category": "Essence",
+      "chaos": 1,
+      "divine": 0.02359,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 1,
+      "listings": null
+    },
+    {
       "id": "weeping-essence-of-suffering",
       "name": "Weeping Essence of Suffering",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9TdWZmZXJpbmczIiwic2NhbGUiOjF9XQ/2f8350590a/Suffering3.png",
       "category": "Essence",
       "chaos": 1,
-      "divine": 0.02754,
+      "divine": 0.02359,
       "change": 0,
       "spark": [
         null,
@@ -1904,8 +2444,8 @@
       "name": "Weeping Essence of Torment",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Ub3JtZW50MyIsInNjYWxlIjoxfV0/437e50ebd4/Torment3.png",
       "category": "Essence",
-      "chaos": 1,
-      "divine": 0.02754,
+      "chaos": 0.75,
+      "divine": 0.0176925,
       "change": 0,
       "spark": [
         null,
@@ -1916,7 +2456,7 @@
         null,
         0
       ],
-      "volume": 0.3333,
+      "volume": 0.5,
       "listings": null
     },
     {
@@ -1925,7 +2465,7 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Xb2UzIiwic2NhbGUiOjF9XQ/982d6149c8/Woe3.png",
       "category": "Essence",
       "chaos": 1,
-      "divine": 0.02754,
+      "divine": 0.02359,
       "change": 0,
       "spark": [
         null,
@@ -1936,7 +2476,7 @@
         null,
         0
       ],
-      "volume": 0.3333,
+      "volume": 0.6667,
       "listings": null
     },
     {
@@ -1945,7 +2485,7 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9XcmF0aDMiLCJzY2FsZSI6MX1d/6d2ea95b65/Wrath3.png",
       "category": "Essence",
       "chaos": 1,
-      "divine": 0.02754,
+      "divine": 0.02359,
       "change": 0,
       "spark": [
         null,
@@ -1956,7 +2496,7 @@
         null,
         0
       ],
-      "volume": 0.3333,
+      "volume": 0.6667,
       "listings": null
     },
     {
@@ -1964,8 +2504,8 @@
       "name": "A Chilling Wind",
       "icon": "",
       "category": "DivinationCard",
-      "chaos": 4.78,
-      "divine": 0.13164119999999999,
+      "chaos": 6.42,
+      "divine": 0.1514478,
       "change": 0,
       "spark": [
         null,
@@ -1976,7 +2516,27 @@
         null,
         0
       ],
-      "volume": 7.17,
+      "volume": 12.83,
+      "listings": null
+    },
+    {
+      "id": "assassins-favour",
+      "name": "Assassin's Favour",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 1,
+      "divine": 0.02359,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 0.1667,
       "listings": null
     },
     {
@@ -1984,8 +2544,8 @@
       "name": "Broken Truce",
       "icon": "",
       "category": "DivinationCard",
-      "chaos": 1.5,
-      "divine": 0.04131,
+      "chaos": 1.39,
+      "divine": 0.032790099999999996,
       "change": 0,
       "spark": [
         null,
@@ -1996,7 +2556,7 @@
         null,
         0
       ],
-      "volume": 3.5,
+      "volume": 6.5,
       "listings": null
     },
     {
@@ -2005,7 +2565,7 @@
       "icon": "",
       "category": "DivinationCard",
       "chaos": 1.5,
-      "divine": 0.04131,
+      "divine": 0.035385,
       "change": 0,
       "spark": [
         null,
@@ -2025,7 +2585,7 @@
       "icon": "",
       "category": "DivinationCard",
       "chaos": 3,
-      "divine": 0.08262,
+      "divine": 0.07077,
       "change": 0,
       "spark": [
         null,
@@ -2045,7 +2605,7 @@
       "icon": "",
       "category": "DivinationCard",
       "chaos": 2,
-      "divine": 0.05508,
+      "divine": 0.04718,
       "change": 0,
       "spark": [
         null,
@@ -2065,7 +2625,7 @@
       "icon": "",
       "category": "DivinationCard",
       "chaos": 2,
-      "divine": 0.05508,
+      "divine": 0.04718,
       "change": 0,
       "spark": [
         null,
@@ -2085,7 +2645,7 @@
       "icon": "",
       "category": "DivinationCard",
       "chaos": 3,
-      "divine": 0.08262,
+      "divine": 0.07077,
       "change": 0,
       "spark": [
         null,
@@ -2104,8 +2664,8 @@
       "name": "Cursed Words",
       "icon": "",
       "category": "DivinationCard",
-      "chaos": 5.04,
-      "divine": 0.1388016,
+      "chaos": 7.71,
+      "divine": 0.1818789,
       "change": 0,
       "spark": [
         null,
@@ -2116,7 +2676,7 @@
         null,
         0
       ],
-      "volume": 45.33,
+      "volume": 129.8,
       "listings": null
     },
     {
@@ -2125,7 +2685,7 @@
       "icon": "",
       "category": "DivinationCard",
       "chaos": 1,
-      "divine": 0.02754,
+      "divine": 0.02359,
       "change": 0,
       "spark": [
         null,
@@ -2140,12 +2700,12 @@
       "listings": null
     },
     {
-      "id": "gift-of-asenath",
-      "name": "Gift of Asenath",
+      "id": "dying-anguish",
+      "name": "Dying Anguish",
       "icon": "",
       "category": "DivinationCard",
-      "chaos": 8.88,
-      "divine": 0.2445552,
+      "chaos": 1,
+      "divine": 0.02359,
       "change": 0,
       "spark": [
         null,
@@ -2156,7 +2716,47 @@
         null,
         0
       ],
-      "volume": 11.83,
+      "volume": 0.1667,
+      "listings": null
+    },
+    {
+      "id": "eternal-bonds",
+      "name": "Eternal Bonds",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 5,
+      "divine": 0.11795,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 0.8333,
+      "listings": null
+    },
+    {
+      "id": "gift-of-asenath",
+      "name": "Gift of Asenath",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 10.87,
+      "divine": 0.25642329999999997,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 27.17,
       "listings": null
     },
     {
@@ -2164,8 +2764,28 @@
       "name": "Haunting Shadows",
       "icon": "",
       "category": "DivinationCard",
+      "chaos": 1.12,
+      "divine": 0.0264208,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 1.5,
+      "listings": null
+    },
+    {
+      "id": "might-is-right",
+      "name": "Might is Right",
+      "icon": "",
+      "category": "DivinationCard",
       "chaos": 1,
-      "divine": 0.02754,
+      "divine": 0.02359,
       "change": 0,
       "spark": [
         null,
@@ -2185,7 +2805,7 @@
       "icon": "",
       "category": "DivinationCard",
       "chaos": 1,
-      "divine": 0.02754,
+      "divine": 0.02359,
       "change": 0,
       "spark": [
         null,
@@ -2204,8 +2824,8 @@
       "name": "Sambodhi's Wisdom",
       "icon": "",
       "category": "DivinationCard",
-      "chaos": 2.67,
-      "divine": 0.0735318,
+      "chaos": 3,
+      "divine": 0.07077,
       "change": 0,
       "spark": [
         null,
@@ -2216,7 +2836,7 @@
         null,
         0
       ],
-      "volume": 1.33,
+      "volume": 5,
       "listings": null
     },
     {
@@ -2224,8 +2844,8 @@
       "name": "The Academic",
       "icon": "",
       "category": "DivinationCard",
-      "chaos": 8.75,
-      "divine": 0.240975,
+      "chaos": 9.4,
+      "divine": 0.221746,
       "change": 0,
       "spark": [
         null,
@@ -2236,7 +2856,7 @@
         null,
         0
       ],
-      "volume": 5.83,
+      "volume": 15.67,
       "listings": null
     },
     {
@@ -2245,7 +2865,7 @@
       "icon": "",
       "category": "DivinationCard",
       "chaos": 1,
-      "divine": 0.02754,
+      "divine": 0.02359,
       "change": 0,
       "spark": [
         null,
@@ -2265,7 +2885,7 @@
       "icon": "",
       "category": "DivinationCard",
       "chaos": 1,
-      "divine": 0.02754,
+      "divine": 0.02359,
       "change": 0,
       "spark": [
         null,
@@ -2284,8 +2904,8 @@
       "name": "The Chains that Bind",
       "icon": "",
       "category": "DivinationCard",
-      "chaos": 2.01,
-      "divine": 0.05535539999999999,
+      "chaos": 2.49,
+      "divine": 0.0587391,
       "change": 0,
       "spark": [
         null,
@@ -2296,7 +2916,27 @@
         null,
         0
       ],
-      "volume": 253.2,
+      "volume": 532.3,
+      "listings": null
+    },
+    {
+      "id": "the-chosen",
+      "name": "The Chosen",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 3,
+      "divine": 0.07077,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 0.5,
       "listings": null
     },
     {
@@ -2304,8 +2944,8 @@
       "name": "The Dapper Prodigy",
       "icon": "",
       "category": "DivinationCard",
-      "chaos": 4.06,
-      "divine": 0.11181239999999998,
+      "chaos": 5.42,
+      "divine": 0.1278578,
       "change": 0,
       "spark": [
         null,
@@ -2316,7 +2956,27 @@
         null,
         0
       ],
-      "volume": 31.83,
+      "volume": 94,
+      "listings": null
+    },
+    {
+      "id": "the-enlightened",
+      "name": "The Enlightened",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 2,
+      "divine": 0.04718,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 0.3333,
       "listings": null
     },
     {
@@ -2324,8 +2984,88 @@
       "name": "The Enthusiasts",
       "icon": "",
       "category": "DivinationCard",
-      "chaos": 4,
-      "divine": 0.11016,
+      "chaos": 3.6,
+      "divine": 0.084924,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 3,
+      "listings": null
+    },
+    {
+      "id": "the-fortunate",
+      "name": "The Fortunate",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 6.44,
+      "divine": 0.15191960000000002,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 41.83,
+      "listings": null
+    },
+    {
+      "id": "the-innocent",
+      "name": "The Innocent",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 1,
+      "divine": 0.02359,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 0.3333,
+      "listings": null
+    },
+    {
+      "id": "the-jewellers-boon",
+      "name": "The Jeweller's Boon",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 1,
+      "divine": 0.02359,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 1.33,
+      "listings": null
+    },
+    {
+      "id": "the-magma-crab",
+      "name": "The Magma Crab",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 2,
+      "divine": 0.04718,
       "change": 0,
       "spark": [
         null,
@@ -2340,32 +3080,12 @@
       "listings": null
     },
     {
-      "id": "the-fortunate",
-      "name": "The Fortunate",
+      "id": "the-metalsmiths-gift",
+      "name": "The Metalsmith's Gift",
       "icon": "",
       "category": "DivinationCard",
-      "chaos": 6.56,
-      "divine": 0.18066239999999997,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 9.83,
-      "listings": null
-    },
-    {
-      "id": "the-innocent",
-      "name": "The Innocent",
-      "icon": "",
-      "category": "DivinationCard",
-      "chaos": 1,
-      "divine": 0.02754,
+      "chaos": 0.5,
+      "divine": 0.011795,
       "change": 0,
       "spark": [
         null,
@@ -2384,8 +3104,8 @@
       "name": "The Oath",
       "icon": "",
       "category": "DivinationCard",
-      "chaos": 1.62,
-      "divine": 0.0446148,
+      "chaos": 1.57,
+      "divine": 0.0370363,
       "change": 0,
       "spark": [
         null,
@@ -2396,7 +3116,7 @@
         null,
         0
       ],
-      "volume": 3.5,
+      "volume": 3.67,
       "listings": null
     },
     {
@@ -2404,8 +3124,8 @@
       "name": "The Offspring",
       "icon": "",
       "category": "DivinationCard",
-      "chaos": 3.67,
-      "divine": 0.10107179999999999,
+      "chaos": 3.33,
+      "divine": 0.0785547,
       "change": 0,
       "spark": [
         null,
@@ -2416,7 +3136,7 @@
         null,
         0
       ],
-      "volume": 1.83,
+      "volume": 8.33,
       "listings": null
     },
     {
@@ -2425,7 +3145,7 @@
       "icon": "",
       "category": "DivinationCard",
       "chaos": 1,
-      "divine": 0.02754,
+      "divine": 0.02359,
       "change": 0,
       "spark": [
         null,
@@ -2444,8 +3164,128 @@
       "name": "The Primordial",
       "icon": "",
       "category": "DivinationCard",
-      "chaos": 4,
-      "divine": 0.11016,
+      "chaos": 3.03,
+      "divine": 0.07147769999999999,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 16.67,
+      "listings": null
+    },
+    {
+      "id": "the-prince-of-darkness",
+      "name": "The Prince of Darkness",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 4.17,
+      "divine": 0.0983703,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 4.17,
+      "listings": null
+    },
+    {
+      "id": "the-realm",
+      "name": "The Realm",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 1,
+      "divine": 0.02359,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 2.83,
+      "listings": null
+    },
+    {
+      "id": "the-spark-and-the-flame",
+      "name": "The Spark and the Flame",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 15.3,
+      "divine": 0.360927,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 112.2,
+      "listings": null
+    },
+    {
+      "id": "the-thaumaturgist",
+      "name": "The Thaumaturgist",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 1,
+      "divine": 0.02359,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 0.1667,
+      "listings": null
+    },
+    {
+      "id": "the-wrath",
+      "name": "The Wrath",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 1,
+      "divine": 0.02359,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 11,
+      "listings": null
+    },
+    {
+      "id": "desperate-crusade",
+      "name": "Desperate Crusade",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 2.5,
+      "divine": 0.058975,
       "change": 0,
       "spark": [
         null,
@@ -2460,92 +3300,92 @@
       "listings": null
     },
     {
-      "id": "the-realm",
-      "name": "The Realm",
-      "icon": "",
-      "category": "DivinationCard",
-      "chaos": 1,
-      "divine": 0.02754,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 0.8333,
-      "listings": null
-    },
-    {
-      "id": "the-spark-and-the-flame",
-      "name": "The Spark and the Flame",
-      "icon": "",
-      "category": "DivinationCard",
-      "chaos": 11.67,
-      "divine": 0.3213918,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 40.83,
-      "listings": null
-    },
-    {
-      "id": "the-wrath",
-      "name": "The Wrath",
-      "icon": "",
-      "category": "DivinationCard",
-      "chaos": 1,
-      "divine": 0.02754,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 6,
-      "listings": null
-    },
-    {
-      "id": "desperate-crusade",
-      "name": "Desperate Crusade",
-      "icon": "",
-      "category": "DivinationCard",
-      "chaos": 2.5,
-      "divine": 0.06885,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 0.8333,
-      "listings": null
-    },
-    {
       "id": "divine-beauty",
       "name": "Divine Beauty",
       "icon": "",
       "category": "DivinationCard",
-      "chaos": 14.5,
-      "divine": 0.39932999999999996,
+      "chaos": 13.38,
+      "divine": 0.31563420000000003,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 29,
+      "listings": null
+    },
+    {
+      "id": "divine-shard",
+      "name": "Divine Shard",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 1,
+      "divine": 0.02359,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 0.1667,
+      "listings": null
+    },
+    {
+      "id": "emperor-of-purity",
+      "name": "Emperor of Purity",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 3.02,
+      "divine": 0.0712418,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 44.83,
+      "listings": null
+    },
+    {
+      "id": "heterochromia",
+      "name": "Heterochromia",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 2.5,
+      "divine": 0.058975,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 15,
+      "listings": null
+    },
+    {
+      "id": "humility",
+      "name": "Humility",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 0.8788,
+      "divine": 0.020730892,
       "change": 0,
       "spark": [
         null,
@@ -2560,72 +3400,12 @@
       "listings": null
     },
     {
-      "id": "emperor-of-purity",
-      "name": "Emperor of Purity",
-      "icon": "",
-      "category": "DivinationCard",
-      "chaos": 2.22,
-      "divine": 0.0611388,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 10,
-      "listings": null
-    },
-    {
-      "id": "heterochromia",
-      "name": "Heterochromia",
-      "icon": "",
-      "category": "DivinationCard",
-      "chaos": 1.5,
-      "divine": 0.04131,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 2,
-      "listings": null
-    },
-    {
-      "id": "humility",
-      "name": "Humility",
-      "icon": "",
-      "category": "DivinationCard",
-      "chaos": 0.8947,
-      "divine": 0.024640038,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 2.83,
-      "listings": null
-    },
-    {
       "id": "hunters-reward",
       "name": "Hunter's Reward",
       "icon": "",
       "category": "DivinationCard",
-      "chaos": 9.5,
-      "divine": 0.26163,
+      "chaos": 14.48,
+      "divine": 0.34158320000000003,
       "change": 0,
       "spark": [
         null,
@@ -2636,7 +3416,27 @@
         null,
         0
       ],
-      "volume": 3.17,
+      "volume": 50.67,
+      "listings": null
+    },
+    {
+      "id": "immortal-resolve",
+      "name": "Immortal Resolve",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 1.8,
+      "divine": 0.042462,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 1.5,
       "listings": null
     },
     {
@@ -2645,7 +3445,7 @@
       "icon": "",
       "category": "DivinationCard",
       "chaos": 1,
-      "divine": 0.02754,
+      "divine": 0.02359,
       "change": 0,
       "spark": [
         null,
@@ -2656,7 +3456,27 @@
         null,
         0
       ],
-      "volume": 2.83,
+      "volume": 7.5,
+      "listings": null
+    },
+    {
+      "id": "i-see-brothers",
+      "name": "I See Brothers",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 42.4,
+      "divine": 1.000216,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 7.07,
       "listings": null
     },
     {
@@ -2664,8 +3484,8 @@
       "name": "Lachrymal Necrosis",
       "icon": "",
       "category": "DivinationCard",
-      "chaos": 1.33,
-      "divine": 0.0366282,
+      "chaos": 1.81,
+      "divine": 0.042697900000000004,
       "change": 0,
       "spark": [
         null,
@@ -2676,7 +3496,7 @@
         null,
         0
       ],
-      "volume": 2,
+      "volume": 7.83,
       "listings": null
     },
     {
@@ -2685,7 +3505,7 @@
       "icon": "",
       "category": "DivinationCard",
       "chaos": 1,
-      "divine": 0.02754,
+      "divine": 0.02359,
       "change": 0,
       "spark": [
         null,
@@ -2705,7 +3525,7 @@
       "icon": "",
       "category": "DivinationCard",
       "chaos": 3,
-      "divine": 0.08262,
+      "divine": 0.07077,
       "change": 0,
       "spark": [
         null,
@@ -2720,12 +3540,12 @@
       "listings": null
     },
     {
-      "id": "the-celestial-justicar",
-      "name": "The Celestial Justicar",
+      "id": "seven-years-bad-luck",
+      "name": "Seven Years Bad Luck",
       "icon": "",
       "category": "DivinationCard",
-      "chaos": 4.14,
-      "divine": 0.11401559999999998,
+      "chaos": 42.4,
+      "divine": 1.000216,
       "change": 0,
       "spark": [
         null,
@@ -2736,7 +3556,67 @@
         null,
         0
       ],
-      "volume": 29,
+      "volume": 7.07,
+      "listings": null
+    },
+    {
+      "id": "the-aesthete",
+      "name": "The Aesthete",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 1,
+      "divine": 0.02359,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 0.3333,
+      "listings": null
+    },
+    {
+      "id": "the-bitter-blossom",
+      "name": "The Bitter Blossom",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 2,
+      "divine": 0.04718,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 0.3333,
+      "listings": null
+    },
+    {
+      "id": "the-celestial-justicar",
+      "name": "The Celestial Justicar",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 5.46,
+      "divine": 0.1288014,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 69.17,
       "listings": null
     },
     {
@@ -2745,7 +3625,47 @@
       "icon": "",
       "category": "DivinationCard",
       "chaos": 1,
-      "divine": 0.02754,
+      "divine": 0.02359,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 0.6667,
+      "listings": null
+    },
+    {
+      "id": "the-dark-mage",
+      "name": "The Dark Mage",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 1,
+      "divine": 0.02359,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 0.8333,
+      "listings": null
+    },
+    {
+      "id": "the-deep-ones",
+      "name": "The Deep Ones",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 1,
+      "divine": 0.02359,
       "change": 0,
       "spark": [
         null,
@@ -2765,7 +3685,7 @@
       "icon": "",
       "category": "DivinationCard",
       "chaos": 1,
-      "divine": 0.02754,
+      "divine": 0.02359,
       "change": 0,
       "spark": [
         null,
@@ -2785,7 +3705,7 @@
       "icon": "",
       "category": "DivinationCard",
       "chaos": 1,
-      "divine": 0.02754,
+      "divine": 0.02359,
       "change": 0,
       "spark": [
         null,
@@ -2796,7 +3716,7 @@
         null,
         0
       ],
-      "volume": 3.67,
+      "volume": 5.67,
       "listings": null
     },
     {
@@ -2804,8 +3724,8 @@
       "name": "The Escape",
       "icon": "",
       "category": "DivinationCard",
-      "chaos": 3,
-      "divine": 0.08262,
+      "chaos": 2.33,
+      "divine": 0.0549647,
       "change": 0,
       "spark": [
         null,
@@ -2816,16 +3736,56 @@
         null,
         0
       ],
-      "volume": 2,
+      "volume": 2.33,
       "listings": null
     },
     {
-      "id": "the-messenger",
-      "name": "The Messenger",
+      "id": "the-finishing-touch",
+      "name": "The Finishing Touch",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 1.5,
+      "divine": 0.035385,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 0.5,
+      "listings": null
+    },
+    {
+      "id": "the-gladiator",
+      "name": "The Gladiator",
       "icon": "",
       "category": "DivinationCard",
       "chaos": 1,
-      "divine": 0.02754,
+      "divine": 0.02359,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 0.8333,
+      "listings": null
+    },
+    {
+      "id": "the-kings-heart",
+      "name": "The King's Heart",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 1,
+      "divine": 0.02359,
       "change": 0,
       "spark": [
         null,
@@ -2840,52 +3800,12 @@
       "listings": null
     },
     {
-      "id": "the-minds-eyes",
-      "name": "The Mind's Eyes",
+      "id": "the-last-laugh",
+      "name": "The Last Laugh",
       "icon": "",
       "category": "DivinationCard",
-      "chaos": 3.5,
-      "divine": 0.09638999999999999,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 7,
-      "listings": null
-    },
-    {
-      "id": "the-patient",
-      "name": "The Patient",
-      "icon": "",
-      "category": "DivinationCard",
-      "chaos": 5.86,
-      "divine": 0.1613844,
-      "change": 0,
-      "spark": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0
-      ],
-      "volume": 6.83,
-      "listings": null
-    },
-    {
-      "id": "the-polymath",
-      "name": "The Polymath",
-      "icon": "",
-      "category": "DivinationCard",
-      "chaos": 1.33,
-      "divine": 0.0366282,
+      "chaos": 1,
+      "divine": 0.02359,
       "change": 0,
       "spark": [
         null,
@@ -2900,12 +3820,12 @@
       "listings": null
     },
     {
-      "id": "the-porcupine",
-      "name": "The Porcupine",
+      "id": "the-messenger",
+      "name": "The Messenger",
       "icon": "",
       "category": "DivinationCard",
-      "chaos": 1.58,
-      "divine": 0.0435132,
+      "chaos": 3.2,
+      "divine": 0.075488,
       "change": 0,
       "spark": [
         null,
@@ -2916,7 +3836,127 @@
         null,
         0
       ],
-      "volume": 20.5,
+      "volume": 2.67,
+      "listings": null
+    },
+    {
+      "id": "the-minds-eyes",
+      "name": "The Mind's Eyes",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 4.05,
+      "divine": 0.0955395,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 12.83,
+      "listings": null
+    },
+    {
+      "id": "the-nurse",
+      "name": "The Nurse",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 34.25,
+      "divine": 0.8079575,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 22.83,
+      "listings": null
+    },
+    {
+      "id": "the-patient",
+      "name": "The Patient",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 5.28,
+      "divine": 0.1245552,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 15.83,
+      "listings": null
+    },
+    {
+      "id": "the-poet",
+      "name": "The Poet",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 1,
+      "divine": 0.02359,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 0.1667,
+      "listings": null
+    },
+    {
+      "id": "the-polymath",
+      "name": "The Polymath",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 2.46,
+      "divine": 0.0580314,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 5.33,
+      "listings": null
+    },
+    {
+      "id": "the-porcupine",
+      "name": "The Porcupine",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 1.85,
+      "divine": 0.0436415,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 47.5,
       "listings": null
     },
     {
@@ -2924,8 +3964,8 @@
       "name": "The Sephirot",
       "icon": "",
       "category": "DivinationCard",
-      "chaos": 16.33,
-      "divine": 0.4497281999999999,
+      "chaos": 22.04,
+      "divine": 0.5199235999999999,
       "change": 0,
       "spark": [
         null,
@@ -2936,7 +3976,67 @@
         null,
         0
       ],
-      "volume": 16.33,
+      "volume": 88.17,
+      "listings": null
+    },
+    {
+      "id": "the-shortcut",
+      "name": "The Shortcut",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 3,
+      "divine": 0.07077,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 0.5,
+      "listings": null
+    },
+    {
+      "id": "the-standoff",
+      "name": "The Standoff",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 1,
+      "divine": 0.02359,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 0.3333,
+      "listings": null
+    },
+    {
+      "id": "the-strategist",
+      "name": "The Strategist",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 17.5,
+      "divine": 0.412825,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 5.83,
       "listings": null
     },
     {
@@ -2944,8 +4044,8 @@
       "name": "The Sun",
       "icon": "",
       "category": "DivinationCard",
-      "chaos": 0.8889,
-      "divine": 0.024480306,
+      "chaos": 0.8621,
+      "divine": 0.020336939,
       "change": 0,
       "spark": [
         null,
@@ -2956,7 +4056,67 @@
         null,
         0
       ],
-      "volume": 1.33,
+      "volume": 4.17,
+      "listings": null
+    },
+    {
+      "id": "the-undaunted",
+      "name": "The Undaunted",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 1,
+      "divine": 0.02359,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 0.5,
+      "listings": null
+    },
+    {
+      "id": "the-undisputed",
+      "name": "The Undisputed",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 1,
+      "divine": 0.02359,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 0.1667,
+      "listings": null
+    },
+    {
+      "id": "the-watcher",
+      "name": "The Watcher",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 1.52,
+      "divine": 0.0358568,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 5.83,
       "listings": null
     },
     {
@@ -2964,8 +4124,8 @@
       "name": "The Wedding Gift",
       "icon": "",
       "category": "DivinationCard",
-      "chaos": 8.12,
-      "divine": 0.22362479999999996,
+      "chaos": 7.46,
+      "divine": 0.1759814,
       "change": 0,
       "spark": [
         null,
@@ -2976,7 +4136,7 @@
         null,
         0
       ],
-      "volume": 10.83,
+      "volume": 16.17,
       "listings": null
     },
     {
@@ -2985,7 +4145,27 @@
       "icon": "",
       "category": "DivinationCard",
       "chaos": 1,
-      "divine": 0.02754,
+      "divine": 0.02359,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 0.1667,
+      "listings": null
+    },
+    {
+      "id": "thunderous-skies",
+      "name": "Thunderous Skies",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 1,
+      "divine": 0.02359,
       "change": 0,
       "spark": [
         null,
@@ -3004,8 +4184,68 @@
       "name": "Toxic Tidings",
       "icon": "",
       "category": "DivinationCard",
-      "chaos": 3,
-      "divine": 0.08262,
+      "chaos": 3.45,
+      "divine": 0.0813855,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 6.33,
+      "listings": null
+    },
+    {
+      "id": "vanity",
+      "name": "Vanity",
+      "icon": "",
+      "category": "DivinationCard",
+      "chaos": 1,
+      "divine": 0.02359,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 2,
+      "listings": null
+    },
+    {
+      "id": "omen-of-the-jeweller",
+      "name": "Omen of the Jeweller",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQXptZXJpL1Zvb2Rvb09tZW5zMlB1cnBsZSIsInNjYWxlIjoxfV0/220fd7098d/VoodooOmens2Purple.png",
+      "category": "Omen",
+      "chaos": 16.5,
+      "divine": 0.389235,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 5.5,
+      "listings": null
+    },
+    {
+      "id": "aberrant-fossil",
+      "name": "Aberrant Fossil",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGVsdmUvQWJiZXJhbnRGb3NzaWwiLCJzY2FsZSI6MX1d/0ebc664beb/AbberantFossil.png",
+      "category": "Fossil",
+      "chaos": 1,
+      "divine": 0.02359,
       "change": 0,
       "spark": [
         null,
@@ -3020,12 +4260,52 @@
       "listings": null
     },
     {
-      "id": "vanity",
-      "name": "Vanity",
-      "icon": "",
-      "category": "DivinationCard",
+      "id": "dense-fossil",
+      "name": "Dense Fossil",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGVsdmUvRGVuc2VGb3NzaWwiLCJzY2FsZSI6MX1d/ac39aaf3cd/DenseFossil.png",
+      "category": "Fossil",
+      "chaos": 1.67,
+      "divine": 0.0393953,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 1.67,
+      "listings": null
+    },
+    {
+      "id": "jagged-fossil",
+      "name": "Jagged Fossil",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGVsdmUvSmFnZ2VkRm9zc2lsIiwic2NhbGUiOjF9XQ/ca9c17d7d9/JaggedFossil.png",
+      "category": "Fossil",
+      "chaos": 1.65,
+      "divine": 0.0389235,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 5.5,
+      "listings": null
+    },
+    {
+      "id": "scorched-fossil",
+      "name": "Scorched Fossil",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGVsdmUvQW1iZXJGaXJlRmx5Iiwic2NhbGUiOjF9XQ/0954934026/AmberFireFly.png",
+      "category": "Fossil",
       "chaos": 1,
-      "divine": 0.02754,
+      "divine": 0.02359,
       "change": 0,
       "spark": [
         null,
@@ -3040,12 +4320,12 @@
       "listings": null
     },
     {
-      "id": "omen-of-the-jeweller",
-      "name": "Omen of the Jeweller",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQXptZXJpL1Zvb2Rvb09tZW5zMlB1cnBsZSIsInNjYWxlIjoxfV0/220fd7098d/VoodooOmens2Purple.png",
-      "category": "Omen",
-      "chaos": 15,
-      "divine": 0.41309999999999997,
+      "id": "azure-oil",
+      "name": "Azure Oil",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT2lscy9BenVyZU9pbCIsInNjYWxlIjoxfV0/a68235e8e8/AzureOil.png",
+      "category": "Oil",
+      "chaos": 1.29,
+      "divine": 0.0304311,
       "change": 0,
       "spark": [
         null,
@@ -3056,7 +4336,7 @@
         null,
         0
       ],
-      "volume": 2.5,
+      "volume": 6.67,
       "listings": null
     },
     {
@@ -3064,8 +4344,8 @@
       "name": "Amber Oil",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT2lscy9BbWJlck9pbCIsInNjYWxlIjoxfV0/bd5ce1adfa/AmberOil.png",
       "category": "Oil",
-      "chaos": 0.6923,
-      "divine": 0.023136666,
+      "chaos": 0.8744,
+      "divine": 0.020627095999999998,
       "change": 0,
       "spark": [
         null,
@@ -3076,7 +4356,7 @@
         null,
         0
       ],
-      "volume": 1.5,
+      "volume": 30.17,
       "listings": null
     },
     {
@@ -3084,8 +4364,8 @@
       "name": "Black Oil",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT2lscy9CbGFja09pbCIsInNjYWxlIjoxfV0/ce6830b309/BlackOil.png",
       "category": "Oil",
-      "chaos": 5,
-      "divine": 0.1671,
+      "chaos": 5.76,
+      "divine": 0.13587839999999998,
       "change": 0,
       "spark": [
         null,
@@ -3096,7 +4376,27 @@
         null,
         0
       ],
-      "volume": 0.8333,
+      "volume": 74.83,
+      "listings": null
+    },
+    {
+      "id": "clear-oil",
+      "name": "Clear Oil",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT2lscy9DbGVhck9pbCIsInNjYWxlIjoxfV0/0a7f30cc3b/ClearOil.png",
+      "category": "Oil",
+      "chaos": 0.2857,
+      "divine": 0.006739663,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 10.33,
       "listings": null
     },
     {
@@ -3104,8 +4404,8 @@
       "name": "Crimson Oil",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT2lscy9Dcmltc29uT2lsIiwic2NhbGUiOjF9XQ/5e5f62ac0e/CrimsonOil.png",
       "category": "Oil",
-      "chaos": 1.33,
-      "divine": 0.0444486,
+      "chaos": 4.29,
+      "divine": 0.1012011,
       "change": 0,
       "spark": [
         null,
@@ -3116,7 +4416,87 @@
         null,
         0
       ],
-      "volume": 0.6667,
+      "volume": 72.17,
+      "listings": null
+    },
+    {
+      "id": "indigo-oil",
+      "name": "Indigo Oil",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT2lscy9JbmRpZ29PaWwiLCJzY2FsZSI6MX1d/d11c298ca8/IndigoOil.png",
+      "category": "Oil",
+      "chaos": 2.21,
+      "divine": 0.0521339,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 25,
+      "listings": null
+    },
+    {
+      "id": "opalescent-oil",
+      "name": "Opalescent Oil",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT2lscy9PcGFsZXNjZW50T2lsIiwic2NhbGUiOjF9XQ/abd419a154/OpalescentOil.png",
+      "category": "Oil",
+      "chaos": 7.47,
+      "divine": 0.1762173,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 18.67,
+      "listings": null
+    },
+    {
+      "id": "sepia-oil",
+      "name": "Sepia Oil",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT2lscy9TZXBpYU9pbCIsInNjYWxlIjoxfV0/9114927bcc/SepiaOil.png",
+      "category": "Oil",
+      "chaos": 0.3162,
+      "divine": 0.007459158,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 6.17,
+      "listings": null
+    },
+    {
+      "id": "violet-oil",
+      "name": "Violet Oil",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT2lscy9WaW9sZXRPaWwiLCJzY2FsZSI6MX1d/76c3dc06f8/VioletOil.png",
+      "category": "Oil",
+      "chaos": 2.43,
+      "divine": 0.057323700000000005,
+      "change": 0,
+      "spark": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "volume": 30.83,
       "listings": null
     },
     {
@@ -3124,8 +4504,8 @@
       "name": "Teal Oil",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT2lscy9UZWFsT2lsIiwic2NhbGUiOjF9XQ/d90d65a90b/TealOil.png",
       "category": "Oil",
-      "chaos": 1,
-      "divine": 0.03342,
+      "chaos": 1.52,
+      "divine": 0.0358568,
       "change": 0,
       "spark": [
         null,
@@ -3136,7 +4516,7 @@
         null,
         0
       ],
-      "volume": 0.8333,
+      "volume": 32.33,
       "listings": null
     },
     {
@@ -3144,8 +4524,8 @@
       "name": "Verdant Oil",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT2lscy9WZXJkYW50T2lsIiwic2NhbGUiOjF9XQ/efeac217c1/VerdantOil.png",
       "category": "Oil",
-      "chaos": 2,
-      "divine": 0.06684,
+      "chaos": 0.8917,
+      "divine": 0.021035203000000002,
       "change": 0,
       "spark": [
         null,
@@ -3156,7 +4536,7 @@
         null,
         0
       ],
-      "volume": 0.3333,
+      "volume": 17.83,
       "listings": null
     },
     {
@@ -3164,8 +4544,8 @@
       "name": "Fine Delirium Orb",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGVsaXJpdW0vRGVsaXJpdW1PcmJDdXJyZW5jeSIsInNjYWxlIjoxfV0/a0ccb93233/DeliriumOrbCurrency.png",
       "category": "DeliriumOrb",
-      "chaos": 1,
-      "divine": 0.02754,
+      "chaos": 1.2,
+      "divine": 0.028308,
       "change": 0,
       "spark": [
         null,
@@ -3176,7 +4556,7 @@
         null,
         0
       ],
-      "volume": 0.3333,
+      "volume": 2,
       "listings": null
     },
     {
@@ -3185,7 +4565,7 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGVsaXJpdW0vRGVsaXJpdW1PcmJUcmlua2V0cyIsInNjYWxlIjoxfV0/165e84bd2a/DeliriumOrbTrinkets.png",
       "category": "DeliriumOrb",
       "chaos": 1,
-      "divine": 0.02754,
+      "divine": 0.02359,
       "change": 0,
       "spark": [
         null,
@@ -3200,33 +4580,33 @@
       "listings": null
     },
     {
-      "id": "farric-ursa",
-      "name": "Farric Ursa",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQmVzdGlhcnlPcmJGdWxsIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/3214b44360/BestiaryOrbFull.png",
-      "category": "Beast",
-      "chaos": 20,
-      "divine": 0.67,
-      "change": 0,
-      "spark": [],
-      "volume": null,
-      "listings": 1
-    },
-    {
       "id": "craicic-sand-spitter",
       "name": "Craicic Sand Spitter",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQmVzdGlhcnlPcmJGdWxsIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/3214b44360/BestiaryOrbFull.png",
       "category": "Beast",
-      "chaos": 20,
-      "divine": 0.67,
+      "chaos": 19.1,
+      "divine": 0.53,
       "change": 0,
       "spark": [],
       "volume": null,
       "listings": 2
+    },
+    {
+      "id": "farric-ursa",
+      "name": "Farric Ursa",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQmVzdGlhcnlPcmJGdWxsIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/3214b44360/BestiaryOrbFull.png",
+      "category": "Beast",
+      "chaos": 5,
+      "divine": 0.14,
+      "change": 0,
+      "spark": [],
+      "volume": null,
+      "listings": 1
     }
   ],
   "errors": [],
   "sources": [
     "https://poe.ninja"
   ],
-  "updatedAt": "2026-11-14T01:27:53.959Z"
+  "updatedAt": "2026-11-14T02:40:10.956Z"
 }

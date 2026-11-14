@@ -1,6 +1,20 @@
 {
-  "current": "3-29-curse-of-the-allflame",
+  "current": "covens",
   "seasons": [
+    {
+      "key": "covens",
+      "label": "Covens",
+      "patch": "",
+      "name": "Covens",
+      "updatedAt": "2026-11-14T02:40:40.132Z",
+      "builds": [],
+      "notes": "Các nguồn thông tin được cung me cấp không chứa dữ liệu về game Path of Exile hoặc các build League Starter.",
+      "sources": [
+        "https://www.pa.gov/agencies/revenue/resources/mypath",
+        "https://www.pathcenter.org/"
+      ],
+      "model": "gemini-3.6-flash"
+    },
     {
       "key": "3-29-curse-of-the-allflame",
       "label": "3.29 Curse of the Allflame",
@@ -407,5 +421,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-10T04:19:11.639Z"
+  "updatedAt": "2026-11-14T02:40:40.132Z"
 }
