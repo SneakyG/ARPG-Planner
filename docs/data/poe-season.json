@@ -7,9 +7,11 @@
   "changes": [],
   "next": "",
   "sources": [
-    "https://www.pa.gov/agencies/revenue/resources/mypath",
-    "https://www.pathcenter.org/"
+    "https://epath.org/",
+    "https://epath.org/careers/",
+    "https://www.path.org/",
+    "https://www.path.org/where-we-work/americas/united-states/"
   ],
   "model": "gemini-3.6-flash",
-  "updatedAt": "2026-11-14T02:40:31.086Z"
+  "updatedAt": "2026-11-15T02:47:03.531Z"
 }

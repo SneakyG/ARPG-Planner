@@ -6,11 +6,14 @@
       "label": "Covens",
       "patch": "",
       "name": "Covens",
-      "updatedAt": "2026-11-14T05:11:16.450Z",
+      "updatedAt": "2026-11-15T02:47:14.573Z",
       "builds": [],
-      "notes": "Nguồn dữ liệu được cung cấp thuộc về tổ chức y tế toàn cầu PATH (path.org), không chứa thông tin liên quan đến game Path of Exile hay các league starter build.",
+      "notes": "Trong các nguồn được cung cấp không có thông tin nào liên quan đến game Path of Exile, mùa giải hay các League Starter build. Các nguồn được cung cấp đều là thông tin về các tổ chức phi lợi nhuận PATH (hỗ trợ người vô gia cư và y tế toàn cầu).",
       "sources": [
-        "https://www.path.org/"
+        "https://epath.org/",
+        "https://epath.org/careers/",
+        "https://www.path.org/",
+        "https://www.path.org/where-we-work/americas/united-states/"
       ],
       "model": "gemini-3.6-flash"
     },
@@ -420,5 +423,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-14T05:11:16.450Z"
+  "updatedAt": "2026-11-15T02:47:14.573Z"
 }

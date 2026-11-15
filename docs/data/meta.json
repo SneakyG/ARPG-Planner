@@ -4,56 +4,62 @@
   "status": {
     "poe:items": {
       "ok": true,
-      "at": "2026-11-15T02:06:11.296Z",
-      "info": "744 món",
-      "ms": 2714
+      "at": "2026-11-15T02:46:46.254Z",
+      "info": "741 món",
+      "ms": 3031
     },
     "poe:season": {
-      "ok": false,
-      "at": "2026-11-15T02:10:12.843Z",
-      "error": "The operation was aborted due to timeout"
+      "ok": true,
+      "at": "2026-11-15T02:47:03.531Z",
+      "info": "",
+      "ms": 17277
     },
     "poe:builds": {
-      "ok": false,
-      "at": "2026-11-15T02:14:13.323Z",
-      "error": "The operation was aborted due to timeout"
+      "ok": true,
+      "at": "2026-11-15T02:47:14.573Z",
+      "info": "0 build",
+      "ms": 11042
     },
     "poe:farm": {
-      "ok": false,
-      "at": "2026-11-15T02:18:23.394Z",
-      "error": "The operation was aborted due to timeout"
+      "ok": true,
+      "at": "2026-11-15T02:50:23.702Z",
+      "info": "",
+      "ms": 181125
     },
     "poe:guides": {
       "ok": true,
-      "at": "2026-11-15T02:18:31.399Z",
+      "at": "2026-11-15T02:50:31.707Z",
       "info": "tạo 0, lỗi 0",
-      "ms": 0
+      "ms": 1
     },
     "tli:season": {
       "ok": false,
-      "at": "2026-11-15T02:22:42.277Z",
+      "at": "2026-11-15T02:54:42.448Z",
       "error": "The operation was aborted due to timeout"
     },
     "tli:builds": {
-      "ok": false,
-      "at": "2026-11-15T02:26:52.208Z",
-      "error": "The operation was aborted due to timeout"
+      "ok": true,
+      "at": "2026-11-15T02:55:24.273Z",
+      "info": "10 build",
+      "ms": 33821
     },
     "tli:farm": {
-      "ok": false,
-      "at": "2026-11-15T02:31:01.147Z",
-      "error": "The operation was aborted due to timeout"
+      "ok": true,
+      "at": "2026-11-15T02:58:53.401Z",
+      "info": "",
+      "ms": 201124
     },
     "tli:items": {
-      "ok": false,
-      "at": "2026-11-15T02:35:09.648Z",
-      "error": "The operation was aborted due to timeout"
+      "ok": true,
+      "at": "2026-11-15T03:00:15.974Z",
+      "info": "0 món",
+      "ms": 74570
     },
     "tli:guides": {
       "ok": true,
-      "at": "2026-11-15T02:35:18.785Z",
-      "info": "tạo 0, lỗi 0",
-      "ms": 1
+      "at": "2026-11-15T03:14:04.433Z",
+      "info": "tạo 2, lỗi 3 (ss14-tartarus-erika-1-corrosive-throw: The operation was aborted due to timeout; ss14-tartarus-selena-1-wilting-beam: The operation was aborted due to timeout; ss14-tartarus-youga-3-splitting-lightning-bolt: The operation was aborted due to timeout)",
+      "ms": 819628
     },
     "poe:cleanup": {
       "ok": true,
@@ -62,7 +68,7 @@
     },
     "tli:pacts": {
       "ok": false,
-      "at": "2026-11-15T02:35:18.784Z",
+      "at": "2026-11-15T03:00:24.805Z",
       "error": "Chỉ đọc được 0 Pactspirit từ tlidb.com (trang có thể đã chặn máy chủ GitHub hoặc đổi cấu trúc). Giữ danh sách đã có."
     },
     "tli:cleanup": {
@@ -72,5 +78,5 @@
     }
   },
   "guidesTopN": 5,
-  "updatedAt": "2026-11-15T02:35:26.789Z"
+  "updatedAt": "2026-11-15T03:14:12.441Z"
 }
