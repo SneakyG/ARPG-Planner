@@ -2,13 +2,13 @@
   "kind": "ai",
   "season": "Torchlight: Infinite SS14 Tartarus",
   "items": [],
-  "notes": "Trong các nguồn được cung cấp, không có thông tin chi tiết hoặc danh sách về các vật phẩm đáng farm/bán, giá Flame Elementium, hay địa điểm farm cụ thể trong mùa Tartarus của Torchlight: Infinite.",
+  "notes": "Các nguồn được cung cấp chỉ chứa thông tin địa lý và du lịch về thành phố Seattle (Washington, Hoa Kỳ), không có bất kỳ thông tin nào về game Torchlight: Infinite mùa SS14 Tartarus hoặc các vật phẩm trong game để liệt kê.",
   "sources": [
-    "https://torchlight.xd.com/index",
-    "https://store.steampowered.com/app/41500/Torchlight/",
-    "https://en.wikipedia.org/wiki/Torchlight",
-    "https://torchlightcurriculum.com/torchlight/"
+    "https://en.m.wikipedia.org/wiki/Seattle",
+    "https://visitseattle.org/",
+    "https://www.seattle.gov/",
+    "https://visitseattle.org/things-to-do/sightseeing/top-25-attractions/"
   ],
   "model": "gemini-3.8-flash",
-  "updatedAt": "2026-11-15T03:00:15.974Z"
+  "updatedAt": "2026-11-16T02:27:06.620Z"
 }

@@ -4,62 +4,62 @@
   "status": {
     "poe:items": {
       "ok": true,
-      "at": "2026-11-15T22:52:37.444Z",
-      "info": "775 món",
-      "ms": 1821
+      "at": "2026-11-16T02:22:40.920Z",
+      "info": "774 món",
+      "ms": 2419
     },
     "poe:season": {
       "ok": true,
-      "at": "2026-11-15T02:47:03.531Z",
+      "at": "2026-11-16T02:23:17.207Z",
       "info": "",
-      "ms": 17277
+      "ms": 36286
     },
     "poe:builds": {
       "ok": true,
-      "at": "2026-11-15T02:47:14.573Z",
+      "at": "2026-11-16T02:24:09.500Z",
       "info": "0 build",
-      "ms": 11042
+      "ms": 52292
     },
     "poe:farm": {
       "ok": true,
-      "at": "2026-11-15T02:50:23.702Z",
+      "at": "2026-11-16T02:24:48.823Z",
       "info": "",
-      "ms": 181125
+      "ms": 31318
     },
     "poe:guides": {
       "ok": true,
-      "at": "2026-11-15T02:50:31.707Z",
+      "at": "2026-11-16T02:24:56.828Z",
       "info": "tạo 0, lỗi 0",
       "ms": 1
     },
     "tli:season": {
       "ok": false,
-      "at": "2026-11-15T02:54:42.448Z",
-      "error": "The operation was aborted due to timeout"
+      "at": "2026-11-16T02:25:09.373Z",
+      "error": "AI không xác định được tên mùa. Giữ dữ liệu mùa cũ."
     },
     "tli:builds": {
       "ok": true,
-      "at": "2026-11-15T02:55:24.273Z",
+      "at": "2026-11-16T02:25:46.864Z",
       "info": "10 build",
-      "ms": 33821
+      "ms": 29492
     },
     "tli:farm": {
       "ok": true,
-      "at": "2026-11-15T02:58:53.401Z",
+      "at": "2026-11-16T02:26:25.250Z",
       "info": "",
-      "ms": 201124
+      "ms": 30383
     },
     "tli:items": {
       "ok": true,
-      "at": "2026-11-15T03:00:15.974Z",
+      "at": "2026-11-16T02:27:06.621Z",
       "info": "0 món",
-      "ms": 74570
+      "ms": 33366
     },
     "tli:guides": {
       "ok": true,
-      "at": "2026-11-15T03:14:04.433Z",
-      "info": "tạo 2, lỗi 3 (ss14-tartarus-erika-1-corrosive-throw: The operation was aborted due to timeout; ss14-tartarus-selena-1-wilting-beam: The operation was aborted due to timeout; ss14-tartarus-youga-3-splitting-lightning-bolt: The operation was aborted due to timeout)",
-      "ms": 819628
+      "at": "2026-11-16T02:28:44.755Z",
+      "info": "tạo 2, lỗi 0",
+      "ms": 89724
     },
     "poe:cleanup": {
       "ok": true,
@@ -68,7 +68,7 @@
     },
     "tli:pacts": {
       "ok": false,
-      "at": "2026-11-15T03:00:24.805Z",
+      "at": "2026-11-16T02:27:15.030Z",
       "error": "Chỉ đọc được 0 Pactspirit từ tlidb.com (trang có thể đã chặn máy chủ GitHub hoặc đổi cấu trúc). Giữ danh sách đã có."
     },
     "tli:cleanup": {
@@ -78,5 +78,5 @@
     }
   },
   "guidesTopN": 5,
-  "updatedAt": "2026-11-15T22:52:37.445Z"
+  "updatedAt": "2026-11-16T02:28:52.763Z"
 }

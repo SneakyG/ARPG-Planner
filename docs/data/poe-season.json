@@ -7,11 +7,9 @@
   "changes": [],
   "next": "",
   "sources": [
-    "https://epath.org/",
-    "https://epath.org/careers/",
     "https://www.path.org/",
-    "https://www.path.org/where-we-work/americas/united-states/"
+    "https://epath.org/"
   ],
-  "model": "gemini-3.6-flash",
-  "updatedAt": "2026-11-15T02:47:03.531Z"
+  "model": "gemini-3.8-flash",
+  "updatedAt": "2026-11-16T02:23:17.207Z"
 }
