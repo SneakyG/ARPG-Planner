@@ -1,22 +1,23 @@
 {
   "name": "Tartarus",
   "patch": "SS14",
-  "start": "Không đề cập trong nguồn",
-  "end": "Không đề cập trong nguồn",
+  "start": "",
+  "end": "",
   "mechanics": [
     {
-      "name": "Tartarus Prison",
-      "desc": "Người chơi vào vai Warden truy lùng những tù nhân vượt ngục (escaped Inmates) kiêu ngạo và tống họ trở lại nhà tù Tartarus."
+      "name": "Tartarus",
+      "desc": "Bắt các Caged Beasts trên bảng trong Netherrealm và dập tắt cuộc bạo loạn (prison Riot) để nhận phần thưởng phong phú."
     }
   ],
   "changes": [
-    "Thêm Hero mới: Rosa (Redefine the Knight).",
-    "Bổ sung các chế độ chơi mới: Solo Self Found & Hardcore."
+    "Hero Trait mới: Youga - The Ultimate One sử dụng Clockwork Core để săn tìm các bản thể song song.",
+    "Nâng cấp diện mạo (Hero Model Revamps) cho 3 nhân vật: Gemma - Frostbitten Heart, Carino - Lethal Flash, và Bing - Blast Nova.",
+    "Phần thưởng mùa giải: Đăng nhập để nhận Legendary Drop Pactspirit Selection Pack."
   ],
-  "next": "Không đề cập trong nguồn",
+  "next": "",
   "sources": [
-    "https://torchlight.xd.com/index"
+    "https://torchlight.xd.com/"
   ],
   "model": "gemini-3.6-flash",
-  "updatedAt": "2026-11-11T15:11:40.705Z"
+  "updatedAt": "2026-11-17T04:51:51.752Z"
 }
