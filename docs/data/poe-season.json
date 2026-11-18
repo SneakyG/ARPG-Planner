@@ -7,9 +7,11 @@
   "changes": [],
   "next": "",
   "sources": [
+    "https://epath.org/",
+    "https://epath.org/careers/",
     "https://www.path.org/",
-    "https://epath.org/"
+    "https://www.dhcs.ca.gov/services/mental-health-services-division-default/projects-for-assistance-in-transition-from-homelessness/"
   ],
-  "model": "gemini-3.8-flash",
-  "updatedAt": "2026-11-16T02:23:17.207Z"
+  "model": "gemini-3.6-flash",
+  "updatedAt": "2026-11-18T03:53:46.240Z"
 }

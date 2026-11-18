@@ -2,13 +2,13 @@
   "kind": "ai",
   "season": "Torchlight: Infinite SS14 Tartarus",
   "items": [],
-  "notes": "Các nguồn được cung cấp không chứa thông tin chi tiết về danh sách vật phẩm đáng farm hoặc buôn bán trong mùa Tartarus của Torchlight: Infinite (chỉ đề cập tổng quan về cơ chế mùa Tartarus trong Netherrealm, phần thưởng đăng nhập Legendary Drop Pactspirit Selection Pack, Hero Trait mới Youga - The Ultimate One và cập nhật mô hình nhân vật).",
+  "notes": "Trong các nguồn thông tin được cung cấp không có dữ liệu chi tiết về danh sách các vật phẩm đáng farm/bán, giá cả (Flame Elementium), hay xu hướng thị trường cho mùa Torchlight: Infinite Tartarus. Nguồn 2 chỉ đề cập tổng quan về cơ chế mùa Tartarus (săn bắt Caged Beasts trong Netherrealm và tham gia prison Riot) cùng phần thưởng đăng nhập Legendary Drop Pactspirit Selection Pack.",
   "sources": [
+    "https://en.m.wikipedia.org/wiki/Torchlight",
+    "https://torchlight.xd.com/",
     "https://store.steampowered.com/app/41500/Torchlight/",
-    "https://en.wikipedia.org/wiki/Torchlight",
-    "https://torchlightcurriculum.com/torchlight/",
-    "https://torchlight.xd.com/"
+    "https://torchlightcurriculum.com/torchlight/"
   ],
-  "model": "gemini-3.8-flash",
-  "updatedAt": "2026-11-17T04:59:56.250Z"
+  "model": "gemini-3.6-flash",
+  "updatedAt": "2026-11-18T04:06:14.265Z"
 }
