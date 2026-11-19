@@ -3,118 +3,216 @@
   "stages": [
     {
       "key": "starter",
-      "title": "Khởi đầu mùa giải Tartarus (Netherrealm)",
-      "budget": "0 Flame Elementium",
-      "content": "Netherrealm",
+      "title": "Khởi đầu mùa giải (0 vốn)",
+      "budget": "0 Flame Elementium (chưa có số liệu chi tiết trong nguồn)",
+      "content": "Netherrealm (chưa có số liệu cụ thể về tier trong nguồn)",
       "strategies": [
         {
-          "name": "Farm cơ chế Tartarus: Bắt Caged Beasts & Dẹp loạn Prison Riot",
-          "where": "Bàn cờ Netherrealm",
-          "setup": "Chưa có thông tin trong nguồn",
+          "name": "Bắt Caged Beasts theo cơ chế Tartarus",
+          "where": "Bảng cơ chế Tartarus trong Netherrealm",
+          "setup": "Chưa có thông tin Compass/Probe/Memory trong nguồn",
           "steps": [
-            "Đăng nhập vào game để nhận phần thưởng Legendary Drop Pactspirit Selection Pack.",
-            "Tiến vào Netherrealm và tìm kiếm các Caged Beasts xuất hiện trên bàn cờ.",
-            "Bắt Caged Beasts để kích hoạt và đánh bại sự kiện Prison Riot nhận phần thưởng."
+            "Truy cập vào Netherrealm",
+            "Tìm và bắt Caged Beasts trên board của cơ chế mùa Tartarus"
           ],
           "maps": [
             {
               "name": "Netherrealm",
-              "note": "Nơi xuất hiện bàn cờ chứa Caged Beasts và sự kiện Prison Riot",
+              "note": "Khu vực diễn ra cơ chế bắt Caged Beasts trên board mùa Tartarus",
               "url": "https://torchlight.xd.com/",
               "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Netherrealm"
             }
           ],
           "trees": [],
-          "links": [],
+          "links": [
+            {
+              "title": "Torchlight: Infinite - The 'Tartarus' Season is available!",
+              "url": "https://torchlight.xd.com/"
+            }
+          ],
           "profit": "chưa có số liệu",
-          "requires": "Sức mạnh nhân vật cơ bản để dọn Map Netherrealm và tiêu diệt Prison Riot",
+          "requires": "Chưa có thông tin yêu cầu sức mạnh trong nguồn",
           "risk": "Thấp",
-          "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Farm%20c%C6%A1%20ch%E1%BA%BF%20Tartarus%3A%20B%E1%BA%AFt%20Caged%20Beasts%20%26%20D%E1%BA%B9p%20lo%E1%BA%A1n%20Prison%20Riot",
-          "treeSearch": "https://www.youtube.com/results?search_query=Torchlight%20Infinite%20SS14%20Tartarus%20Farm%20c%C6%A1%20ch%E1%BA%BF%20Tartarus%3A%20B%E1%BA%AFt%20Caged%20Beasts%20%26%20D%E1%BA%B9p%20lo%E1%BA%A1n%20Prison%20Riot%20farming%20setup"
+          "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20B%E1%BA%AFt%20Caged%20Beasts%20theo%20c%C6%A1%20ch%E1%BA%BF%20Tartarus",
+          "treeSearch": "https://www.youtube.com/results?search_query=Torchlight%20Infinite%20SS14%20Tartarus%20B%E1%BA%AFt%20Caged%20Beasts%20theo%20c%C6%A1%20ch%E1%BA%BF%20Tartarus%20farming%20setup"
+        },
+        {
+          "name": "Tận dụng quà đăng nhập Legendary Drop Pactspirit và dẹp bạo loạn Riot",
+          "where": "Netherrealm / Cơ chế Tartarus",
+          "setup": "Trang bị Pactspirit từ Legendary Drop Pactspirit Selection Pack",
+          "steps": [
+            "Đăng nhập game để nhận Legendary Drop Pactspirit Selection Pack",
+            "Tiến hành đánh bại bạo loạn nhà tù (Crush the prison Riot) để nhận thưởng"
+          ],
+          "maps": [
+            {
+              "name": "Netherrealm",
+              "note": "Nơi thực hiện dẹp loạn nhà tù (prison Riot) để nhận rich rewards",
+              "url": "https://torchlight.xd.com/",
+              "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Netherrealm"
+            }
+          ],
+          "trees": [],
+          "links": [
+            {
+              "title": "Torchlight: Infinite - The 'Tartarus' Season is available!",
+              "url": "https://torchlight.xd.com/"
+            }
+          ],
+          "profit": "chưa có số liệu",
+          "requires": "Chưa có thông tin yêu cầu sức mạnh trong nguồn",
+          "risk": "Thấp",
+          "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20T%E1%BA%ADn%20d%E1%BB%A5ng%20qu%C3%A0%20%C4%91%C4%83ng%20nh%E1%BA%ADp%20Legendary%20Drop%20Pactspirit%20v%C3%A0%20d%E1%BA%B9p%20b%E1%BA%A1o%20lo%E1%BA%A1n%20Riot",
+          "treeSearch": "https://www.youtube.com/results?search_query=Torchlight%20Infinite%20SS14%20Tartarus%20T%E1%BA%ADn%20d%E1%BB%A5ng%20qu%C3%A0%20%C4%91%C4%83ng%20nh%E1%BA%ADp%20Legendary%20Drop%20Pactspirit%20v%C3%A0%20d%E1%BA%B9p%20b%E1%BA%A1o%20lo%E1%BA%A1n%20Riot%20farming%20setup"
         }
       ]
     },
     {
       "key": "mid",
-      "title": "Giai đoạn phát triển Netherrealm cùng Hero Trait mới",
+      "title": "Giai đoạn tích lũy Midgame",
       "budget": "chưa có số liệu",
-      "content": "Netherrealm",
+      "content": "Netherrealm (chưa có số liệu cụ thể về tier trong nguồn)",
       "strategies": [
         {
-          "name": "Tối ưu hóa thu thập tài nguyên Tartarus",
-          "where": "Bàn cờ Netherrealm",
-          "setup": "Trang bị Legendary Drop Pactspirit nhận từ sự kiện đăng nhập",
+          "name": "Mở rộng bắt Caged Beasts trên board",
+          "where": "Cơ chế Tartarus trong Netherrealm",
+          "setup": "Chưa có thông tin Compass/Probe/Memory trong nguồn",
           "steps": [
-            "Sử dụng Hero Trait mới như Youga - The Ultimate One (sử dụng Clockwork Core) hoặc các Hero được revamp (Gemma - Frostbitten Heart, Carino - Lethal Flash, Bing - Blast Nova).",
-            "Liên tục di chuyển trên bàn cờ Netherrealm để bắt các Caged Beasts.",
-            "Tiêu diệt các đợt Prison Riot bùng nổ để thu thập phần thưởng giá trị."
+            "Tiếp tục Map trong Netherrealm",
+            "Bắt các Caged Beasts xuất hiện trên board cơ chế để tích lũy tài nguyên"
           ],
           "maps": [
             {
               "name": "Netherrealm",
-              "note": "Khu vực cày tài nguyên chính trong mùa giải Tartarus",
+              "note": "Khu vực vận hành board Tartarus",
               "url": "https://torchlight.xd.com/",
               "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Netherrealm"
             }
           ],
           "trees": [],
-          "links": [],
+          "links": [
+            {
+              "title": "Torchlight: Infinite - The 'Tartarus' Season is available!",
+              "url": "https://torchlight.xd.com/"
+            }
+          ],
           "profit": "chưa có số liệu",
-          "requires": "Build nhân vật có tốc độ dọn Map tốt và sát thương ổn định",
+          "requires": "Chưa có thông tin yêu cầu sức mạnh trong nguồn",
           "risk": "Trung bình",
-          "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20T%E1%BB%91i%20%C6%B0u%20h%C3%B3a%20thu%20th%E1%BA%ADp%20t%C3%A0i%20nguy%C3%AAn%20Tartarus",
-          "treeSearch": "https://www.youtube.com/results?search_query=Torchlight%20Infinite%20SS14%20Tartarus%20T%E1%BB%91i%20%C6%B0u%20h%C3%B3a%20thu%20th%E1%BA%ADp%20t%C3%A0i%20nguy%C3%AAn%20Tartarus%20farming%20setup"
+          "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20M%E1%BB%9F%20r%E1%BB%99ng%20b%E1%BA%AFt%20Caged%20Beasts%20tr%C3%AAn%20board",
+          "treeSearch": "https://www.youtube.com/results?search_query=Torchlight%20Infinite%20SS14%20Tartarus%20M%E1%BB%9F%20r%E1%BB%99ng%20b%E1%BA%AFt%20Caged%20Beasts%20tr%C3%AAn%20board%20farming%20setup"
+        },
+        {
+          "name": "Nghiền nát bạo loạn nhà tù (Crush prison Riot)",
+          "where": "Khu vực bạo loạn nhà tù Tartarus trong Netherrealm",
+          "setup": "Chưa có thông tin Compass/Probe/Memory trong nguồn",
+          "steps": [
+            "Kích hoạt sự kiện bạo động nhà tù từ cơ chế Tartarus",
+            "Tiêu diệt các đợt bạo loạn để thu thập rich rewards"
+          ],
+          "maps": [
+            {
+              "name": "Netherrealm",
+              "note": "Nơi kích hoạt sự kiện prison Riot",
+              "url": "https://torchlight.xd.com/",
+              "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Netherrealm"
+            }
+          ],
+          "trees": [],
+          "links": [
+            {
+              "title": "Torchlight: Infinite - The 'Tartarus' Season is available!",
+              "url": "https://torchlight.xd.com/"
+            }
+          ],
+          "profit": "chưa có số liệu",
+          "requires": "Chưa có thông tin yêu cầu sức mạnh trong nguồn",
+          "risk": "Trung bình",
+          "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Nghi%E1%BB%81n%20n%C3%A1t%20b%E1%BA%A1o%20lo%E1%BA%A1n%20nh%C3%A0%20t%C3%B9%20(Crush%20prison%20Riot)",
+          "treeSearch": "https://www.youtube.com/results?search_query=Torchlight%20Infinite%20SS14%20Tartarus%20Nghi%E1%BB%81n%20n%C3%A1t%20b%E1%BA%A1o%20lo%E1%BA%A1n%20nh%C3%A0%20t%C3%B9%20(Crush%20prison%20Riot)%20farming%20setup"
         }
       ]
     },
     {
       "key": "end",
-      "title": "Endgame Tartarus Netherrealm",
+      "title": "Giai đoạn Endgame",
       "budget": "chưa có số liệu",
-      "content": "Netherrealm cấp độ cao",
+      "content": "Netherrealm cấp cao (chưa có số liệu cụ thể về tier trong nguồn)",
       "strategies": [
         {
-          "name": "Chinh phục Prison Riot cấp cao",
-          "where": "Netherrealm cấp độ cao",
-          "setup": "Chưa có thông tin chi tiết trong nguồn",
+          "name": "Tối ưu hóa farm board Tartarus toàn diện",
+          "where": "Netherrealm",
+          "setup": "Chưa có thông tin Compass/Probe/Memory trong nguồn",
           "steps": [
-            "Cày các bản đồ Netherrealm độ khó cao.",
-            "Bắt số lượng lớn Caged Beasts trên bàn cờ để kích hoạt Prison Riot độ khó tối đa.",
-            "Tiêu diệt Prison Riot để lấy các phần thưởng endgame phong phú."
+            "Chạy Netherrealm để gặp cơ chế Tartarus liên tục",
+            "Bắt trọn vẹn Caged Beasts trên toàn bộ board"
           ],
           "maps": [
             {
               "name": "Netherrealm",
-              "note": "Khu vực Netherrealm cấp cao dành cho endgame",
+              "note": "Khu vực farm cơ chế Tartarus mùa giải",
               "url": "https://torchlight.xd.com/",
               "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Netherrealm"
             }
           ],
           "trees": [],
-          "links": [],
+          "links": [
+            {
+              "title": "Torchlight: Infinite - The 'Tartarus' Season is available!",
+              "url": "https://torchlight.xd.com/"
+            }
+          ],
           "profit": "chưa có số liệu",
-          "requires": "Build endgame hoàn chỉnh với DPS cao để hạ gục Prison Riot nhanh chóng",
+          "requires": "Chưa có thông tin yêu cầu sức mạnh trong nguồn",
           "risk": "Cao",
-          "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Chinh%20ph%E1%BB%A5c%20Prison%20Riot%20c%E1%BA%A5p%20cao",
-          "treeSearch": "https://www.youtube.com/results?search_query=Torchlight%20Infinite%20SS14%20Tartarus%20Chinh%20ph%E1%BB%A5c%20Prison%20Riot%20c%E1%BA%A5p%20cao%20farming%20setup"
+          "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20T%E1%BB%91i%20%C6%B0u%20h%C3%B3a%20farm%20board%20Tartarus%20to%C3%A0n%20di%E1%BB%87n",
+          "treeSearch": "https://www.youtube.com/results?search_query=Torchlight%20Infinite%20SS14%20Tartarus%20T%E1%BB%91i%20%C6%B0u%20h%C3%B3a%20farm%20board%20Tartarus%20to%C3%A0n%20di%E1%BB%87n%20farming%20setup"
+        },
+        {
+          "name": "Chinh phục prison Riot cấp cao nhận rich rewards",
+          "where": "Cơ chế mùa Tartarus trong Netherrealm",
+          "setup": "Chưa có thông tin Compass/Probe/Memory trong nguồn",
+          "steps": [
+            "Kích hoạt prison Riot sau khi gom Caged Beasts",
+            "Đánh tan prison Riot để tối đa hóa phần thưởng nhận được"
+          ],
+          "maps": [
+            {
+              "name": "Netherrealm",
+              "note": "Nơi hoàn tất prison Riot mùa Tartarus",
+              "url": "https://torchlight.xd.com/",
+              "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Netherrealm"
+            }
+          ],
+          "trees": [],
+          "links": [
+            {
+              "title": "Torchlight: Infinite - The 'Tartarus' Season is available!",
+              "url": "https://torchlight.xd.com/"
+            }
+          ],
+          "profit": "chưa có số liệu",
+          "requires": "Chưa có thông tin yêu cầu sức mạnh trong nguồn",
+          "risk": "Cao",
+          "lookup": "https://www.google.com/search?q=site%3Amaxroll.gg%2Ftorchlight-infinite%20Chinh%20ph%E1%BB%A5c%20prison%20Riot%20c%E1%BA%A5p%20cao%20nh%E1%BA%ADn%20rich%20rewards",
+          "treeSearch": "https://www.youtube.com/results?search_query=Torchlight%20Infinite%20SS14%20Tartarus%20Chinh%20ph%E1%BB%A5c%20prison%20Riot%20c%E1%BA%A5p%20cao%20nh%E1%BA%ADn%20rich%20rewards%20farming%20setup"
         }
       ]
     }
   ],
   "tips": [
-    "Đăng nhập ngay vào mùa giải Tartarus để nhận Legendary Drop Pactspirit Selection Pack miễn phí.",
-    "Tập trung bắt Caged Beasts trên bàn cờ Netherrealm để kích hoạt Prison Riot thu về phần thưởng giá trị.",
-    "Thử nghiệm Hero Trait mới Youga - The Ultimate One sử dụng Clockwork Core hoặc các nhân vật vừa được nâng cấp mô hình (Gemma - Frostbitten Heart, Carino - Lethal Flash, Bing - Blast Nova)."
+    "Đăng nhập ngay vào game để nhận miễn phí Legendary Drop Pactspirit Selection Pack làm quà mùa giải",
+    "Tập trung tương tác với cơ chế Tartarus trong Netherrealm bằng cách bắt Caged Beasts trên board và dẹp prison Riot để thu về rich rewards"
   ],
   "sources": [
     "https://torchlight.xd.com/",
+    "https://en.m.wikipedia.org/wiki/Torchlight",
     "https://store.steampowered.com/app/41500/Torchlight/",
-    "https://en.wikipedia.org/wiki/Torchlight",
     "https://torchlightcurriculum.com/torchlight/"
   ],
   "trustedSources": [
     "https://torchlight.xd.com/"
   ],
-  "model": "gemini-3.6-flash",
-  "updatedAt": "2026-11-17T04:56:25.732Z"
+  "model": "gemini-3.8-flash",
+  "updatedAt": "2026-11-19T04:05:24.966Z"
 }
