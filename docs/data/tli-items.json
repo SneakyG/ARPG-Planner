@@ -2,13 +2,13 @@
   "kind": "ai",
   "season": "Torchlight: Infinite SS14 Tartarus",
   "items": [],
-  "notes": "Trong các nguồn thông tin được cung cấp không có dữ liệu chi tiết về danh sách các vật phẩm đáng farm/bán, giá cả (Flame Elementium), hay xu hướng thị trường cho mùa Torchlight: Infinite Tartarus. Nguồn 2 chỉ đề cập tổng quan về cơ chế mùa Tartarus (săn bắt Caged Beasts trong Netherrealm và tham gia prison Riot) cùng phần thưởng đăng nhập Legendary Drop Pactspirit Selection Pack.",
+  "notes": "Các nguồn tài liệu được cung cấp không chứa thông tin về danh sách vật phẩm đáng farm/bán, giá cả (Flame Elementium), xu hướng thị trường hay địa điểm farm cụ thể cho mùa Torchlight: Infinite SS14 Tartarus.",
   "sources": [
-    "https://en.m.wikipedia.org/wiki/Torchlight",
-    "https://torchlight.xd.com/",
+    "https://en.wikipedia.org/wiki/Torchlight",
     "https://store.steampowered.com/app/41500/Torchlight/",
-    "https://torchlightcurriculum.com/torchlight/"
+    "https://torchlight.xd.com/",
+    "https://store.steampowered.com/app/1974050/Torchlight_Infinite/"
   ],
-  "model": "gemini-3.6-flash",
-  "updatedAt": "2026-11-18T04:06:14.265Z"
+  "model": "gemini-3.8-flash",
+  "updatedAt": "2026-11-20T03:55:12.421Z"
 }

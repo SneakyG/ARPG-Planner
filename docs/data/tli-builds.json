@@ -6,7 +6,7 @@
       "label": "SS14 Tartarus",
       "patch": "SS14",
       "name": "Tartarus",
-      "updatedAt": "2026-11-19T04:02:50.379Z",
+      "updatedAt": "2026-11-20T03:51:38.544Z",
       "builds": [
         {
           "rank": 1,
@@ -16,10 +16,10 @@
           "playstyle": "All-Rounder",
           "budget": "Thấp",
           "difficulty": "Dễ",
-          "clear": 5,
+          "clear": 4,
           "boss": 4,
           "tank": 3,
-          "why": "Build League Starter rất mạnh, độ khó dễ, dọn bản đồ và áp dụng trạng thái freeze cực tốt với chi phí đầu tư thấp.",
+          "why": "Hero thuộc Tier S với ngân sách khởi điểm thấp và độ khó dễ, tận dụng kĩ năng Howling Gale kèm hiệu ứng freeze giúp dọn quái an toàn từ Campaign đến đầu Netherrealm.",
           "tags": [
             "spell",
             "cold"
@@ -27,7 +27,7 @@
           "pactspirits": [],
           "guides": [
             {
-              "title": "Selena 1 Sing with the Tide",
+              "title": "Selena 1 — Sing with the Tide",
               "url": "https://tlifaq.pages.dev/hero/selena_01/"
             }
           ],
@@ -36,58 +36,6 @@
         },
         {
           "rank": 2,
-          "name": "Wilting Beam",
-          "class": "Selena 1 — Sing with the Tide",
-          "tier": "S",
-          "playstyle": "All-Rounder",
-          "budget": "Trung bình",
-          "difficulty": "Trung bình",
-          "clear": 4,
-          "boss": 4,
-          "tank": 3,
-          "why": "Sử dụng sát thương theo thời gian Erosion DoT và Reap, giúp tiến độ từ khởi đầu giải đấu đến T8 rất ổn định.",
-          "tags": [
-            "spell",
-            "erosion"
-          ],
-          "pactspirits": [],
-          "guides": [
-            {
-              "title": "Selena 1 Sing with the Tide",
-              "url": "https://tlifaq.pages.dev/hero/selena_01/"
-            }
-          ],
-          "id": "ss14-tartarus-wilting-beam",
-          "season": "SS14 Tartarus"
-        },
-        {
-          "rank": 3,
-          "name": "Corrosive Throw",
-          "class": "Erika 1 — Wind Stalker",
-          "tier": "S",
-          "playstyle": "Speed Mapper",
-          "budget": "Trung bình",
-          "difficulty": "Trung bình",
-          "clear": 5,
-          "boss": 4,
-          "tank": 3,
-          "why": "Build khởi đầu mùa giải xuất sắc cho Erika với khả năng ném ăn khớp tốt, tốc độ dọn map nhanh và dễ tiếp cận.",
-          "tags": [
-            "attack",
-            "erosion"
-          ],
-          "pactspirits": [],
-          "guides": [
-            {
-              "title": "Erika 1 Wind Stalker",
-              "url": "https://tlifaq.pages.dev/hero/erika_01/"
-            }
-          ],
-          "id": "ss14-tartarus-corrosive-throw",
-          "season": "SS14 Tartarus"
-        },
-        {
-          "rank": 4,
           "name": "Frost Core / Ice Shards",
           "class": "Gemma 2 — Frostbitten Heart",
           "tier": "A",
@@ -95,9 +43,9 @@
           "budget": "Thấp",
           "difficulty": "Dễ",
           "clear": 4,
-          "boss": 4,
+          "boss": 3,
           "tank": 3,
-          "why": "Được hưởng lợi từ đợt buff SS14, lối chơi dễ chịu, an toàn và mượt mà từ campaign đến endgame.",
+          "why": "Được buff ở SS14, lối chơi dùng Frost Core kết hợp Chromatic Shot (Cold Tangle) cực kỳ thân thiện với người mới, chi phí trang bị ban đầu rất thấp.",
           "tags": [
             "spell",
             "cold"
@@ -105,7 +53,7 @@
           "pactspirits": [],
           "guides": [
             {
-              "title": "Gemma 2 Frostbitten Heart",
+              "title": "Gemma 2 — Frostbitten Heart",
               "url": "https://tlifaq.pages.dev/hero/gemma_02/"
             }
           ],
@@ -113,85 +61,7 @@
           "season": "SS14 Tartarus"
         },
         {
-          "rank": 5,
-          "name": "Frost Spike: level 1 to Profound",
-          "class": "Rosa 2 — Unsullied Blade",
-          "tier": "S",
-          "playstyle": "All-Rounder",
-          "budget": "Trung bình",
-          "difficulty": "Trung bình",
-          "clear": 4,
-          "boss": 4,
-          "tank": 4,
-          "why": "Khả năng thăng tiến sức mạnh mượt mà từ cấp 1 lên thẳng cấp độ Profound, lượng sát thương và chống chịu tốt.",
-          "tags": [
-            "spell",
-            "cold"
-          ],
-          "pactspirits": [],
-          "guides": [
-            {
-              "title": "Rosa 2 Unsullied Blade",
-              "url": "https://tlifaq.pages.dev/hero/rosa_02/"
-            }
-          ],
-          "id": "ss14-tartarus-frost-spike-level-1-to-profound",
-          "season": "SS14 Tartarus"
-        },
-        {
-          "rank": 6,
-          "name": "Frost Spike: campaign to Profound",
-          "class": "Rehan 2 — Seething Silhouette",
-          "tier": "S",
-          "playstyle": "All-Rounder",
-          "budget": "Trung bình",
-          "difficulty": "Trung bình",
-          "clear": 4,
-          "boss": 4,
-          "tank": 4,
-          "why": "Chuyển đổi hiệu quả từ Groundshaker sang Frost Spike kết hợp Spiral Strike, cày cấp và farm tiền đầu game rất tốt.",
-          "tags": [
-            "attack",
-            "cold"
-          ],
-          "pactspirits": [],
-          "guides": [
-            {
-              "title": "Rehan 2 Seething Silhouette",
-              "url": "https://tlifaq.pages.dev/hero/rehan_02/"
-            }
-          ],
-          "id": "ss14-tartarus-frost-spike-campaign-to-profound",
-          "season": "SS14 Tartarus"
-        },
-        {
-          "rank": 7,
-          "name": "Split Lightning Bolt: league start -> endgame",
-          "class": "Thea 1 — Wisdom of The Gods",
-          "tier": "A",
-          "playstyle": "All-Rounder",
-          "budget": "Trung bình",
-          "difficulty": "Trung bình",
-          "clear": 4,
-          "boss": 4,
-          "tank": 3,
-          "why": "Sử dụng Splitting Lightning Bolt với Tangle và Spell Burst, đem lại trải nghiệm cân bằng xuyên suốt từ khởi đầu đến cuối game.",
-          "tags": [
-            "spell",
-            "lightning"
-          ],
-          "pactspirits": [],
-          "guides": [
-            {
-              "title": "Thea 1 Wisdom of The Gods",
-              "url": "https://tlifaq.pages.dev/hero/thea_01/"
-            }
-          ],
-          "id": "ss14-tartarus-split-lightning-bolt-league-start-endgame",
-          "season": "SS14 Tartarus"
-        },
-        {
-          "rank": 8,
+          "rank": 3,
           "name": "Spacetime Elapse DoT",
           "class": "Youga 2 — Spacetime Elapse",
           "tier": "A",
@@ -201,15 +71,15 @@
           "clear": 4,
           "boss": 3,
           "tank": 3,
-          "why": "Lối chơi dễ tiếp cận, tận dụng Mind Control và Channeled Depths để kiểm soát đám đông và dọn map từ con số 0.",
+          "why": "Vận hành đơn giản với Mind Control và Channeled Depths, không yêu cầu vốn lớn, cho tốc độ dọn map nhanh ngay từ đầu mùa.",
           "tags": [
             "spell",
-            "erosion"
+            "persistent"
           ],
           "pactspirits": [],
           "guides": [
             {
-              "title": "Youga 2 Spacetime Elapse",
+              "title": "Youga 2 — Spacetime Elapse",
               "url": "https://tlifaq.pages.dev/hero/youga_02/"
             }
           ],
@@ -217,25 +87,77 @@
           "season": "SS14 Tartarus"
         },
         {
-          "rank": 9,
-          "name": "Dynasty",
-          "class": "Youga 3 — The Ultimate One",
+          "rank": 4,
+          "name": "Wilting Beam: league start to T8",
+          "class": "Selena 1 — Sing with the Tide",
           "tier": "S",
-          "playstyle": "Speed Mapper",
-          "budget": "Trung bình",
+          "playstyle": "All-Rounder",
+          "budget": "Thấp",
           "difficulty": "Trung bình",
           "clear": 4,
           "boss": 4,
           "tank": 3,
-          "why": "Build tận dụng sức mạnh buff mới của Youga 3 trong mùa Tartarus với cơ chế Spacetime Dictator và đạn đạo.",
+          "why": "Lối chơi kết hợp Erosion DoT và Reap mang lại lượng sát thương ổn định leo thẳng tới T8 mà không cần đầu tư nhiều Flame Elementium.",
+          "tags": [
+            "spell",
+            "erosion",
+            "persistent"
+          ],
+          "pactspirits": [],
+          "guides": [
+            {
+              "title": "Selena 1 — Sing with the Tide",
+              "url": "https://tlifaq.pages.dev/hero/selena_01/"
+            }
+          ],
+          "id": "ss14-tartarus-wilting-beam-league-start-to-t8",
+          "season": "SS14 Tartarus"
+        },
+        {
+          "rank": 5,
+          "name": "Corrosive Throw",
+          "class": "Erika 1 — Wind Stalker",
+          "tier": "S",
+          "playstyle": "Speed Mapper",
+          "budget": "Thấp",
+          "difficulty": "Trung bình",
+          "clear": 5,
+          "boss": 3,
+          "tank": 2,
+          "why": "Erika 1 đứng vững ở Tier S với tốc độ di chuyển và clear Map vượt trội, Corrosive Throw hoạt động mượt mà mà không phụ thuộc đồ đắt tiền.",
           "tags": [
             "attack",
+            "erosion"
+          ],
+          "pactspirits": [],
+          "guides": [
+            {
+              "title": "Erika 1 — Wind Stalker",
+              "url": "https://tlifaq.pages.dev/hero/erika_01/"
+            }
+          ],
+          "id": "ss14-tartarus-corrosive-throw",
+          "season": "SS14 Tartarus"
+        },
+        {
+          "rank": 6,
+          "name": "Dynasty",
+          "class": "Youga 3 — The Ultimate One",
+          "tier": "S",
+          "playstyle": "All-Rounder",
+          "budget": "Thấp",
+          "difficulty": "Trung bình",
+          "clear": 4,
+          "boss": 4,
+          "tank": 3,
+          "why": "Hero mới Youga 3 nhận nhiều buff ở SS14; nhánh Dynasty với Spacetime Dictator và projectile có ngưỡng chi phí ban đầu thấp, vận hành tốt khi league start.",
+          "tags": [
             "spell"
           ],
           "pactspirits": [],
           "guides": [
             {
-              "title": "Youga 3 The Ultimate One",
+              "title": "Youga 3 — The Ultimate One",
               "url": "https://tlifaq.pages.dev/hero/youga_03/"
             }
           ],
@@ -243,17 +165,17 @@
           "season": "SS14 Tartarus"
         },
         {
-          "rank": 10,
+          "rank": 7,
           "name": "Splitting Lightning Bolt",
           "class": "Youga 3 — The Ultimate One",
           "tier": "S",
           "playstyle": "Speed Mapper",
           "budget": "Thấp",
           "difficulty": "Trung bình",
-          "clear": 5,
+          "clear": 4,
           "boss": 3,
           "tank": 3,
-          "why": "Khởi đầu cực tốt với lượng sát thương sét diện rộng kết hợp Gale, dễ dàng vượt qua cốt truyện và farm giai đoạn đầu.",
+          "why": "Sử dụng Splitting Lightning Bolt kết hợp Gale, cung cấp khả năng dọn quái nhanh với mức đầu tư kinh tế tối thiểu.",
           "tags": [
             "spell",
             "lightning"
@@ -261,24 +183,102 @@
           "pactspirits": [],
           "guides": [
             {
-              "title": "Youga 3 The Ultimate One",
+              "title": "Youga 3 — The Ultimate One",
               "url": "https://tlifaq.pages.dev/hero/youga_03/"
             }
           ],
           "id": "ss14-tartarus-splitting-lightning-bolt",
           "season": "SS14 Tartarus"
+        },
+        {
+          "rank": 8,
+          "name": "Campaign to T7: Stasis Vault",
+          "class": "Youga 3 — The Ultimate One",
+          "tier": "S",
+          "playstyle": "All-Rounder",
+          "budget": "Thấp",
+          "difficulty": "Trung bình",
+          "clear": 4,
+          "boss": 3,
+          "tank": 3,
+          "why": "Sử dụng Homing Frost Bolt và Stasis Vault (nhánh I Hold All in My Grasp), là lộ trình leo từ Campaign lên T7 cực kỳ mượt mà với ngân sách rẻ.",
+          "tags": [
+            "spell",
+            "cold"
+          ],
+          "pactspirits": [],
+          "guides": [
+            {
+              "title": "Youga 3 — The Ultimate One",
+              "url": "https://tlifaq.pages.dev/hero/youga_03/"
+            }
+          ],
+          "id": "ss14-tartarus-campaign-to-t7-stasis-vault",
+          "season": "SS14 Tartarus"
+        },
+        {
+          "rank": 9,
+          "name": "Ground Autowalk",
+          "class": "Selena 2 — Dance of the Deep",
+          "tier": "A",
+          "playstyle": "Speed Mapper",
+          "budget": "Thấp",
+          "difficulty": "Dễ",
+          "clear": 4,
+          "boss": 3,
+          "tank": 3,
+          "why": "Lối chơi rảnh tay với Thorns Domain / Tidal Spring / Meteor, dễ tiếp cận và vận hành từ khởi đầu tới cuối game dù trait bị nerf nhẹ.",
+          "tags": [
+            "spell",
+            "persistent"
+          ],
+          "pactspirits": [],
+          "guides": [
+            {
+              "title": "Selena 2 — Dance of the Deep",
+              "url": "https://tlifaq.pages.dev/hero/selena_02/"
+            }
+          ],
+          "id": "ss14-tartarus-ground-autowalk",
+          "season": "SS14 Tartarus"
+        },
+        {
+          "rank": 10,
+          "name": "Frost Spike: level 1 to Profound",
+          "class": "Rosa 2 — Unsullied Blade",
+          "tier": "S",
+          "playstyle": "All-Rounder",
+          "budget": "Trung bình",
+          "difficulty": "Trung bình",
+          "clear": 4,
+          "boss": 4,
+          "tank": 4,
+          "why": "Dù bị nerf ở SS14, Rosa 2 vẫn là lựa chọn cực mạnh đi từ cấp 1 đến Profound nhờ độ trâu bẩm sinh và sát thương ổn định từ Frost Spike.",
+          "tags": [
+            "spell",
+            "cold"
+          ],
+          "pactspirits": [],
+          "guides": [
+            {
+              "title": "Rosa 2 — Unsullied Blade",
+              "url": "https://tlifaq.pages.dev/hero/rosa_02/"
+            }
+          ],
+          "id": "ss14-tartarus-frost-spike-level-1-to-profound",
+          "season": "SS14 Tartarus"
         }
       ],
-      "notes": "Mùa SS14 Tartarus mang lại nhiều đợt buff đáng chú ý cho Youga 3 và Gemma 2, trong khi một số hero như Rosa và Rehan nhận chỉnh sửa. Pets, trang bị và lượng vốn đầu tư sẽ ảnh hưởng lớn đến hiệu quả thực tế của từng build.",
+      "notes": "Mùa SS14 Tartarus chứng kiến sự ra mắt ấn tượng của Hero Trait mới Youga 3 (The Ultimate One) cùng nhiều buff sát thương, tuy nhiên Youga 3 có xu hướng đắt đỏ về lâu dài. Nhóm S-Tier league starter an toàn nhất cho người chơi 0 vốn là Selena 1 và Erika 1, trong khi Rosa 2, Rehan 2 và Sage 1 đã nhận đợt nerf. Cơ chế mùa Tartarus tập trung vào bắt giữ Caged Beasts và vượt ngục Riot trong Netherrealm.",
       "sources": [
         "https://tlifaq.pages.dev/",
         "https://torchlight.xd.com/",
-        "https://en.m.wikipedia.org/wiki/Torchlight",
+        "https://en.wikipedia.org/wiki/Torchlight",
         "https://store.steampowered.com/app/41500/Torchlight/",
-        "https://torchlightcurriculum.com/torchlight/"
+        "https://store.steampowered.com/app/1974050/Torchlight_Infinite/"
       ],
-      "model": "gemini-3.5-flash-lite"
+      "model": "gemini-3.8-flash"
     }
   ],
-  "updatedAt": "2026-11-19T04:02:50.379Z"
+  "updatedAt": "2026-11-20T03:51:38.544Z"
 }
