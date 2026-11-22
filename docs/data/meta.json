@@ -4,9 +4,9 @@
   "status": {
     "poe:items": {
       "ok": true,
-      "at": "2026-11-22T02:37:39.998Z",
-      "info": "811 món",
-      "ms": 936
+      "at": "2026-11-22T11:30:54.486Z",
+      "info": "799 món",
+      "ms": 1795
     },
     "poe:season": {
       "ok": true,
@@ -79,5 +79,5 @@
     }
   },
   "guidesTopN": 5,
-  "updatedAt": "2026-11-22T02:54:19.659Z"
+  "updatedAt": "2026-11-22T11:30:54.486Z"
 }
