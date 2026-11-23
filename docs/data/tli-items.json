@@ -2,13 +2,13 @@
   "kind": "ai",
   "season": "Torchlight: Infinite SS14 Tartarus",
   "items": [],
-  "notes": "Các nguồn được cung cấp không chứa thông tin về danh sách 10–25 vật phẩm đáng farm/bán, giá cả thị trường (Flame Elementium) hay xu hướng giá trong mùa Tartarus của Torchlight: Infinite.",
+  "notes": "Các nguồn được cung cấp không có thông tin chi tiết về danh sách 10–25 vật phẩm đáng farm/bán, giá Flame Elementium (FE), xu hướng giá hay cách farm cụ thể trong mùa Tartarus của Torchlight: Infinite.",
   "sources": [
-    "https://en.m.wikipedia.org/wiki/Torchlight",
+    "https://en.wikipedia.org/wiki/Torchlight",
     "https://store.steampowered.com/app/41500/Torchlight/",
     "https://torchlightcurriculum.com/torchlight/",
     "https://torchlight.xd.com/"
   ],
-  "model": "gemini-3.8-flash",
-  "updatedAt": "2026-11-22T02:46:32.566Z"
+  "model": "gemini-3.6-flash",
+  "updatedAt": "2026-11-23T03:08:37.778Z"
 }
