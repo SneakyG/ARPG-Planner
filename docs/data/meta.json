@@ -4,9 +4,9 @@
   "status": {
     "poe:items": {
       "ok": true,
-      "at": "2026-11-24T06:21:20.770Z",
-      "info": "799 món",
-      "ms": 1631
+      "at": "2026-11-24T13:49:04.279Z",
+      "info": "795 món",
+      "ms": 1948
     },
     "poe:season": {
       "ok": true,
@@ -63,8 +63,8 @@
     },
     "poe:cleanup": {
       "ok": true,
-      "at": "2026-11-05T15:38:17.518Z",
-      "info": "Đã xoá dữ liệu PoE 2 lưu nhầm: mùa 0.5.0 Return of the Ancients, farm PoE 2, 1 mùa build PoE 2, 4 hướng dẫn build PoE 2"
+      "at": "2026-11-24T13:49:02.329Z",
+      "info": "Đã sửa nhãn mùa: build \"covens\" → \"3.xx Covens\""
     },
     "tli:pacts": {
       "ok": false,
@@ -78,5 +78,5 @@
     }
   },
   "guidesTopN": 5,
-  "updatedAt": "2026-11-24T06:24:42.585Z"
+  "updatedAt": "2026-11-24T13:49:04.279Z"
 }
