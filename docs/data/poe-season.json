@@ -1,15 +1,16 @@
 {
   "name": "Covens",
-  "patch": "",
-  "start": "",
+  "patch": "3.xx",
+  "start": "2026-11-24",
   "end": "",
   "mechanics": [],
   "changes": [],
   "next": "",
   "sources": [
     "https://www.path.org/",
-    "https://www.path.org/where-we-work/americas/united-states/"
+    "https://www.path.org/where-we-work/americas/united-states/",
+    "https://www.pa.gov/agencies/revenue/resources/mypath"
   ],
-  "model": "gemini-3.6-flash",
-  "updatedAt": "2026-11-23T03:04:21.148Z"
+  "model": "gemini-3.5-flash-lite",
+  "updatedAt": "2026-11-24T06:21:25.460Z"
 }
