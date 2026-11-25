@@ -4,62 +4,63 @@
   "status": {
     "poe:items": {
       "ok": true,
-      "at": "2026-11-24T23:55:02.336Z",
-      "info": "808 món",
-      "ms": 809
+      "at": "2026-11-25T05:01:33.330Z",
+      "info": "803 món",
+      "ms": 2079
     },
     "poe:season": {
       "ok": true,
-      "at": "2026-11-24T06:21:25.460Z",
+      "at": "2026-11-25T05:02:40.745Z",
       "info": "",
-      "ms": 4689
+      "ms": 67415
     },
     "poe:builds": {
       "ok": true,
-      "at": "2026-11-24T06:21:27.792Z",
+      "at": "2026-11-25T05:03:11.690Z",
       "info": "0 build",
-      "ms": 2332
+      "ms": 30944
     },
     "poe:farm": {
       "ok": true,
-      "at": "2026-11-24T06:21:54.138Z",
+      "at": "2026-11-25T05:04:41.178Z",
       "info": "",
-      "ms": 18347
+      "ms": 81485
     },
     "poe:guides": {
       "ok": true,
-      "at": "2026-11-24T06:22:02.143Z",
+      "at": "2026-11-25T05:04:49.183Z",
       "info": "tạo 0, lỗi 0",
       "ms": 1
     },
     "tli:season": {
       "ok": true,
-      "at": "2026-11-24T06:22:48.142Z",
+      "at": "2026-11-25T05:05:19.041Z",
       "info": "",
-      "ms": 37991
+      "ms": 21856
     },
     "tli:builds": {
-      "ok": false,
-      "at": "2026-11-24T06:23:03.354Z",
-      "error": "Không model Gemini nào trả lời được → gemini-3.8-flash: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. · gemini-3.6-flash: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. · gemini-3.5-flash-lite: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. · gemini-3.1-flash-lite: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+      "ok": true,
+      "at": "2026-11-25T05:06:04.655Z",
+      "info": "10 build",
+      "ms": 37610
     },
     "tli:farm": {
       "ok": true,
-      "at": "2026-11-24T06:24:14.026Z",
+      "at": "2026-11-25T05:06:31.357Z",
       "info": "",
-      "ms": 62671
+      "ms": 18698
     },
     "tli:items": {
       "ok": true,
-      "at": "2026-11-24T06:24:26.037Z",
-      "info": "0 món",
-      "ms": 4007
+      "at": "2026-11-25T05:06:56.882Z",
+      "info": "3 món",
+      "ms": 17521
     },
     "tli:guides": {
       "ok": true,
-      "at": "2026-11-24T06:24:34.581Z",
-      "info": "tạo 0, lỗi 0",
-      "ms": 1
+      "at": "2026-11-25T05:10:20.740Z",
+      "info": "tạo 5, lỗi 0",
+      "ms": 194811
     },
     "poe:cleanup": {
       "ok": true,
@@ -68,7 +69,7 @@
     },
     "tli:pacts": {
       "ok": false,
-      "at": "2026-11-24T06:24:34.580Z",
+      "at": "2026-11-25T05:07:05.929Z",
       "error": "Chỉ đọc được 0 Pactspirit từ tlidb.com (trang có thể đã chặn máy chủ GitHub hoặc đổi cấu trúc). Giữ danh sách đã có."
     },
     "tli:cleanup": {
@@ -78,5 +79,5 @@
     }
   },
   "guidesTopN": 5,
-  "updatedAt": "2026-11-24T23:55:02.336Z"
+  "updatedAt": "2026-11-25T05:10:28.748Z"
 }

@@ -1,22 +1,23 @@
 {
   "name": "Tartarus",
   "patch": "Tartarus",
-  "start": "2026-11-24",
+  "start": "",
   "end": "",
   "mechanics": [
     {
       "name": "Tartarus",
-      "desc": "Capture Caged Beasts on the board in the Netherrealm. Crush the prison Riot for rich rewards."
+      "desc": "Bắt các Caged Beasts trên bảng trong Netherrealm và đập tan cuộc bạo loạn prison Riot để nhận các phần thưởng phong phú."
     }
   ],
   "changes": [
-    "New Hero Trait: Youga - The Ultimate One (Wield the Clockwork Core and hunt down your parallel selves)",
-    "Hero Model Revamps for Gemma - Frostbitten Heart, Carino - Lethal Flash, and Bing - Blast Nova"
+    "Thêm Hero Trait mới: Youga - The Ultimate One sử dụng Clockwork Core để săn tìm các bản thể song song.",
+    "Hero Model Revamps: Nâng cấp giao diện hình ảnh mới cho 3 Hero Trait gồm Gemma - Frostbitten Heart, Carino - Lethal Flash, và Bing - Blast Nova.",
+    "Đăng nhập nhận Legendary Drop Pactspirit Selection Pack."
   ],
   "next": "",
   "sources": [
     "https://torchlight.xd.com/"
   ],
-  "model": "gemini-3.5-flash-lite",
-  "updatedAt": "2026-11-24T06:22:48.141Z"
+  "model": "gemini-3.6-flash",
+  "updatedAt": "2026-11-25T05:05:19.041Z"
 }
