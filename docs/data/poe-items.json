@@ -14964,9 +14964,9 @@
       "name": "Incandescent Invitation",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVlc3RJdGVtcy9DbGVhbnNpbmdGaXJlT3JiUXVlc3Q1IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/e6f9234053/CleansingFireOrbQuest5.png",
       "category": "Invitation",
-      "chaos": 290,
-      "divine": 1.7,
-      "change": 45,
+      "chaos": 260.4,
+      "divine": 1.53,
+      "change": 30.2,
       "spark": [
         0,
         0,
@@ -14974,19 +14974,19 @@
         34.5,
         34.52,
         40,
-        45
+        30.2
       ],
       "volume": null,
-      "listings": 2316
+      "listings": 2442
     },
     {
       "id": "screaming-invitation",
       "name": "Screaming Invitation",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVlc3RJdGVtcy9UYW5nbGVkT3JiUXVlc3Q1IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/75de691c2b/TangledOrbQuest5.png",
       "category": "Invitation",
-      "chaos": 135,
-      "divine": 0.79,
-      "change": -6.9,
+      "chaos": 140,
+      "divine": 0.82,
+      "change": -3.45,
       "spark": [
         0,
         -4.14,
@@ -14994,10 +14994,10 @@
         -2.9,
         -10.34,
         -10.34,
-        -6.9
+        -3.45
       ],
       "volume": null,
-      "listings": 1842
+      "listings": 1870
     },
     {
       "id": "writhing-invitation",
@@ -15017,7 +15017,7 @@
         400
       ],
       "volume": null,
-      "listings": 314
+      "listings": 282
     },
     {
       "id": "polaric-invitation",
@@ -15037,16 +15037,16 @@
         -50
       ],
       "volume": null,
-      "listings": 2022
+      "listings": 1932
     },
     {
       "id": "wild-hellion-alpha",
       "name": "Wild Hellion Alpha",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQmVzdGlhcnlPcmJGdWxsIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/3214b44360/BestiaryOrbFull.png",
       "category": "Beast",
-      "chaos": 260,
-      "divine": 1.52,
-      "change": 30,
+      "chaos": 280,
+      "divine": 1.64,
+      "change": 40,
       "spark": [
         0,
         6.75,
@@ -15054,19 +15054,19 @@
         40,
         35,
         32.5,
-        30
+        40
       ],
       "volume": null,
-      "listings": 306
+      "listings": 204
     },
     {
       "id": "craicic-croaker",
       "name": "Craicic Croaker",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQmVzdGlhcnlPcmJGdWxsIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/3214b44360/BestiaryOrbFull.png",
       "category": "Beast",
-      "chaos": 235,
-      "divine": 1.38,
-      "change": 17.5,
+      "chaos": 229,
+      "divine": 1.34,
+      "change": 14.5,
       "spark": [
         0,
         5.38,
@@ -15074,19 +15074,19 @@
         0,
         19.25,
         12.45,
-        17.5
+        14.5
       ],
       "volume": null,
-      "listings": 1820
+      "listings": 2222
     },
     {
       "id": "wild-bristle-matron",
       "name": "Wild Bristle Matron",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQmVzdGlhcnlPcmJGdWxsIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/3214b44360/BestiaryOrbFull.png",
       "category": "Beast",
-      "chaos": 185,
-      "divine": 1.09,
-      "change": -26,
+      "chaos": 175,
+      "divine": 1.03,
+      "change": -30,
       "spark": [
         0,
         -8,
@@ -15094,10 +15094,10 @@
         -16,
         -23.68,
         -27.84,
-        -26
+        -30
       ],
       "volume": null,
-      "listings": 413
+      "listings": 483
     },
     {
       "id": "fenumal-plagued-arachnid",
@@ -15117,16 +15117,16 @@
         -7.14
       ],
       "volume": null,
-      "listings": 1046
+      "listings": 1044
     },
     {
       "id": "craicic-vassal",
       "name": "Craicic Vassal",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQmVzdGlhcnlPcmJGdWxsIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/3214b44360/BestiaryOrbFull.png",
       "category": "Beast",
-      "chaos": 60,
+      "chaos": 59,
       "divine": 0.35,
-      "change": 1900,
+      "change": 1867,
       "spark": [
         0,
         133.3,
@@ -15134,19 +15134,19 @@
         1200,
         1550,
         1400,
-        1900
+        1867
       ],
       "volume": null,
-      "listings": 325
+      "listings": 357
     },
     {
       "id": "wild-brambleback",
       "name": "Wild Brambleback",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQmVzdGlhcnlPcmJGdWxsIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/3214b44360/BestiaryOrbFull.png",
       "category": "Beast",
-      "chaos": 60,
+      "chaos": 59,
       "divine": 0.35,
-      "change": -10.45,
+      "change": -11.94,
       "spark": [
         0,
         4.48,
@@ -15154,70 +15154,10 @@
         8.96,
         -12.69,
         -40.3,
-        -10.45
+        -11.94
       ],
       "volume": null,
-      "listings": 271
-    },
-    {
-      "id": "primal-cystcaller",
-      "name": "Primal Cystcaller",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQmVzdGlhcnlPcmJGdWxsIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/3214b44360/BestiaryOrbFull.png",
-      "category": "Beast",
-      "chaos": 45,
-      "divine": 0.26,
-      "change": -22.55,
-      "spark": [
-        0,
-        3.27,
-        -5.34,
-        -8.09,
-        -15.66,
-        -22.55,
-        -22.55
-      ],
-      "volume": null,
-      "listings": 603
-    },
-    {
-      "id": "craiceann-first-of-the-deep",
-      "name": "Craiceann, First of the Deep",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQmVzdGlhcnlPcmJGdWxsIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/3214b44360/BestiaryOrbFull.png",
-      "category": "Beast",
-      "chaos": 44,
-      "divine": 0.26,
-      "change": 10,
-      "spark": [
-        0,
-        10,
-        5,
-        12.5,
-        10,
-        12.5,
-        10
-      ],
-      "volume": null,
-      "listings": 13
-    },
-    {
-      "id": "saqawal-first-of-the-sky",
-      "name": "Saqawal, First of the Sky",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQmVzdGlhcnlPcmJGdWxsIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/3214b44360/BestiaryOrbFull.png",
-      "category": "Beast",
-      "chaos": 41,
-      "divine": 0.24,
-      "change": 105,
-      "spark": [
-        0,
-        50,
-        50,
-        50,
-        65,
-        75,
-        105
-      ],
-      "volume": null,
-      "listings": 41
+      "listings": 278
     },
     {
       "id": "fenumus-first-of-the-night",
@@ -15237,27 +15177,47 @@
         11.11
       ],
       "volume": null,
-      "listings": 412
+      "listings": 407
     },
     {
-      "id": "black-morrigan",
-      "name": "Black Mórrigan",
+      "id": "craiceann-first-of-the-deep",
+      "name": "Craiceann, First of the Deep",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQmVzdGlhcnlPcmJGdWxsIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/3214b44360/BestiaryOrbFull.png",
       "category": "Beast",
-      "chaos": 39,
+      "chaos": 40,
       "divine": 0.23,
-      "change": -2.5,
+      "change": 0,
       "spark": [
         0,
-        -2.5,
-        -25,
-        -25,
-        -50,
-        -25,
-        -2.5
+        10,
+        5,
+        12.5,
+        10,
+        12.5,
+        0
       ],
       "volume": null,
-      "listings": 1598
+      "listings": 19
+    },
+    {
+      "id": "primal-cystcaller",
+      "name": "Primal Cystcaller",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQmVzdGlhcnlPcmJGdWxsIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/3214b44360/BestiaryOrbFull.png",
+      "category": "Beast",
+      "chaos": 40,
+      "divine": 0.23,
+      "change": -31.15,
+      "spark": [
+        0,
+        3.27,
+        -5.34,
+        -8.09,
+        -15.66,
+        -22.55,
+        -31.15
+      ],
+      "volume": null,
+      "listings": 568
     },
     {
       "id": "farrul-first-of-the-plains",
@@ -15277,36 +15237,36 @@
         -2.56
       ],
       "volume": null,
-      "listings": 275
+      "listings": 281
     },
     {
-      "id": "vivid-watcher",
-      "name": "Vivid Watcher",
+      "id": "saqawal-first-of-the-sky",
+      "name": "Saqawal, First of the Sky",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQmVzdGlhcnlPcmJGdWxsIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/3214b44360/BestiaryOrbFull.png",
       "category": "Beast",
-      "chaos": 31,
-      "divine": 0.18,
-      "change": 31.91,
+      "chaos": 38,
+      "divine": 0.22,
+      "change": 90,
       "spark": [
         0,
-        27.66,
-        17.02,
-        -14.89,
-        -14.89,
-        -14.89,
-        31.91
+        50,
+        50,
+        50,
+        65,
+        75,
+        90
       ],
       "volume": null,
-      "listings": 169
+      "listings": 52
     },
     {
       "id": "vivid-vulture",
       "name": "Vivid Vulture",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQmVzdGlhcnlPcmJGdWxsIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/3214b44360/BestiaryOrbFull.png",
       "category": "Beast",
-      "chaos": 28.6,
-      "divine": 0.17,
-      "change": -28.5,
+      "chaos": 37,
+      "divine": 0.22,
+      "change": -7.5,
       "spark": [
         0,
         -24.5,
@@ -15314,19 +15274,59 @@
         -5,
         -10,
         -23.75,
-        -28.5
+        -7.5
       ],
       "volume": null,
-      "listings": 429
+      "listings": 404
+    },
+    {
+      "id": "black-morrigan",
+      "name": "Black Mórrigan",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQmVzdGlhcnlPcmJGdWxsIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/3214b44360/BestiaryOrbFull.png",
+      "category": "Beast",
+      "chaos": 30,
+      "divine": 0.18,
+      "change": -25,
+      "spark": [
+        0,
+        -2.5,
+        -25,
+        -25,
+        -50,
+        -25,
+        -25
+      ],
+      "volume": null,
+      "listings": 1842
+    },
+    {
+      "id": "vivid-watcher",
+      "name": "Vivid Watcher",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQmVzdGlhcnlPcmJGdWxsIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/3214b44360/BestiaryOrbFull.png",
+      "category": "Beast",
+      "chaos": 25,
+      "divine": 0.15,
+      "change": 6.38,
+      "spark": [
+        0,
+        27.66,
+        17.02,
+        -14.89,
+        -14.89,
+        -14.89,
+        6.38
+      ],
+      "volume": null,
+      "listings": 186
     },
     {
       "id": "primal-crushclaw",
       "name": "Primal Crushclaw",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQmVzdGlhcnlPcmJGdWxsIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/3214b44360/BestiaryOrbFull.png",
       "category": "Beast",
-      "chaos": 14,
-      "divine": 0.08,
-      "change": 40,
+      "chaos": 15.7,
+      "divine": 0.09,
+      "change": 57,
       "spark": [
         0,
         -10,
@@ -15334,10 +15334,10 @@
         10,
         50,
         40,
-        40
+        57
       ],
       "volume": null,
-      "listings": 376
+      "listings": 261
     },
     {
       "id": "farric-tiger-alpha",
@@ -15357,7 +15357,7 @@
         28.57
       ],
       "volume": null,
-      "listings": 585
+      "listings": 588
     },
     {
       "id": "craicic-squid",
@@ -15377,16 +15377,16 @@
         200
       ],
       "volume": null,
-      "listings": 619
+      "listings": 628
     },
     {
       "id": "vivid-abberarach",
       "name": "Vivid Abberarach",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQmVzdGlhcnlPcmJGdWxsIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/3214b44360/BestiaryOrbFull.png",
       "category": "Beast",
-      "chaos": 5,
-      "divine": 0.03,
-      "change": -16.67,
+      "chaos": 4,
+      "divine": 0.02,
+      "change": -33.33,
       "spark": [
         0,
         0,
@@ -15394,19 +15394,19 @@
         -16.67,
         3.33,
         0,
-        -16.67
+        -33.33
       ],
       "volume": null,
-      "listings": 426
+      "listings": 436
     },
     {
       "id": "fenumal-hybrid-arachnid",
       "name": "Fenumal Hybrid Arachnid",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQmVzdGlhcnlPcmJGdWxsIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/3214b44360/BestiaryOrbFull.png",
       "category": "Beast",
-      "chaos": 4,
+      "chaos": 3.1,
       "divine": 0.02,
-      "change": 33.33,
+      "change": 3.33,
       "spark": [
         0,
         0,
@@ -15414,50 +15414,10 @@
         -30,
         33.33,
         33.33,
-        33.33
+        3.33
       ],
       "volume": null,
-      "listings": 358
-    },
-    {
-      "id": "farric-wolf-alpha",
-      "name": "Farric Wolf Alpha",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQmVzdGlhcnlPcmJGdWxsIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/3214b44360/BestiaryOrbFull.png",
-      "category": "Beast",
-      "chaos": 3,
-      "divine": 0.02,
-      "change": 0,
-      "spark": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "volume": null,
-      "listings": 1457
-    },
-    {
-      "id": "craicic-maw",
-      "name": "Craicic Maw",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQmVzdGlhcnlPcmJGdWxsIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/3214b44360/BestiaryOrbFull.png",
-      "category": "Beast",
-      "chaos": 3,
-      "divine": 0.02,
-      "change": 50,
-      "spark": [
-        0,
-        0,
-        0,
-        0,
-        -50,
-        0,
-        50
-      ],
-      "volume": null,
-      "listings": 142
+      "listings": 362
     },
     {
       "id": "saqawine-rhex",
@@ -15477,7 +15437,7 @@
         50
       ],
       "volume": null,
-      "listings": 157
+      "listings": 163
     },
     {
       "id": "craicic-sand-spitter",
@@ -15497,7 +15457,27 @@
         -25
       ],
       "volume": null,
-      "listings": 3768
+      "listings": 3731
+    },
+    {
+      "id": "craicic-maw",
+      "name": "Craicic Maw",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQmVzdGlhcnlPcmJGdWxsIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/3214b44360/BestiaryOrbFull.png",
+      "category": "Beast",
+      "chaos": 2.2,
+      "divine": 0.01,
+      "change": 10,
+      "spark": [
+        0,
+        0,
+        0,
+        0,
+        -50,
+        0,
+        10
+      ],
+      "volume": null,
+      "listings": 141
     },
     {
       "id": "farric-lynx-alpha",
@@ -15517,7 +15497,7 @@
         -33.33
       ],
       "volume": null,
-      "listings": 1837
+      "listings": 1874
     },
     {
       "id": "farric-frost-hellion-alpha",
@@ -15537,7 +15517,27 @@
         0
       ],
       "volume": null,
-      "listings": 1274
+      "listings": 1320
+    },
+    {
+      "id": "farric-wolf-alpha",
+      "name": "Farric Wolf Alpha",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQmVzdGlhcnlPcmJGdWxsIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/3214b44360/BestiaryOrbFull.png",
+      "category": "Beast",
+      "chaos": 2,
+      "divine": 0.01,
+      "change": -33.33,
+      "spark": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -33.33
+      ],
+      "volume": null,
+      "listings": 1493
     },
     {
       "id": "farric-ape",
@@ -15557,7 +15557,7 @@
         0
       ],
       "volume": null,
-      "listings": 487
+      "listings": 506
     },
     {
       "id": "craicic-spider-crab",
@@ -15577,7 +15577,7 @@
         0
       ],
       "volume": null,
-      "listings": 411
+      "listings": 407
     },
     {
       "id": "primal-rhex-matriarch",
@@ -15597,7 +15597,7 @@
         -33.33
       ],
       "volume": null,
-      "listings": 164
+      "listings": 172
     },
     {
       "id": "farric-ursa",
@@ -15617,7 +15617,7 @@
         0
       ],
       "volume": null,
-      "listings": 4445
+      "listings": 4444
     },
     {
       "id": "craicic-savage-crab",
@@ -15637,7 +15637,7 @@
         0
       ],
       "volume": null,
-      "listings": 2671
+      "listings": 2678
     },
     {
       "id": "saqawine-vulture",
@@ -15657,7 +15657,7 @@
         0
       ],
       "volume": null,
-      "listings": 506
+      "listings": 514
     },
     {
       "id": "fenumal-queen",
@@ -15677,7 +15677,7 @@
         0
       ],
       "volume": null,
-      "listings": 2215
+      "listings": 2219
     },
     {
       "id": "farric-goliath",
@@ -15697,7 +15697,7 @@
         0
       ],
       "volume": null,
-      "listings": 4129
+      "listings": 4132
     },
     {
       "id": "farric-gargantuan",
@@ -15717,7 +15717,7 @@
         0
       ],
       "volume": null,
-      "listings": 4872
+      "listings": 4876
     },
     {
       "id": "fenumal-devourer",
@@ -15737,7 +15737,7 @@
         0
       ],
       "volume": null,
-      "listings": 1992
+      "listings": 1997
     },
     {
       "id": "craicic-watcher",
@@ -15757,7 +15757,7 @@
         0
       ],
       "volume": null,
-      "listings": 2301
+      "listings": 2311
     },
     {
       "id": "saqawine-chimeral",
@@ -15777,7 +15777,7 @@
         0
       ],
       "volume": null,
-      "listings": 1069
+      "listings": 1073
     },
     {
       "id": "farric-magma-hound",
@@ -15797,7 +15797,7 @@
         0
       ],
       "volume": null,
-      "listings": 2230
+      "listings": 2227
     },
     {
       "id": "farric-taurus",
@@ -15817,7 +15817,7 @@
         0
       ],
       "volume": null,
-      "listings": 3799
+      "listings": 3803
     },
     {
       "id": "craicic-shield-crab",
@@ -15837,7 +15837,7 @@
         0
       ],
       "volume": null,
-      "listings": 2351
+      "listings": 2355
     },
     {
       "id": "fenumal-widow",
@@ -15857,7 +15857,7 @@
         0
       ],
       "volume": null,
-      "listings": 2398
+      "listings": 2404
     },
     {
       "id": "saqawine-rhoa",
@@ -15877,7 +15877,7 @@
         0
       ],
       "volume": null,
-      "listings": 2826
+      "listings": 2828
     },
     {
       "id": "saqawine-cobra",
@@ -15897,7 +15897,7 @@
         0
       ],
       "volume": null,
-      "listings": 2627
+      "listings": 2631
     },
     {
       "id": "fenumal-scorpion",
@@ -15917,7 +15917,7 @@
         0
       ],
       "volume": null,
-      "listings": 1915
+      "listings": 1921
     },
     {
       "id": "farric-pit-hound",
@@ -15937,7 +15937,7 @@
         0
       ],
       "volume": null,
-      "listings": 782
+      "listings": 790
     },
     {
       "id": "farric-flame-hellion-alpha",
@@ -15957,7 +15957,7 @@
         0
       ],
       "volume": null,
-      "listings": 3961
+      "listings": 3991
     },
     {
       "id": "farric-chieftain",
@@ -15977,7 +15977,7 @@
         0
       ],
       "volume": null,
-      "listings": 6530
+      "listings": 6553
     },
     {
       "id": "saqawine-retch",
@@ -15997,7 +15997,7 @@
         0
       ],
       "volume": null,
-      "listings": 2761
+      "listings": 2766
     },
     {
       "id": "farric-goatman",
@@ -16017,7 +16017,7 @@
         0
       ],
       "volume": null,
-      "listings": 6622
+      "listings": 6651
     },
     {
       "id": "saqawine-blood-viper",
@@ -16037,7 +16037,7 @@
         0
       ],
       "volume": null,
-      "listings": 2582
+      "listings": 2588
     },
     {
       "id": "fenumal-scrabbler",
@@ -16057,12 +16057,12 @@
         0
       ],
       "volume": null,
-      "listings": 2363
+      "listings": 2372
     }
   ],
   "errors": [],
   "sources": [
     "https://poe.ninja"
   ],
-  "updatedAt": "2026-11-26T03:36:32.399Z"
+  "updatedAt": "2026-11-26T04:21:02.943Z"
 }

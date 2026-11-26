@@ -6,15 +6,15 @@
       "label": "3.xx Covens",
       "patch": "3.xx",
       "name": "Covens",
-      "updatedAt": "2026-11-25T05:03:11.690Z",
+      "updatedAt": "2026-11-26T04:22:17.251Z",
       "builds": [],
-      "notes": "Các nguồn được cung cấp không chứa thông tin về game Path of Exile hoặc bất kỳ build League Starter nào (các nguồn nói về tổ chức y tế PATH và dịch vụ thuế myPATH của Pennsylvania). Do quy định chỉ sử dụng thông tin từ nguồn và không bịa đặt dữ liệu, danh sách build để trống.",
+      "notes": "Các nguồn được cung cấp đều thuộc về các tổ chức từ thiện và y tế phi lợi nhuận (PATH và PATH East Texas), hoàn toàn không chứa thông tin về game Path of Exile hay các meta/league starter build. Theo quy định chỉ sử dụng thông tin từ nguồn và không tự bịa đặt dữ liệu, không có build nào được tạo.",
       "sources": [
+        "https://www.pathhelps.org/",
         "https://www.path.org/",
-        "https://www.path.org/where-we-work/americas/united-states/",
-        "https://www.pa.gov/agencies/revenue/resources/mypath"
+        "https://www.pathhelps.org/get-help/"
       ],
-      "model": "gemini-3.6-flash"
+      "model": "gemini-3.8-flash"
     },
     {
       "key": "3-29-curse-of-the-allflame",
@@ -422,5 +422,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-25T05:03:11.690Z"
+  "updatedAt": "2026-11-26T04:22:17.251Z"
 }

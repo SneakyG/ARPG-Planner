@@ -1,42 +1,14 @@
 {
   "kind": "ai",
   "season": "Torchlight: Infinite Tartarus Tartarus",
-  "items": [
-    {
-      "name": "Legendary Drop Pactspirit Selection Pack",
-      "category": "Pactspirit",
-      "price": "",
-      "trend": "unknown",
-      "source": "https://torchlight.xd.com/",
-      "where": "Season Rewards / Đăng nhập game",
-      "why": "Nhận miễn phí từ phần thưởng đăng nhập mùa giải Tartarus"
-    },
-    {
-      "name": "Caged Beasts",
-      "category": "Seasonal Mechanic",
-      "price": "",
-      "trend": "unknown",
-      "source": "https://torchlight.xd.com/",
-      "where": "Netherrealm (bảng cơ chế mùa Tartarus)",
-      "why": "Bắt Caged Beasts và dập tắt prison Riot để nhận nhiều phần thưởng giá trị (rich rewards)"
-    },
-    {
-      "name": "Clockwork Core",
-      "category": "Hero Trait Item",
-      "price": "",
-      "trend": "unknown",
-      "source": "https://torchlight.xd.com/",
-      "where": "Hero Trait: Youga - The Ultimate One",
-      "why": "Vật phẩm/cơ chế gắn liền với Youga - The Ultimate One để săn tìm các bản thể song song"
-    }
-  ],
-  "notes": "Các nguồn được cung cấp không chứa thông tin chi tiết về danh sách 10–25 vật phẩm farm/giao dịch cụ thể (như Compass, Probe, Ember, Fuel hay giá Flame Elementium). Do đó chỉ liệt kê các vật phẩm/cơ chế được đề cập trực tiếp trong nguồn.",
+  "items": [],
+  "notes": "Các nguồn được cung cấp không chứa thông tin về Torchlight: Infinite hay mùa Tartarus (các nguồn chỉ bao gồm thông tin về tựa game Torchlight 2009, chương trình giáo dục Torchlight Curriculum, và công ty tài chính Torchlight Investors), do đó không có dữ liệu vật phẩm để liệt kê.",
   "sources": [
     "https://en.wikipedia.org/wiki/Torchlight",
     "https://store.steampowered.com/app/41500/Torchlight/",
-    "https://torchlight.xd.com/",
+    "https://torchlightcurriculum.com/torchlight/",
     "https://www.torchlight.com/"
   ],
-  "model": "gemini-3.6-flash",
-  "updatedAt": "2026-11-25T05:06:56.881Z"
+  "model": "gemini-3.8-flash",
+  "updatedAt": "2026-11-26T04:28:14.387Z"
 }

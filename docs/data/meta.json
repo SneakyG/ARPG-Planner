@@ -4,63 +4,61 @@
   "status": {
     "poe:items": {
       "ok": true,
-      "at": "2026-11-26T03:36:32.402Z",
+      "at": "2026-11-26T04:21:02.946Z",
       "info": "802 món",
-      "ms": 573
+      "ms": 636
     },
     "poe:season": {
-      "ok": true,
-      "at": "2026-11-25T05:02:40.745Z",
-      "info": "",
-      "ms": 67415
+      "ok": false,
+      "at": "2026-11-26T04:21:45.433Z",
+      "error": "AI trả về mùa \" \" không khớp league \"Covens\" trên poe.ninja. Giữ dữ liệu mùa cũ."
     },
     "poe:builds": {
       "ok": true,
-      "at": "2026-11-25T05:03:11.690Z",
+      "at": "2026-11-26T04:22:17.251Z",
       "info": "0 build",
-      "ms": 30944
+      "ms": 31818
     },
     "poe:farm": {
       "ok": true,
-      "at": "2026-11-25T05:04:41.178Z",
+      "at": "2026-11-26T04:24:43.748Z",
       "info": "",
-      "ms": 81485
+      "ms": 138494
     },
     "poe:guides": {
       "ok": true,
-      "at": "2026-11-25T05:04:49.183Z",
+      "at": "2026-11-26T04:24:51.753Z",
       "info": "tạo 0, lỗi 0",
       "ms": 1
     },
     "tli:season": {
-      "ok": true,
-      "at": "2026-11-25T05:05:19.041Z",
-      "info": "",
-      "ms": 21856
+      "ok": false,
+      "at": "2026-11-26T04:25:34.084Z",
+      "error": "AI không xác định được tên mùa. Giữ dữ liệu mùa cũ."
     },
     "tli:builds": {
       "ok": true,
-      "at": "2026-11-25T05:06:04.655Z",
+      "at": "2026-11-26T04:26:16.167Z",
       "info": "10 build",
-      "ms": 37610
+      "ms": 34079
     },
     "tli:farm": {
       "ok": true,
-      "at": "2026-11-25T05:06:31.357Z",
+      "at": "2026-11-26T04:27:44.522Z",
       "info": "",
-      "ms": 18698
+      "ms": 80351
     },
     "tli:items": {
       "ok": true,
-      "at": "2026-11-25T05:06:56.882Z",
-      "info": "3 món",
-      "ms": 17521
+      "at": "2026-11-26T04:28:14.387Z",
+      "info": "0 món",
+      "ms": 21861
     },
     "tli:guides": {
       "ok": true,
-      "at": "2026-11-25T05:10:20.740Z",
-      "info": "tạo 5, lỗi 0",
-      "ms": 194811
+      "at": "2026-11-26T04:30:12.851Z",
+      "info": "tạo 2, lỗi 0",
+      "ms": 109428
     },
     "poe:cleanup": {
       "ok": true,
@@ -69,7 +67,7 @@
     },
     "tli:pacts": {
       "ok": false,
-      "at": "2026-11-25T05:07:05.929Z",
+      "at": "2026-11-26T04:28:23.423Z",
       "error": "Chỉ đọc được 0 Pactspirit từ tlidb.com (trang có thể đã chặn máy chủ GitHub hoặc đổi cấu trúc). Giữ danh sách đã có."
     },
     "tli:cleanup": {
@@ -79,5 +77,5 @@
     }
   },
   "guidesTopN": 5,
-  "updatedAt": "2026-11-26T03:36:32.402Z"
+  "updatedAt": "2026-11-26T04:30:20.857Z"
 }
