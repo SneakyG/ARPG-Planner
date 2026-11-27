@@ -8,9 +8,9 @@
   "next": "",
   "sources": [
     "https://www.path.org/",
-    "https://www.path.org/where-we-work/americas/united-states/",
-    "https://www.pa.gov/agencies/revenue/resources/mypath"
+    "https://www.pa.gov/agencies/revenue/resources/mypath",
+    "https://www.path.org/where-we-work/americas/united-states/"
   ],
-  "model": "gemini-3.6-flash",
-  "updatedAt": "2026-11-25T05:02:40.745Z"
+  "model": "gemini-3.8-flash",
+  "updatedAt": "2026-11-27T04:30:19.145Z"
 }

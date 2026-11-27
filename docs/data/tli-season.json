@@ -6,18 +6,18 @@
   "mechanics": [
     {
       "name": "Tartarus",
-      "desc": "Bắt các Caged Beasts trên bảng trong Netherrealm và đập tan cuộc bạo loạn prison Riot để nhận các phần thưởng phong phú."
+      "desc": "Bắt Caged Beasts trên bảng trong Netherrealm và đập tan bạo động nhà tù (prison Riot) để nhận phần thưởng giá trị."
     }
   ],
   "changes": [
-    "Thêm Hero Trait mới: Youga - The Ultimate One sử dụng Clockwork Core để săn tìm các bản thể song song.",
-    "Hero Model Revamps: Nâng cấp giao diện hình ảnh mới cho 3 Hero Trait gồm Gemma - Frostbitten Heart, Carino - Lethal Flash, và Bing - Blast Nova.",
-    "Đăng nhập nhận Legendary Drop Pactspirit Selection Pack."
+    "Thêm Hero Trait mới: Youga - The Ultimate One (sử dụng Clockwork Core và săn tìm các bản thể song song).",
+    "Nâng cấp diện mạo tướng (Hero Model Revamps) cho Gemma - Frostbitten Heart, Carino - Lethal Flash và Bing - Blast Nova.",
+    "Thưởng mùa giải: Đăng nhập để nhận Legendary Drop Pactspirit Selection Pack."
   ],
   "next": "",
   "sources": [
     "https://torchlight.xd.com/"
   ],
   "model": "gemini-3.6-flash",
-  "updatedAt": "2026-11-25T05:05:19.041Z"
+  "updatedAt": "2026-11-27T04:32:42.490Z"
 }

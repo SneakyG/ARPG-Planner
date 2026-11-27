@@ -6,13 +6,13 @@
       "label": "3.xx Covens",
       "patch": "3.xx",
       "name": "Covens",
-      "updatedAt": "2026-11-26T04:22:17.251Z",
+      "updatedAt": "2026-11-27T04:30:26.083Z",
       "builds": [],
-      "notes": "Các nguồn được cung cấp đều thuộc về các tổ chức từ thiện và y tế phi lợi nhuận (PATH và PATH East Texas), hoàn toàn không chứa thông tin về game Path of Exile hay các meta/league starter build. Theo quy định chỉ sử dụng thông tin từ nguồn và không tự bịa đặt dữ liệu, không có build nào được tạo.",
+      "notes": "Các nguồn được cung cấp không chứa thông tin về game Path of Exile hay bất kỳ league starter build nào (các nguồn thực tế là thông tin về tổ chức y tế phi chính phủ PATH và hệ thống kê khai thuế myPATH của Pennsylvania). Theo yêu cầu chỉ sử dụng thông tin từ nguồn và không tự tạo dữ liệu, danh sách build không thể được khởi tạo.",
       "sources": [
-        "https://www.pathhelps.org/",
         "https://www.path.org/",
-        "https://www.pathhelps.org/get-help/"
+        "https://www.pa.gov/agencies/revenue/resources/mypath",
+        "https://www.path.org/where-we-work/americas/united-states/"
       ],
       "model": "gemini-3.8-flash"
     },
@@ -422,5 +422,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-26T04:22:17.251Z"
+  "updatedAt": "2026-11-27T04:30:26.083Z"
 }
