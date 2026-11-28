@@ -3,23 +3,23 @@
   "stages": [
     {
       "key": "starter",
-      "title": "Giai đoạn Khởi động & Map Progression",
-      "budget": "0 vốn",
-      "content": "White Maps đến Yellow Maps (Tier 1 - 10)",
+      "title": "Giai đoạn khởi đầu (Early Atlas Progression)",
+      "budget": "0 vốn (League Start)",
+      "content": "Map tier thấp tới cao để đẩy tiến độ Atlas",
       "strategies": [
         {
-          "name": "Early Progression & Overloaded Map Sustain",
-          "where": "Mở rộng và duy trì Map sustain ở đầu league, ưu tiên đẩy tier map",
-          "setup": "Cây Atlas tối ưu map sustain, lấy Unwavering Vision",
+          "name": "Early Map Sustain Farm",
+          "where": "Tối ưu hóa số lượng map tier cao rớt ra để ép tiến độ Atlas hiệu quả nhất",
+          "setup": "Sử dụng cây Atlas rush Unwavering và các điểm tăng cường sustain map",
           "steps": [
-            "Bắt đầu atlas progression, rush trực tiếp lấy node Unwavering Vision",
-            "Tập trung lấy toàn bộ các cụm node tăng tỉ lệ rớt map bậc cao hơn (higher-tier maps)",
-            "Chạy map nhanh để mở khóa điểm passive atlas trước khi chuyển sang cơ chế farm cụ thể"
+            "Bắt đầu hành trình Atlas bằng cách tập trung tối ưu hóa lượng map tier cao rơi ra.",
+            "Thực hiện theo các bước phát triển cây Atlas được gợi ý cho người mới.",
+            "Đảm bảo có đủ lượng map sustain cần thiết để không bị ngắt quãng tiến độ."
           ],
           "maps": [
             {
               "name": "Twilight Strand",
-              "note": "Khu vực xuất phát đầu game khi bắt đầu hành trình",
+              "note": "Khu vực khởi đầu để làm quen với nhịp độ game và cơ chế cấp độ",
               "url": "",
               "lookup": "https://www.poewiki.net/index.php?search=Twilight%20Strand"
             }
@@ -45,60 +45,39 @@
             }
           ],
           "profit": "chưa có số liệu",
-          "requires": "Build league starter cơ bản, có khả năng clear map trắng/vàng mượt mà",
+          "requires": "Build cơ bản khởi đầu league",
           "risk": "Thấp",
-          "lookup": "https://www.poewiki.net/index.php?search=Early%20Progression%20%26%20Overloaded%20Map%20Sustain",
-          "treeSearch": "https://www.youtube.com/results?search_query=Early%20Progression%20%26%20Overloaded%20Map%20Sustain%20atlas%20tree%203.xx%20Covens"
-        },
-        {
-          "name": "Oops, all map bosses (Speedbossing)",
-          "where": "Rush boss map với Destructive Play kết hợp Shrines và Jun",
-          "setup": "Atlas Keystone Destructive Play + Shrines + Jun",
-          "steps": [
-            "Kích hoạt Destructive Play để boss gọi thêm các map boss phụ",
-            "Tận dụng Shrines để tăng tốc độ di chuyển và sát thương, xử lý Jun Syndicate",
-            "Tập trung tiêu diệt boss nhanh, nhặt loot map và tài nguyên endgame rồi thoát map"
-          ],
-          "maps": [],
-          "trees": [
-            {
-              "title": "Oops, all map bosses Tree",
-              "url": "https://poeplanner.com/a/6gl2"
-            }
-          ],
-          "links": [
-            {
-              "title": "Atlas Passive Skill Tree Strategies Guide - PoE Vault",
-              "url": "https://poe-vault.com/guides/atlas-passive-skill-tree-strategies"
-            }
-          ],
-          "profit": "chưa có số liệu",
-          "requires": "Build có single target DPS tốt để hạ boss map nhanh chóng",
-          "risk": "Trung bình",
-          "lookup": "https://www.poewiki.net/index.php?search=Oops%2C%20all%20map%20bosses%20(Speedbossing)",
-          "treeSearch": "https://www.youtube.com/results?search_query=Oops%2C%20all%20map%20bosses%20(Speedbossing)%20atlas%20tree%203.xx%20Covens"
+          "lookup": "https://www.poewiki.net/index.php?search=Early%20Map%20Sustain%20Farm",
+          "treeSearch": "https://www.youtube.com/results?search_query=Early%20Map%20Sustain%20Farm%20atlas%20tree%203.xx%20Covens"
         }
       ]
     },
     {
       "key": "mid",
-      "title": "Giai đoạn Tích lũy Currency & Red Maps",
-      "budget": "Thấp (vài chục Chaos Orb cho Scarab cơ bản)",
-      "content": "Tier 14 - Tier 16 Red Maps",
+      "title": "Giai đoạn giữa (Mid-Game Farming Strategies)",
+      "budget": "Thấp đến Trung bình",
+      "content": "Map vàng/đỏ tùy theo chiến lược (Expedition, Heist, Ritual, Blight, Legion)",
       "strategies": [
         {
-          "name": "Atroz’s lazy farm – Expedition / Shrines / Blue Altars",
-          "where": "Cơ chế Expedition kết hợp Shrines và Blue Altars để tối ưu Logbook và Currency",
-          "setup": "1x Expedition Scarab of Infusion, 1x Expedition Scarab of Verisium Powder, 2x Expedition Scarab of Runefinding (tránh dùng Expedition Scarab of Archaeology)",
+          "name": "Atroz’s lazy farm – Expedition/Shrines/Blue Altars",
+          "where": "Juicing Expedition, kết hợp Shrines và Blue Altars",
+          "setup": "Scarabs: 1X Expedition Scarab of Infusion, 1X Expedition Scarab of Verisium Powder, 2X Expedition Scarab of Runefinding. Tránh dùng Expedition Scarab of Archaeology.",
           "steps": [
-            "Kích hoạt Shrines và dọn quái xung quanh để lấy buff an toàn",
-            "Đặt thuốc nổ Expedition bao trùm tối đa Runic Markers với bán kính vụ nổ lớn từ Verisium Powder",
-            "Thu thập Logbook 4 modifiers và reroll currency để đổi Divine Orb và đồ giá trị"
+            "Áp dụng cho attack builds hoặc raw dot builds để khắc phục khả năng block stacking của Expedition.",
+            "Sử dụng bộ Scarab đã chọn để tối ưu hóa lượng Runic Markers và logbook.",
+            "Cẩn thận với các mod hiểm họa từ Expedition để tránh tự sát."
           ],
-          "maps": [],
+          "maps": [
+            {
+              "name": "Expedition Encounters",
+              "note": "Khu vực có các di tích Expedition để đặt thuốc nổ lấy Runic Markers và logbook",
+              "url": "",
+              "lookup": "https://www.poewiki.net/index.php?search=Expedition%20Encounters"
+            }
+          ],
           "trees": [
             {
-              "title": "Atroz’s lazy farm Tree",
+              "title": "Atroz’s lazy farm",
               "url": "https://poeplanner.com/a/6glC"
             }
           ],
@@ -109,24 +88,31 @@
             }
           ],
           "profit": "chưa có số liệu",
-          "requires": "Attack build hoặc raw DoT build (để vượt qua cơ chế stack block của quái Expedition)",
+          "requires": "Attack build hoặc raw dot build",
+          "Trung bình": "Trung bình",
           "risk": "Trung bình",
-          "lookup": "https://www.poewiki.net/index.php?search=Atroz%E2%80%99s%20lazy%20farm%20%E2%80%93%20Expedition%20%2F%20Shrines%20%2F%20Blue%20Altars",
-          "treeSearch": "https://www.youtube.com/results?search_query=Atroz%E2%80%99s%20lazy%20farm%20%E2%80%93%20Expedition%20%2F%20Shrines%20%2F%20Blue%20Altars%20atlas%20tree%203.xx%20Covens"
+          "lookup": "https://www.poewiki.net/index.php?search=Atroz%E2%80%99s%20lazy%20farm%20%E2%80%93%20Expedition%2FShrines%2FBlue%20Altars",
+          "treeSearch": "https://www.youtube.com/results?search_query=Atroz%E2%80%99s%20lazy%20farm%20%E2%80%93%20Expedition%2FShrines%2FBlue%20Altars%20atlas%20tree%203.xx%20Covens"
         },
         {
-          "name": "Heist / Ritual / Red Altars (HRR)",
-          "where": "Chạy map nhanh, farm Tribute Ritual, bubblegum currency từ Red Altars và Heist contract/blueprint",
-          "setup": "2x Ritual Scarab of Selectiveness, 2x Ritual Scarab of Abundance (hoặc Ritual Scarab of Corpses)",
+          "name": "HRR : Heist/Ritual/Red Altars",
+          "where": "Tập trung vào tốc độ: vào map, loot mọi thứ và thoát ra",
+          "setup": "Scarabs: 2x Ritual Scarab of Selectiveness, 2x Ritual Scarab of Abundance, và Ritual Scarab of Corpses",
           "steps": [
-            "Tiến vào map với tốc độ cao, kích hoạt Red Altars để lấy passive bubblegum currency",
-            "Hoàn thành các tế đàn Ritual tích lũy lượng Tribute lớn",
-            "Sử dụng các lượt reroll miễn phí/bổ sung từ Scarab để tìm Divine Orb, đồ giá trị hoặc corpses"
+            "Dọn map nhanh kết hợp cơ chế Ritual và red altars để kiếm thu nhập thụ động.",
+            "Sử dụng reroll miễn phí từ Ritual Scarab để chọn phần thưởng giá trị."
           ],
-          "maps": [],
+          "maps": [
+            {
+              "name": "Ritual Altars in Maps",
+              "note": "Khu vực vòng tròn Ritual để thu thập Tribute",
+              "url": "",
+              "lookup": "https://www.poewiki.net/index.php?search=Ritual%20Altars%20in%20Maps"
+            }
+          ],
           "trees": [
             {
-              "title": "HRR Tree",
+              "title": "HRR",
               "url": "https://poeplanner.com/a/65-A"
             }
           ],
@@ -137,24 +123,30 @@
             }
           ],
           "profit": "chưa có số liệu",
-          "requires": "Build có tốc độ di chuyển và clear speed cao",
+          "requires": "Build có tốc độ di chuyển và dọn map nhanh",
           "risk": "Thấp",
-          "lookup": "https://www.poewiki.net/index.php?search=Heist%20%2F%20Ritual%20%2F%20Red%20Altars%20(HRR)",
-          "treeSearch": "https://www.youtube.com/results?search_query=Heist%20%2F%20Ritual%20%2F%20Red%20Altars%20(HRR)%20atlas%20tree%203.xx%20Covens"
+          "lookup": "https://www.poewiki.net/index.php?search=HRR%20%3A%20Heist%2FRitual%2FRed%20Altars",
+          "treeSearch": "https://www.youtube.com/results?search_query=HRR%20%3A%20Heist%2FRitual%2FRed%20Altars%20atlas%20tree%203.xx%20Covens"
         },
         {
-          "name": "Blight / Beast / Incursion / Red Altars (BBIR)",
-          "where": "Kết hợp farm quái thú Bestiary, phòng Alva Incursion, thủ tháp Blight và Red Altars",
-          "setup": "2x Bestiary Scarab of the Herd, Blight Scarab of Blooming (tùy chọn), Sacrifice fragments tăng quant",
+          "name": "BBIR : Blight/Beast/Incursion/Red Altars",
+          "where": "Kết hợp Blight, Beast, Incursion và Red Altars",
+          "setup": "Scarabs: 2x Bestiary Scarab of the Herd, Blight Scarab of Blooming (tùy chọn), sacrifice fragments cho quantity",
           "steps": [
-            "Bắt quái thú trong map với số lượng đàn tăng thêm từ Scarab of the Herd",
-            "Hoàn thành các phòng Incursion để xây dựng Temple và kích hoạt Blight pump",
-            "Sử dụng Sacrifice fragments vào Map Device để nhận thêm Item Quantity"
+            "Chạy map kết hợp săn thú với Bestiary và thủ nhà Blight.",
+            "Bỏ qua các tùy chọn nhân bản quá đắt đỏ để tiết kiệm chi phí."
           ],
-          "maps": [],
+          "maps": [
+            {
+              "name": "Blight Encounters & Einhar Beasts",
+              "note": "Khu vực xuất hiện nấm Blight và thú Einhar",
+              "url": "",
+              "lookup": "https://www.poewiki.net/index.php?search=Blight%20Encounters%20%26%20Einhar%20Beasts"
+            }
+          ],
           "trees": [
             {
-              "title": "BBIR Tree",
+              "title": "BBIR",
               "url": "https://poeplanner.com/a/6glv"
             }
           ],
@@ -165,32 +157,30 @@
             }
           ],
           "profit": "chưa có số liệu",
-          "requires": "Build có khả năng phòng thủ và sát thương diện rộng tốt để xử lý quái Blight và Incursion",
-          "risk": "Thấp",
-          "lookup": "https://www.poewiki.net/index.php?search=Blight%20%2F%20Beast%20%2F%20Incursion%20%2F%20Red%20Altars%20(BBIR)",
-          "treeSearch": "https://www.youtube.com/results?search_query=Blight%20%2F%20Beast%20%2F%20Incursion%20%2F%20Red%20Altars%20(BBIR)%20atlas%20tree%203.xx%20Covens"
-        }
-      ]
-    },
-    {
-      "key": "end",
-      "title": "Giai đoạn Heavy Juicing & Tối đa Lợi nhuận",
-      "budget": "Trung bình đến Cao (đầu tư Delirium Orbs và gói Scarab chuyên sâu)",
-      "content": "Tier 16 Dunes Map / Juiced Endgame Maps",
-      "strategies": [
+          "requires": "Build cân bằng phòng thủ và dọn quái diện rộng",
+          "risk": "Trung bình",
+          "lookup": "https://www.poewiki.net/index.php?search=BBIR%20%3A%20Blight%2FBeast%2FIncursion%2FRed%20Altars",
+          "treeSearch": "https://www.youtube.com/results?search_query=BBIR%20%3A%20Blight%2FBeast%2FIncursion%2FRed%20Altars%20atlas%20tree%203.xx%20Covens"
+        },
         {
-          "name": "Legion / Beyond / Red Altars (LBR)",
-          "where": "Farm mật độ quái dày đặc từ Legion Monolith kết hợp Beyond boss và Red Altars",
-          "setup": "1x Beyond Scarab of Resurgence, 1x Legion Scarab of Treasures, 1x Legion Scarab of Officers, Sacrifice fragments (cân nhắc bỏ qua Eternal Conflict nếu quá khó hoặc đắt)",
+          "name": "LBR : Legion/Beyond/Red Altars",
+          "where": "Kết hợp cơ chế Legion, Beyond và Red Altars",
+          "setup": "Scarabs: 1x Beyond Scarab of Resurgence, 1x Legion Scarab of Treasures, 1x Legion Scarab of Officers",
           "steps": [
-            "Mở Monolith Legion, phá vỡ phong ấn toàn bộ sĩ quan (sergeants) và rương kho báu",
-            "Kích hoạt cổng Beyond, hạ gục boss để Beyond Scarab of Resurgence triệu hồi tiếp 2 boss còn lại",
-            "Nhặt Splinter, Incubator, Currency và đồ giá trị từ các sĩ quan và boss Beyond"
+            "Kích hoạt Legion để mở rương và tiêu diệt sergeants.",
+            "Sử dụng Beyond để spawn thêm trùm, lưu ý cẩn thận nếu nhân vật chưa đủ mạnh."
           ],
-          "maps": [],
+          "maps": [
+            {
+              "name": "Legion Monoliths",
+              "note": "Khu vực đóng băng quân đoàn Legion",
+              "url": "",
+              "lookup": "https://www.poewiki.net/index.php?search=Legion%20Monoliths"
+            }
+          ],
           "trees": [
             {
-              "title": "LBR Tree",
+              "title": "LBR",
               "url": "https://poeplanner.com/a/6glI"
             }
           ],
@@ -201,32 +191,73 @@
             }
           ],
           "profit": "chưa có số liệu",
-          "requires": "Build có DPS cực cao và khả năng sống sót vững chắc trước 3 boss Beyond cùng lúc",
+          "requires": "Build có lượng sát thương diện rộng lớn để phá Legion monolith",
           "risk": "Cao",
-          "lookup": "https://www.poewiki.net/index.php?search=Legion%20%2F%20Beyond%20%2F%20Red%20Altars%20(LBR)",
-          "treeSearch": "https://www.youtube.com/results?search_query=Legion%20%2F%20Beyond%20%2F%20Red%20Altars%20(LBR)%20atlas%20tree%203.xx%20Covens"
+          "lookup": "https://www.poewiki.net/index.php?search=LBR%20%3A%20Legion%2FBeyond%2FRed%20Altars",
+          "treeSearch": "https://www.youtube.com/results?search_query=LBR%20%3A%20Legion%2FBeyond%2FRed%20Altars%20atlas%20tree%203.xx%20Covens"
+        }
+      ]
+    },
+    {
+      "key": "end",
+      "title": "Giai đoạn Endgame (Endgame High-Investment Farming)",
+      "budget": "Trung bình đến Cao",
+      "content": "Map đỏ cao cấp (Dunes, v.v.) với đầu tư sâu",
+      "strategies": [
+        {
+          "name": "Oops, all map bosses (Speedbossing)",
+          "where": "Destructive play + Jun + Shrines",
+          "setup": "Cây Atlas tập trung vào các điểm boss map, Jun và Shrines",
+          "steps": [
+            "Tập trung tiêu diệt trùm map nhanh chóng để tận dụng Destructive play.",
+            "Kết hợp hoàn thành nhiệm vụ Syndicate của Jun và buff từ Shrines."
+          ],
+          "maps": [
+            {
+              "name": "Map Boss Arenas",
+              "note": "Khu vực đánh trùm cuối của các map",
+              "url": "",
+              "lookup": "https://www.poewiki.net/index.php?search=Map%20Boss%20Arenas"
+            }
+          ],
+          "trees": [
+            {
+              "title": "Oops",
+              "url": "https://poeplanner.com/a/6gl2"
+            }
+          ],
+          "links": [
+            {
+              "title": "Atlas Passive Skill Tree Strategies Guide - PoE Vault",
+              "url": "https://poe-vault.com/guides/atlas-passive-skill-tree-strategies"
+            }
+          ],
+          "profit": "chưa có số liệu",
+          "requires": "Build chuyên biệt dồn sát thương trùm (Single-target DPS cao)",
+          "risk": "Trung bình",
+          "lookup": "https://www.poewiki.net/index.php?search=Oops%2C%20all%20map%20bosses%20(Speedbossing)",
+          "treeSearch": "https://www.youtube.com/results?search_query=Oops%2C%20all%20map%20bosses%20(Speedbossing)%20atlas%20tree%203.xx%20Covens"
         },
         {
-          "name": "80% Deli farm (Dunes Ore & Delirium)",
-          "where": "Map Dunes áp dụng 80% Delirium kết hợp khai thác mỏ quặng Kingsmarch và săn Svalin drops",
-          "setup": "Map Dunes; 4x Fine Delirium Orb (Currency) hoặc 4x Diviner’s Delirium Orb (Stacked Decks); Scarabs: 2x Delirium Scarab of Mania và 3x Delirium Scarab of Paranoia",
+          "name": "80% Deli farm",
+          "where": "Map Dunes với Delirium và Ore deposits (Verisium)",
+          "setup": "Scarabs: 2x Delirium Scarab of Mania, 3x Delirium Scarab of Paranoia. Orbs: 4x Fine Delirium Orb (Currency) hoặc 4x Diviner’s Delirium Orb (Stacked Decks).",
           "steps": [
-            "Thoa 4 Delirium Orbs (Fine hoặc Diviner's) lên Dunes Map và gắn đủ 5 Scarabs vào Map Device",
-            "Vào map dọn dẹp lượng quái vật khổng lồ được nhân bản liên tục bởi Delirium",
-            "Khai thác các mỏ quặng Verisium để triệu hồi thêm quái, tìm kiếm crater để săn drop khiên Svalin và trữ quặng cho Kingsmarch shipments",
-            "Không lấy node Lost Shipments để tránh làm mất điểm xuất hiện của quặng"
+            "Sử dụng đồng thời scarab và delirium orbs, không thực hiện nếu thiếu các nguyên liệu này.",
+            "Lấy các node Ore (đặc biệt là Verisium) để spawn thêm quái và câu cá tìm Svalin drops.",
+            "Bỏ qua LostShipments vì chỉ làm giảm số lượng ore spawns."
           ],
           "maps": [
             {
               "name": "Dunes",
-              "note": "Layout mở phẳng lý tưởng để dọn dẹp Delirium 80% và kích hoạt quặng Verisium",
+              "note": "Map được chọn tối ưu cho việc farm Delirium và săn Svalin drops từ crater",
               "url": "",
               "lookup": "https://www.poewiki.net/index.php?search=Dunes"
             }
           ],
           "trees": [
             {
-              "title": "Deli Farm Tree",
+              "title": "Deli",
               "url": "https://poeplanner.com/a/6glO"
             }
           ],
@@ -237,27 +268,26 @@
             }
           ],
           "profit": "chưa có số liệu",
-          "requires": "Endgame build hoàn chỉnh, DPS hàng chục triệu và chỉ số phòng thủ tối đa",
+          "requires": "Build endgame mạnh, chống chịu tốt và sát thương cao",
           "risk": "Cao",
-          "lookup": "https://www.poewiki.net/index.php?search=80%25%20Deli%20farm%20(Dunes%20Ore%20%26%20Delirium)",
-          "treeSearch": "https://www.youtube.com/results?search_query=80%25%20Deli%20farm%20(Dunes%20Ore%20%26%20Delirium)%20atlas%20tree%203.xx%20Covens"
+          "lookup": "https://www.poewiki.net/index.php?search=80%25%20Deli%20farm",
+          "treeSearch": "https://www.youtube.com/results?search_query=80%25%20Deli%20farm%20atlas%20tree%203.xx%20Covens"
         }
       ]
     }
   ],
   "tips": [
-    "Luôn đảm bảo ít nhất một lượng map sustain nhất định trên Atlas Tree khi bắt đầu league để không bị nghẽn tiến độ.",
-    "Tránh dùng Expedition Scarab of Archaeology vì độ nguy hiểm cực kỳ cao ('self-deletion scarab').",
-    "Đối với 80% Deli farm, bắt buộc phải có đủ Delirium Orbs và Scarabs thì chiến lược mới hoạt động.",
-    "Tận dụng Sacrifice fragments cho vào Map Device để nhận thêm Item Quantity giá rẻ nếu Scarab duplicated/chuyên dụng quá đắt.",
-    "Lấy mỏ Verisium trong map không chỉ tạo thêm quái cho Delirium mà còn tạo cơ hội xuất hiện crater để săn drop Svalin và tích trữ quặng cho các chuyến hàng Kingsmarch."
+    "Hãy mở Atlas planner để tùy chỉnh cây Atlas theo sở thích cá nhân và phong cách chơi của bạn.",
+    "Luôn đảm bảo bao gồm ít nhất một lượng sustain map thích hợp trong giai đoạn đầu.",
+    "Cẩn trọng với các Scarab có độ rủi ro cao như Expedition Scarab of Archaeology hoặc Beyond Scarab of Resurgence nếu nhân vật chưa đủ trang bị.",
+    "Chơi game theo cách bạn cảm thấy tận hưởng nhất."
   ],
   "sources": [
     "https://poe-vault.com/guides/atlas-passive-skill-tree-strategies",
     "https://www.pathofexile.com/",
     "https://www.pathofexile.com/game",
     "https://www.path.org/",
-    "https://www.pa.gov/agencies/revenue/resources/mypath",
+    "https://www.pathhelps.org/",
     "https://www.path.org/where-we-work/americas/united-states/"
   ],
   "trustedSources": [
@@ -265,6 +295,6 @@
     "https://www.pathofexile.com/",
     "https://www.pathofexile.com/game"
   ],
-  "model": "gemini-3.8-flash",
-  "updatedAt": "2026-11-27T04:32:06.267Z"
+  "model": "gemini-3.5-flash-lite",
+  "updatedAt": "2026-11-28T04:13:48.126Z"
 }

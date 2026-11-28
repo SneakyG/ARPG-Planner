@@ -2,12 +2,12 @@
   "kind": "ai",
   "season": "Torchlight: Infinite Tartarus Tartarus",
   "items": [],
-  "notes": "Các nguồn được cung cấp không có thông tin chi tiết về danh sách vật phẩm đáng farm/bán, giá bán (Flame Elementium) hay xu hướng thị trường trong mùa Tartarus của Torchlight: Infinite.",
+  "notes": "Các nguồn được cung cấp không chứa thông tin về game Torchlight: Infinite hoặc mùa giải Tartarus (Nguồn 1 là game Torchlight phát hành năm 2009, Nguồn 2 là chương trình giáo dục Torchlight Curriculum, Nguồn 3 là công ty quản lý đầu tư bất động sản Torchlight). Do đó không có danh sách vật phẩm nào để liệt kê.",
   "sources": [
     "https://store.steampowered.com/app/41500/Torchlight/",
-    "https://www.torchlight.com/",
-    "https://torchlight.xd.com/"
+    "https://torchlightcurriculum.com/torchlight/",
+    "https://www.torchlight.com/"
   ],
-  "model": "gemini-3.8-flash",
-  "updatedAt": "2026-11-27T04:34:37.328Z"
+  "model": "gemini-3.6-flash",
+  "updatedAt": "2026-11-28T04:16:37.629Z"
 }
